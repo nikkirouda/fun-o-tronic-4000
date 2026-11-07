@@ -7069,6 +7069,11 @@
 "on_sale": null,
 "ticket": false
 },
+"college-sports-67e804def3ed": {
+"first_seen": "2026-11-07T16:42-05:00",
+"on_sale": null,
+"ticket": false
+},
 "college-sports-68ba6a1ea897": {
 "first_seen": "2026-11-07T09:17-05:00",
 "on_sale": null,
@@ -7146,6 +7151,11 @@
 },
 "college-sports-73eafabc99bb": {
 "first_seen": "2026-11-07T09:17-05:00",
+"on_sale": null,
+"ticket": false
+},
+"college-sports-74483c30234d": {
+"first_seen": "2026-11-07T16:42-05:00",
 "on_sale": null,
 "ticket": false
 },

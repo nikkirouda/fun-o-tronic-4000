@@ -1,19 +1,107 @@
 {
   "_about": "High-demand things that announce ticket sales by press release rather than by feed. Each build reads the page and records what it says now; a change of status is news for the digest and the app. Add entries by hand; never guess a date — leave `expected` as a plain note or empty.",
   "items": [
-    {"key": "newport-folk", "title": "Newport Folk Festival 2027", "venue": "Fort Adams State Park", "city": "Newport",
-     "url": "https://newportfolk.org/tickets", "alt_urls": ["https://newportfolk.org/"],
-     "expected": "Sells out within minutes of going on sale; the on-sale is announced on the site and by email first.", "category": "festival", "hot": true},
-    {"key": "newport-jazz", "title": "Newport Jazz Festival 2027", "venue": "Fort Adams State Park", "city": "Newport",
-     "url": "https://www.newportjazz.org/tickets", "alt_urls": ["https://www.newportjazz.org/"],
-     "expected": "Sells fast; announced on the site and by email.", "category": "festival", "hot": true},
-    {"key": "ppac-broadway", "title": "PPAC Broadway series — new shows & single tickets", "venue": "Providence Performing Arts Center", "city": "Providence",
-     "url": "https://www.ppacri.org/events", "expected": "Single tickets for each Broadway title go on sale a few weeks before the run; the page's on-sale dates feed the app automatically.", "category": "theater", "hot": false},
-    {"key": "ri-comic-con", "title": "Rhode Island Comic Con 2027", "venue": "Rhode Island Convention Center", "city": "Providence",
-     "url": "https://www.ricomiccon.com/ticket-pricing-information", "expected": "", "category": "festival", "hot": false},
-    {"key": "waterfire-season", "title": "WaterFire 2027 lighting schedule", "venue": "Waterplace Park", "city": "Providence",
-     "url": "https://www.waterfire.org/schedule/", "expected": "Free; the season schedule is usually posted in spring.", "category": "festival", "hot": false},
-    {"key": "trinity-season", "title": "Trinity Rep — next season announcement", "venue": "Trinity Repertory Company", "city": "Providence",
-     "url": "https://www.trinityrep.com/shows/", "expected": "", "category": "theater", "hot": false}
+    {
+      "key": "newport-folk",
+      "title": "Newport Folk Festival 2027",
+      "venue": "Fort Adams State Park",
+      "city": "Newport",
+      "url": "https://newportfolk.org/tickets",
+      "alt_urls": [
+        "https://newportfolk.org/"
+      ],
+      "expected": "Sells out within minutes of going on sale; the on-sale is announced on the site and by email first.",
+      "category": "festival",
+      "hot": true
+    },
+    {
+      "key": "newport-jazz",
+      "title": "Newport Jazz Festival 2027",
+      "venue": "Fort Adams State Park",
+      "city": "Newport",
+      "url": "https://www.newportjazz.org/tickets",
+      "alt_urls": [
+        "https://www.newportjazz.org/"
+      ],
+      "expected": "Sells fast; announced on the site and by email.",
+      "category": "festival",
+      "hot": true
+    },
+    {
+      "key": "ppac-broadway",
+      "title": "PPAC Broadway series — new shows & single tickets",
+      "venue": "Providence Performing Arts Center",
+      "city": "Providence",
+      "url": "https://www.ppacri.org/events",
+      "expected": "Single tickets for each Broadway title go on sale a few weeks before the run; the page's on-sale dates feed the app automatically.",
+      "category": "theater",
+      "hot": false
+    },
+    {
+      "key": "ri-comic-con",
+      "title": "Rhode Island Comic Con 2027",
+      "venue": "Rhode Island Convention Center",
+      "city": "Providence",
+      "url": "https://www.ricomiccon.com/ticket-pricing-information",
+      "expected": "",
+      "category": "festival",
+      "hot": false
+    },
+    {
+      "key": "waterfire-season",
+      "title": "WaterFire 2027 lighting schedule",
+      "venue": "Waterplace Park",
+      "city": "Providence",
+      "url": "https://www.waterfire.org/schedule/",
+      "expected": "Free; the season schedule is usually posted in spring.",
+      "category": "festival",
+      "hot": false
+    },
+    {
+      "key": "trinity-season",
+      "title": "Trinity Rep — next season announcement",
+      "venue": "Trinity Repertory Company",
+      "city": "Providence",
+      "url": "https://www.trinityrep.com/shows/",
+      "expected": "",
+      "category": "theater",
+      "hot": false
+    },
+    {
+      "key": "ri-breakers",
+      "title": "Rhode Island Breakers (UFL) — 2027 schedule & tickets",
+      "venue": "Centreville Bank Stadium",
+      "city": "Pawtucket",
+      "url": "https://www.theufl.com/rhode-island",
+      "alt_urls": [
+        "https://www.theufl.com/schedule"
+      ],
+      "expected": "New UFL team for 2027 (head coach named Nov 2026). The league schedule is usually posted early in the year; home games will be added to the app from ESPN's UFL feed the moment the team appears there.",
+      "category": "sports",
+      "hot": true
+    },
+    {
+      "key": "boston-legacy",
+      "title": "Boston Legacy FC (NWSL) at Centreville Bank Stadium — 2027",
+      "venue": "Centreville Bank Stadium",
+      "city": "Pawtucket",
+      "url": "https://www.bostonlegacyfc.com/",
+      "alt_urls": [
+        "https://centrevillebankstadium.com/pages/boston-legacy-fc-announces-centreville-bank-stadium-as-2027-venue"
+      ],
+      "expected": "The stadium announced Legacy FC's 2027 home venue; home games come from ESPN's NWSL feed once the schedule is posted.",
+      "category": "sports",
+      "hot": false
+    },
+    {
+      "key": "ri-lights",
+      "title": "Rhode Island Lights Festival at Centreville Bank Stadium",
+      "venue": "Centreville Bank Stadium",
+      "city": "Pawtucket",
+      "url": "https://centrevillebankstadium.com/pages/rhodeislandlights",
+      "expected": "First-ever, announced by the stadium; dates and tickets on that page.",
+      "category": "festival",
+      "hot": false
+    }
   ]
 }

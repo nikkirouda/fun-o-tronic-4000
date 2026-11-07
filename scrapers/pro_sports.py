@@ -21,9 +21,12 @@ TEAMS = [
     {"key": "revolution", "path": "soccer/usa.1/teams/189/schedule", "abbr": "NE", "name": "New England Revolution", "sport": "soccer",
      "venue": "Gillette Stadium", "city": "Foxborough, MA", "address": "1 Patriot Pl, Foxborough, MA", "lat": 42.0909, "lon": -71.2643,
      "tickets": "https://www.revolutionsoccer.net/tickets"},
-    {"key": "rifc", "path": "soccer/usa.usl.1/teams/22164/schedule", "abbr": "RHI", "name": "Rhode Island FC", "sport": "soccer",
+    {"key": "rifc", "path": "soccer/usa.usl.1/teams/22164/schedule", "abbr": "RHI", "id": "22164", "name": "Rhode Island FC", "sport": "soccer",
      "venue": "Centreville Bank Stadium", "city": "Pawtucket", "address": "30 Tidewater St, Pawtucket", "lat": 41.8755, "lon": -71.3850,
      "tickets": "https://www.rhodeislandfc.com/tickets/"},
+    {"key": "legacy", "path": "soccer/usa.nwsl/teams/131562/schedule", "abbr": "BOS", "id": "131562", "name": "Boston Legacy FC", "sport": "soccer",
+     "venue": "Centreville Bank Stadium", "city": "Pawtucket", "address": "30 Tidewater St, Pawtucket", "lat": 41.8755, "lon": -71.3850,
+     "tickets": "https://www.bostonlegacyfc.com/", "note": "NWSL; plays 2027 home games at Centreville Bank Stadium per the stadium's announcement"},
 ]
 MLB_TEAMS = [
     {"key": "redsox", "sport_id": 1, "team_id": 111, "name": "Boston Red Sox", "venue": "Fenway Park", "city": "Boston, MA",
@@ -47,7 +50,8 @@ def _espn(t: dict) -> list[dict]:
             if status and status != "STATUS_SCHEDULED":
                 continue
             home = next((x for x in c.get("competitors", []) if x.get("homeAway") == "home"), {})
-            if (home.get("team") or {}).get("abbreviation") != t["abbr"]:
+            ht = home.get("team") or {}
+            if ht.get("abbreviation") != t["abbr"] and str(ht.get("id")) != str(t.get("id", "")):
                 continue
             away = next((x for x in c.get("competitors", []) if x.get("homeAway") == "away"), {})
             opp = clean((away.get("team") or {}).get("displayName", ""))

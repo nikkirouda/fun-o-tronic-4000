@@ -19,7 +19,7 @@ SCHOOLS = {
     "pc": {"ics": "https://friars.com/calendar.ashx/calendar.ics", "team": "Providence College", "city": "Providence",
            "home_rx": r"Providence, R\.I\.", "lat": 41.8440, "lon": -71.4376, "web": "https://friars.com"},
     "uri": {"ics": "https://gorhody.com/calendar.ashx/calendar.ics", "team": "URI", "city": "Kingston",
-            "home_rx": r"Kingston, R\.I\.|Providence, R\.I\.", "lat": 41.4853, "lon": -71.5302, "web": "https://gorhody.com"},
+            "home_rx": r"Kingston, R\.I\.|Providence, R\.I\.|Pawtucket, R\.I\.", "lat": 41.4853, "lon": -71.5302, "web": "https://gorhody.com"},
     "bryant": {"ics": "https://bryantbulldogs.com/calendar.ashx/calendar.ics", "team": "Bryant", "city": "Smithfield",
                "home_rx": r"Smithfield, R\.I\.", "lat": 41.9214, "lon": -71.5389, "web": "https://bryantbulldogs.com"},
 }
