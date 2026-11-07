@@ -67,7 +67,7 @@
   }
   function dayLabel(key) {
     const t = todayKey();
-    const [y, m, d] = key.split("-").map(Number); const dt = new Date(y, m - 1, d);
+    const [y, m, d] = key.split("-").map(Number); const dt = new Date(Date.UTC(y, m - 1, d, 17));
     const base = fmt(dt, { weekday: "long", month: "long", day: "numeric" });
     if (key === t) return ["Tonight", base];
     if (key === addDays(t, 1)) return ["Tomorrow", base];
@@ -231,7 +231,7 @@
     const t = todayKey();
     if (!S.calMonth) S.calMonth = t.slice(0, 7);
     const [y, m] = S.calMonth.split("-").map(Number);
-    $("#calTitle").textContent = new Date(y, m - 1, 1).toLocaleString("en-US", { month: "long", year: "numeric" });
+    $("#calTitle").textContent = fmt(new Date(Date.UTC(y, m - 1, 1, 17)), { month: "long", year: "numeric" });
     const byDay = {};
     for (const e of list) (byDay[e._day] ||= []).push(e);
     const grid = $("#calGrid"); grid.innerHTML = "";
