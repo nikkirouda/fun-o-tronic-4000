@@ -219,6 +219,12 @@ def main() -> int:
         if (en or st) >= lo and st <= hi:
             kept.append(e)
     events = dedupe(kept)
+    for e in events:  # drop coordinates outside southern New England (bad geocodes, swapped lat/lon)
+        try:
+            if e.get("lat") is not None and not (41.0 <= float(e["lat"]) <= 42.9 and -72.6 <= float(e["lon"]) <= -70.0):
+                e["lat"] = e["lon"] = None
+        except (TypeError, ValueError):
+            e["lat"] = e["lon"] = None
     events.sort(key=lambda e: (e["start"], e["title"].lower()))
 
     # first-seen / on-sale tracking, persisted in state/
