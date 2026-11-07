@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Season at a glance — Fun-o-tronic 4000</title>
+<link rel="icon" href="icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Righteous&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="style.css?v=3">
+<style>
+  .season { max-width: 1200px; margin: 0 auto; padding: 0 16px 40px; }
+  .season h1 { font-family: var(--font-display); font-weight: 400; font-size: 26px; margin: 18px 0 2px; }
+  .season .lede { color: var(--ink2); margin: 0 0 18px; font-size: 14px; }
+  .org { margin: 22px 0 8px; font-family: var(--font-display); font-size: 18px; display: flex; align-items: baseline; gap: 8px; }
+  .org small { font-family: var(--font); color: var(--ink2); font-size: 12px; }
+  .posters { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr)); gap: 10px; }
+  .poster { background: var(--panel); border-radius: 14px; box-shadow: var(--shadow); overflow: hidden; display: flex; flex-direction: column; border-top: 5px solid var(--cc, var(--c-other)); cursor: pointer; }
+  .poster img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; display: block; background: var(--bg2); }
+  .poster .ph { width: 100%; aspect-ratio: 16 / 10; background: linear-gradient(135deg, color-mix(in srgb, var(--cc) 35%, var(--panel)), var(--bg2)); display: grid; place-items: center; font-family: var(--font-display); font-size: 28px; color: var(--cc); }
+  .poster .pb { padding: 10px 12px 12px; }
+  .poster h3 { margin: 0 0 4px; font-size: 15px; line-height: 1.25; }
+  .poster .dates { font-size: 12px; color: var(--ink2); }
+  .poster .dates b { color: var(--ink); }
+  .poster .sum { font-size: 12px; color: var(--ink2); margin: 6px 0 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .poster .links { margin-top: 8px; display: flex; gap: 6px; flex-wrap: wrap; }
+  .poster .links a { font-size: 12px; font-weight: 600; padding: 5px 9px; border-radius: 8px; background: var(--bg2); color: var(--ink); text-decoration: none; }
+  .poster .links a.tix { background: var(--accent3); color: #fff; }
+  .back { display: inline-block; margin-top: 12px; color: var(--accent2); }
+  .legend { display: flex; flex-wrap: wrap; gap: 8px 14px; font-size: 12px; color: var(--ink2); margin: 0 0 10px; }
+  .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; vertical-align: middle; margin-right: 4px; }
+</style>
+</head>
+<body>
+<header class="masthead">
+  <div class="brand"><span class="dial" aria-hidden="true"><span></span></span><h1>Fun<span class="o">-o-</span>tronic <span class="num">4000</span></h1></div>
+  <div class="status"><span class="led"></span><span>Season at a glance</span></div>
+  <div class="masthead-actions"><a class="icon-btn" href="./" title="Back to the listings" aria-label="Back">←</a></div>
+</header>
+<main class="season">
+  <h1>Season at a glance</h1>
+  <p class="lede">Every production with three or more performances, by house — for planning ahead and buying early. Built from the same listings as the main page.</p>
+  <div class="legend" id="legend"></div>
+  <div id="root"><p class="empty">Loading…</p></div>
+  <a class="back" href="./">← Back to the listings</a>
+</main>
+<script>
+(async () => {
+  const TZ = "America/New_York";
+  const fmt = (d, o) => new Intl.DateTimeFormat("en-US", { timeZone: TZ, ...o }).format(new Date(d));
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+  const CATS = { theater: "Theater", music: "Music", classical: "Classical", dance: "Dance", comedy: "Comedy", film: "Film", talk: "Talks", sports: "Sports", festival: "Festivals", art: "Art", family: "Family", other: "Other" };
+  const data = await fetch(`data/events.json?v=${Math.floor(Date.now() / 6e5)}`).then(r => r.json());
+  const key = e => `${e.title.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim()}|${e.venue_id || e.venue}`;
+  const runs = new Map();
+  for (const e of data.events) { if (e.category === "sports" || e.kids) continue; (runs.get(key(e)) || runs.set(key(e), []).get(key(e))).push(e); }
+  const prods = [...runs.values()].filter(g => g.length >= 3 && new Set(g.map(e => e.start.slice(0, 10))).size >= 2).map(g => { g.sort((a, b) => a.start.localeCompare(b.start)); return g; });
+  const byOrg = new Map();
+  for (const g of prods) { const org = g[0].source_name || g[0].venue; (byOrg.get(org) || byOrg.set(org, []).get(org)).push(g); }
+  const orgs = [...byOrg.entries()].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
+  const cats = new Set(prods.map(g => g[0].category));
+  document.getElementById("legend").innerHTML = [...cats].map(c => `<span><i style="background:var(--c-${c})"></i>${CATS[c] || c}</span>`).join("");
+  const root = document.getElementById("root"); root.innerHTML = "";
+  if (!prods.length) root.innerHTML = `<p class="empty">No multi-performance runs in the listings yet.</p>`;
+  for (const [org, gs] of orgs) {
+    gs.sort((a, b) => a[0].start.localeCompare(b[0].start));
+    const h = document.createElement("h2"); h.className = "org"; h.innerHTML = `${esc(org)} <small>${gs.length} production${gs.length === 1 ? "" : "s"}</small>`; root.appendChild(h);
+    const grid = document.createElement("div"); grid.className = "posters"; root.appendChild(grid);
+    for (const g of gs) {
+      const e = g[0], last = g[g.length - 1];
+      const d = document.createElement("article"); d.className = "poster"; d.style.setProperty("--cc", `var(--c-${e.category})`);
+      const sameMonth = fmt(e.start, { month: "short" }) === fmt(last.start, { month: "short" });
+      d.innerHTML = `${e.image ? `<img src="${esc(e.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=ph>${esc(e.title.slice(0, 1))}</div>'">` : `<div class="ph">${esc(e.title.slice(0, 1))}</div>`}
+        <div class="pb"><h3>${esc(e.title)}</h3>
+        <div class="dates"><b>${fmt(e.start, { month: "short", day: "numeric" })} – ${fmt(last.start, { month: sameMonth ? undefined : "short", day: "numeric" })}</b> · ${g.length} performances${e.venue !== org ? ` · ${esc(e.venue)}` : ""}${e.price_min != null ? ` · from $${Math.round(e.price_min)}` : ""}</div>
+        ${e.summary ? `<p class="sum">${esc(e.summary)}</p>` : ""}
+        <div class="links">${e.ticket_url ? `<a class="tix" href="${esc(e.ticket_url)}" target="_blank" rel="noopener">Tickets</a>` : ""}${e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">Details</a>` : ""}<a href="./?q=${encodeURIComponent(e.title)}">All dates</a></div></div>`;
+      grid.appendChild(d);
+    }
+  }
+})();
+</script>
+</body>
+</html>

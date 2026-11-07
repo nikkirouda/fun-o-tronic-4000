@@ -218,12 +218,23 @@ def main() -> int:
         if (en or st) >= lo and st <= hi:
             kept.append(e)
     events = dedupe(kept)
-    for e in events:  # drop coordinates outside southern New England (bad geocodes, swapped lat/lon)
+    import math
+    def miles(lat, lon):
+        p1, p2 = math.radians(41.8268), math.radians(lat)
+        dp, dl = math.radians(lat - 41.8268), math.radians(lon + 71.4025)
+        a = math.sin(dp / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dl / 2) ** 2
+        return 2 * 3958.8 * math.asin(math.sqrt(a))
+    for e in events:  # drop coordinates outside southern New England (bad geocodes, swapped lat/lon); flag the far ones
         try:
             if e.get("lat") is not None and not (41.0 <= float(e["lat"]) <= 42.9 and -72.6 <= float(e["lon"]) <= -70.0):
                 e["lat"] = e["lon"] = None
         except (TypeError, ValueError):
             e["lat"] = e["lon"] = None
+        if e.get("lat") is not None:
+            e["miles"] = round(miles(float(e["lat"]), float(e["lon"])), 1)
+            e["far"] = e["miles"] > 35
+        else:
+            e.setdefault("far", bool(re.search(r"\b(Mass\.|Conn\.|, MA\b|, CT\b|Boston|Worcester|New Haven|Hartford|Mansfield|Uncasville|New Bedford|Fall River)", e.get("city", "") + " " + e.get("address", ""))))
     events.sort(key=lambda e: (e["start"], e["title"].lower()))
 
     # first-seen / on-sale tracking, persisted in state/
