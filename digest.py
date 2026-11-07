@@ -41,9 +41,21 @@ def load(name: str):
         return json.load(r)
 
 
+def blurb(e: dict, n: int = 170) -> str:
+    """Summary minus venue boilerplate ('THIS EVENT TAKES PLACE AT ...')."""
+    import re
+    t = e.get("summary") or ""
+    t = re.sub(r"^(THIS EVENT TAKES PLACE AT [^.]*\.\s*|[A-Z][a-z]+day, [A-Z][a-z]+ \d{1,2}, \d{4}\s*(Doors [^|]*\|\s*)?(Show [^A-Za-z]*)?\s*)", "", t)
+    return t[:n].rstrip() + ("…" if len(t) > n else "")
+
+
 def score(e: dict) -> float:
     s = WEIGHT.get(e["category"], 1)
     if e.get("kids"):
+        s -= 2
+    if e.get("sold_out") or "sold out" in e["title"].lower():
+        s -= 5
+    if any(t in ("youth orchestra", "student", "recital") for t in e.get("tags", [])) or "school" in (e.get("venue") or "").lower():
         s -= 2
     if any(k in (e.get("source", "") + e.get("venue", "")).lower() for k in PREMIER):
         s += 1.5
@@ -80,8 +92,10 @@ def build(mode: str) -> dict:
     now = datetime.now(TZ)
     today = now.date()
     if mode == "weekend":
-        fri = today + timedelta(days=(4 - today.weekday()) % 7)
-        lo, hi = fri, fri + timedelta(days=2)
+        # Thu/earlier: the coming Fri–Sun; Fri–Sun: the rest of this weekend
+        fri = today if today.weekday() >= 4 else today + timedelta(days=(4 - today.weekday()) % 7)
+        sun = fri + timedelta(days=(6 - fri.weekday()) % 7)
+        lo, hi = fri, sun
         title = f"Weekend ahead · {fri.strftime('%b %-d')}–{hi.strftime('%-d')}"
     else:
         lo, hi = today, today + timedelta(days=6)
@@ -111,7 +125,8 @@ def build(mode: str) -> dict:
     on_sale = [c for c in changes if c["kind"] == "on_sale" and c["at"] >= since]
     new = [c for c in changes if c["kind"] == "new" and c["at"] >= since]
     ids = {e["id"]: e for e in events}
-    new_big = sorted((ids[c["id"]] for c in new if c["id"] in ids), key=score, reverse=True)[:10]
+    new_big = sorted((ids[c["id"]] for c in new if c["id"] in ids and ids[c["id"]]["category"] not in ("sports", "community")),
+                     key=score, reverse=True)[:10]
     upcoming_onsale = [e for e in events if e.get("on_sale") and datetime.fromisoformat(e["on_sale"]) > now][:10]
     return {"title": title, "lo": lo.isoformat(), "hi": hi.isoformat(), "picks": picks, "by_cat": by_cat, "total": len(window),
             "on_sale": [ids[c["id"]] for c in on_sale if c["id"] in ids][:10], "new": new_big, "upcoming_onsale": upcoming_onsale}
@@ -125,8 +140,8 @@ def as_text(d: dict) -> str:
             L.append(f"• {fmt_when(e)} — {e['title']}")
             line = f"   {e['venue']}" + (f", {e['city']}" if e.get("city") else "") + (f" · {price(e)}" if price(e) else "")
             L.append(line)
-            if e.get("summary"):
-                L.append(f"   {e['summary'][:160]}")
+            if blurb(e):
+                L.append(f"   {blurb(e)}")
             L.append(f"   {e.get('ticket_url') or e.get('url')}")
             L.append("")
     if d["new"] or d["on_sale"]:
@@ -165,7 +180,7 @@ def as_html(d: dict) -> str:
             link = e.get("ticket_url") or e.get("url") or SITE_URL
             h.append(f"<li style='margin-bottom:10px'><b>{esc(fmt_when(e))}</b> — <a href='{esc(link)}'>{esc(e['title'])}</a><br>"
                      f"<span style='color:#444'>{esc(e['venue'])}{', ' + esc(e['city']) if e.get('city') else ''}{' · ' + esc(price(e)) if price(e) else ''}</span>"
-                     f"{'<br><span style=color:#666>' + esc(e['summary'][:180]) + '</span>' if e.get('summary') else ''}</li>")
+                     f"{'<br><span style=color:#666>' + esc(blurb(e)) + '</span>' if blurb(e) else ''}</li>")
         h.append("</ul>")
     if d["new"] or d["on_sale"]:
         h.append("<h3>Newly listed / on sale</h3><ul style='padding-left:18px'>")
