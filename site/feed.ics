@@ -224,8 +224,8 @@ SUMMARY:Providence College Women's Ice Hockey vs University of New Hampshi
  re
 DTSTART;TZID="UTC-05:00":20261107T140000
 UID:college-sports-485cd6b3eb9c@funotronic
-DESCRIPTION:https://admin.friars.com/calendar.aspx?game_id=12794&amp\;spor
- t_id=13
+DESCRIPTION:W 4-2\nhttps://admin.friars.com/calendar.aspx?game_id=12794&am
+ p\;sport_id=13
 LOCATION:Schneider Arena\, Providence
 URL:https://admin.friars.com/calendar.aspx?game_id=12794&amp;sport_id=13
 END:VEVENT
@@ -848,7 +848,7 @@ SUMMARY:New England Patriots vs Green Bay Packers
 DTSTART;TZID="UTC-05:00":20261108T162500
 UID:pro-patriots-7ccb49c18986@funotronic
 DESCRIPTION:New England Patriots host the Green Bay Packers at Gillette St
- adium.\nresale from $283\nhttps://www.patriots.com/tickets/
+ adium.\nresale from $284\nhttps://www.patriots.com/tickets/
 LOCATION:Gillette Stadium\, 1 Patriot Pl\, Foxborough\, MA
 URL:https://www.patriots.com/tickets/
 END:VEVENT
@@ -5894,6 +5894,16 @@ LOCATION:Alchemy\, 71 Richmond St
 URL:https://alchemyri.net/providence-downtown-alchemy-events
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Prior Panic + Bucket + Joe Stopsign
+DTSTART;TZID="UTC-05:00":20261115T190000
+DTEND;TZID="UTC-05:00":20261115T233000
+UID:sqs-as220-f6e92558f48c@funotronic
+DESCRIPTION:Get tickets\nhttps://as220.org/calendar/prior-panic-bucket-joe
+ -stopping
+LOCATION:AS220 Main Stage\, 115 Empire Street
+URL:https://as220.org/calendar/prior-panic-bucket-joe-stopping
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Lil Mo Mozzarella
 DTSTART;TZID="UTC-05:00":20261115T203000
 DTEND;TZID="UTC-05:00":20261115T220000
@@ -10031,6 +10041,15 @@ DESCRIPTION:Actor/Comedian/Writer Nick Thune’s deadpan delivery and absu
  ttps://www.ricomedyconnection.com/events/nick-thune-2026
 LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/nick-thune-2026
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WBRU's Music Potluck
+DTSTART;TZID="UTC-05:00":20261121T190000
+DTEND;TZID="UTC-05:00":20261121T223000
+UID:sqs-as220-2533cbf837d1@funotronic
+DESCRIPTION:Get tickets\nhttps://as220.org/calendar/wbrus-music-potluck
+LOCATION:AS220 Black Box\, 95 Empire Street
+URL:https://as220.org/calendar/wbrus-music-potluck
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Providence Bruins vs Charlotte Checkers
@@ -16792,6 +16811,17 @@ URL:https://www.shubert.com/events/detail/new-haven-ballet-presents-the-nu
  tcracker
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:WILL KILLMOORE + Chrysanthemum + Free Rock + Joyseeking
+DTSTART;TZID="UTC-05:00":20261211T190000
+DTEND;TZID="UTC-05:00":20261211T233000
+UID:sqs-as220-a8cc21a969cc@funotronic
+DESCRIPTION:Get tickets\nhttps://as220.org/calendar/will-killmoore-chrysan
+ themum-free-rock-joyseeking
+LOCATION:AS220 Black Box\, 95 Empire Street
+URL:https://as220.org/calendar/will-killmoore-chrysanthemum-free-rock-joys
+ eeking
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Providence Bruins vs Springfield Thunderbirds
 DTSTART;TZID="UTC-05:00":20261211T190500
 UID:ch-amica-7800b0a75510@funotronic
@@ -20447,7 +20477,7 @@ SUMMARY:Boston Celtics vs Houston Rockets
 DTSTART;TZID="UTC-05:00":20270111T193000
 UID:pro-celtics-8e02ae8e78f9@funotronic
 DESCRIPTION:Boston Celtics host the Houston Rockets at TD Garden.\nresale 
- from $77\nhttps://www.nba.com/celtics/tickets
+ from $78\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nba.com/celtics/tickets
 END:VEVENT
@@ -22452,7 +22482,7 @@ SUMMARY:Boston Celtics vs Los Angeles Lakers
 DTSTART;TZID="UTC-05:00":20270202T200000
 UID:pro-celtics-475be845008c@funotronic
 DESCRIPTION:Boston Celtics host the Los Angeles Lakers at TD Garden.\nresa
- le from $114\nhttps://www.nba.com/celtics/tickets
+ le from $119\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nba.com/celtics/tickets
 END:VEVENT
@@ -25802,7 +25832,7 @@ SUMMARY:Boston Celtics vs Oklahoma City Thunder
 DTSTART;TZID="UTC-05:00":20270312T193000
 UID:pro-celtics-2c5c4a02bf24@funotronic
 DESCRIPTION:Boston Celtics host the Oklahoma City Thunder at TD Garden.\nr
- esale from $107\nhttps://www.nba.com/celtics/tickets
+ esale from $118\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nba.com/celtics/tickets
 END:VEVENT
