@@ -258,9 +258,18 @@
       const c = document.createElement("div");
       c.className = "cal-cell" + (key === t ? " today" : "") + (key === S.calSel ? " sel" : "");
       const cats = [...new Set(evs.map(e => e.category))].slice(0, 8);
-      const top = wide ? [...evs].sort((a, b) => rank(b) - rank(a)).slice(0, 5) : [];
+      let top = [];
+      if (wide) {  // one line per show (both times), at most one show per venue, best-ranked first
+        const byTitle = new Map();
+        for (const e of [...evs].sort((a, b) => a._t - b._t)) { const k = e.title.toLowerCase(); (byTitle.get(k) || byTitle.set(k, []).get(k)).push(e); }
+        const venues = new Map();
+        for (const g of [...byTitle.values()].sort((a, b) => rank(b[0]) - rank(a[0]))) {
+          const v = g[0].venue_id || g[0].venue; if ((venues.get(v) || 0) >= 1 && byTitle.size > 6) continue;
+          venues.set(v, (venues.get(v) || 0) + 1); top.push(g); if (top.length >= 6) break;
+        }
+      }
       c.innerHTML = `<span class="n">${d}</span>` +
-        (wide ? `<span class="evs">${top.map(e => `<a class="ev" data-id="${e.id}" style="--cc:var(--c-${e.category})" title="${esc(e.title)} · ${esc(e.venue)}">${e.all_day ? "" : `<b>${timeStr(e)}</b> `}${esc(e.title)}</a>`).join("")}${evs.length > top.length ? `<span class="morel">+${evs.length - top.length} more</span>` : ""}</span>`
+        (wide ? `<span class="evs">${top.map(g => { const e = g[0]; const times = e.all_day ? "" : g.slice(0, 3).map(timeStr).join(" & ") + (g.length > 3 ? " +" : ""); return `<a class="ev" data-id="${e.id}" style="--cc:var(--c-${e.category})" title="${esc(e.title)} · ${esc(e.venue)}${times ? " · " + times : ""}">${times ? `<b>${times}</b> ` : ""}${esc(e.title)}</a>`; }).join("")}${evs.length > top.reduce((n, g) => n + g.length, 0) ? `<span class="morel">+${evs.length - top.reduce((n, g) => n + g.length, 0)} more</span>` : ""}</span>`
               : `<span class="dots">${cats.map(k => `<i style="background:var(--c-${k})"></i>`).join("")}</span>`) +
         (evs.length ? `<span class="cnt">${evs.length}</span><span class="heat" style="width:${Math.round(100 * evs.length / max)}%"></span>` : "");
       if (key < t) c.style.opacity = .45;
