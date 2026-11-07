@@ -54,6 +54,8 @@ SITES = [
      "lat": 41.7027, "lon": -71.1612, "category": "music", "address": "16 Anawan St"},
     {"key": "newportartmuseum", "base": "https://newportartmuseum.org", "venue": "Newport Art Museum", "city": "Newport", "category": "art"},
     {"key": "pps", "base": "https://ppsri.org", "venue": "", "city": "Providence", "category": "talk"},
+    {"key": "hanover", "base": "https://thehanovertheatre.org", "venue": "The Hanover Theatre", "city": "Worcester, MA",
+     "lat": 42.2615, "lon": -71.8012, "category": None, "address": "2 Southbridge St, Worcester, MA", "force_venue": True},
     {"key": "bowenswharf", "base": "https://bowenswharf.com", "venue": "Bowen's Wharf", "city": "Newport", "category": "festival"},
 ]
 
@@ -76,6 +78,10 @@ def fetch() -> list[dict]:
                 kept.append(e)
             evs = kept
         for e in evs:
+            if s.get("force_venue"):
+                room = e.get("venue") or ""
+                e["venue"] = s["venue"] if not room or room == s["venue"] else f"{s['venue']} — {room}"
+                e["city"] = s.get("city", e.get("city", ""))
             if e.get("lat") is None and s.get("lat") is not None:
                 e["lat"], e["lon"] = s["lat"], s["lon"]
             if not e.get("address") and s.get("address"):

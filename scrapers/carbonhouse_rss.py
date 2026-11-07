@@ -17,9 +17,16 @@ FEEDS = [
      "address": "1 La Salle Square", "lat": 41.8251, "lon": -71.4179},
     {"key": "ricc", "rss": "https://www.riconvention.com/events/rss", "venue": "Rhode Island Convention Center", "city": "Providence",
      "address": "1 Sabin St", "lat": 41.8237, "lon": -71.4168},
+    # worth the drive
+    {"key": "tdgarden", "rss": "https://www.tdgarden.com/events/rss", "venue": "TD Garden", "city": "Boston, MA",
+     "address": "100 Legends Way, Boston, MA", "lat": 42.3662, "lon": -71.0621},
+    {"key": "boch", "rss": "https://www.bochcenter.org/events/rss", "venue": "Boch Center", "city": "Boston, MA",
+     "address": "270 Tremont St, Boston, MA", "lat": 42.3508, "lon": -71.0644},
+    {"key": "shubertnh", "rss": "https://www.shubert.com/events/rss", "venue": "Shubert Theatre", "city": "New Haven, CT",
+     "address": "247 College St, New Haven, CT", "lat": 41.3061, "lon": -72.9289},
 ]
 HDR = {"Accept": "application/rss+xml, application/xml, text/xml, */*"}
-MAX_DETAIL = 40
+MAX_DETAIL = 25
 TYPE_MAP = {"comedy": "comedy", "concert": "music", "concerts": "music", "music": "music", "family": "family", "theater": "theater",
             "theatre": "theater", "broadway": "theater", "dance": "dance", "sports": "sports", "hockey": "sports", "basketball": "sports",
             "trade show": "festival", "convention": "festival", "consumer show": "festival", "expo": "festival"}

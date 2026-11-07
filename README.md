@@ -43,7 +43,8 @@ REST), `parse_ics`, `jsonld_events` + `event_from_jsonld`, and `get`/`get_json`/
 Platform-specific modules already cover: LiveWhale (Brown), Carbonhouse (PPAC/VETS/Amica/RICC),
 PatronManager (Trinity, Gamm), Spektrix (RI Phil), Squarespace collections, Rockhouse/Etix RSS
 (Strand, Met, Park), Sanity (Odeum), Sidearm ICS (college sports), HockeyTech (P-Bruins),
-CampusLabs Engage (RISD), Shopify (PIG).
+CampusLabs Engage (RISD), Shopify (PIG), accesso ShoWare (Narrows), Webflow (Machines with Magnets).
+"Worth the drive" venues (TD Garden, Boch Center, Shubert New Haven, Hanover Worcester) are flagged `far` and hidden unless asked for.
 
 Scraping is polite: identified User-Agent, retries with backoff, and feeds (ICS/JSON/RSS) preferred
 over HTML wherever a venue offers one. Listings belong to the venues; this is a personal reader.
