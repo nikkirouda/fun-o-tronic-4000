@@ -1,0 +1,113 @@
+{
+ "generated": "2026-11-07T11:52-05:00",
+ "items": [
+  {
+   "key": "newport-folk",
+   "title": "Newport Folk Festival 2027",
+   "venue": "Fort Adams State Park",
+   "city": "Newport",
+   "url": "https://newportfolk.org/tickets",
+   "alt_urls": [
+    "https://newportfolk.org/"
+   ],
+   "expected": "Sells out within minutes of going on sale; the on-sale is announced on the site and by email first.",
+   "category": "festival",
+   "hot": true,
+   "checked": "2026-11-07T11:52-05:00",
+   "status": "not yet announced (2026 sold out)",
+   "evidence": "org 2026 TICKETS Join the Wailist ALL 2026 TICKETS ARE SOLD OUT Do not buy from scalpers.",
+   "on_sale": null,
+   "prev_status": "sold out",
+   "changed": "2026-11-07T11:52-05:00",
+   "checked_url": "https://newportfolk.org/tickets"
+  },
+  {
+   "key": "newport-jazz",
+   "title": "Newport Jazz Festival 2027",
+   "venue": "Fort Adams State Park",
+   "city": "Newport",
+   "url": "https://www.newportjazz.org/tickets",
+   "alt_urls": [
+    "https://www.newportjazz.org/"
+   ],
+   "expected": "Sells fast; announced on the site and by email.",
+   "category": "festival",
+   "hot": true,
+   "checked": "2026-11-07T11:52-05:00",
+   "status": "not yet announced (2026 sold out)",
+   "evidence": "org 2026 TICKETS PURCHASE PARKING Buy 3-Day Parking Buy Friday-Only Parking Buy Saturday-Only Parking Buy Sunday-Only Parking ALL 2026 TICKETS ARE SOLD OUT Our fan-to-fan ticket exchange is now available via DICE! Join t",
+   "on_sale": null,
+   "prev_status": "sold out",
+   "changed": "2026-11-07T11:52-05:00",
+   "checked_url": "https://www.newportjazz.org/tickets"
+  },
+  {
+   "key": "ppac-broadway",
+   "title": "PPAC Broadway series — new shows & single tickets",
+   "venue": "Providence Performing Arts Center",
+   "city": "Providence",
+   "url": "https://www.ppacri.org/events",
+   "expected": "Single tickets for each Broadway title go on sale a few weeks before the run; the page's on-sale dates feed the app automatically.",
+   "category": "theater",
+   "hot": false,
+   "checked": "2026-11-07T11:52-05:00",
+   "status": "on sale",
+   "evidence": "Events | Providence Performing Arts Center Skip to content Accessibility Buy Tickets Search Providence Performing Arts Center Calendar My Account Buy Tickets Search Menu Close Providence Performing Arts Center Events & T",
+   "on_sale": null,
+   "prev_status": "on sale",
+   "changed": null,
+   "checked_url": "https://www.ppacri.org/events"
+  },
+  {
+   "key": "ri-comic-con",
+   "title": "Rhode Island Comic Con 2027",
+   "venue": "Rhode Island Convention Center",
+   "city": "Providence",
+   "url": "https://www.ricomiccon.com/ticket-pricing-information",
+   "expected": "",
+   "category": "festival",
+   "hot": false,
+   "checked": "2026-11-07T11:52-05:00",
+   "status": "on sale",
+   "evidence": "BUY TICKETS! TICKET PRICING & INFORMATION BUY TICKETS! GUEST LIST SUBJECT TO CHANGE.",
+   "on_sale": null,
+   "prev_status": "on sale",
+   "changed": null,
+   "checked_url": "https://www.ricomiccon.com/ticket-pricing-information"
+  },
+  {
+   "key": "waterfire-season",
+   "title": "WaterFire 2027 lighting schedule",
+   "venue": "Waterplace Park",
+   "city": "Providence",
+   "url": "https://www.waterfire.org/schedule/",
+   "expected": "Free; the season schedule is usually posted in spring.",
+   "category": "festival",
+   "hot": false,
+   "checked": "2026-11-07T11:52-05:00",
+   "status": "not yet",
+   "evidence": "Van Leesten Memorial Bridge Presented by the Providence Tourism Council Thursday, July 9 – Sunset (8:22 PM) to 10:00 PM Thursday, September 17 – Sunset (6:51 PM) to 9:00 PM Thursday, October 29 – Sunset (5:44 PM) to 8:00",
+   "on_sale": null,
+   "prev_status": "not yet",
+   "changed": null,
+   "checked_url": "https://www.waterfire.org/schedule/"
+  },
+  {
+   "key": "trinity-season",
+   "title": "Trinity Rep — next season announcement",
+   "venue": "Trinity Repertory Company",
+   "city": "Providence",
+   "url": "https://www.trinityrep.com/shows/",
+   "expected": "",
+   "category": "theater",
+   "hot": false,
+   "checked": "2026-11-07T11:52-05:00",
+   "status": "on sale",
+   "evidence": "Shows – Trinity Repertory Company Skip to content Trinity Repertory Company Your home for dramatic discoveries Menu Buy Tickets Donate Shows 2026-27 Season A Christmas Carol Cyrano Mother Russia August Wilson’s Ma Rainey",
+   "on_sale": null,
+   "prev_status": "on sale",
+   "changed": null,
+   "checked_url": "https://www.trinityrep.com/shows/"
+  }
+ ]
+}

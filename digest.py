@@ -127,9 +127,16 @@ def build(mode: str) -> dict:
     ids = {e["id"]: e for e in events}
     new_big = sorted((ids[c["id"]] for c in new if c["id"] in ids and ids[c["id"]]["category"] not in ("sports", "community")),
                      key=score, reverse=True)[:10]
-    upcoming_onsale = [e for e in events if e.get("on_sale") and datetime.fromisoformat(e["on_sale"]) > now][:10]
+    upcoming_onsale = sorted([e for e in events if e.get("on_sale") and datetime.fromisoformat(e["on_sale"]) > now], key=lambda e: e["on_sale"])[:12]
+    presales = [e for e in events if "presale" in e.get("tags", []) and datetime.fromisoformat(e["start"]) > now][:8]
+    try:
+        watch = load("watch").get("items", [])
+    except Exception:  # noqa: BLE001
+        watch = []
+    watch_changes = [c for c in changes if c["kind"] == "watch" and c["at"] >= since]
     return {"title": title, "lo": lo.isoformat(), "hi": hi.isoformat(), "picks": picks, "by_cat": by_cat, "total": len(window),
-            "on_sale": [ids[c["id"]] for c in on_sale if c["id"] in ids][:10], "new": new_big, "upcoming_onsale": upcoming_onsale}
+            "on_sale": [ids[c["id"]] for c in on_sale if c["id"] in ids][:10], "new": new_big, "upcoming_onsale": upcoming_onsale,
+            "presales": presales, "watch": watch, "watch_changes": watch_changes}
 
 
 def freshness_line(d: dict) -> str:
@@ -152,8 +159,45 @@ def freshness_line(d: dict) -> str:
     return f"Data built {gen}. " + " · ".join(parts)
 
 
+def tickets_lines(d: dict) -> list[str]:
+    L = []
+    for c in d.get("watch_changes", []):
+        L.append(f"• CHANGED: {c['title']} — now \"{c['status']}\" (was {c.get('prev') or '?'}): {c.get('evidence', '')[:120]} {c.get('url', '')}")
+    for e in d.get("on_sale", []):
+        L.append(f"• Now on sale: {e['title']} — {fmt_when(e)} at {e['venue']} {e.get('ticket_url') or ''}")
+    for e in d.get("upcoming_onsale", []):
+        L.append(f"• Goes on sale {datetime.fromisoformat(e['on_sale']).strftime('%a %b %-d %-I:%M%p').replace(':00', '')}: {e['title']} ({fmt_when(e)}, {e['venue']}) {e.get('url') or ''}")
+    for e in d.get("presales", []):
+        L.append(f"• Presale mentioned: {e['title']} — {fmt_when(e)} at {e['venue']} {e.get('url') or ''}")
+    for w in [w for w in d.get("watch", []) if w.get("hot")]:
+        L.append(f"• Watching {w['title']}: {w['status']}{' — ' + w['evidence'][:100] if w.get('evidence') else ''} {w['url']}")
+    return L
+
+
+def tickets_html(d: dict) -> str:
+    def esc(s):
+        return str(s or "").replace("&", "&amp;").replace("<", "&lt;")
+    rows = []
+    for c in d.get("watch_changes", []):
+        rows.append(f"<li><b style='color:#e53170'>Changed:</b> <a href='{esc(c.get('url'))}'>{esc(c['title'])}</a> is now <b>{esc(c['status'])}</b> (was {esc(c.get('prev') or '?')}) — <i>{esc(c.get('evidence', '')[:140])}</i></li>")
+    for e in d.get("on_sale", []):
+        rows.append(f"<li>🎟 <b>Now on sale:</b> <a href='{esc(e.get('ticket_url') or e.get('url'))}'>{esc(e['title'])}</a> — {esc(fmt_when(e))}, {esc(e['venue'])}</li>")
+    for e in d.get("upcoming_onsale", []):
+        rows.append(f"<li>🕗 <b>Goes on sale {esc(datetime.fromisoformat(e['on_sale']).strftime('%a %b %-d, %-I:%M %p').replace(':00', ''))}:</b> <a href='{esc(e.get('url') or e.get('ticket_url'))}'>{esc(e['title'])}</a> ({esc(fmt_when(e))}, {esc(e['venue'])})</li>")
+    for e in d.get("presales", []):
+        rows.append(f"<li>🔑 <b>Presale mentioned:</b> <a href='{esc(e.get('url'))}'>{esc(e['title'])}</a> — {esc(fmt_when(e))}, {esc(e['venue'])}</li>")
+    for w in [w for w in d.get("watch", []) if w.get("hot")]:
+        rows.append(f"<li>👀 <b>Watching</b> <a href='{esc(w['url'])}'>{esc(w['title'])}</a>: <b>{esc(w['status'])}</b>{' — <i>' + esc(w['evidence'][:110]) + '</i>' if w.get('evidence') else ''}</li>")
+    if not rows:
+        return ""
+    return "<h3 style='margin-top:14px'>Tickets — on sale, presales, the watch list</h3><ul style='padding-left:18px'>" + "".join(rows) + "</ul>"
+
+
 def as_text(d: dict) -> str:
     L = [f"FUN-O-TRONIC 4000 — {d['title']}", f"{d['total']} things on. Full list: {SITE_URL}", ""]
+    tix = tickets_lines(d)
+    if tix:
+        L += ["TICKETS — ON SALE, PRESALES, THE WATCH LIST", ""] + tix + [""]
     if d["picks"]:
         L += ["IF YOU ONLY DO A FEW", ""]
         for e in d["picks"]:
@@ -166,15 +210,8 @@ def as_text(d: dict) -> str:
             L.append("")
     if d["new"] or d["on_sale"]:
         L += ["NEWLY LISTED / ON SALE", ""]
-        for e in d["on_sale"]:
-            L.append(f"• Tickets now on sale: {e['title']} — {fmt_when(e)} at {e['venue']} {e.get('ticket_url') or ''}")
         for e in d["new"]:
             L.append(f"• New: {e['title']} — {fmt_when(e)} at {e['venue']}")
-        L.append("")
-    if d["upcoming_onsale"]:
-        L += ["GOING ON SALE SOON", ""]
-        for e in d["upcoming_onsale"]:
-            L.append(f"• {datetime.fromisoformat(e['on_sale']).strftime('%a %b %-d %-I:%M%p')}: {e['title']} ({fmt_when(e)}, {e['venue']})")
         L.append("")
     L += ["BY CATEGORY", ""]
     for cat in sorted(d["by_cat"], key=lambda c: -WEIGHT.get(c, 1)):
@@ -195,6 +232,7 @@ def as_html(d: dict) -> str:
         return str(s or "").replace("&", "&amp;").replace("<", "&lt;")
     h = [f"<h2 style='font-family:Georgia,serif;margin:0 0 4px'>Fun-o-tronic 4000 — {esc(d['title'])}</h2>",
          f"<p style='color:#666;margin:0 0 16px'>{d['total']} things on · <a href='{SITE_URL}'>open the full list</a></p>"]
+    h.append(tickets_html(d))
     if d["picks"]:
         h.append("<h3>If you only do a few</h3><ul style='padding-left:18px'>")
         for e in d["picks"]:
@@ -205,15 +243,8 @@ def as_html(d: dict) -> str:
         h.append("</ul>")
     if d["new"] or d["on_sale"]:
         h.append("<h3>Newly listed / on sale</h3><ul style='padding-left:18px'>")
-        for e in d["on_sale"]:
-            h.append(f"<li>🎟 <b>Now on sale:</b> <a href='{esc(e.get('ticket_url') or e.get('url'))}'>{esc(e['title'])}</a> — {esc(fmt_when(e))}, {esc(e['venue'])}</li>")
         for e in d["new"]:
             h.append(f"<li>✦ <a href='{esc(e.get('url') or e.get('ticket_url'))}'>{esc(e['title'])}</a> — {esc(fmt_when(e))}, {esc(e['venue'])}</li>")
-        h.append("</ul>")
-    if d["upcoming_onsale"]:
-        h.append("<h3>Going on sale soon</h3><ul style='padding-left:18px'>")
-        for e in d["upcoming_onsale"]:
-            h.append(f"<li>{datetime.fromisoformat(e['on_sale']).strftime('%a %b %-d, %-I:%M %p')}: <a href='{esc(e.get('url'))}'>{esc(e['title'])}</a> ({esc(fmt_when(e))}, {esc(e['venue'])})</li>")
         h.append("</ul>")
     h.append("<h3>By category</h3>")
     for cat in sorted(d["by_cat"], key=lambda c: -WEIGHT.get(c, 1)):

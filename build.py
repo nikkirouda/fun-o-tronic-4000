@@ -264,6 +264,14 @@ def main() -> int:
     seen = {k: v for k, v in seen.items() if v.get("first_seen", "") >= cutoff or k in {e["id"] for e in events}}
     (STATE / "seen.json").write_text(json.dumps(seen, indent=0, sort_keys=True))
     keep_after = (now - timedelta(days=21)).isoformat(timespec="minutes")
+    try:  # watch-list status changes (written by scrapers/onsale_watch.py)
+        for w in load_json(DATA / "watch.json", {}).get("items", []):
+            if w.get("changed") and w["changed"][:16] == now.isoformat(timespec="minutes")[:16]:
+                new_items.append({"kind": "watch", "at": w["changed"], "id": f"watch:{w['key']}", "title": w["title"], "start": w.get("on_sale") or "",
+                                  "venue": w.get("venue", ""), "category": w.get("category", "festival"), "status": w["status"], "prev": w.get("prev_status"),
+                                  "evidence": w.get("evidence", ""), "url": w.get("url")})
+    except Exception as ex:  # noqa: BLE001
+        log.debug("watch changes: %s", ex)
     changes["items"] = [c for c in changes["items"] if c["at"] >= keep_after] + new_items
     changes["generated"] = now.isoformat(timespec="minutes")
     (DATA / "changes.json").write_text(json.dumps(changes, ensure_ascii=False))
