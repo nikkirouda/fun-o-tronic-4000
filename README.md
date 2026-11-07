@@ -13,7 +13,7 @@ scrapers/*.py   one module per source → events in a common schema (scrapers/co
 build.py        runs them all in parallel, dedupes, diffs against the last build, writes site/data/*
 site/           static app (vanilla JS, no build step) + feed.ics + PWA manifest
 digest.py       composes the Monday "week ahead" / Thursday "weekend" email body from the data
-.github/workflows/update.yml   every 6 hours: build → commit data → deploy to GitHub Pages
+.github/workflows/update.yml   Mon & Thu ~5 AM ET (an hour before each digest), and on every push: build → commit data → deploy
 ```
 
 A failing source keeps its last good listings and shows up in **Sources & health** on the page footer,

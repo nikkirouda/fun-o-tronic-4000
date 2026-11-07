@@ -1,6 +1,6 @@
 /* Tiny offline cache: shell cached, data network-first with fallback. */
-const SHELL = "fot-shell-v1";
-const ASSETS = ["./", "index.html", "style.css", "app.js", "icon.svg", "manifest.webmanifest"];
+const SHELL = "fot-shell-v3";
+const ASSETS = ["./", "index.html", "style.css?v=3", "app.js?v=3", "icon.svg", "manifest.webmanifest", "season.html"];
 self.addEventListener("install", e => { e.waitUntil(caches.open(SHELL).then(c => c.addAll(ASSETS)).then(() => self.skipWaiting())); });
 self.addEventListener("activate", e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== SHELL).map(k => caches.delete(k)))).then(() => self.clients.claim())); });
 self.addEventListener("fetch", e => {

@@ -7,11 +7,11 @@
 <meta name="theme-color" content="#0f0e17">
 <meta name="description" content="What's on in Providence and across Rhode Island — theater, music, film, talks, sports and more, in one place.">
 <title>Fun-o-tronic 4000</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23ff8906'/%3E%3Ccircle cx='32' cy='32' r='12' fill='%230f0e17'/%3E%3Ccircle cx='32' cy='32' r='5' fill='%23f25f4c'/%3E%3C/svg%3E">
+<link rel="icon" href="icon.svg">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Righteous&family=Inter:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
 <header class="masthead">
@@ -23,21 +23,24 @@
     <span class="led" id="led"></span><span id="statusText">warming up…</span>
   </div>
   <div class="masthead-actions">
-    <button class="icon-btn" id="btnNew" title="New since your last visit" aria-label="What's new"><span class="ico">✦</span><span class="badge" id="newCount" hidden></span></button>
+    <button class="icon-btn" id="btnNew" title="New since your last visit, and things you follow" aria-label="What's new"><span class="ico">✦</span><span class="badge" id="newCount" hidden></span></button>
     <button class="icon-btn" id="btnStars" title="Your picks" aria-label="Your picks">★<span class="badge" id="starCount" hidden></span></button>
     <button class="icon-btn" id="btnTheme" title="Light / dark" aria-label="Toggle theme">◐</button>
-    <button class="icon-btn" id="btnMore" title="Subscribe & settings" aria-label="Settings">⋯</button>
+    <button class="icon-btn" id="btnMore" title="Subscribe, follows &amp; settings" aria-label="Settings">⋯</button>
   </div>
 </header>
+
+<div class="banner" id="banner" hidden></div>
 
 <nav class="panel" aria-label="Filters">
   <div class="search-row">
     <input type="search" id="q" placeholder="Search shows, bands, venues, 'jazz', 'free'…" autocomplete="off" aria-label="Search">
     <button class="surprise" id="btnSurprise" title="Pick something for me">🎲 Surprise me</button>
+    <button class="datenight" id="btnDate" title="Evening, sit-down, close to home, tickets available">🥂 Date night</button>
   </div>
 
   <div class="chips when" id="whenChips" role="tablist" aria-label="When">
-    <button data-when="tonight">Tonight</button>
+    <button data-when="tonight">Today</button>
     <button data-when="tomorrow">Tomorrow</button>
     <button data-when="weekend" class="on">This weekend</button>
     <button data-when="week">Next 7 days</button>
@@ -56,6 +59,7 @@
     <label class="tog"><input type="checkbox" id="freeOnly"> Free only</label>
     <label class="tog"><input type="checkbox" id="hideKids" checked> Hide kids &amp; family</label>
     <label class="tog"><input type="checkbox" id="ticketsOnly"> Has tickets</label>
+    <label class="tog"><input type="checkbox" id="farToo"> Worth the drive</label>
     <label class="tog price">Max $<input type="number" id="maxPrice" min="0" step="5" placeholder="any" inputmode="numeric"></label>
     <select id="areaSel" aria-label="Area">
       <option value="">Anywhere in RI</option>
@@ -78,8 +82,12 @@
     <button data-view="map">Map</button>
   </div>
   <div class="count" id="count"></div>
+  <label class="mood" title="Quiet night ↔ Big night: tilts the ranking, Surprise me and the calendar picks">
+    <span>🕯</span><input type="range" id="mood" min="0" max="100" value="50" aria-label="Quiet night to big night"><span>🎆</span>
+  </label>
   <select id="sortSel" aria-label="Sort">
     <option value="time">Soonest first</option>
+    <option value="you">Best for you</option>
     <option value="new">Newest listings</option>
     <option value="price">Cheapest first</option>
     <option value="az">A → Z</option>
@@ -105,19 +113,16 @@
 
 <footer class="foot">
   <p><strong>Fun-o-tronic 4000</strong> gathers listings from <span id="srcCount">—</span> Rhode Island sources. Dates and prices come from the venues; always check the ticket page before you go.
-  <a href="#" id="btnSources">Sources &amp; health</a> · <a href="feed.ics" id="feedLink">Calendar feed</a></p>
+  <a href="#" id="btnSources">Sources &amp; health</a> · <a href="season.html">Season at a glance</a> · <a href="feed.ics" id="feedLink">Calendar feed</a></p>
 </footer>
 
-<!-- Event detail sheet -->
 <div class="sheet-backdrop" id="backdrop" hidden></div>
 <aside class="sheet" id="sheet" hidden aria-modal="true" role="dialog"></aside>
-
-<!-- Toast -->
 <div class="toast" id="toast" hidden></div>
 
 <template id="tplCard">
   <article class="card" tabindex="0">
-    <div class="when"><span class="t"></span><span class="d"></span></div>
+    <div class="when"><span class="t"></span><span class="d"></span><span class="soon"></span></div>
     <div class="body">
       <div class="top">
         <span class="cat"></span>
@@ -126,11 +131,15 @@
       <h3 class="title"></h3>
       <div class="where"></div>
       <p class="sum"></p>
+      <div class="run"></div>
     </div>
-    <button class="star" aria-label="Save">☆</button>
+    <div class="side">
+      <button class="star" aria-label="Save">☆</button>
+      <button class="nope" aria-label="Not for me" title="Not for me">✕</button>
+    </div>
   </article>
 </template>
 
-<script src="app.js" defer></script>
+<script src="app.js?v=3" defer></script>
 </body>
 </html>
