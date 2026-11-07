@@ -519,6 +519,11 @@
 "on_sale": null,
 "ticket": false
 },
+"brown-events-0df585a9218c": {
+"first_seen": "2026-11-07T16:08-05:00",
+"on_sale": null,
+"ticket": false
+},
 "brown-events-0dfa67aa59c8": {
 "first_seen": "2026-11-07T09:17-05:00",
 "on_sale": null,
@@ -2339,6 +2344,11 @@
 "on_sale": null,
 "ticket": false
 },
+"brown-events-66a846b8fd9d": {
+"first_seen": "2026-11-07T16:08-05:00",
+"on_sale": null,
+"ticket": false
+},
 "brown-events-671ee97fe390": {
 "first_seen": "2026-11-07T10:18-05:00",
 "on_sale": null,
@@ -2381,6 +2391,11 @@
 },
 "brown-events-693e1be68c3c": {
 "first_seen": "2026-11-07T09:17-05:00",
+"on_sale": null,
+"ticket": false
+},
+"brown-events-69418a94813e": {
+"first_seen": "2026-11-07T16:08-05:00",
 "on_sale": null,
 "ticket": false
 },
@@ -3206,6 +3221,11 @@
 },
 "brown-events-924f755d3578": {
 "first_seen": "2026-11-07T09:17-05:00",
+"on_sale": null,
+"ticket": false
+},
+"brown-events-92b782d42cfc": {
+"first_seen": "2026-11-07T16:08-05:00",
 "on_sale": null,
 "ticket": false
 },
@@ -12331,6 +12351,11 @@
 },
 "sqs-fete-1185dc94e0dd": {
 "first_seen": "2026-11-07T09:17-05:00",
+"on_sale": null,
+"ticket": true
+},
+"sqs-fete-1b6a18724507": {
+"first_seen": "2026-11-07T16:08-05:00",
 "on_sale": null,
 "ticket": true
 },

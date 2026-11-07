@@ -92,6 +92,28 @@ URL:https://events.brown.edu/contemplative/event/342572-workshop-zen-buddh
  ist-practice-with-prof-bret
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[T] Brown University Men’s Soccer vs Yale- Senior Day
+DTSTART;TZID="UTC-05:00":20261107T130000
+DTEND;TZID="UTC-05:00":20261107T150000
+UID:brown-events-69418a94813e@funotronic
+DESCRIPTION:https://events.brown.edu/athletics/event/333421-brown-universi
+ ty-mens-soccer-vs-yale
+LOCATION:Stevenson-Pincince Field\, Providence
+URL:https://events.brown.edu/athletics/event/333421-brown-university-mens-
+ soccer-vs-yale
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[W] Brown University Men’s Water Polo vs Iona
+DTSTART;TZID="UTC-05:00":20261107T130000
+DTEND;TZID="UTC-05:00":20261107T143000
+UID:brown-events-66a846b8fd9d@funotronic
+DESCRIPTION:https://events.brown.edu/athletics/event/334134-brown-universi
+ ty-mens-water-polo-vs-iona
+LOCATION:Katherine Moran Coleman Aquatics Center\, Providence
+URL:https://events.brown.edu/athletics/event/334134-brown-university-mens-
+ water-polo-vs-iona
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Broom Making at Rochambeau
 DTSTART;TZID="UTC-05:00":20261107T130000
 DTEND;TZID="UTC-05:00":20261107T150000
@@ -105,33 +127,21 @@ LOCATION:Rochambeau Library – Community Room\, 708 Hope Street Providenc
 URL:https://clpvd.org/event/broom-making-at-rochambeau/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Brown University Men’s Soccer vs Yale- Senior Day
+SUMMARY:Brown Men's Soccer vs Yale - Senior Day
 DTSTART;TZID="UTC-05:00":20261107T130000
-DTEND;TZID="UTC-05:00":20261107T150000
-UID:brown-events-671ee97fe390@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/333421-brown-universi
- ty-mens-soccer-vs-yale
+UID:college-sports-5c66c693ccee@funotronic
+DESCRIPTION:T 1-1\nhttps://admin.brownbears.com/calendar.aspx?game_id=2085
+ 3&amp\;sport_id=15
 LOCATION:Stevenson-Pincince Field\, Providence
-URL:https://events.brown.edu/athletics/event/333421-brown-university-mens-
- soccer-vs-yale
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Brown University Men’s Water Polo vs Iona
-DTSTART;TZID="UTC-05:00":20261107T130000
-DTEND;TZID="UTC-05:00":20261107T143000
-UID:brown-events-d78c2f529115@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/334134-brown-universi
- ty-mens-water-polo-vs-iona
-LOCATION:Katherine Moran Coleman Aquatics Center\, Providence
-URL:https://events.brown.edu/athletics/event/334134-brown-university-mens-
- water-polo-vs-iona
+URL:https://admin.brownbears.com/calendar.aspx?game_id=20853&amp;sport_id=
+ 15
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bryant Football vs University at Albany
 DTSTART;TZID="UTC-05:00":20261107T130000
 UID:college-sports-d7229d330849@funotronic
-DESCRIPTION:https://bryantbulldogs.com/calendar.aspx?game_id=12259&amp\;sp
- ort_id=5
+DESCRIPTION:W 31-7\nhttps://bryantbulldogs.com/calendar.aspx?game_id=12259
+ &amp\;sport_id=5
 LOCATION:Beirne Stadium\, Smithfield
 URL:https://bryantbulldogs.com/calendar.aspx?game_id=12259&amp;sport_id=5
 END:VEVENT
@@ -140,21 +150,10 @@ SUMMARY:Providence College Women's Basketball vs Massachusetts - Fall Fest
   | Poster & Schedule Magnet Giveaway
 DTSTART;TZID="UTC-05:00":20261107T130000
 UID:college-sports-faab14aa59c8@funotronic
-DESCRIPTION:https://admin.friars.com/calendar.aspx?game_id=12726&amp\;spor
- t_id=11
+DESCRIPTION:L 50-60\nhttps://admin.friars.com/calendar.aspx?game_id=12726&
+ amp\;sport_id=11
 LOCATION:Alumni Hall\, Providence
 URL:https://admin.friars.com/calendar.aspx?game_id=12726&amp;sport_id=11
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:The Great Gatsby
-DTSTART;TZID="UTC-05:00":20261107T130000
-UID:carbonhouse-407c99efe12e@funotronic
-DESCRIPTION:THE PARTY’S ROARING IN PROVIDENCE! THE GREAT GATSBY is a “
- Broadway extravaganza that explodes with life and energy” (Entertainment
-  Weekly). Based on the classic American novel by F.\nhttps://ppac.evenue.n
- et/event/P26/GATS05
-LOCATION:The VETS\, Providence
-URL:https://www.ppacri.org/events/detail/the-great-gatsby
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tufting Workshop
@@ -972,12 +971,12 @@ BEGIN:VEVENT
 SUMMARY:Giles Corey
 DTSTART;TZID="UTC-05:00":20261108T190000
 DTEND;TZID="UTC-05:00":20261108T235900
-UID:sqs-fete-384bcb7765e1@funotronic
+UID:sqs-fete-1b6a18724507@funotronic
 DESCRIPTION:The Lounge Presents… Giles Corey w/ Kathryn Mohr & Val Acton
   Loper Tickets $20 ADV | $25 DOS Doors at 7pm | Show at 8pm All Ages\n$20 
  ADV | $25 DOS Doors at 7pm |\nhttps://www.ticketweb.com/event/giles-corey-
  fete-music-hall-tickets/15043243?pl=fete
-LOCATION:Fete Music Hall\, 103 Dike St
+LOCATION:Fete Music\, 103 DIKE STREET
 URL:https://www.fetemusic.com/all-shows/giles-corey-plm98
 END:VEVENT
 BEGIN:VEVENT
@@ -4578,9 +4577,9 @@ SUMMARY:Cafecito con CLACS
 DTSTART;TZID="UTC-05:00":20261113T160000
 DTEND;TZID="UTC-05:00":20261113T173000
 UID:brown-events-7c2c04880d9a@funotronic
-DESCRIPTION:https://events.brown.edu/clacs/event/343233-cafecito-con-clacs
+DESCRIPTION:https://events.brown.edu/live/events/343233-cafecito-con-clacs
 LOCATION:59 Charlesfield Street\, 1-2 floors\, Brown University
-URL:https://events.brown.edu/clacs/event/343233-cafecito-con-clacs
+URL:https://events.brown.edu/live/events/343233-cafecito-con-clacs
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Model Building Workshop
@@ -5723,10 +5722,10 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Brown University Wrestling vs West Virginia
+SUMMARY:Brown University Wrestling vs West Virginia- Headphone Giveaway
 DTSTART;TZID="UTC-05:00":20261115T140000
 DTEND;TZID="UTC-05:00":20261115T170000
-UID:brown-events-8aa7c5c0c286@funotronic
+UID:brown-events-0df585a9218c@funotronic
 DESCRIPTION:https://events.brown.edu/athletics/event/341385-brown-universi
  ty-wrestling-vs-west-virginia
 LOCATION:Pizzitola Sports Center\, Providence
@@ -5789,10 +5788,10 @@ URL:https://www.amicamutualpavilion.com/events/detail/providence-bruins-vs
  -springfield-thunderbirds-36
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Brown University Wrestling vs Hofstra
+SUMMARY:Brown University Wrestling vs Hofstra- Headphone Giveaway
 DTSTART;TZID="UTC-05:00":20261115T160000
 DTEND;TZID="UTC-05:00":20261115T190000
-UID:brown-events-79817fe6f5b2@funotronic
+UID:brown-events-92b782d42cfc@funotronic
 DESCRIPTION:https://events.brown.edu/athletics/event/341384-brown-universi
  ty-wrestling-vs-hofstra-university
 LOCATION:Pizzitola Sports Center\, Providence
