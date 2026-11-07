@@ -3554,6 +3554,15 @@ URL:https://events.brown.edu/race-ethnicity/event/341871-iyko-day-techno-o
  rientalism-in-the-long-downturn
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:URI Women's Volleyball vs Saint Louis
+DTSTART;TZID="UTC-05:00":20261112T170000
+UID:college-sports-aa5a2d673b3d@funotronic
+DESCRIPTION:https://gorhody.com/calendar.aspx?game_id=11959&amp\;sport_id=
+ 17
+LOCATION:Keaney Gymnasium\, Kingston
+URL:https://gorhody.com/calendar.aspx?game_id=11959&amp;sport_id=17
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Akshay Marathe — Unpacking Gen Z movements in South Asia
 DTSTART;TZID="UTC-05:00":20261112T173000
 DTEND;TZID="UTC-05:00":20261112T193000
@@ -4021,6 +4030,15 @@ LOCATION:Watson School of International and Public Affairs\, 111 Thayer St
  reet\, Room 155\, Brown University
 URL:https://events.brown.edu/live/events/342177-pre-law-advising-columbia-
  law-info-session
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:URI Women's Volleyball vs Saint Louis - Senior Day
+DTSTART;TZID="UTC-05:00":20261113T120000
+UID:college-sports-6cb762205bb2@funotronic
+DESCRIPTION:https://gorhody.com/calendar.aspx?game_id=11960&amp\;sport_id=
+ 17
+LOCATION:Keaney Gymnasium\, Kingston
+URL:https://gorhody.com/calendar.aspx?game_id=11960&amp;sport_id=17
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Daily Mass
@@ -6409,6 +6427,15 @@ LOCATION:Fox Point Library – Community Room\, 90 Ives Street Providence
 URL:https://clpvd.org/event/the-fox-point-library-true-crime-book-group-2/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:URI Women's Basketball vs Emmanuel College
+DTSTART;TZID="UTC-05:00":20261117T180000
+UID:college-sports-4a588003e600@funotronic
+DESCRIPTION:Streaming\nhttps://gorhody.com/calendar.aspx?game_id=12145&amp
+ \;sport_id=10
+LOCATION:Thomas M. Ryan Center\, Kingston
+URL:https://gorhody.com/calendar.aspx?game_id=12145&amp;sport_id=10
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Veteran Voices
 DTSTART;TZID="UTC-05:00":20261117T180000
 UID:pm-trinity-373ebdd3be4e@funotronic
@@ -8441,6 +8468,15 @@ DESCRIPTION:https://bryantbulldogs.com/calendar.aspx?game_id=12647&amp\;sp
  ort_id=7
 LOCATION:Chace Athletic Center\, Smithfield
 URL:https://bryantbulldogs.com/calendar.aspx?game_id=12647&amp;sport_id=7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:URI Women's Basketball vs New Haven
+DTSTART;TZID="UTC-05:00":20261120T180000
+UID:college-sports-19f7fec08044@funotronic
+DESCRIPTION:Streaming\nhttps://gorhody.com/calendar.aspx?game_id=12146&amp
+ \;sport_id=10
+LOCATION:Thomas M. Ryan Center\, Kingston
+URL:https://gorhody.com/calendar.aspx?game_id=12146&amp;sport_id=10
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Amica Rush Hour 2: Ride of the Valkyries!
@@ -14210,6 +14246,15 @@ URL:https://events.brown.edu/live/events/342963-exhibition-opening-liberty
  -for-whom-indigenous
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:URI Women's Basketball vs Providence
+DTSTART;TZID="UTC-05:00":20261207T180000
+UID:college-sports-05f5c7bd4a7b@funotronic
+DESCRIPTION:https://gorhody.com/calendar.aspx?game_id=12148&amp\;sport_id=
+ 10
+LOCATION:Thomas M. Ryan Center\, Kingston
+URL:https://gorhody.com/calendar.aspx?game_id=12148&amp;sport_id=10
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Chamber Music and AMP Strings Recital
 DTSTART;TZID="UTC-05:00":20261207T190000
 UID:brown-events-43ec4a951783@funotronic
@@ -15515,6 +15560,15 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:URI Women's Basketball vs Maine
+DTSTART;TZID="UTC-05:00":20261213T130000
+UID:college-sports-1a1e3973372a@funotronic
+DESCRIPTION:Streaming\nhttps://gorhody.com/calendar.aspx?game_id=12150&amp
+ \;sport_id=10
+LOCATION:Thomas M. Ryan Center\, Kingston
+URL:https://gorhody.com/calendar.aspx?game_id=12150&amp;sport_id=10
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Christmas Carol
 DTSTART;TZID="UTC-05:00":20261213T140000
 UID:stadium-6868b61cddc6@funotronic
@@ -16305,6 +16359,15 @@ URL:https://events.brown.edu/chaplains-religious-life/event/337023-daily-m
  ass
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:URI Women's Basketball vs Dartmouth
+DTSTART;TZID="UTC-05:00":20261218T180000
+UID:college-sports-8c7cd9bb2f2f@funotronic
+DESCRIPTION:Streaming\nhttps://gorhody.com/calendar.aspx?game_id=12151&amp
+ \;sport_id=10
+LOCATION:Thomas M. Ryan Center\, Kingston
+URL:https://gorhody.com/calendar.aspx?game_id=12151&amp;sport_id=10
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Tai Chi Beginner Level
 DTSTART;TZID="UTC-05:00":20261218T183000
 DTEND;TZID="UTC-05:00":20261218T193000
@@ -16693,6 +16756,15 @@ DESCRIPTION:Presented by BALLET RI at The VETS\nhttps://thevets.evenue.net
  /events/NT26
 LOCATION:Providence Performing Arts Center\, 220 Weybosset St
 URL:https://www.ppacri.org/events/detail/the-nutcracker-4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:URI Women's Basketball vs CCSU
+DTSTART;TZID="UTC-05:00":20261220T130000
+UID:college-sports-26db8823381c@funotronic
+DESCRIPTION:Streaming\nhttps://gorhody.com/calendar.aspx?game_id=12152&amp
+ \;sport_id=10
+LOCATION:Thomas M. Ryan Center\, Kingston
+URL:https://gorhody.com/calendar.aspx?game_id=12152&amp;sport_id=10
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Violin River Holiday Show
@@ -17417,6 +17489,15 @@ DESCRIPTION:https://friars.evenue.net/events/MBSE
 LOCATION:Amica Mutual Pavilion\, 1 La Salle Square
 URL:https://www.amicamutualpavilion.com/events/detail/providence-college-v
  s-st-johns-1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:URI Women's Basketball vs Fordham
+DTSTART;TZID="UTC-05:00":20261230T180000
+UID:college-sports-40e134cbc9fb@funotronic
+DESCRIPTION:https://gorhody.com/calendar.aspx?game_id=12211&amp\;sport_id=
+ 10
+LOCATION:Thomas M. Ryan Center\, Kingston
+URL:https://gorhody.com/calendar.aspx?game_id=12211&amp;sport_id=10
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -18388,6 +18469,15 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:URI Women's Basketball vs George Washington
+DTSTART;TZID="UTC-05:00":20270117T140000
+UID:college-sports-c4551b7425a5@funotronic
+DESCRIPTION:Streaming\nhttps://gorhody.com/calendar.aspx?game_id=12217&amp
+ \;sport_id=10
+LOCATION:Thomas M. Ryan Center\, Kingston
+URL:https://gorhody.com/calendar.aspx?game_id=12217&amp;sport_id=10
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Providence Bruins vs Hartford Wolf Pack
 DTSTART;TZID="UTC-05:00":20270117T150500
 UID:ch-amica-a54753b6be27@funotronic
@@ -19059,6 +19149,15 @@ URL:https://events.brown.edu/chaplains-religious-life/event/340382-gratitu
  de-group
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:URI Women's Basketball vs VCU
+DTSTART;TZID="UTC-05:00":20270127T180000
+UID:college-sports-5b7b14bbf717@funotronic
+DESCRIPTION:https://gorhody.com/calendar.aspx?game_id=12219&amp\;sport_id=
+ 10
+LOCATION:Thomas M. Ryan Center\, Kingston
+URL:https://gorhody.com/calendar.aspx?game_id=12219&amp;sport_id=10
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Grad Artists' Talks: Sex\, Sexuality\, Gender
 DTSTART;TZID="UTC-05:00":20270127T183000
 DTEND;TZID="UTC-05:00":20270127T203000
@@ -19477,6 +19576,15 @@ DESCRIPTION:William Flournoy Montgomery is an American comedian currently
  nection.com/events/william-montgomery-2026
 LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/william-montgomery-2026
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:URI Women's Basketball vs George Mason
+DTSTART;TZID="UTC-05:00":20270131T120000
+UID:college-sports-b00332a9fa0f@funotronic
+DESCRIPTION:Streaming\nhttps://gorhody.com/calendar.aspx?game_id=12220&amp
+ \;sport_id=10
+LOCATION:Thomas M. Ryan Center\, Kingston
+URL:https://gorhody.com/calendar.aspx?game_id=12220&amp;sport_id=10
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The English Understand Wool
@@ -20177,6 +20285,15 @@ DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340384
 LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
 URL:https://events.brown.edu/chaplains-religious-life/event/340384-gratitu
  de-group
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:URI Women's Basketball vs Richmond
+DTSTART;TZID="UTC-05:00":20270210T180000
+UID:college-sports-4ce35c0b5ad4@funotronic
+DESCRIPTION:https://gorhody.com/calendar.aspx?game_id=12223&amp\;sport_id=
+ 10
+LOCATION:Thomas M. Ryan Center\, Kingston
+URL:https://gorhody.com/calendar.aspx?game_id=12223&amp;sport_id=10
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Providence College Men's Basketball vs Marquette
@@ -20940,6 +21057,15 @@ URL:https://events.brown.edu/athletics/event/335977-brown-university-women
  s-basketball-vs-princeton
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:URI Women's Basketball vs Loyola
+DTSTART;TZID="UTC-05:00":20270220T130000
+UID:college-sports-7685b8044d67@funotronic
+DESCRIPTION:https://gorhody.com/calendar.aspx?game_id=12225&amp\;sport_id=
+ 10
+LOCATION:Thomas M. Ryan Center\, Kingston
+URL:https://gorhody.com/calendar.aspx?game_id=12225&amp;sport_id=10
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Bryant Women's Basketball vs Binghamton University
 DTSTART;TZID="UTC-05:00":20270220T140000
 UID:college-sports-a3780e9c3d5d@funotronic
@@ -21310,10 +21436,9 @@ BEGIN:VEVENT
 SUMMARY:Providence College Women's Basketball vs UCONN Women's Basketball
 DTSTART;TZID="UTC-05:00":20270225T190000
 UID:ch-amica-cc2a26b1dfa1@funotronic
-DESCRIPTION:Providence College Women's Basketball vs Connecticut Tickets
- …\nhttps://friars.evenue.net/list/WB?_ga=2.218360793.116558402.179149251
- 1-577080274.1791492510&_gac=1.242017974.1791492511.EAIaIQobChMI9Yf106WrlwM
- VtovCCB2bfgEpEAAYASAAEgKbuPD_BwE
+DESCRIPTION:https://friars.evenue.net/list/WB?_ga=2.218360793.116558402.17
+ 91492511-577080274.1791492510&_gac=1.242017974.1791492511.EAIaIQobChMI9Yf1
+ 06WrlwMVtovCCB2bfgEpEAAYASAAEgKbuPD_BwE
 LOCATION:Amica Mutual Pavilion\, 1 La Salle Square
 URL:https://www.amicamutualpavilion.com/events/detail/providence-college-w
  omens-basketball-vs-uconn-womens-basketball-1
@@ -21476,6 +21601,15 @@ DESCRIPTION:https://events.brown.edu/athletics/event/336830-brown-universi
 LOCATION:Katherine Moran Coleman Aquatics Center\, Providence
 URL:https://events.brown.edu/athletics/event/336830-brown-university-mens-
  swimming-diving-vs-ivy
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:URI Women's Basketball vs La Salle
+DTSTART;TZID="UTC-05:00":20270227T110000
+UID:college-sports-15ecc96fd5db@funotronic
+DESCRIPTION:Streaming\nhttps://gorhody.com/calendar.aspx?game_id=12227&amp
+ \;sport_id=10
+LOCATION:Thomas M. Ryan Center\, Kingston
+URL:https://gorhody.com/calendar.aspx?game_id=12227&amp;sport_id=10
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bryant Women's Basketball vs New Jersey Institute of Technology
