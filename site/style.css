@@ -296,3 +296,33 @@ main { padding: 0 16px 24px; max-width: 1400px; margin: 0 auto; }
 .tickets ul { margin: 0; padding-left: 16px; display: grid; gap: 4px; }
 .tickets .chg { color: var(--accent3); }
 .tickets .fine { color: var(--ink2); font-size: 12px; }
+
+/* ---------- phone polish (v5) ---------- */
+@media (max-width: 719px) {
+  .masthead { padding: 10px 12px 6px; }
+  .brand h1 { font-size: 20px; }
+  .icon-btn { width: 34px; height: 34px; font-size: 15px; border-radius: 10px; }
+  .panel { padding: 8px 12px 4px; gap: 7px; }
+  .chips button { padding: 6px 11px; font-size: 13px; }
+  .custom-range { flex-wrap: wrap; gap: 6px 12px; }
+  .custom-range input { max-width: 140px; }
+  .toggles { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 10px; align-items: center; }
+  .toggles .tog { font-size: 13px; }
+  .toggles .tog.price { grid-column: 1; }
+  .toggles select { width: 100%; max-width: none; }
+  .toggles #areaSel { grid-column: 1 / -1; }
+  .toggles #venueSel { grid-column: 1 / -1; }
+  .toggles .linkish { justify-self: start; }
+  .viewbar { flex-wrap: wrap; padding: 6px 12px; gap: 6px 10px; }
+  .viewbar .seg { order: 1; }
+  .viewbar #sortSel { order: 2; margin-left: auto; }
+  .viewbar .count { order: 3; flex-basis: 100%; }
+  main { padding: 0 12px 24px; }
+  .card { grid-template-columns: 52px 1fr 30px; gap: 8px; padding: 10px 8px 10px 10px; }
+  .card .when { font-size: 14px; }
+  .card .title { font-size: 15px; }
+  .cal-grid { gap: 3px; }
+  .cal-cell { padding: 3px; font-size: 11px; aspect-ratio: 1 / 1.1; }
+  .cal-cell .dots i { width: 5px; height: 5px; }
+  .foot { padding: 16px 12px 32px; }
+}
