@@ -508,9 +508,9 @@ URL:https://as220.org/calendar/so-many-dangers-pwrup-eight-foot-manchild-p
  eople-eating-plastic
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:*SOLD OUT* Dalvin La Melodia: USA Tour
+SUMMARY:Dalvin La Melodia: USA Tour
 DTSTART;TZID="UTC-05:00":20261107T210000
-UID:rhp-strand-d1b76ed35432@funotronic
+UID:rhp-strand-fd4d67ffc28e@funotronic
 DESCRIPTION:Saturday\, November 7\, 2026 Doors 9 pm | 18+ Event Stage Fron
  t VIP & Express Entry Tickets - GA Floor section closest to the stage\; st
  anding room only: first-come\, first-served. This ticket comes with Expres
@@ -835,19 +835,6 @@ LOCATION:The VETS\, Providence
 URL:https://www.ppacri.org/events/detail/the-great-gatsby
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:** SOLD OUT** Dalvin La Melodia: USA Tour
-DTSTART;TZID="UTC-05:00":20261108T190000
-UID:rhp-strand-1143c64bcd5f@funotronic
-DESCRIPTION:Sunday\, November 8\, 2026 Doors 7 pm | 18+ Event Stage Front 
- VIP & Express Entry Tickets - GA Floor section closest to the stage\; stan
- ding room only: first-come\, first-served. This ticket comes with Express 
- Entry.\nhttps://thestrandri.com/event/sold-out-dalvin-la-melodia-usa-tour-
- 2/the-strand/
-LOCATION:The Strand Ballroom & Theatre\, 79 Washington St
-URL:https://thestrandri.com/event/sold-out-dalvin-la-melodia-usa-tour-2/th
- e-strand/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:A View From The Bridge
 DTSTART;TZID="UTC-05:00":20261108T190000
 UID:pm-gamm-65fe374839fb@funotronic
@@ -858,6 +845,19 @@ DESCRIPTION:"Just remember\, kid\, you can quicker get back a million doll
  nstances/a0Fcw00000oLRWfEAO
 LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dalvin La Melodia: USA Tour
+DTSTART;TZID="UTC-05:00":20261108T190000
+UID:rhp-strand-2519c763afbc@funotronic
+DESCRIPTION:Sunday\, November 8\, 2026 Doors 7 pm | 18+ Event Stage Front 
+ VIP & Express Entry Tickets - GA Floor section closest to the stage\; stan
+ ding room only: first-come\, first-served. This ticket comes with Express 
+ Entry.\nhttps://thestrandri.com/event/sold-out-dalvin-la-melodia-usa-tour-
+ 2/the-strand/
+LOCATION:The Strand Ballroom & Theatre\, 79 Washington St
+URL:https://thestrandri.com/event/sold-out-dalvin-la-melodia-usa-tour-2/th
+ e-strand/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ella Aslin\, grizzlies\, & Dogs Downstate
