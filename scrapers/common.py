@@ -149,6 +149,8 @@ def looks_kids(*texts: str) -> bool:
 
 
 _CAT_RULES: list[tuple[str, re.Pattern]] = [
+    ("music", re.compile(r"\b(tribute|tribute band|cover band|the music of|zeppelin|beatles|pink floyd|grateful dead|"
+                         r"rock|metal|punk|hip[- ]hop|dj)\b", re.I)),
     ("classical", re.compile(r"\b(symphony|philharmonic|orchestra|chamber|quartet|recital|sonata|"
                              r"concerto|opera|choral|chorus|oratorio|baroque|string ensemble|"
                              r"piano trio|cantata)\b", re.I)),

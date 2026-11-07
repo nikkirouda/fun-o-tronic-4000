@@ -34,7 +34,7 @@ def fetch() -> list[dict]:
                 venue = clean(vm.group(1))
             e = make_event(
                 source="riphil", title=re.sub(r"^\d{2}/\d{2}\s+", "", name), start=start, url=SOURCE["url"],
-                venue=venue, address=SOURCE["address"] if venue == SOURCE["venue"] else "", city=SOURCE["city"],
+                venue=venue, address=SOURCE["address"] if venue == SOURCE["venue"] else "", city=SOURCE["city"] if venue == SOURCE["venue"] else "",
                 lat=SOURCE["lat"] if venue == SOURCE["venue"] else None, lon=SOURCE["lon"] if venue == SOURCE["venue"] else None,
                 category="classical", description=desc, summary=summarize(desc), image=ev.get("imageUrl") or "",
                 ticket_url=ev.get("webUrl") or f"https://boxoffice.riphil.org/riphil/website/EventDetails.aspx?EventId={ev.get('id')}",
