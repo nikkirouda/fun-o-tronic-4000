@@ -94,7 +94,8 @@
   async function load() {
     const bust = `?v=${Math.floor(Date.now() / 6e5)}`;
     const j = (f, d) => fetch(`data/${f}${bust}`).then(r => r.json()).catch(() => d);
-    const [ev, meta, venues, changes, notes] = await Promise.all([j("events.json", { events: [], count: 0, generated: new Date().toISOString() }), j("meta.json", null), j("venues.json", []), j("changes.json", { items: [] }), j("venue_notes.json", {})]);
+    const [ev, meta, venues, changes, notes, watch] = await Promise.all([j("events.json", { events: [], count: 0, generated: new Date().toISOString() }), j("meta.json", null), j("venues.json", []), j("changes.json", { items: [] }), j("venue_notes.json", {}), j("watch.json", { items: [] })]);
+    S.watch = watch.items || [];
     S.events = ev.events.map(e => ({ ...e, _day: dayKey(new Date(e.start)), _t: new Date(e.start).getTime(),
       _hay: `${e.title} ${e.venue} ${e.city} ${e.performer} ${e.tags.join(" ")} ${e.summary} ${CATS[e.category] || ""}`.toLowerCase() }));
     S.meta = meta; S.venues = venues; S.changes = changes; S.notes = notes;
@@ -311,6 +312,7 @@
       bar.innerHTML = `<button class="btn" id="sendList">↗ Send this shortlist to Ms Belleville</button><span class="fine">She gets a link, thumbs-up what she likes, sends it back; her 👍 then show here.</span>`;
       root.appendChild(bar); $("#sendList").onclick = sendShortlist;
     }
+    if (S.mode === "new") root.appendChild(ticketsBlock());
     if (S.mode === "shortlist") {
       const bar = document.createElement("div"); bar.className = "listbar";
       bar.innerHTML = `<b>${esc(S.shortlistFrom || "A")} shortlist</b> — tap 👍 on what appeals, then <button class="btn" id="sendVotes">↗ Send back</button> <button class="linkish" id="leaveList">leave</button>`;
@@ -335,6 +337,23 @@
       const b = document.createElement("button"); b.className = "more"; b.textContent = `Show ${Math.min(60, items.length - S.shown)} more of ${items.length}`;
       b.onclick = () => { S.shown += 60; renderList(list); }; root.appendChild(b);
     }
+  }
+
+  function ticketsBlock() {
+    const now = Date.now();
+    const soon = S.events.filter(e => e.on_sale && new Date(e.on_sale) > now && !S.hidden.has(e.id)).sort((a, b) => a.on_sale.localeCompare(b.on_sale)).slice(0, 12);
+    const pre = S.events.filter(e => e.tags.includes("presale") && e._t > now && !S.hidden.has(e.id)).slice(0, 8);
+    const changed = (S.changes.items || []).filter(c => c.kind === "watch").slice(-6).reverse();
+    const hot = (S.watch || []).filter(w => w.hot);
+    const box = document.createElement("div"); box.className = "tickets";
+    if (!soon.length && !pre.length && !changed.length && !hot.length) return box;
+    box.innerHTML = `<h3>🎟 Tickets — on sale, presales, the watch list</h3><ul>` +
+      changed.map(c => `<li><b class="chg">Changed:</b> <a href="${esc(c.url || "#")}" target="_blank" rel="noopener">${esc(c.title)}</a> is now <b>${esc(c.status)}</b> (was ${esc(c.prev || "?")})</li>`).join("") +
+      soon.map(e => `<li>🕗 <b>${fmt(new Date(e.on_sale), { weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })}</b> — <a href="#" data-id="${e.id}">${esc(e.title)}</a> <span class="fine">${esc(e.venue)} · ${fmt(new Date(e.start), { month: "short", day: "numeric" })}</span></li>`).join("") +
+      pre.map(e => `<li>🔑 presale mentioned — <a href="#" data-id="${e.id}">${esc(e.title)}</a> <span class="fine">${esc(e.venue)} · ${fmt(new Date(e.start), { month: "short", day: "numeric" })}</span></li>`).join("") +
+      hot.map(w => `<li>👀 <a href="${esc(w.url)}" target="_blank" rel="noopener">${esc(w.title)}</a>: <b>${esc(w.status)}</b>${w.evidence ? ` <span class="fine">— ${esc(w.evidence.slice(0, 100))}</span>` : ""}${w.checked ? ` <span class="fine">(checked ${fmt(new Date(w.checked), { month: "short", day: "numeric" })})</span>` : ""}</li>`).join("") + `</ul>`;
+    $$("a[data-id]", box).forEach(a => a.onclick = ev => { ev.preventDefault(); openSheet(S.events.find(e => e.id === a.dataset.id)); });
+    return box;
   }
 
   // ---------------------------------------------------------- calendar ---

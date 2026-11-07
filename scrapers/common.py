@@ -134,6 +134,12 @@ def parse_price(text: Any) -> tuple[float | None, float | None, bool | None]:
     return min(nums), max(nums), min(nums) == 0
 
 
+ONSALE_RX = re.compile(r"(?:tickets?\s+)?(?:go(?:es)?\s+)?on\s+sale\s+(?:to the (?:general )?public\s+)?(?:on\s+|starting\s+)?"
+                       r"(?:(?:mon|tues?|wed(?:nes)?|thu(?:rs)?|fri|sat(?:ur)?|sun)(?:day)?,?\s+)?"
+                       r"((?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+\d{1,2}(?:,?\s+\d{4})?)"
+                       r"(?:\s*(?:at|@)\s*(\d{1,2}(?::\d{2})?\s*[ap]\.?m\.?))?", re.I)
+PRESALE_RX = re.compile(r"\b(pre-?sale|early access|members?[- ]only|fan club presale|artist presale)\b", re.I)
+
 KIDS_RE = re.compile(
     r"\b(kids?|children(?:'s)?|family|families|toddler|preschool|story ?time|"
     r"ages? \d{1,2}[-–]\d{1,2}|all ages welcome|youth|teens?|puppet|junior|"
@@ -229,6 +235,16 @@ def make_event(*, source: str, title: str, start: Any, url: str,
     if is_free is None and price_min is not None:
         is_free = price_min == 0 and (price_max or 0) == 0
     cat = category if category in CATEGORIES else guess_category(title, " ".join(tags), summary, description)
+    tags = list(tags)
+    blob = f"{title} {summary} {description}"
+    if on_sale is None:
+        m = ONSALE_RX.search(blob)
+        if m:
+            dt = to_dt(f"{m.group(1)} {m.group(2) or ''}".strip())
+            if dt and dt > datetime.now(TZ):
+                on_sale = dt
+    if PRESALE_RX.search(blob):
+        tags.append("presale")
     if kids is None:
         kids = looks_kids(title, summary) or cat == "family"
     return {
