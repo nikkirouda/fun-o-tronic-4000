@@ -438,7 +438,7 @@ DESCRIPTION:THIS EVENT TAKES PLACE AT THE VETS LOCATED AT 1 AVENUE OF THE
  ARTS\, PROVIDENCE RI.Award-winning performer Carisa Hendrix stars as charm
  ing socialite and cocktail enthusiast Lucy Darling as she continues her vi
  vacious vagabond voyages with…\nhttps://thevets.evenue.net/events/LUCY
-LOCATION:The VETS\, Providence
+LOCATION:The VETS\, 1 Avenue of the Arts
 URL:https://www.ppacri.org/events/detail/lucy-darling-youre-welcome
 END:VEVENT
 BEGIN:VEVENT
@@ -4390,7 +4390,7 @@ DESCRIPTION:THIS EVENT TAKES PLACE AT THE VETS LOCATED AT 1 AVENUE OF THE
  ARTS\, PROVIDENCE RI.Bert Kreischer's career has evolved from Rolling Ston
  e's infamous "Number One Partier in the Nation" to one of the top-grossing
   stand-up comedians in the…\nhttps://thevets.evenue.net/events/BK26
-LOCATION:The VETS\, Providence
+LOCATION:The VETS\, 1 Avenue of the Arts
 URL:https://www.ppacri.org/events/detail/bert-kreischer-permission-to-part
  y
 END:VEVENT
@@ -16229,6 +16229,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Nutcracker
 DTSTART;TZID="UTC-05:00":20261217T190000
+DTEND;TZID="UTC-05:00":20261227T130000
 UID:carbonhouse-4238b0faeee3@funotronic
 DESCRIPTION:Presented by BALLET RI at The VETS\nhttps://thevets.evenue.net
  /events/NT26
@@ -17912,6 +17913,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bluey's Big Play
 DTSTART;TZID="UTC-05:00":20270109T110000
+DTEND;TZID="UTC-05:00":20270110T150000
 UID:carbonhouse-305266a41ea9@funotronic
 DESCRIPTION:At The VETS\nhttps://thevets.evenue.net/events/BB27
 LOCATION:Providence Performing Arts Center\, 220 Weybosset St
