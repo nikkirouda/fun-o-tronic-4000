@@ -5435,10 +5435,10 @@ URL:https://events.brown.edu/africana/event/342647-flight-of-the-pink-flam
  ingos-staged-reading
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Jewel House (Copy)
+SUMMARY:Jewel House
 DTSTART;TZID="UTC-05:00":20261114T190000
 DTEND;TZID="UTC-05:00":20261115T020000
-UID:sqs-fete-24f738764931@funotronic
+UID:sqs-fete-022d4ffc46d1@funotronic
 DESCRIPTION:Getties Presents… Jewel House w/ DJ Nicky Tickets $15 Doors 
  at 7:30pm | Show at 8:30pm 21+\n$15 Doors 7:30pm | Show 8:30pm 21\nhttps:/
  /www.ticketweb.com/event/jewel-house-fete-music-hall-tickets/14341744?them
@@ -21460,14 +21460,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Providence Bruins vs Chicago Wolves
 DTSTART;TZID="UTC-05:00":20270122T190500
-UID:ch-amica-689160d97830@funotronic
-DESCRIPTION:Buy Tickets > Buy Save $10 > Event Details: The P-Bruins take 
- on the Chicago Wolves on this special night honoring our brave Military Se
- rvice members!\nhttps://www.amicamutualpavilion.com/events/detail/providen
- ce-bruins-vs-hershey-bears-109
+UID:pbruins-0e3716b733db@funotronic
+DESCRIPTION:AHL hockey: the P-Bruins host the Chicago Wolves at the Amica 
+ Mutual Pavilion.\nhttps://am.ticketmaster.com/providence/
 LOCATION:Amica Mutual Pavilion\, 1 La Salle Square
-URL:https://www.amicamutualpavilion.com/events/detail/providence-bruins-vs
- -hershey-bears-109
+URL:https://www.providencebruins.com/schedule
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Neal and the Vipers
@@ -21732,14 +21729,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Providence Bruins vs Lehigh Valley Phantoms
 DTSTART;TZID="UTC-05:00":20270124T170500
-UID:ch-amica-316693310268@funotronic
-DESCRIPTION:Buy Tickets > Buy Me+3 4-Pack > Event Details: The P-Bruins ta
- ke on the Lehigh Valley Phantoms on this special night honoring our brave 
- Military Service members!\nhttps://www.amicamutualpavilion.com/events/deta
- il/providence-bruins-vs-lehigh-0124
+UID:pbruins-afb0b60fccbe@funotronic
+DESCRIPTION:AHL hockey: the P-Bruins host the Lehigh Valley Phantoms at th
+ e Amica Mutual Pavilion.\nhttps://am.ticketmaster.com/providence/
 LOCATION:Amica Mutual Pavilion\, 1 La Salle Square
-URL:https://www.amicamutualpavilion.com/events/detail/providence-bruins-vs
- -lehigh-0124
+URL:https://www.providencebruins.com/schedule
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Christian Worship Service
@@ -22459,14 +22453,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Providence Bruins vs Springfield Thunderbirds
 DTSTART;TZID="UTC-05:00":20270131T150500
-UID:ch-amica-a1542a0f847a@funotronic
-DESCRIPTION:Buy Tickets > Buy Me+3 4-Pack > Event Details: You can win big
-  on Big Winner Day powered by the Rhode Island Lottery\, as the P-Bruins t
- ake on Springfield at The AMP!\nhttps://www.amicamutualpavilion.com/events
- /detail/providence-bruins-vs-springfield-0131
+UID:pbruins-f2c326bc3f3e@funotronic
+DESCRIPTION:AHL hockey: the P-Bruins host the Springfield Thunderbirds at 
+ the Amica Mutual Pavilion.\nhttps://am.ticketmaster.com/providence/
 LOCATION:Amica Mutual Pavilion\, 1 La Salle Square
-URL:https://www.amicamutualpavilion.com/events/detail/providence-bruins-vs
- -springfield-0131
+URL:https://www.providencebruins.com/schedule
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Christian Worship Service
@@ -24228,14 +24219,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Providence Bruins vs Laval Rocket
 DTSTART;TZID="UTC-05:00":20270220T190500
-UID:ch-amica-66395d44d805@funotronic
-DESCRIPTION:Buy Tickets > Buy Me+3 4-Pack > Event Details: We're going sup
- ersonic on Sonic the Hedgehog Weekend\, as the P-Bruins take on the Laval 
- Rocket!\nhttps://www.amicamutualpavilion.com/events/detail/providence-brui
- ns-vs-laval-0220
+UID:pbruins-5197ae42cd7c@funotronic
+DESCRIPTION:AHL hockey: the P-Bruins host the Laval Rocket at the Amica Mu
+ tual Pavilion.\nhttps://am.ticketmaster.com/providence/
 LOCATION:Amica Mutual Pavilion\, 1 La Salle Square
-URL:https://www.amicamutualpavilion.com/events/detail/providence-bruins-vs
- -laval-0220
+URL:https://www.providencebruins.com/schedule
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Così fan tutte
@@ -24311,14 +24299,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Providence Bruins vs Laval Rocket
 DTSTART;TZID="UTC-05:00":20270221T150500
-UID:ch-amica-8d4f3ef2819b@funotronic
-DESCRIPTION:Buy Tickets > Buy Me+3 4-Pack > Event Details: We're going sup
- ersonic on Sonic the Hedgehog Weekend\, as the P-Bruins take on the Laval 
- Rocket!\nhttps://www.amicamutualpavilion.com/events/detail/providence-brui
- ns-vs-laval-rocket-0221
+UID:pbruins-243522b3a9ac@funotronic
+DESCRIPTION:AHL hockey: the P-Bruins host the Laval Rocket at the Amica Mu
+ tual Pavilion.\nhttps://am.ticketmaster.com/providence/
 LOCATION:Amica Mutual Pavilion\, 1 La Salle Square
-URL:https://www.amicamutualpavilion.com/events/detail/providence-bruins-vs
- -laval-rocket-0221
+URL:https://www.providencebruins.com/schedule
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Christian Worship Service
@@ -24499,14 +24484,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Providence Bruins vs Springfield Thunderbirds
 DTSTART;TZID="UTC-05:00":20270224T180500
-UID:ch-amica-ca14b379d0b0@funotronic
-DESCRIPTION:Buy Tickets > Buy 2-for-1 > Event Details: Rock out on Country
-  Night presented by Cat Country 98.1 as the P-Bruins take on the Springfie
- ld Thunderbirds at The AMP!\nhttps://www.amicamutualpavilion.com/events/de
- tail/providence-bruins-vs-springfield-0224
+UID:pbruins-52e7870c1401@funotronic
+DESCRIPTION:AHL hockey: the P-Bruins host the Springfield Thunderbirds at 
+ the Amica Mutual Pavilion.\nhttps://am.ticketmaster.com/providence/
 LOCATION:Amica Mutual Pavilion\, 1 La Salle Square
-URL:https://www.amicamutualpavilion.com/events/detail/providence-bruins-vs
- -springfield-0224
+URL:https://www.providencebruins.com/schedule
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hans Zimmer Live
@@ -24958,14 +24940,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Providence Bruins vs Lehigh Valley Phantoms
 DTSTART;TZID="UTC-05:00":20270228T150500
-UID:ch-amica-4655d5aec99c@funotronic
-DESCRIPTION:Buy Tickets > Buy Me+3 4-Pack > Event Details: The P-Bruins ce
- lebrate 100 years of hockey in Providence with the 4th of 6 nights in this
-  season-long celebration!\nhttps://www.amicamutualpavilion.com/events/deta
- il/providence-bruins-vs-lehigh-valley-0228
+UID:pbruins-966e3034b893@funotronic
+DESCRIPTION:AHL hockey: the P-Bruins host the Lehigh Valley Phantoms at th
+ e Amica Mutual Pavilion.\nhttps://am.ticketmaster.com/providence/
 LOCATION:Amica Mutual Pavilion\, 1 La Salle Square
-URL:https://www.amicamutualpavilion.com/events/detail/providence-bruins-vs
- -lehigh-valley-0228
+URL:https://www.providencebruins.com/schedule
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Christian Worship Service
