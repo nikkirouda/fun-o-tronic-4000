@@ -1,117 +1,117 @@
 {
- "generated": "2026-11-07T10:24-05:00",
+ "generated": "2026-11-07T10:28-05:00",
  "count": 2223,
  "sources": {
   "alchemy": {
    "ok": true,
    "count": 34,
-   "last_ok": "2026-11-07T10:24-05:00"
+   "last_ok": "2026-11-07T10:28-05:00"
   },
   "avon": {
    "ok": true,
    "count": 13,
-   "last_ok": "2026-11-07T10:24-05:00"
+   "last_ok": "2026-11-07T10:28-05:00"
   },
   "brown_events": {
    "ok": true,
    "count": 832,
-   "last_ok": "2026-11-07T10:24-05:00"
+   "last_ok": "2026-11-07T10:28-05:00"
   },
   "carbonhouse": {
    "ok": true,
    "count": 49,
-   "last_ok": "2026-11-07T10:24-05:00"
+   "last_ok": "2026-11-07T10:28-05:00"
   },
   "carbonhouse_rss": {
    "ok": true,
    "count": 79,
-   "last_ok": "2026-11-07T10:24-05:00"
+   "last_ok": "2026-11-07T10:28-05:00"
   },
   "college_sports": {
    "ok": true,
    "count": 252,
-   "last_ok": "2026-11-07T10:24-05:00"
+   "last_ok": "2026-11-07T10:28-05:00"
   },
   "comedy_connection": {
    "ok": true,
    "count": 119,
-   "last_ok": "2026-11-07T10:24-05:00"
+   "last_ok": "2026-11-07T10:28-05:00"
   },
   "ics_feeds": {
    "ok": true,
    "count": 3,
-   "last_ok": "2026-11-07T10:24-05:00"
+   "last_ok": "2026-11-07T10:28-05:00"
   },
   "newport_classical": {
    "ok": true,
    "count": 58,
-   "last_ok": "2026-11-07T10:24-05:00"
+   "last_ok": "2026-11-07T10:28-05:00"
   },
   "odeum": {
    "ok": true,
    "count": 34,
-   "last_ok": "2026-11-07T10:24-05:00"
+   "last_ok": "2026-11-07T10:28-05:00"
   },
   "patronmanager": {
    "ok": true,
    "count": 338,
-   "last_ok": "2026-11-07T10:24-05:00"
+   "last_ok": "2026-11-07T10:28-05:00"
   },
   "pbruins": {
    "ok": true,
    "count": 30,
-   "last_ok": "2026-11-07T10:24-05:00"
+   "last_ok": "2026-11-07T10:28-05:00"
   },
   "pig": {
    "ok": true,
    "count": 7,
-   "last_ok": "2026-11-07T10:24-05:00"
+   "last_ok": "2026-11-07T10:28-05:00"
   },
   "rhp_venues": {
    "ok": true,
    "count": 51,
-   "last_ok": "2026-11-07T10:24-05:00"
+   "last_ok": "2026-11-07T10:28-05:00"
   },
   "riphil": {
    "ok": true,
    "count": 18,
-   "last_ok": "2026-11-07T10:24-05:00"
+   "last_ok": "2026-11-07T10:28-05:00"
   },
   "risd_engage": {
    "ok": true,
    "count": 45,
-   "last_ok": "2026-11-07T10:24-05:00"
+   "last_ok": "2026-11-07T10:28-05:00"
   },
   "squarespace": {
    "ok": true,
    "count": 47,
-   "last_ok": "2026-11-07T10:24-05:00"
+   "last_ok": "2026-11-07T10:28-05:00"
   },
   "stadium": {
    "ok": true,
    "count": 36,
-   "last_ok": "2026-11-07T10:24-05:00"
+   "last_ok": "2026-11-07T10:28-05:00"
   },
   "tribe_sites": {
    "ok": true,
    "count": 458,
-   "last_ok": "2026-11-07T10:24-05:00"
+   "last_ok": "2026-11-07T10:28-05:00"
   }
  },
  "categories": {
-  "talk": 496,
-  "theater": 402,
+  "talk": 494,
+  "theater": 395,
   "community": 311,
-  "sports": 305,
-  "music": 249,
+  "sports": 303,
+  "music": 267,
   "comedy": 144,
-  "film": 111,
+  "film": 108,
   "art": 106,
-  "classical": 60,
+  "classical": 59,
   "other": 17,
-  "festival": 11,
+  "festival": 9,
   "dance": 7,
-  "market": 3,
+  "market": 2,
   "food": 1
  },
  "cities": {
