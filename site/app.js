@@ -152,7 +152,8 @@
   }
   const wxIcon = s => /thunder/i.test(s) ? "⛈" : /snow|flurr/i.test(s) ? "🌨" : /rain|shower|drizzle/i.test(s) ? "🌧" : /cloud|overcast|fog/i.test(s) ? "☁️" : /sunny|clear/i.test(s) ? "☀️" : "🌤";
   function wxBadge(e) {
-    if (!WX || !(OUTDOOR_RX.test(`${e.venue} ${e.title} ${e.tags.join(" ")}`) || e.category === "festival" || e.category === "market")) return "";
+    const indoors = /center|centre|hall|library|auditorium|theat|arena|pavilion|museum|church|chapel|club|room|gallery|cinema|school/i.test(e.venue);
+    if (!WX || indoors || !(OUTDOOR_RX.test(`${e.venue} ${e.title} ${e.tags.join(" ")}`) || e.category === "market")) return "";
     const d = WX.days[e._day]; if (!d) return "";
     const hour = hourOf(e); const temp = (hour >= 18 || hour < 6) && d.lo != null ? d.lo : d.hi;
     return `<span class="flag wx" title="${esc(d.short)}">${d.icon} ${temp != null ? temp + "°" : ""}${d.pop >= 30 ? " " + d.pop + "%" : ""}</span>`;
