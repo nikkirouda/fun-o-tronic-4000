@@ -1,7 +1,37 @@
 {
- "generated": "2026-11-07T11:55-05:00",
- "count": 2223,
+ "generated": "2026-11-07T12:20-05:00",
+ "count": 2558,
  "sources": {
+  "narrows": {
+   "ok": true,
+   "count": 42,
+   "last_ok": "2026-11-07T12:20-05:00"
+  },
+  "tribe_sites": {
+   "ok": true,
+   "count": 496,
+   "last_ok": "2026-11-07T12:20-05:00"
+  },
+  "machines": {
+   "ok": true,
+   "count": 3,
+   "last_ok": "2026-11-07T12:16-05:00"
+  },
+  "squarespace": {
+   "ok": true,
+   "count": 118,
+   "last_ok": "2026-11-07T12:16-05:00"
+  },
+  "ics_feeds": {
+   "ok": true,
+   "count": 21,
+   "last_ok": "2026-11-07T12:16-05:00"
+  },
+  "carbonhouse_rss": {
+   "ok": true,
+   "count": 244,
+   "last_ok": "2026-11-07T12:16-05:00"
+  },
   "alchemy": {
    "ok": true,
    "count": 34,
@@ -22,11 +52,6 @@
    "count": 49,
    "last_ok": "2026-11-07T11:55-05:00"
   },
-  "carbonhouse_rss": {
-   "ok": true,
-   "count": 79,
-   "last_ok": "2026-11-07T11:55-05:00"
-  },
   "college_sports": {
    "ok": true,
    "count": 252,
@@ -35,11 +60,6 @@
   "comedy_connection": {
    "ok": true,
    "count": 119,
-   "last_ok": "2026-11-07T11:55-05:00"
-  },
-  "ics_feeds": {
-   "ok": true,
-   "count": 3,
    "last_ok": "2026-11-07T11:55-05:00"
   },
   "newport_classical": {
@@ -87,11 +107,6 @@
    "count": 45,
    "last_ok": "2026-11-07T11:55-05:00"
   },
-  "squarespace": {
-   "ok": true,
-   "count": 47,
-   "last_ok": "2026-11-07T11:55-05:00"
-  },
   "stadium": {
    "ok": true,
    "count": 36,
@@ -101,37 +116,38 @@
    "ok": true,
    "count": 0,
    "last_ok": "2026-11-07T11:55-05:00"
-  },
-  "tribe_sites": {
-   "ok": true,
-   "count": 458,
-   "last_ok": "2026-11-07T11:55-05:00"
   }
  },
  "categories": {
-  "talk": 494,
-  "theater": 395,
+  "talk": 512,
+  "theater": 413,
+  "sports": 379,
+  "music": 356,
   "community": 311,
-  "sports": 303,
-  "music": 267,
-  "comedy": 144,
-  "film": 108,
+  "comedy": 162,
+  "film": 117,
   "art": 106,
-  "classical": 59,
-  "other": 17,
-  "festival": 9,
-  "dance": 7,
+  "food": 71,
+  "classical": 71,
+  "other": 22,
+  "dance": 21,
+  "festival": 13,
   "market": 2,
-  "food": 1
+  "family": 2
  },
  "cities": {
-  "Providence": 1819,
+  "Providence": 1907,
+  "Boston, MA": 129,
   "Warwick": 122,
   "East Providence": 119,
   "Smithfield": 51,
+  "Fall River": 42,
   "Woonsocket": 37,
+  "Worcester, MA": 37,
+  "New Haven, CT": 36,
   "East Greenwich": 34,
   "Newport": 26,
-  "Kingston": 15
+  "Kingston": 15,
+  "Pawtucket": 3
  }
 }
