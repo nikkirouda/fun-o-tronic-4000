@@ -282,6 +282,19 @@ URL:https://events.brown.edu/athletics/event/335999-brown-university-women
  s-basketball-vs-bucknell
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Children's Event with Mariahadessa Ekere Tallie
+DTSTART;TZID="UTC-05:00":20261107T150000
+UID:books-booksq-1bf096db790e@funotronic
+DESCRIPTION:Join us on Saturday\, November 7th at 3:00 p.m. for a reading 
+ and book signing with Mariahadessa Ekere Tallie\, author of Rainbows\, Sta
+ rs\, and Apples. Rainbows\, Stars\, and Apples by Mariahadessa Eker...\nht
+ tps://www.booksq.com/event/2026-11-07/childrens-event-mariahadessa-ekere-t
+ allie
+LOCATION:Books on the Square\, 471 Angell St
+URL:https://www.booksq.com/event/2026-11-07/childrens-event-mariahadessa-e
+ kere-tallie
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:“Hurt Me On Purpose”: Lecture on Disability\, Desirability\, a
  nd Representation With Carta Monir
 DTSTART;TZID="UTC-05:00":20261107T150000
@@ -649,6 +662,40 @@ LOCATION:Granoff Center for the Creative Arts\, Cohen Gallery\, Brown Univ
  ersity
 URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lady
+DTSTART;VALUE=DATE:20261108
+UID:jpt-f7c59535b20f@funotronic
+DESCRIPTION:Lady Isabella\, aspires to be in the spotlight\, and local tal
+ ent show 'Stately Stars' provides her a break. However\, high pressures an
+ d a loss of self lead to a surreal situation on her grand estate. Showtime
+ s on the theater's page.\nhttps://janepickens.com/shows/lady
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/lady
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:National Theatre Live: Golden Boy
+DTSTART;VALUE=DATE:20261108
+UID:jpt-99faaa4f7735@funotronic
+DESCRIPTION:Filmed live from the Almeida Theatre and featuring a live stri
+ ng quartet\, Olivier Award-winner Sam Yates (Vanya) directs this propulsiv
+ e drama exploring ambition\, identity\, and the high price of succe Showti
+ mes on the theater's page.\nhttps://janepickens.com/shows/national-theatre
+ -live-golden-boy
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/national-theatre-live-golden-boy
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wicker
+DTSTART;VALUE=DATE:20261108
+UID:jpt-04a25cb248da@funotronic
+DESCRIPTION:An ostracized fisherwoman commissions the local basketmaker to
+  weave her a husband\, but when her wicker creation proves unexpectedly ex
+ traordinary\, his presence ignites jealousy and upheaval that thre Showtim
+ es on the theater's page.\nhttps://janepickens.com/shows/wicker
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/wicker
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Brown University Men’s Water Polo vs LIU
@@ -1056,6 +1103,17 @@ LOCATION:Granoff Center for the Creative Arts\, Cohen Gallery\, Brown Univ
  ersity
 URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wicker
+DTSTART;VALUE=DATE:20261109
+UID:jpt-a26effab962b@funotronic
+DESCRIPTION:An ostracized fisherwoman commissions the local basketmaker to
+  weave her a husband\, but when her wicker creation proves unexpectedly ex
+ traordinary\, his presence ignites jealousy and upheaval that thre Showtim
+ es on the theater's page.\nhttps://janepickens.com/shows/wicker
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/wicker
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -1493,6 +1551,17 @@ URL:https://clpvd.org/event/makerspace-open-studio-for-adults-12-2-7/2026-
  11-09/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Meet the Author - Rick Benjamin
+DTSTART;TZID="UTC-05:00":20261109T173000
+UID:books-booksq-8792286545cb@funotronic
+DESCRIPTION:Join us on Monday\, November 9th at 5:30 p.m. for a reading an
+ d book signing with former State Poet Laureate of Rhode Island Rick Benjam
+ in\, author of In a Green Shade. In a Green Shade by Rick Benja...\nhttps:
+ //www.booksq.com/event/2026-11-09/meet-author-rick-benjamin
+LOCATION:Books on the Square\, 471 Angell St
+URL:https://www.booksq.com/event/2026-11-09/meet-author-rick-benjamin
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Nepal on a Changing Planet: Glacial Collapse\, Extreme Weather\, a
  nd Climate Injustice
 DTSTART;TZID="UTC-05:00":20261109T173000
@@ -1654,6 +1723,28 @@ LOCATION:Granoff Center for the Creative Arts\, Cohen Gallery\, Brown Univ
  ersity
 URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Last Run of the Black Duck -SOLD OUT!
+DTSTART;VALUE=DATE:20261110
+UID:jpt-e558575008f4@funotronic
+DESCRIPTION:Prohibition – America’s grand social experiment – spawne
+ d unexpected hazards throughout the country – in law enforcement\, publi
+ c attitudes\, and economic forces. Showtimes on the theater's page.\nhttps
+ ://janepickens.com/shows/last-run-of-the-black-duck
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/last-run-of-the-black-duck
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wicker
+DTSTART;VALUE=DATE:20261110
+UID:jpt-a752862e3d3d@funotronic
+DESCRIPTION:An ostracized fisherwoman commissions the local basketmaker to
+  weave her a husband\, but when her wicker creation proves unexpectedly ex
+ traordinary\, his presence ignites jealousy and upheaval that thre Showtim
+ es on the theater's page.\nhttps://janepickens.com/shows/wicker
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/wicker
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -2385,6 +2476,30 @@ URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Teton Gravity Research Presents: 'Actually\, It Is Rocket Science'
+DTSTART;VALUE=DATE:20261111
+UID:jpt-1c250e0bdbb7@funotronic
+DESCRIPTION:Join Teton Gravity Research for its 31st annual ski and snowbo
+ ard film\, featuring elite athletes\, breathtaking cinematography\, and th
+ e year's biggest mountain adventures. Experience the excitement\, co Showt
+ imes on the theater's page.\nhttps://janepickens.com/shows/teton-gravity-r
+ esearch-presents-actually-it-is-rocket-s
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/teton-gravity-research-presents-actually
+ -it-is-rocket-s
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wicker
+DTSTART;VALUE=DATE:20261111
+UID:jpt-5d245db27f35@funotronic
+DESCRIPTION:An ostracized fisherwoman commissions the local basketmaker to
+  weave her a husband\, but when her wicker creation proves unexpectedly ex
+ traordinary\, his presence ignites jealousy and upheaval that thre Showtim
+ es on the theater's page.\nhttps://janepickens.com/shows/wicker
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/wicker
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20261111T090000
 DTEND;TZID="UTC-05:00":20261111T170000
@@ -2513,6 +2628,19 @@ DESCRIPTION:Grab the family and join us for Food Truck DAY at the Zoo! Enj
  y-at-zoo/
 LOCATION:Roger Williams Park Zoo\, 1000 Elmwood Avenue Providence 02907
 URL:https://www.rwpzoo.org/event/food-truck-day-at-zoo/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Storytime every Wednesday and Friday
+DTSTART;TZID="UTC-05:00":20261111T110000
+DTEND;TZID="UTC-05:00":20261111T113000
+UID:books-booksq-7298755f2e2d@funotronic
+DESCRIPTION:Join us for Storytime every Wednesday and Friday at 11:00 a.m.
+  It lasts about a half-hour. Storytime is geared toward babies and toddler
+ s\, but children up to Kindergarten will enjoy it ...\nhttps://www.booksq.
+ com/event/2026-11-11/storytime-every-wednesday-and-friday
+LOCATION:Books on the Square\, 471 Angell St
+URL:https://www.booksq.com/event/2026-11-11/storytime-every-wednesday-and-
+ friday
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:2026 Veterans Day Ceremony
@@ -3256,6 +3384,29 @@ LOCATION:Granoff Center for the Creative Arts\, Cohen Gallery\, Brown Univ
  ersity
 URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Highlander (40th Anniversary 4K Restoration)
+DTSTART;VALUE=DATE:20261112
+UID:jpt-43a63c473a07@funotronic
+DESCRIPTION:An immortal Scottish swordsman must confront the last of his i
+ mmortal opponent\, a murderously brutal barbarian who lusts for the fabled
+  "Prize". Showtimes on the theater's page.\nhttps://janepickens.com/shows/
+ highlander-40th-anniversary-4k-restoration
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/highlander-40th-anniversary-4k-restorati
+ on
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wicker
+DTSTART;VALUE=DATE:20261112
+UID:jpt-70b014ff4061@funotronic
+DESCRIPTION:An ostracized fisherwoman commissions the local basketmaker to
+  weave her a husband\, but when her wicker creation proves unexpectedly ex
+ traordinary\, his presence ignites jealousy and upheaval that thre Showtim
+ es on the theater's page.\nhttps://janepickens.com/shows/wicker
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/wicker
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -4168,6 +4319,17 @@ LOCATION:Narrows Center for the Arts\, 16 Anawan St\, Fall River\, MA
 URL:https://narrowscenter.showare.com/eventperformances.asp?evt=415
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:A Talent For Murder
+DTSTART;VALUE=DATE:20261113
+UID:jpt-ae169577258c@funotronic
+DESCRIPTION:A mysterious young man from a New York publisher is sent to Sw
+ itzerland to persuade the renowned writer Patricia Highsmith to write one 
+ final installment of the Ripley anthology. Showtimes on the theater's page
+ .\nhttps://janepickens.com/shows/a-talent-for-muder
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/a-talent-for-muder
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Art at Watson Presents — Diagnósticos: technology\, information
   and self
 DTSTART;VALUE=DATE:20261113
@@ -4199,6 +4361,27 @@ LOCATION:Granoff Center for the Creative Arts\, Cohen Gallery\, Brown Univ
  ersity
 URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Only Living Pickpocket In New York
+DTSTART;VALUE=DATE:20261113
+UID:jpt-4e2a99333daf@funotronic
+DESCRIPTION:When a theft goes awry\, a veteran pickpocket is sent on a mis
+ sion through New York to reclaim it. Showtimes on the theater's page.\nhtt
+ ps://janepickens.com/shows/only-living-pickpocket-in-new-york
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/only-living-pickpocket-in-new-york
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wicker
+DTSTART;VALUE=DATE:20261113
+UID:jpt-63fb2ca641e0@funotronic
+DESCRIPTION:An ostracized fisherwoman commissions the local basketmaker to
+  weave her a husband\, but when her wicker creation proves unexpectedly ex
+ traordinary\, his presence ignites jealousy and upheaval that thre Showtim
+ es on the theater's page.\nhttps://janepickens.com/shows/wicker
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/wicker
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -4289,6 +4472,19 @@ LOCATION:Roger Williams Park Botanical Center\, 1 Floral Ave\, Providence
  \, RI 02905\, USA\, 1 Floral Ave Providence 02905
 URL:https://www.providenceri.gov/event/greenhouse-impressionism-with-jenea
  ne-lunn/2026-11-13/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Storytime every Wednesday and Friday
+DTSTART;TZID="UTC-05:00":20261113T110000
+DTEND;TZID="UTC-05:00":20261113T113000
+UID:books-booksq-4b11c224e189@funotronic
+DESCRIPTION:Join us for Storytime every Wednesday and Friday at 11:00 a.m.
+  It lasts about a half-hour. Storytime is geared toward babies and toddler
+ s\, but children up to Kindergarten will enjoy it ...\nhttps://www.booksq.
+ com/event/2026-11-13/storytime-every-wednesday-and-friday
+LOCATION:Books on the Square\, 471 Angell St
+URL:https://www.booksq.com/event/2026-11-13/storytime-every-wednesday-and-
+ friday
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Clinical Psych Conversations
@@ -4927,6 +5123,17 @@ LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/matt-rife-2026
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:A Talent For Murder
+DTSTART;VALUE=DATE:20261114
+UID:jpt-dc1730789502@funotronic
+DESCRIPTION:A mysterious young man from a New York publisher is sent to Sw
+ itzerland to persuade the renowned writer Patricia Highsmith to write one 
+ final installment of the Ripley anthology. Showtimes on the theater's page
+ .\nhttps://janepickens.com/shows/a-talent-for-muder
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/a-talent-for-muder
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Art at Watson Presents — Diagnósticos: technology\, information
   and self
 DTSTART;VALUE=DATE:20261114
@@ -4993,6 +5200,39 @@ LOCATION:Granoff Center for the Creative Arts\, Cohen Gallery\, Brown Univ
  ersity
 URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Juston McKinney Live!
+DTSTART;VALUE=DATE:20261114
+UID:jpt-308c88ba6574@funotronic
+DESCRIPTION:With multiple appearances on The Tonight Show\, two Comedy Cen
+ tral specials\, and two Amazon Prime specials\, including his latest\, Par
+ entally Challenged\, it’s no wonder the New York Times called Juston Sho
+ wtimes on the theater's page.\nhttps://janepickens.com/shows/juston-mckinn
+ ey-live
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/juston-mckinney-live
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Only Living Pickpocket In New York
+DTSTART;VALUE=DATE:20261114
+UID:jpt-166e2c965879@funotronic
+DESCRIPTION:When a theft goes awry\, a veteran pickpocket is sent on a mis
+ sion through New York to reclaim it. Showtimes on the theater's page.\nhtt
+ ps://janepickens.com/shows/only-living-pickpocket-in-new-york
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/only-living-pickpocket-in-new-york
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wicker
+DTSTART;VALUE=DATE:20261114
+UID:jpt-c5cd89564849@funotronic
+DESCRIPTION:An ostracized fisherwoman commissions the local basketmaker to
+  weave her a husband\, but when her wicker creation proves unexpectedly ex
+ traordinary\, his presence ignites jealousy and upheaval that thre Showtim
+ es on the theater's page.\nhttps://janepickens.com/shows/wicker
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/wicker
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Zoo Careers 101: An Introduction to How Zoos Work
@@ -5109,6 +5349,19 @@ DESCRIPTION:https://events.brown.edu/athletics/event/337485-brown-universi
 LOCATION:Cambridge\, Mass.\, Providence
 URL:https://events.brown.edu/athletics/event/337485-brown-university-women
  s-swimming-diving-vs
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Howard Mansfield in conversation with Sy Montgomery
+DTSTART;TZID="UTC-05:00":20261114T110000
+UID:books-booksq-873ac9a3a6f6@funotronic
+DESCRIPTION:Join us on Saturday\, November 14th at 11:00 a.m. for a readin
+ g and book signing with Howard Mansfield\, author of Invisible Monuments. 
+ Invisible Monuments: Tribute\, Memory\, and the Summoning of the ...\nhttp
+ s://www.booksq.com/event/2026-11-14/howard-mansfield-conversation-sy-montg
+ omery
+LOCATION:Books on the Square\, 471 Angell St
+URL:https://www.booksq.com/event/2026-11-14/howard-mansfield-conversation-
+ sy-montgomery
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Makers Market - Stadium's 1st Annual
@@ -5576,6 +5829,17 @@ LOCATION:The Strand Ballroom & Theatre\, 79 Washington St
 URL:https://thestrandri.com/event/dynamo/the-strand/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:A Talent For Murder
+DTSTART;VALUE=DATE:20261115
+UID:jpt-475e9eb6c7bb@funotronic
+DESCRIPTION:A mysterious young man from a New York publisher is sent to Sw
+ itzerland to persuade the renowned writer Patricia Highsmith to write one 
+ final installment of the Ripley anthology. Showtimes on the theater's page
+ .\nhttps://janepickens.com/shows/a-talent-for-muder
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/a-talent-for-muder
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Art at Watson Presents — Diagnósticos: technology\, information
   and self
 DTSTART;VALUE=DATE:20261115
@@ -5607,6 +5871,27 @@ LOCATION:Granoff Center for the Creative Arts\, Cohen Gallery\, Brown Univ
  ersity
 URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Only Living Pickpocket In New York
+DTSTART;VALUE=DATE:20261115
+UID:jpt-353780fc57ac@funotronic
+DESCRIPTION:When a theft goes awry\, a veteran pickpocket is sent on a mis
+ sion through New York to reclaim it. Showtimes on the theater's page.\nhtt
+ ps://janepickens.com/shows/only-living-pickpocket-in-new-york
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/only-living-pickpocket-in-new-york
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wicker
+DTSTART;VALUE=DATE:20261115
+UID:jpt-cc5fd1a8d684@funotronic
+DESCRIPTION:An ostracized fisherwoman commissions the local basketmaker to
+  weave her a husband\, but when her wicker creation proves unexpectedly ex
+ traordinary\, his presence ignites jealousy and upheaval that thre Showtim
+ es on the theater's page.\nhttps://janepickens.com/shows/wicker
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/wicker
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cookies & Tea with Clara from The Nutcracker
@@ -5926,6 +6211,17 @@ URL:https://events.brown.edu/chaplains-religious-life/event/338777-sunday-
  evening-mass
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:A Talent For Murder
+DTSTART;VALUE=DATE:20261116
+UID:jpt-535118dd95a6@funotronic
+DESCRIPTION:A mysterious young man from a New York publisher is sent to Sw
+ itzerland to persuade the renowned writer Patricia Highsmith to write one 
+ final installment of the Ripley anthology. Showtimes on the theater's page
+ .\nhttps://janepickens.com/shows/a-talent-for-muder
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/a-talent-for-muder
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Art at Watson Presents — Diagnósticos: technology\, information
   and self
 DTSTART;VALUE=DATE:20261116
@@ -5957,6 +6253,27 @@ LOCATION:Granoff Center for the Creative Arts\, Cohen Gallery\, Brown Univ
  ersity
 URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Only Living Pickpocket In New York
+DTSTART;VALUE=DATE:20261116
+UID:jpt-ba88e41607a6@funotronic
+DESCRIPTION:When a theft goes awry\, a veteran pickpocket is sent on a mis
+ sion through New York to reclaim it. Showtimes on the theater's page.\nhtt
+ ps://janepickens.com/shows/only-living-pickpocket-in-new-york
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/only-living-pickpocket-in-new-york
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wicker
+DTSTART;VALUE=DATE:20261116
+UID:jpt-20506d4fd6c6@funotronic
+DESCRIPTION:An ostracized fisherwoman commissions the local basketmaker to
+  weave her a husband\, but when her wicker creation proves unexpectedly ex
+ traordinary\, his presence ignites jealousy and upheaval that thre Showtim
+ es on the theater's page.\nhttps://janepickens.com/shows/wicker
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/wicker
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -6444,6 +6761,17 @@ LOCATION:Alchemy\, 71 Richmond St
 URL:https://alchemyri.net/providence-downtown-alchemy-events
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:A Talent For Murder
+DTSTART;VALUE=DATE:20261117
+UID:jpt-d3c901278ffb@funotronic
+DESCRIPTION:A mysterious young man from a New York publisher is sent to Sw
+ itzerland to persuade the renowned writer Patricia Highsmith to write one 
+ final installment of the Ripley anthology. Showtimes on the theater's page
+ .\nhttps://janepickens.com/shows/a-talent-for-muder
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/a-talent-for-muder
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Art at Watson Presents — Diagnósticos: technology\, information
   and self
 DTSTART;VALUE=DATE:20261117
@@ -6485,6 +6813,39 @@ LOCATION:Granoff Center for the Creative Arts\, Cohen Gallery\, Brown Univ
  ersity
 URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Big Sleep (80th Anniversary) w/ Pinot Noir Tasting
+DTSTART;VALUE=DATE:20261117
+UID:jpt-74ccb826ea16@funotronic
+DESCRIPTION:Private detective Philip Marlowe is hired by a rich family. Be
+ fore the complex case is over\, he's seen murder\, blackmail\, and what mi
+ ght be love. Showtimes on the theater's page.\nhttps://janepickens.com/sho
+ ws/big-sleep-80th-anniversary-w-pinot-noir-tasting
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/big-sleep-80th-anniversary-w-pinot-noir-
+ tasting
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Only Living Pickpocket In New York
+DTSTART;VALUE=DATE:20261117
+UID:jpt-411927941fbb@funotronic
+DESCRIPTION:When a theft goes awry\, a veteran pickpocket is sent on a mis
+ sion through New York to reclaim it. Showtimes on the theater's page.\nhtt
+ ps://janepickens.com/shows/only-living-pickpocket-in-new-york
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/only-living-pickpocket-in-new-york
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wicker
+DTSTART;VALUE=DATE:20261117
+UID:jpt-81910896b520@funotronic
+DESCRIPTION:An ostracized fisherwoman commissions the local basketmaker to
+  weave her a husband\, but when her wicker creation proves unexpectedly ex
+ traordinary\, his presence ignites jealousy and upheaval that thre Showtim
+ es on the theater's page.\nhttps://janepickens.com/shows/wicker
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/wicker
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -7248,6 +7609,17 @@ URL:https://events.brown.edu/general/event/343111-sci-fi-fantasy-book-club
  -the-chimes
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:A Talent For Murder
+DTSTART;VALUE=DATE:20261118
+UID:jpt-e8d6d548fe41@funotronic
+DESCRIPTION:A mysterious young man from a New York publisher is sent to Sw
+ itzerland to persuade the renowned writer Patricia Highsmith to write one 
+ final installment of the Ripley anthology. Showtimes on the theater's page
+ .\nhttps://janepickens.com/shows/a-talent-for-muder
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/a-talent-for-muder
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Art at Watson Presents — Diagnósticos: technology\, information
   and self
 DTSTART;VALUE=DATE:20261118
@@ -7289,6 +7661,16 @@ LOCATION:Granoff Center for the Creative Arts\, Cohen Gallery\, Brown Univ
  ersity
 URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Only Living Pickpocket In New York
+DTSTART;VALUE=DATE:20261118
+UID:jpt-a84c87c9132b@funotronic
+DESCRIPTION:When a theft goes awry\, a veteran pickpocket is sent on a mis
+ sion through New York to reclaim it. Showtimes on the theater's page.\nhtt
+ ps://janepickens.com/shows/only-living-pickpocket-in-new-york
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/only-living-pickpocket-in-new-york
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -7392,6 +7774,19 @@ LOCATION:Rochambeau Library – Children’s Area 1\, 708 Hope Street Prov
  idence 02906
 URL:https://clpvd.org/event/whimsical-wednesdays-with-teacher-t/2026-11-18
  /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Storytime every Wednesday and Friday
+DTSTART;TZID="UTC-05:00":20261118T110000
+DTEND;TZID="UTC-05:00":20261118T113000
+UID:books-booksq-b1ef1888c8d7@funotronic
+DESCRIPTION:Join us for Storytime every Wednesday and Friday at 11:00 a.m.
+  It lasts about a half-hour. Storytime is geared toward babies and toddler
+ s\, but children up to Kindergarten will enjoy it ...\nhttps://www.booksq.
+ com/event/2026-11-18/storytime-every-wednesday-and-friday
+LOCATION:Books on the Square\, 471 Angell St
+URL:https://www.booksq.com/event/2026-11-18/storytime-every-wednesday-and-
+ friday
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Book Launch & Conversation | Across Continents: Writing Goans\, Ma
@@ -7902,6 +8297,19 @@ LOCATION:AS220 Psychic Readings\, 95 Empire Street
 URL:https://as220.org/calendar/jake-klar-breachway-jet-sparks
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Providence Queer Book Club - Meets Virtually
+DTSTART;TZID="UTC-05:00":20261118T190000
+DTEND;TZID="UTC-05:00":20261118T200000
+UID:books-booksq-028cdae02c0f@funotronic
+DESCRIPTION:Join the Providence Queer Book Club on the 3rd Wednesday of th
+ e month.--We meet virtually and you can join our Zoom Link by going to Fac
+ ebook and asking to join the Providence Queer Book Club - Boo...\nhttps://
+ www.booksq.com/event/2026-11-18/providence-queer-book-club-meets-virtually
+LOCATION:Zoom\, Providence
+URL:https://www.booksq.com/event/2026-11-18/providence-queer-book-club-mee
+ ts-virtually
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Rock Out in Rhode Island - Makeshift Kings + The Apothecary + Car 
  Girlfriend + Follow Thru + Newcastle Anchorman + Soxie Blue
 DTSTART;TZID="UTC-05:00":20261118T190000
@@ -8016,6 +8424,26 @@ LOCATION:Granoff Center for the Creative Arts\, Cohen Gallery\, Brown Univ
  ersity
 URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Giant: The Play
+DTSTART;VALUE=DATE:20261119
+UID:jpt-383bfe0ef974@funotronic
+DESCRIPTION:GIANT\, the 5-star critically acclaimed play starring John Lit
+ hgow comes to the big screen. Showtimes on the theater's page.\nhttps://ja
+ nepickens.com/shows/giant-the-play
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/giant-the-play
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Only Living Pickpocket In New York
+DTSTART;VALUE=DATE:20261119
+UID:jpt-d75514a3a5d6@funotronic
+DESCRIPTION:When a theft goes awry\, a veteran pickpocket is sent on a mis
+ sion through New York to reclaim it. Showtimes on the theater's page.\nhtt
+ ps://janepickens.com/shows/only-living-pickpocket-in-new-york
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/only-living-pickpocket-in-new-york
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -8924,6 +9352,27 @@ URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Giant: The Play
+DTSTART;VALUE=DATE:20261120
+UID:jpt-2826f8737e4a@funotronic
+DESCRIPTION:GIANT\, the 5-star critically acclaimed play starring John Lit
+ hgow comes to the big screen. Showtimes on the theater's page.\nhttps://ja
+ nepickens.com/shows/giant-the-play
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/giant-the-play
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:You Can See Everything
+DTSTART;VALUE=DATE:20261120
+UID:jpt-2e8bc0614a6f@funotronic
+DESCRIPTION:Thirty-four days before she's sent to prison\, notorious Silic
+ on Valley founder Elizabeth Holmes invites a skeptical film crew to docume
+ nt her every move Showtimes on the theater's page.\nhttps://janepickens.co
+ m/shows/you-can-see-everything
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/you-can-see-everything
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20261120T090000
 DTEND;TZID="UTC-05:00":20261120T170000
@@ -9040,6 +9489,19 @@ DESCRIPTION:https://admin.friars.com/calendar.aspx?game_id=12801&amp\;spor
  t_id=13
 LOCATION:Schneider Arena\, Providence
 URL:https://admin.friars.com/calendar.aspx?game_id=12801&amp;sport_id=13
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Storytime every Wednesday and Friday
+DTSTART;TZID="UTC-05:00":20261120T110000
+DTEND;TZID="UTC-05:00":20261120T113000
+UID:books-booksq-14b7e973c113@funotronic
+DESCRIPTION:Join us for Storytime every Wednesday and Friday at 11:00 a.m.
+  It lasts about a half-hour. Storytime is geared toward babies and toddler
+ s\, but children up to Kindergarten will enjoy it ...\nhttps://www.booksq.
+ com/event/2026-11-20/storytime-every-wednesday-and-friday
+LOCATION:Books on the Square\, 471 Angell St
+URL:https://www.booksq.com/event/2026-11-20/storytime-every-wednesday-and-
+ friday
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Book Talk with Blair Kelley
@@ -9611,6 +10073,27 @@ URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Giant: The Play
+DTSTART;VALUE=DATE:20261121
+UID:jpt-a01cdb03b5e0@funotronic
+DESCRIPTION:GIANT\, the 5-star critically acclaimed play starring John Lit
+ hgow comes to the big screen. Showtimes on the theater's page.\nhttps://ja
+ nepickens.com/shows/giant-the-play
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/giant-the-play
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:You Can See Everything
+DTSTART;VALUE=DATE:20261121
+UID:jpt-1340fad276cf@funotronic
+DESCRIPTION:Thirty-four days before she's sent to prison\, notorious Silic
+ on Valley founder Elizabeth Holmes invites a skeptical film crew to docume
+ nt her every move Showtimes on the theater's page.\nhttps://janepickens.co
+ m/shows/you-can-see-everything
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/you-can-see-everything
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Breakfast with the Rainforest Residents
 DTSTART;TZID="UTC-05:00":20261121T080000
 DTEND;TZID="UTC-05:00":20261121T080000
@@ -9930,6 +10413,17 @@ LOCATION:Rochambeau Library – Children’s Area 1\, 708 Hope Street Prov
 URL:https://clpvd.org/event/tween-journaling-club-2/2026-11-21/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Celebrating Frances Martindale
+DTSTART;TZID="UTC-05:00":20261121T150000
+UID:books-booksq-c5dd129c704d@funotronic
+DESCRIPTION:Join us on Saturday\, November 21st at 3:00 p.m. to celebrate 
+ Frances Martindale and the book Magic Will Happen by Mariahadessa Tallie a
+ nd illustrated by Laurel Aylesworth\, celebrating her work at t...\nhttps:
+ //www.booksq.com/event/2026-11-21/celebrating-frances-martindale
+LOCATION:Books on the Square\, 471 Angell St
+URL:https://www.booksq.com/event/2026-11-21/celebrating-frances-martindale
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Bingo Loco – Early Show
 DTSTART;TZID="UTC-05:00":20261121T163000
 UID:rhp-strand-f304f3e3f360@funotronic
@@ -10196,6 +10690,27 @@ URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Giant: The Play
+DTSTART;VALUE=DATE:20261122
+UID:jpt-be27099de8e0@funotronic
+DESCRIPTION:GIANT\, the 5-star critically acclaimed play starring John Lit
+ hgow comes to the big screen. Showtimes on the theater's page.\nhttps://ja
+ nepickens.com/shows/giant-the-play
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/giant-the-play
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:You Can See Everything
+DTSTART;VALUE=DATE:20261122
+UID:jpt-6d555b8268b3@funotronic
+DESCRIPTION:Thirty-four days before she's sent to prison\, notorious Silic
+ on Valley founder Elizabeth Holmes invites a skeptical film crew to docume
+ nt her every move Showtimes on the theater's page.\nhttps://janepickens.co
+ m/shows/you-can-see-everything
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/you-can-see-everything
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Brown University Men’s Swimming & Diving vs Bruno Invitational
 DTSTART;TZID="UTC-05:00":20261122T100000
 DTEND;TZID="UTC-05:00":20261122T130000
@@ -10440,6 +10955,17 @@ LOCATION:Granoff Center for the Creative Arts\, Cohen Gallery\, Brown Univ
  ersity
 URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:You Can See Everything
+DTSTART;VALUE=DATE:20261123
+UID:jpt-4fd203a8ddd4@funotronic
+DESCRIPTION:Thirty-four days before she's sent to prison\, notorious Silic
+ on Valley founder Elizabeth Holmes invites a skeptical film crew to docume
+ nt her every move Showtimes on the theater's page.\nhttps://janepickens.co
+ m/shows/you-can-see-everything
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/you-can-see-everything
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -10796,6 +11322,30 @@ LOCATION:Granoff Center for the Creative Arts\, Cohen Gallery\, Brown Univ
  ersity
 URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Man Who Fell To Earth (50th Anniversary) w/ Live Bowie Music!
+DTSTART;VALUE=DATE:20261124
+UID:jpt-2afa2c63ff0b@funotronic
+DESCRIPTION:Director Nicholas Roeg's Sci-Fi classic starring: David Bowie.
+  An alien must pose as a human to save his dying planet\, but a woman and 
+ greed of other men create complications. Get wonderfully wild & w Showtime
+ s on the theater's page.\nhttps://janepickens.com/shows/man-who-fell-to-ea
+ rth-50th-anniversary-w-live-bowie-mus
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/man-who-fell-to-earth-50th-anniversary-w
+ -live-bowie-mus
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:You Can See Everything
+DTSTART;VALUE=DATE:20261124
+UID:jpt-b9afed51f218@funotronic
+DESCRIPTION:Thirty-four days before she's sent to prison\, notorious Silic
+ on Valley founder Elizabeth Holmes invites a skeptical film crew to docume
+ nt her every move Showtimes on the theater's page.\nhttps://janepickens.co
+ m/shows/you-can-see-everything
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/you-can-see-everything
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -11242,6 +11792,17 @@ URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:You Can See Everything
+DTSTART;VALUE=DATE:20261125
+UID:jpt-fda9d255d3bd@funotronic
+DESCRIPTION:Thirty-four days before she's sent to prison\, notorious Silic
+ on Valley founder Elizabeth Holmes invites a skeptical film crew to docume
+ nt her every move Showtimes on the theater's page.\nhttps://janepickens.co
+ m/shows/you-can-see-everything
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/you-can-see-everything
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20261125T090000
 DTEND;TZID="UTC-05:00":20261125T170000
@@ -11334,6 +11895,19 @@ LOCATION:Rochambeau Library – Children’s Area 1\, 708 Hope Street Prov
  idence 02906
 URL:https://clpvd.org/event/whimsical-wednesdays-with-teacher-t/2026-11-25
  /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Storytime every Wednesday and Friday
+DTSTART;TZID="UTC-05:00":20261125T110000
+DTEND;TZID="UTC-05:00":20261125T113000
+UID:books-booksq-f67d8ac7dc7e@funotronic
+DESCRIPTION:Join us for Storytime every Wednesday and Friday at 11:00 a.m.
+  It lasts about a half-hour. Storytime is geared toward babies and toddler
+ s\, but children up to Kindergarten will enjoy it ...\nhttps://www.booksq.
+ com/event/2026-11-25/storytime-every-wednesday-and-friday
+LOCATION:Books on the Square\, 471 Angell St
+URL:https://www.booksq.com/event/2026-11-25/storytime-every-wednesday-and-
+ friday
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Planetary Lunch Bunch: Jake Kurlander (copy)
@@ -11866,6 +12440,17 @@ URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Home Alone
+DTSTART;VALUE=DATE:20261127
+UID:jpt-a25de2e69899@funotronic
+DESCRIPTION:An eight-year-old troublemaker must protect his house from a p
+ air of burglars when he is accidentally left home alone by his family duri
+ ng Christmas vacation. Showtimes on the theater's page.\nhttps://janepicke
+ ns.com/shows/home-alone
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/home-alone
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20261127T090000
 DTEND;TZID="UTC-05:00":20261127T170000
@@ -11892,6 +12477,19 @@ DESCRIPTION:Free Open Houses at the Betsey Williams Cottage in Roger Willi
  c-open-houses/2026-11-27/
 LOCATION:Roger Williams Park\, 1000 Elmwood Ave Providence 02907
 URL:https://www.providenceri.gov/event/bwc-open-houses/2026-11-27/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Storytime every Wednesday and Friday
+DTSTART;TZID="UTC-05:00":20261127T110000
+DTEND;TZID="UTC-05:00":20261127T113000
+UID:books-booksq-60c7d83342cb@funotronic
+DESCRIPTION:Join us for Storytime every Wednesday and Friday at 11:00 a.m.
+  It lasts about a half-hour. Storytime is geared toward babies and toddler
+ s\, but children up to Kindergarten will enjoy it ...\nhttps://www.booksq.
+ com/event/2026-11-27/storytime-every-wednesday-and-friday
+LOCATION:Books on the Square\, 471 Angell St
+URL:https://www.booksq.com/event/2026-11-27/storytime-every-wednesday-and-
+ friday
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Boston Bruins vs Toronto Maple Leafs
@@ -12130,6 +12728,18 @@ DESCRIPTION:Rich Vos is a comedy powerhouse with over 100 television appea
  2026
 LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/rich-vos-2026
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Beginnings Live : A Celebration of the Music of Chicago
+DTSTART;VALUE=DATE:20261128
+UID:jpt-9a67317d9c05@funotronic
+DESCRIPTION:the magic of a live Chicago performance to life and exceptiona
+ lly recreates their enormous songbook of contemporary hits. Showtimes on t
+ he theater's page.\nhttps://janepickens.com/shows/beginnings-live-a-celebr
+ ation-of-the-music-of-chicago
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/beginnings-live-a-celebration-of-the-mus
+ ic-of-chicago
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Exhibition on View | Building Books with Dayanita Singh
@@ -12565,6 +13175,17 @@ LOCATION:Granoff Center for the Creative Arts\, Cohen Gallery\, Brown Univ
  ersity
 URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mighty Mary
+DTSTART;VALUE=DATE:20261129
+UID:jpt-c6fa360e6332@funotronic
+DESCRIPTION:Director Mary Mazzio captures the seismic moment when the firs
+ t all-female crew entered the fiercely competitive world of the America’
+ s Cup\, the legendary sailing competition long considered the exclu Showti
+ mes on the theater's page.\nhttps://janepickens.com/shows/mighty-mary
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/mighty-mary
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Roger Williams Park Museum of Natural History Fam-tastic STEAM Wee
@@ -13101,6 +13722,19 @@ URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The Last Waltz (50th Anniversary) w/ Live Concert by Avi Jacob
+DTSTART;VALUE=DATE:20261201
+UID:jpt-c88e024ad75d@funotronic
+DESCRIPTION:A film account and presentation of the final concert of The Ba
+ nd showcasing musical superstars of the era and filmed by Martin Scorsese.
+  Featuring a live set of music by soulful-powerhouse performer H Showtimes
+  on the theater's page.\nhttps://janepickens.com/shows/last-waltz-50th-ann
+ iversary-w-live-concert-by-avi-jacob
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/last-waltz-50th-anniversary-w-live-conce
+ rt-by-avi-jacob
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20261201T090000
 DTEND;TZID="UTC-05:00":20261201T170000
@@ -13522,6 +14156,18 @@ LOCATION:Granoff Center for the Creative Arts\, Cohen Gallery\, Brown Univ
  ersity
 URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Royal Ballet: The Nutcracker
+DTSTART;VALUE=DATE:20261202
+UID:jpt-cf7021933218@funotronic
+DESCRIPTION:Peter Wright’s production of this festive family favourite s
+ parkles to the wondrous swell of Tchaikovsky’s orchestral score\, alongs
+ ide the glow and grandeur of Julia Trevelyan Oman’s period designs . Sho
+ wtimes on the theater's page.\nhttps://janepickens.com/shows/royal-ballet-
+ the-nutcracker
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/royal-ballet-the-nutcracker
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SEI Community Café
@@ -13989,6 +14635,29 @@ URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Royal Ballet: The Nutcracker
+DTSTART;VALUE=DATE:20261203
+UID:jpt-381f142c6c1d@funotronic
+DESCRIPTION:Peter Wright’s production of this festive family favourite s
+ parkles to the wondrous swell of Tchaikovsky’s orchestral score\, alongs
+ ide the glow and grandeur of Julia Trevelyan Oman’s period designs . Sho
+ wtimes on the theater's page.\nhttps://janepickens.com/shows/royal-ballet-
+ the-nutcracker
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/royal-ballet-the-nutcracker
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Boatbuilders Presented by newportFILM
+DTSTART;VALUE=DATE:20261203
+UID:jpt-70957b0f09b0@funotronic
+DESCRIPTION:Intertwining the rhythms of the boatyard and the natural world
+ \, Boatbuilders is a meditation on the pleasures that reward sustained att
+ ention and the Showtimes on the theater's page.\nhttps://janepickens.com/s
+ hows/boatbuilders-presented-by-newportfilm
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/boatbuilders-presented-by-newportfilm
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20261203T090000
 DTEND;TZID="UTC-05:00":20261203T170000
@@ -14363,6 +15032,18 @@ LOCATION:Granoff Center for the Creative Arts\, Cohen Gallery\, Brown Univ
  ersity
 URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Royal Ballet: The Nutcracker
+DTSTART;VALUE=DATE:20261204
+UID:jpt-9026ccf7be3c@funotronic
+DESCRIPTION:Peter Wright’s production of this festive family favourite s
+ parkles to the wondrous swell of Tchaikovsky’s orchestral score\, alongs
+ ide the glow and grandeur of Julia Trevelyan Oman’s period designs . Sho
+ wtimes on the theater's page.\nhttps://janepickens.com/shows/royal-ballet-
+ the-nutcracker
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/royal-ballet-the-nutcracker
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -14801,6 +15482,18 @@ LOCATION:Granoff Center for the Creative Arts\, Cohen Gallery\, Brown Univ
  ersity
 URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Royal Ballet: The Nutcracker
+DTSTART;VALUE=DATE:20261205
+UID:jpt-6b6352b85e9e@funotronic
+DESCRIPTION:Peter Wright’s production of this festive family favourite s
+ parkles to the wondrous swell of Tchaikovsky’s orchestral score\, alongs
+ ide the glow and grandeur of Julia Trevelyan Oman’s period designs . Sho
+ wtimes on the theater's page.\nhttps://janepickens.com/shows/royal-ballet-
+ the-nutcracker
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/royal-ballet-the-nutcracker
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Travel with the RWPZ to the American Museum of Natural History!
@@ -15262,6 +15955,18 @@ LOCATION:Granoff Center for the Creative Arts\, Cohen Gallery\, Brown Univ
  ersity
 URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Royal Ballet: The Nutcracker
+DTSTART;VALUE=DATE:20261206
+UID:jpt-2f0342f7aab3@funotronic
+DESCRIPTION:Peter Wright’s production of this festive family favourite s
+ parkles to the wondrous swell of Tchaikovsky’s orchestral score\, alongs
+ ide the glow and grandeur of Julia Trevelyan Oman’s period designs . Sho
+ wtimes on the theater's page.\nhttps://janepickens.com/shows/royal-ballet-
+ the-nutcracker
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/royal-ballet-the-nutcracker
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Teresa Giudice
@@ -16009,6 +16714,19 @@ URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The Irish Tenors Live: A Family Christmas (Night 1)
+DTSTART;VALUE=DATE:20261209
+UID:jpt-f9771f2ee58d@funotronic
+DESCRIPTION:The Irish Tenors - Anthony Kearns\, Ronan Tynan\, and Patrick 
+ Hyland - celebrate the magic of the holiday season with a program filled w
+ ith Irish classics and Christmas favorites. Showtimes on the theater's pag
+ e.\nhttps://janepickens.com/shows/irish-tenors-live-a-family-christmas-nd-
+ show-added
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/irish-tenors-live-a-family-christmas-nd-
+ show-added
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20261209T090000
 DTEND;TZID="UTC-05:00":20261209T170000
@@ -16309,6 +17027,18 @@ URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The Irish Tenors Live: A Family Christmas (Night Two)
+DTSTART;VALUE=DATE:20261210
+UID:jpt-7a5f1ce64947@funotronic
+DESCRIPTION:The Irish Tenors have performed all over the world\, including
+  the best venues in America\, From Radio City Music Hall\, Madison Square 
+ Gardens and Carnegie Hall in New York to The Hollywood Bowl in Cali Showti
+ mes on the theater's page.\nhttps://janepickens.com/shows/irish-tenors-liv
+ e-a-family-christmas
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/irish-tenors-live-a-family-christmas
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20261210T090000
 DTEND;TZID="UTC-05:00":20261210T170000
@@ -16567,6 +17297,18 @@ DESCRIPTION:New England Patriots host the Minnesota Vikings at Gillette St
  adium.\nresale from $142\nhttps://www.patriots.com/tickets/
 LOCATION:Gillette Stadium\, 1 Patriot Pl\, Foxborough\, MA
 URL:https://www.patriots.com/tickets/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:'A Very Merry Chasemas' Concert
+DTSTART;VALUE=DATE:20261211
+UID:jpt-8a73052d7bcd@funotronic
+DESCRIPTION:Bringing his own unique holiday spirit to the stage\, Chase Ce
+ glie will be joined by his incredible band for an evening of holiday class
+ ics\, seasonal favorites\, and plenty of musical surprises. Showtimes on t
+ he theater's page.\nhttps://janepickens.com/shows/a-very-merry-chasemas-co
+ ncert
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/a-very-merry-chasemas-concert
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Art at Watson Presents — Diagnósticos: technology\, information
@@ -17649,6 +18391,17 @@ URL:https://events.brown.edu/live/events/340664-art-at-watson-presents-dia
  gnosticos-technology
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Die Hard
+DTSTART;VALUE=DATE:20261215
+UID:jpt-9ad79808fc46@funotronic
+DESCRIPTION:NYC Detective John McClane becomes the only hope for a group o
+ f hostages\, trapped in a LA high-rise office building when it is seized b
+ y terrorists. Showtimes on the theater's page.\nhttps://janepickens.com/sh
+ ows/die-hard
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/die-hard
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Exhibition on View | Building Books with Dayanita Singh
 DTSTART;VALUE=DATE:20261215
 UID:brown-events-d98fa48a796c@funotronic
@@ -18003,6 +18756,17 @@ DESCRIPTION:Free\nhttps://events.brown.edu/live/events/340666-art-at-watso
 LOCATION:The Watson School\, 280 Brook Street
 URL:https://events.brown.edu/live/events/340666-art-at-watson-presents-dia
  gnosticos-technology
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Canadian Brass Live: Wonderful Time of The Year
+DTSTART;VALUE=DATE:20261217
+UID:jpt-cf3bc4459889@funotronic
+DESCRIPTION:With an international reputation as one of the most popular br
+ ass ensembles today\, Canadian Brass has truly earned the distinction of t
+ he world’s most famous brass group. Showtimes on the theater's page.\nht
+ tps://janepickens.com/shows/canasian-brass-live
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/canasian-brass-live
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Exhibition on View | Building Books with Dayanita Singh
@@ -18464,6 +19228,16 @@ DESCRIPTION:Free\nhttps://events.brown.edu/live/events/340668-art-at-watso
 LOCATION:The Watson School\, 280 Brook Street
 URL:https://events.brown.edu/live/events/340668-art-at-watson-presents-dia
  gnosticos-technology
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ELF w/ Holiday Concert by Motion Avenue
+DTSTART;VALUE=DATE:20261219
+UID:jpt-ae4b70046960@funotronic
+DESCRIPTION:A movie full of Yuletide cheer\, Elf is a spirited\, good-natu
+ red family comedy and a JPT tradition! Showtimes on the theater's page.\nh
+ ttps://janepickens.com/shows/elf
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/elf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Exhibition on View | Building Books with Dayanita Singh
@@ -18976,6 +19750,17 @@ LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:White Christmas
+DTSTART;VALUE=DATE:20261221
+UID:jpt-925aa48232cd@funotronic
+DESCRIPTION:A successful song-and-dance team become romantically involved 
+ with a sister act and team up to save the failing Vermont inn of their for
+ mer commanding general. Showtimes on the theater's page.\nhttps://janepick
+ ens.com/shows/white-christmas
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/white-christmas
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20261221T090000
 DTEND;TZID="UTC-05:00":20261221T170000
@@ -19133,6 +19918,17 @@ URL:https://www.stadiumtheatre.com/events/holiday-pops-with-the-stadium-th
  eatre-orchestra
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:National Lampoon Christmas Vacation Party 2026
+DTSTART;VALUE=DATE:20261223
+UID:jpt-bc41cf50d1d5@funotronic
+DESCRIPTION:What's Up Newp & The JPT annual: National Lampoon Christmas Va
+ cation Party featuring a holiday rock concert pre film by the All Star Sta
+ rs. Ho Ho Ho! Showtimes on the theater's page.\nhttps://janepickens.com/sh
+ ows/national-lampoon-christmas-vacation
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/national-lampoon-christmas-vacation
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20261223T090000
 DTEND;TZID="UTC-05:00":20261223T170000
@@ -19287,6 +20083,17 @@ URL:https://www.stadiumtheatre.com/events/holiday-pops-with-the-stadium-th
  eatre-orchestra
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20261224
+UID:jpt-9fed853a5694@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20261224T090000
 DTEND;TZID="UTC-05:00":20261224T170000
@@ -19337,6 +20144,17 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20261225
+UID:jpt-486ff1d47a86@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20261225T090000
 DTEND;TZID="UTC-05:00":20261225T170000
@@ -19373,6 +20191,17 @@ DESCRIPTION:RSVP: Contact be.balanced01@gmail.com and link All Fitness in
 LOCATION:Gateway Center at Roger Williams Park\, 1197 Broad Street Provide
  nce 02907
 URL:https://www.providenceri.gov/event/taichi-beginner-level/2026-12-25/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20261226
+UID:jpt-5157d525e7f6@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bachata & Merengue
@@ -19492,6 +20321,17 @@ LOCATION:Narrows Center for the Arts\, 16 Anawan St\, Fall River\, MA
 URL:https://narrowscenter.showare.com/eventperformances.asp?evt=256
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20261227
+UID:jpt-8346f503f0ed@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Visit the Zoo Day Food Drive (free Zoo admission)
 DTSTART;TZID="UTC-05:00":20261227T100000
 DTEND;TZID="UTC-05:00":20261227T160000
@@ -19587,6 +20427,17 @@ URL:https://events.brown.edu/chaplains-religious-life/event/338654-christi
  an-worship-service
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20261228
+UID:jpt-4be41e5d3c92@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20261228T090000
 DTEND;TZID="UTC-05:00":20261228T170000
@@ -19638,6 +20489,17 @@ LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20261229
+UID:jpt-212f3818a86f@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20261229T090000
 DTEND;TZID="UTC-05:00":20261229T170000
@@ -19684,6 +20546,17 @@ DESCRIPTION:Trinity Rep's 50th Anniversary Production Adapted from the ori
  instances/a0FQr00000NRDrxMAH
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20261230
+UID:jpt-8cb4837cf430@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -19811,6 +20684,17 @@ LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20261231
+UID:jpt-3d0dc977e28c@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20261231T090000
 DTEND;TZID="UTC-05:00":20261231T170000
@@ -19870,6 +20754,17 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20270101
+UID:jpt-55539dec5b89@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20270101T090000
 DTEND;TZID="UTC-05:00":20270101T170000
@@ -19917,6 +20812,17 @@ DESCRIPTION:https://events.brown.edu/athletics/event/336232-brown-universi
 LOCATION:Meehan Auditorium\, Providence
 URL:https://events.brown.edu/athletics/event/336232-brown-university-mens-
  ice-hockey-vs-dartmouth
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20270102
+UID:jpt-63e687bd341b@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bachata & Merengue
@@ -20011,6 +20917,17 @@ LOCATION:Gillette Stadium\, 1 Patriot Pl\, Foxborough\, MA
 URL:https://www.patriots.com/tickets/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20270103
+UID:jpt-2f281c7df920@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Christian Worship Service
 DTSTART;TZID="UTC-05:00":20270103T180000
 UID:brown-events-c34fa7238f99@funotronic
@@ -20019,6 +20936,17 @@ DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338655
 LOCATION:Manning Chapel\, Providence
 URL:https://events.brown.edu/chaplains-religious-life/event/338655-christi
  an-worship-service
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20270104
+UID:jpt-fca07a46deff@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -20045,6 +20973,17 @@ DESCRIPTION:https://events.brown.edu/athletics/event/335987-brown-universi
 LOCATION:Pizzitola Sports Center\, Providence
 URL:https://events.brown.edu/athletics/event/335987-brown-university-women
  s-basketball-vs-yale
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20270105
+UID:jpt-457cd103bd55@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -20106,6 +21045,17 @@ DESCRIPTION:Boston Bruins host the Buffalo Sabres at TD Garden.\nresale fr
  om $82\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nhl.com/bruins/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20270106
+UID:jpt-a4fbab75b2f5@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -21603,6 +22553,17 @@ DESCRIPTION:Martin Amini is a standup comic based in Los Angeles\, Califor
  nts/martin-amini-2026
 LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/martin-amini-2026
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exhibiton on Screen: Renoir & Love
+DTSTART;VALUE=DATE:20270124
+UID:jpt-cbb0091a77e4@funotronic
+DESCRIPTION:Pierre-Auguste Renoir is one of the world’s favourite artist
+ s\, a founding member of the Impressionist movement and a constantly evolv
+ ing artist Showtimes on the theater's page.\nhttps://janepickens.com/shows
+ /exhibiton-on-screen-renoir-love
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/exhibiton-on-screen-renoir-love
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Brown University Wrestling vs Cornell- Military Appreciation
@@ -26985,6 +27946,18 @@ LOCATION:The Strand Ballroom & Theatre\, 79 Washington St
 URL:https://thestrandri.com/event/calema-origin-tour/the-strand/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Royal Ballet: Alice's Adventure in Wonderland
+DTSTART;VALUE=DATE:20270331
+UID:jpt-ba74891f6e08@funotronic
+DESCRIPTION:The Royal Ballet at its best\, bringing together world-class d
+ ance with enchanting family entertainment and ingenious music and design! 
+ Showtimes on the theater's page.\nhttps://janepickens.com/shows/royla-ball
+ et-alices-adventure-in-wonderland
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/royla-ballet-alices-adventure-in-wonderl
+ and
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Wee-One Wednesdays
 DTSTART;TZID="UTC-04:00":20270331T090000
 DTEND;TZID="UTC-04:00":20270331T100000
@@ -27046,6 +28019,18 @@ LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.tdgarden.com/events/detail/calvin-harris
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Royal Ballet: Alice's Adventure in Wonderland
+DTSTART;VALUE=DATE:20270401
+UID:jpt-b02b0379d43c@funotronic
+DESCRIPTION:The Royal Ballet at its best\, bringing together world-class d
+ ance with enchanting family entertainment and ingenious music and design! 
+ Showtimes on the theater's page.\nhttps://janepickens.com/shows/royla-ball
+ et-alices-adventure-in-wonderland
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/royla-ballet-alices-adventure-in-wonderl
+ and
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Boston Red Sox vs Cincinnati Reds
 DTSTART;VALUE=DATE:20270401
 UID:pro-redsox-a46378204202@funotronic
@@ -27104,6 +28089,18 @@ LOCATION:Narrows Center for the Arts\, 16 Anawan St\, Fall River\, MA
 URL:https://narrowscenter.showare.com/eventperformances.asp?evt=704
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Royal Ballet: Alice's Adventure in Wonderland
+DTSTART;VALUE=DATE:20270402
+UID:jpt-8889d5d0e0bf@funotronic
+DESCRIPTION:The Royal Ballet at its best\, bringing together world-class d
+ ance with enchanting family entertainment and ingenious music and design! 
+ Showtimes on the theater's page.\nhttps://janepickens.com/shows/royla-ball
+ et-alices-adventure-in-wonderland
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/royla-ballet-alices-adventure-in-wonderl
+ and
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Dr. Seuss's The Cat in the Hat - Live on Stage!
 DTSTART;TZID="UTC-04:00":20270402T180000
 UID:ch-shubertnh-a68370ae5394@funotronic
@@ -27159,6 +28156,18 @@ DESCRIPTION:Boston Celtics host the Miami Heat at TD Garden.\nresale from
  $97\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nba.com/celtics/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Royal Ballet: Alice's Adventure in Wonderland
+DTSTART;VALUE=DATE:20270403
+UID:jpt-fc58af811c42@funotronic
+DESCRIPTION:The Royal Ballet at its best\, bringing together world-class d
+ ance with enchanting family entertainment and ingenious music and design! 
+ Showtimes on the theater's page.\nhttps://janepickens.com/shows/royla-ball
+ et-alices-adventure-in-wonderland
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/royla-ballet-alices-adventure-in-wonderl
+ and
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Boston Red Sox vs Cincinnati Reds
@@ -27260,6 +28269,18 @@ DESCRIPTION:Donna The Buffalo is not just a band\, rather one might say th
  \nhttps://ci.ovationtix.com/35158/production/1294119
 LOCATION:Greenwich Odeum\, 59 Main St
 URL:https://www.greenwichodeum.com/events/donna-the-buffalo
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Royal Ballet: Alice's Adventure in Wonderland
+DTSTART;VALUE=DATE:20270404
+UID:jpt-b2c3f072a314@funotronic
+DESCRIPTION:The Royal Ballet at its best\, bringing together world-class d
+ ance with enchanting family entertainment and ingenious music and design! 
+ Showtimes on the theater's page.\nhttps://janepickens.com/shows/royla-ball
+ et-alices-adventure-in-wonderland
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/royla-ballet-alices-adventure-in-wonderl
+ and
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Boston Red Sox vs Cincinnati Reds
@@ -29615,6 +30636,18 @@ URL:https://events.brown.edu/chaplains-religious-life/event/338674-christi
  an-worship-service
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Royal Ballet: Swan Lake
+DTSTART;VALUE=DATE:20270519
+UID:jpt-e2edb332e7c2@funotronic
+DESCRIPTION:Liam Scarlett’s production for The Royal Ballet brings toget
+ her Tchaikovsky’s towering score and John Macfarlane’s picturesque des
+ igns to create an enduring ballet spectacle of love\, treachery and for Sh
+ owtimes on the theater's page.\nhttps://janepickens.com/shows/royal-ballet
+ -swan-lake
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/royal-ballet-swan-lake
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Wee-One Wednesdays
 DTSTART;TZID="UTC-04:00":20270519T090000
 DTEND;TZID="UTC-04:00":20270519T100000
@@ -29650,6 +30683,18 @@ URL:https://events.brown.edu/chaplains-religious-life/event/340398-gratitu
  de-group
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Royal Ballet: Swan Lake
+DTSTART;VALUE=DATE:20270520
+UID:jpt-e71b4de5b54a@funotronic
+DESCRIPTION:Liam Scarlett’s production for The Royal Ballet brings toget
+ her Tchaikovsky’s towering score and John Macfarlane’s picturesque des
+ igns to create an enduring ballet spectacle of love\, treachery and for Sh
+ owtimes on the theater's page.\nhttps://janepickens.com/shows/royal-ballet
+ -swan-lake
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/royal-ballet-swan-lake
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Sonia Flew
 DTSTART;TZID="UTC-04:00":20270520T190000
 UID:pm-gamm-bf4d7ff45ba2@funotronic
@@ -29660,6 +30705,18 @@ DESCRIPTION:“And I said\, I do not forgive you\, I will never forgive yo
  0oLgSTEA0
 LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Royal Ballet: Swan Lake
+DTSTART;VALUE=DATE:20270521
+UID:jpt-7d8fa816a467@funotronic
+DESCRIPTION:Liam Scarlett’s production for The Royal Ballet brings toget
+ her Tchaikovsky’s towering score and John Macfarlane’s picturesque des
+ igns to create an enduring ballet spectacle of love\, treachery and for Sh
+ owtimes on the theater's page.\nhttps://janepickens.com/shows/royal-ballet
+ -swan-lake
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/royal-ballet-swan-lake
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Boston Red Sox vs Texas Rangers
@@ -29721,6 +30778,18 @@ URL:https://www.amicamutualpavilion.com/events/detail/fantasia-anthony-ham
  ilton-october-london
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Royal Ballet: Swan Lake
+DTSTART;VALUE=DATE:20270522
+UID:jpt-fbd261819318@funotronic
+DESCRIPTION:Liam Scarlett’s production for The Royal Ballet brings toget
+ her Tchaikovsky’s towering score and John Macfarlane’s picturesque des
+ igns to create an enduring ballet spectacle of love\, treachery and for Sh
+ owtimes on the theater's page.\nhttps://janepickens.com/shows/royal-ballet
+ -swan-lake
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/royal-ballet-swan-lake
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Boston Red Sox vs Texas Rangers
 DTSTART;VALUE=DATE:20270522
 UID:pro-redsox-78b4aa02a3a9@funotronic
@@ -29778,6 +30847,18 @@ DESCRIPTION:By Dendy and Aaron Posner Magic by Dendy Directed by Aaron Pos
  om/ticket/#/instances/a0FQr00000NgDN0MAN
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Royal Ballet: Swan Lake
+DTSTART;VALUE=DATE:20270523
+UID:jpt-67e509be9efc@funotronic
+DESCRIPTION:Liam Scarlett’s production for The Royal Ballet brings toget
+ her Tchaikovsky’s towering score and John Macfarlane’s picturesque des
+ igns to create an enduring ballet spectacle of love\, treachery and for Sh
+ owtimes on the theater's page.\nhttps://janepickens.com/shows/royal-ballet
+ -swan-lake
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/royal-ballet-swan-lake
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Boston Red Sox vs Texas Rangers

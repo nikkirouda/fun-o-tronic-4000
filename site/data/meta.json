@@ -1,7 +1,17 @@
 {
- "generated": "2026-11-07T16:44-05:00",
- "count": 2737,
+ "generated": "2026-11-07T16:52-05:00",
+ "count": 2832,
  "sources": {
+  "jane_pickens": {
+   "ok": true,
+   "count": 85,
+   "last_ok": "2026-11-07T16:52-05:00"
+  },
+  "indie_bookstores": {
+   "ok": true,
+   "count": 13,
+   "last_ok": "2026-11-07T16:51-05:00"
+  },
   "alchemy": {
    "ok": true,
    "count": 34,
@@ -125,12 +135,12 @@
  },
  "categories": {
   "sports": 557,
-  "talk": 511,
-  "theater": 412,
-  "music": 359,
+  "talk": 522,
+  "theater": 432,
+  "music": 367,
   "community": 311,
+  "film": 173,
   "comedy": 162,
-  "film": 117,
   "art": 106,
   "food": 71,
   "classical": 71,
@@ -141,17 +151,17 @@
   "family": 2
  },
  "cities": {
-  "Providence": 1909,
+  "Providence": 1920,
   "Boston, MA": 226,
   "Warwick": 122,
   "East Providence": 119,
   "Worcester, MA": 112,
+  "Newport": 110,
   "Smithfield": 51,
   "Fall River": 42,
   "Woonsocket": 37,
   "New Haven, CT": 36,
   "East Greenwich": 34,
-  "Newport": 26,
   "Kingston": 15,
   "Foxborough, MA": 5,
   "Pawtucket": 3
