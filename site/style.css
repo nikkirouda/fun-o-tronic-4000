@@ -184,6 +184,17 @@ main { padding: 0 16px 24px; max-width: 980px; margin: 0 auto; }
 .cal-cell .dots { display: flex; flex-wrap: wrap; gap: 2px; margin-top: 3px; }
 .cal-cell .dots i { width: 6px; height: 6px; border-radius: 50%; display: block; }
 .cal-cell .heat { position: absolute; inset: auto 0 0 0; height: 3px; background: var(--accent); opacity: .7; }
+.cal-cell .evs { display: flex; flex-direction: column; gap: 2px; width: 100%; margin-top: 4px; min-width: 0; }
+.cal-cell .ev { display: block; font-size: 11px; line-height: 1.25; color: var(--ink); text-decoration: none; border-left: 3px solid var(--cc, var(--c-other)); padding: 1px 0 1px 5px; border-radius: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.cal-cell .ev b { font-weight: 600; color: var(--ink2); }
+.cal-cell .ev:hover { background: var(--bg2); }
+.cal-cell.sel .ev, .cal-cell.sel .ev b { color: var(--bg); }
+.cal-cell .morel { font-size: 10px; color: var(--ink2); padding-left: 8px; }
+.cal-cell.sel .morel { color: var(--bg); opacity: .8; }
+@media (min-width: 720px) {
+  .cal-cell { aspect-ratio: auto; min-height: 150px; padding: 6px; }
+  .cal-cell .cnt { display: none; }
+}
 #calDay { margin-top: 12px; }
 
 /* ---------- map ---------- */

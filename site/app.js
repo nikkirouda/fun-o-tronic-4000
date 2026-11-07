@@ -227,8 +227,20 @@
   }
 
   // ---------------------------------------------------------- calendar ---
+  const RANK_W = { theater: 5, classical: 5, comedy: 4.5, music: 4, film: 3.5, dance: 4, festival: 4, talk: 2.5, art: 2.5, sports: 2, food: 2, market: 1.5, community: 0.5, family: 0.5, other: 0.5 };
+  const PREMIER_RX = /trinity|ppac|gamm|vets|philharmonic|firstworks|amica|strand|odeum|stadium theatre|comedy connection|avon|athenaeum|risd museum|newport classical|wilbury|columbus/i;
+  function rank(e) {
+    let r = RANK_W[e.category] ?? 1;
+    if (e.sold_out) r -= 4;
+    if (PREMIER_RX.test(`${e.venue} ${e.source_name || ""}`)) r += 2;
+    if (e.ticket_url) r += .5;
+    if (e.description && e.description.length > 120) r += .5;
+    if (S.stars.has(e.id)) r += 10;
+    return r;
+  }
   function renderCal(list) {
     const t = todayKey();
+    const wide = matchMedia("(min-width: 720px)").matches;
     if (!S.calMonth) S.calMonth = t.slice(0, 7);
     const [y, m] = S.calMonth.split("-").map(Number);
     $("#calTitle").textContent = fmt(new Date(Date.UTC(y, m - 1, 1, 17)), { month: "long", year: "numeric" });
@@ -246,10 +258,13 @@
       const c = document.createElement("div");
       c.className = "cal-cell" + (key === t ? " today" : "") + (key === S.calSel ? " sel" : "");
       const cats = [...new Set(evs.map(e => e.category))].slice(0, 8);
-      c.innerHTML = `<span class="n">${d}</span><span class="dots">${cats.map(k => `<i style="background:var(--c-${k})"></i>`).join("")}</span>` +
+      const top = wide ? [...evs].sort((a, b) => rank(b) - rank(a)).slice(0, 5) : [];
+      c.innerHTML = `<span class="n">${d}</span>` +
+        (wide ? `<span class="evs">${top.map(e => `<a class="ev" data-id="${e.id}" style="--cc:var(--c-${e.category})" title="${esc(e.title)} · ${esc(e.venue)}">${e.all_day ? "" : `<b>${timeStr(e)}</b> `}${esc(e.title)}</a>`).join("")}${evs.length > top.length ? `<span class="morel">+${evs.length - top.length} more</span>` : ""}</span>`
+              : `<span class="dots">${cats.map(k => `<i style="background:var(--c-${k})"></i>`).join("")}</span>`) +
         (evs.length ? `<span class="cnt">${evs.length}</span><span class="heat" style="width:${Math.round(100 * evs.length / max)}%"></span>` : "");
       if (key < t) c.style.opacity = .45;
-      c.onclick = () => { S.calSel = key; renderCal(list); };
+      c.onclick = ev => { const a = ev.target.closest("a.ev"); if (a) { ev.stopPropagation(); openSheet(S.events.find(e => e.id === a.dataset.id)); return; } S.calSel = key; renderCal(list); };
       grid.appendChild(c);
     }
     const dayRoot = $("#calDay"); dayRoot.innerHTML = "";
