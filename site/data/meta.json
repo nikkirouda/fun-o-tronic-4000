@@ -1,0 +1,126 @@
+{
+ "generated": "2026-11-07T09:22-05:00",
+ "count": 2379,
+ "sources": {
+  "college_sports": {
+   "ok": true,
+   "count": 228,
+   "last_ok": "2026-11-07T09:22-05:00"
+  },
+  "alchemy": {
+   "ok": true,
+   "count": 34,
+   "last_ok": "2026-11-07T09:17-05:00"
+  },
+  "avon": {
+   "ok": true,
+   "count": 13,
+   "last_ok": "2026-11-07T09:17-05:00"
+  },
+  "brown_events": {
+   "ok": true,
+   "count": 936,
+   "last_ok": "2026-11-07T09:17-05:00"
+  },
+  "carbonhouse": {
+   "ok": true,
+   "count": 49,
+   "last_ok": "2026-11-07T09:17-05:00"
+  },
+  "carbonhouse_rss": {
+   "ok": true,
+   "count": 79,
+   "last_ok": "2026-11-07T09:17-05:00"
+  },
+  "comedy_connection": {
+   "ok": true,
+   "count": 119,
+   "last_ok": "2026-11-07T09:17-05:00"
+  },
+  "ics_feeds": {
+   "ok": true,
+   "count": 3,
+   "last_ok": "2026-11-07T09:17-05:00"
+  },
+  "newport_classical": {
+   "ok": true,
+   "count": 58,
+   "last_ok": "2026-11-07T09:17-05:00"
+  },
+  "odeum": {
+   "ok": true,
+   "count": 34,
+   "last_ok": "2026-11-07T09:17-05:00"
+  },
+  "patronmanager": {
+   "ok": true,
+   "count": 338,
+   "last_ok": "2026-11-07T09:17-05:00"
+  },
+  "pbruins": {
+   "ok": true,
+   "count": 30,
+   "last_ok": "2026-11-07T09:17-05:00"
+  },
+  "pig": {
+   "ok": true,
+   "count": 7,
+   "last_ok": "2026-11-07T09:17-05:00"
+  },
+  "rhp_venues": {
+   "ok": true,
+   "count": 51,
+   "last_ok": "2026-11-07T09:17-05:00"
+  },
+  "riphil": {
+   "ok": true,
+   "count": 18,
+   "last_ok": "2026-11-07T09:17-05:00"
+  },
+  "risd_engage": {
+   "ok": true,
+   "count": 45,
+   "last_ok": "2026-11-07T09:17-05:00"
+  },
+  "squarespace": {
+   "ok": true,
+   "count": 47,
+   "last_ok": "2026-11-07T09:17-05:00"
+  },
+  "stadium": {
+   "ok": true,
+   "count": 36,
+   "last_ok": "2026-11-07T09:17-05:00"
+  },
+  "tribe_sites": {
+   "ok": true,
+   "count": 458,
+   "last_ok": "2026-11-07T09:17-05:00"
+  }
+ },
+ "categories": {
+  "talk": 496,
+  "sports": 453,
+  "theater": 406,
+  "community": 313,
+  "music": 249,
+  "comedy": 144,
+  "film": 111,
+  "art": 106,
+  "classical": 60,
+  "other": 17,
+  "festival": 12,
+  "dance": 8,
+  "market": 3,
+  "food": 1
+ },
+ "cities": {
+  "Providence": 1990,
+  "Warwick": 122,
+  "East Providence": 119,
+  "Smithfield": 51,
+  "Woonsocket": 37,
+  "East Greenwich": 34,
+  "Newport": 26
+ }
+}
