@@ -264,6 +264,7 @@
         for (const e of [...evs].sort((a, b) => a._t - b._t)) { const k = e.title.toLowerCase(); (byTitle.get(k) || byTitle.set(k, []).get(k)).push(e); }
         const venues = new Map();
         for (const g of [...byTitle.values()].sort((a, b) => rank(b[0]) - rank(a[0]))) {
+          if (g[0].sold_out && byTitle.size > 6) continue;
           const v = g[0].venue_id || g[0].venue; if ((venues.get(v) || 0) >= 1 && byTitle.size > 6) continue;
           venues.set(v, (venues.get(v) || 0) + 1); top.push(g); if (top.length >= 6) break;
         }

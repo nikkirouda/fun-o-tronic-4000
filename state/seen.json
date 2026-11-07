@@ -9359,6 +9359,11 @@
 "on_sale": null,
 "ticket": true
 },
+"rhp-strand-2519c763afbc": {
+"first_seen": "2026-11-07T10:38-05:00",
+"on_sale": null,
+"ticket": true
+},
 "rhp-strand-31b53fb6df74": {
 "first_seen": "2026-11-07T09:17-05:00",
 "on_sale": null,
@@ -9411,6 +9416,11 @@
 },
 "rhp-strand-f304f3e3f360": {
 "first_seen": "2026-11-07T09:17-05:00",
+"on_sale": null,
+"ticket": true
+},
+"rhp-strand-fd4d67ffc28e": {
+"first_seen": "2026-11-07T10:38-05:00",
 "on_sale": null,
 "ticket": true
 },

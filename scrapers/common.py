@@ -213,6 +213,9 @@ def make_event(*, source: str, title: str, start: Any, url: str,
                all_day: bool = False, performer: str = "", extra: dict | None = None) -> dict | None:
     """Build one event in the common schema. Returns None if unusable."""
     title = clean(title)
+    if re.search(r"\*+\s*sold[ -]?out\s*\*+|\bsold out\b\s*[-:–]|\(sold out\)", title, re.I):
+        sold_out = True
+        title = clean(re.sub(r"\*+\s*sold[ -]?out\s*\*+\s*[-:–]?|\bsold out\b\s*[-:–]|\(sold out\)", "", title, flags=re.I))
     sdt = to_dt(start)
     if not title or not sdt:
         return None
