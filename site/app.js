@@ -265,7 +265,7 @@
     n.style.setProperty("--cc", `var(--c-${e.category})`);
     n.dataset.id = e.id;
     $(".t", n).textContent = timeStr(e);
-    $(".d", n).textContent = fmt(new Date(e.start), { weekday: "short", month: "short", day: "numeric" });
+    $(".d", n).textContent = fmt(new Date(e.start), matchMedia("(min-width: 720px)").matches ? { weekday: "short", month: "short", day: "numeric" } : { month: "short", day: "numeric" });
     const soon = soonLabel(e); $(".soon", n).textContent = soon; if (soon === "ended") n.classList.add("ended"); if (soon === "started" || soon.startsWith("in")) n.classList.add("soon");
     $(".cat", n).textContent = CATS[e.category] || e.category;
     $(".flags", n).innerHTML = flags(e);
@@ -326,7 +326,7 @@
       if (S.sort === "time" && e._day !== day) {
         day = e._day; const [a, b] = dayLabel(day);
         const h = document.createElement("div"); h.className = "day-head" + (day === todayKey() ? " today" : "");
-        h.innerHTML = `${esc(a)} <small>${esc(b)}${WX && WX.days[day] ? ` · ${WX.days[day].icon} ${WX.days[day].hi ?? ""}°` : ""}</small>`; root.appendChild(h);
+        h.innerHTML = `${esc(a)} <small>${esc(b)}${WX && WX.days[day] && (WX.days[day].hi ?? WX.days[day].lo) != null ? ` · ${WX.days[day].icon} ${WX.days[day].hi ?? WX.days[day].lo}°` : ""}</small>`; root.appendChild(h);
         grid = document.createElement("div"); grid.className = "cards-grid"; root.appendChild(grid);
       } else if (S.sort !== "time" && !grid) { grid = document.createElement("div"); grid.className = "cards-grid"; root.appendChild(grid); }
       const c = card(e, perfs);
