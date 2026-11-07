@@ -1,7 +1,17 @@
 {
- "generated": "2026-11-07T10:02-05:00",
- "count": 2394,
+ "generated": "2026-11-07T10:18-05:00",
+ "count": 2208,
  "sources": {
+  "brown_events": {
+   "ok": true,
+   "count": 832,
+   "last_ok": "2026-11-07T10:18-05:00"
+  },
+  "college_sports": {
+   "ok": true,
+   "count": 228,
+   "last_ok": "2026-11-07T10:16-05:00"
+  },
   "alchemy": {
    "ok": true,
    "count": 34,
@@ -12,11 +22,6 @@
    "count": 13,
    "last_ok": "2026-11-07T10:02-05:00"
   },
-  "brown_events": {
-   "ok": true,
-   "count": 936,
-   "last_ok": "2026-11-07T10:02-05:00"
-  },
   "carbonhouse": {
    "ok": true,
    "count": 49,
@@ -25,11 +30,6 @@
   "carbonhouse_rss": {
    "ok": true,
    "count": 79,
-   "last_ok": "2026-11-07T10:02-05:00"
-  },
-  "college_sports": {
-   "ok": true,
-   "count": 252,
    "last_ok": "2026-11-07T10:02-05:00"
   },
   "comedy_connection": {
@@ -100,28 +100,27 @@
  },
  "categories": {
   "talk": 496,
-  "sports": 468,
-  "theater": 406,
-  "community": 313,
+  "theater": 402,
+  "community": 311,
+  "sports": 290,
   "music": 249,
   "comedy": 144,
   "film": 111,
   "art": 106,
   "classical": 60,
   "other": 17,
-  "festival": 12,
-  "dance": 8,
+  "festival": 11,
+  "dance": 7,
   "market": 3,
   "food": 1
  },
  "cities": {
-  "Providence": 1990,
+  "Providence": 1819,
   "Warwick": 122,
   "East Providence": 119,
   "Smithfield": 51,
   "Woonsocket": 37,
   "East Greenwich": 34,
-  "Newport": 26,
-  "Kingston": 15
+  "Newport": 26
  }
 }

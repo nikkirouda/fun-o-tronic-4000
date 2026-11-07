@@ -77,7 +77,7 @@ _norm_rx = re.compile(r"[^a-z0-9]+")
 
 def norm_title(t: str) -> str:
     t = clean(t).lower()
-    t = re.sub(r"\b(the|a|an|live|in concert|presents?|tickets?|w/|with|feat\.?|featuring)\b", " ", t)
+    t = re.sub(r"\b(the|a|an|live|in concert|presents?|tickets?|w/|with|feat\.?|featuring|university|college|men s|women s)\b", " ", t)
     return _norm_rx.sub(" ", t).strip()
 
 
@@ -90,9 +90,8 @@ def dedupe(events: list[dict]) -> list[dict]:
         except Exception:  # noqa: BLE001
             continue
         bucket = int(st.timestamp() // (90 * 60))
-        vkey = slugify(e.get("venue") or "")[:20]
         tkey = norm_title(e["title"])[:40]
-        key = (tkey, bucket, vkey)
+        key = (tkey, bucket)
         prev = by_key.get(key)
         if prev is None:
             by_key[key] = e

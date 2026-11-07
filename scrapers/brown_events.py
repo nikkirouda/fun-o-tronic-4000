@@ -70,6 +70,8 @@ def convert(r: dict) -> dict | None:
         return None
     title = r.get("title") or ""
     if is_athletics:
+        if re.search(r"\bat\b", title) and not re.search(r"\bvs\.?\b", title):
+            return None  # away game
         cat = "sports"
     else:
         cat = None
@@ -79,6 +81,8 @@ def convert(r: dict) -> dict | None:
         # performances get guessed from text (music vs theater vs dance vs art)
     loc = clean(r.get("location") or r.get("location_title") or "")
     venue, address = (loc.split(" - ", 1) + [""])[:2] if " - " in loc else (loc, "")
+    if re.search(r"R\.I\.,", venue):  # athletics style: "Providence, R.I., Meehan Auditorium"
+        venue = venue.split(",")[-1].strip()
     room = clean(r.get("custom_room_number") or "")
     tags = [clean(t) for t in (r.get("tags") or [])] + sorted(types_clean)
     if r.get("custom_event_sponsor"):
