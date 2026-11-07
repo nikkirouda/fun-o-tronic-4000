@@ -66,11 +66,16 @@ def fetch() -> list[dict]:
             sport = re.sub(r"^(Brown University|Providence College|University of Rhode Island|Rhode Island|Bryant University|Bryant)\s*", "", team_sport).strip()
             if MINOR.search(sport) and not re.search(r"champ|ivy|tournament", summ + loc, re.I):
                 continue
-            venue = loc.split(",")[-1].strip() if loc.count(",") >= 2 else s["team"]
+            parts = [x.strip() for x in loc.split(",")]
+            venue = parts[-1] if len(parts) >= 3 else s["team"]
+            if re.fullmatch(r"R\.?I\.?|Rhode Island", venue, re.I):
+                venue = parts[0] if len(parts) == 2 else s["team"]
             dtstart = c.decoded("DTSTART")
             all_day = not hasattr(dtstart, "hour")
             title = f"{s['team']} {sport} vs {clean(opp)}"
             desc = clean(str(c.get("DESCRIPTION", "")))
+            desc = re.sub(r"\s*(TV|Radio|Streaming Video|Live Stats|Live Video|Audio|Tickets|Video):.*$", "", desc).strip()
+            desc = re.sub(rf"^{re.escape(summ)}\s*", "", desc).strip()
             ev = make_event(
                 source="college_sports", title=title, start=to_dt(dtstart), url=str(c.get("URL", "")) or s["web"],
                 venue=venue, city=s["city"], lat=s["lat"], lon=s["lon"], category="sports", all_day=all_day,

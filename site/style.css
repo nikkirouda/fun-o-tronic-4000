@@ -124,7 +124,7 @@ button { cursor: pointer; }
 /* ---------- list ---------- */
 main { padding: 0 16px 24px; max-width: 980px; margin: 0 auto; }
 .day-head {
-  position: sticky; top: 61px; z-index: 5; background: var(--bg); padding: 10px 0 6px; margin-top: 10px;
+  position: sticky; top: var(--mast-h, 61px); z-index: 5; background: var(--bg); padding: 10px 0 6px; margin-top: 10px;
   font-family: var(--font-display); font-size: 17px; letter-spacing: .3px; display: flex; align-items: baseline; gap: 8px;
 }
 .day-head small { font-family: var(--font); color: var(--ink2); font-size: 12px; letter-spacing: 0; }
@@ -132,8 +132,9 @@ main { padding: 0 16px 24px; max-width: 980px; margin: 0 auto; }
 .card {
   display: grid; grid-template-columns: 58px 1fr 36px; gap: 10px; padding: 12px 10px 12px 12px; margin: 8px 0;
   background: var(--panel); border-radius: var(--radius); box-shadow: var(--shadow); border-left: 5px solid var(--cc, var(--c-other));
-  cursor: pointer; outline: none; transition: transform .12s;
+  cursor: pointer; outline: none; transition: transform .12s; min-width: 0;
 }
+.card .body { min-width: 0; overflow-wrap: anywhere; }
 .card:active { transform: scale(.995); }
 .card:focus-visible { box-shadow: 0 0 0 3px var(--accent); }
 .card .when { display: flex; flex-direction: column; font-weight: 700; font-size: 15px; line-height: 1.2; padding-top: 2px; }
@@ -160,7 +161,7 @@ main { padding: 0 16px 24px; max-width: 980px; margin: 0 auto; }
   .brand h1 { font-size: 30px; }
   .panel, .viewbar { padding-left: 24px; padding-right: 24px; }
   main { padding: 0 24px 32px; }
-  .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 10px; }
+  .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); gap: 10px; }
   .cards-grid .card { margin: 0; }
 }
 

@@ -432,6 +432,8 @@
   document.addEventListener("click", e => { if (e.target.id === "clearAll") { localStorage.clear(); location.reload(); } });
 
   // ------------------------------------------------------------- boot ---
+  const setMast = () => document.documentElement.style.setProperty("--mast-h", $(".masthead").offsetHeight + "px");
+  setMast(); addEventListener("resize", setMast); if (document.fonts) document.fonts.ready.then(setMast);
   syncControls();
   load().catch(err => { $("#statusText").textContent = "couldn't load listings"; $("#led").className = "led bad"; console.error(err); })
     .finally(() => { localStorage.setItem("fot.lastVisit", new Date().toISOString()); });
