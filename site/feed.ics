@@ -29,16 +29,6 @@ LOCATION:Roger Williams Park Zoo\, 1000 Elmwood Avenue Providence 02907
 URL:https://www.rwpzoo.org/event/youth-climate-conference/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Emergent Hacks
-DTSTART;TZID="UTC-05:00":20261107T100000
-UID:brown-events-7b5fb3905b59@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/nelson-entrepreneurship/event/3
- 42835-emergent-hacks
-LOCATION:1 Euclid Ave\, Providence RI 02906\, Providence
-URL:https://events.brown.edu/nelson-entrepreneurship/event/342835-emergent
- -hacks
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Rhode Island Comic Con 2026
 DTSTART;TZID="UTC-05:00":20261107T100000
 DTEND;TZID="UTC-05:00":20261108T100000
@@ -735,17 +725,13 @@ URL:https://www.longlivebeerworks.com/pop-ups/2023/6/3/teddis-food-truck-p
  7ws-a8fg5-enejb-pm79g-fcjfb-szzdk
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Panthers
+SUMMARY:Boston Bruins vs Florida Panthers
 DTSTART;TZID="UTC-05:00":20261108T130000
-UID:ch-tdgarden-44ab9544cbc8@funotronic
-DESCRIPTION:The Boston Bruins take on the Florida Panthers Bruins Merchand
- ise Shop Bruins gear at the ProShop powered by '47 to pick up the latest m
- erch and rep the B's all year-round.\nhttps://www.ticketmaster.com/event/0
- 10064EDC50E7A3B?brand=BRU&camefrom=CFC_BRU_1108Boston_Bruins_vs_Florida_Pa
- nthers000100IND1108TDW&f_PPL=true&utm_source=event_page&utm_medium=web&utm
- _campaign=bruins-2026
+UID:pro-bruins-d6b9d787eb94@funotronic
+DESCRIPTION:Boston Bruins host the Florida Panthers at TD Garden.\nresale 
+ from $56\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-panthers-26-27
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bryant Men's Basketball vs Fairfield University - America East-Met
@@ -857,6 +843,15 @@ DESCRIPTION:Following the finale of his acclaimed HBO series HOW TO WITH J
  inema.com/now-playing.php
 LOCATION:Avon Cinema\, 260 Thayer St
 URL:https://www.avoncinema.com/now-playing.php
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:New England Patriots vs Green Bay Packers
+DTSTART;TZID="UTC-05:00":20261108T162500
+UID:pro-patriots-7ccb49c18986@funotronic
+DESCRIPTION:New England Patriots host the Green Bay Packers at Gillette St
+ adium.\nresale from $283\nhttps://www.patriots.com/tickets/
+LOCATION:Gillette Stadium\, 1 Patriot Pl\, Foxborough\, MA
+URL:https://www.patriots.com/tickets/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bryant Women's Soccer vs University of Maine
@@ -4026,6 +4021,15 @@ LOCATION:Alchemy\, 71 Richmond St
 URL:https://alchemyri.net/providence-downtown-alchemy-events
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Bruins vs Montreal Canadiens
+DTSTART;TZID="UTC-05:00":20261112T190000
+UID:pro-bruins-e18cbfc5c12f@funotronic
+DESCRIPTION:Boston Bruins host the Montreal Canadiens at TD Garden.\nresal
+ e from $56\nhttps://www.nhl.com/bruins/tickets
+LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
+URL:https://www.nhl.com/bruins/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Brown University Men’s Basketball vs Canisius
 DTSTART;TZID="UTC-05:00":20261112T190000
 DTEND;TZID="UTC-05:00":20261112T210000
@@ -4035,19 +4039,6 @@ DESCRIPTION:https://events.brown.edu/athletics/event/335842-brown-universi
 LOCATION:Pizzitola Sports Center\, Providence
 URL:https://events.brown.edu/athletics/event/335842-brown-university-mens-
  basketball-vs-canisius
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Bruins vs. Canadiens
-DTSTART;TZID="UTC-05:00":20261112T190000
-UID:ch-tdgarden-14a3ff6c7d15@funotronic
-DESCRIPTION:The Boston Bruins take on the Montreal Canadiens Bruins Mercha
- ndise Shop Bruins gear at the ProShop powered by '47 to pick up the latest
-  merch and rep the B's all year-round.\nhttps://www.ticketmaster.com/event
- /010064EDC5137A4E?brand=BRU&camefrom=CFC_BRU_1112Boston_Bruins_vs_Montreal
- _Canadiens000100IND1112TDW&f_PPL=true&utm_source=event_page&utm_medium=web
- &utm_campaign=bruins-2026
-LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-canadiens-26-27
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Dragfunctland
@@ -5401,17 +5392,13 @@ LOCATION:The Hanover Theatre — Main Stage\, 2 Southbridge St Worcester 0
 URL:https://thehanovertheatre.org/event/bert-kreischer2026/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Wild
+SUMMARY:Boston Bruins vs Minnesota Wild
 DTSTART;TZID="UTC-05:00":20261114T190000
-UID:ch-tdgarden-1dee5a36036e@funotronic
-DESCRIPTION:The Boston Bruins take on the Minnesota Wild Bruins Merchandis
- e Shop Bruins gear at the ProShop powered by '47 to pick up the latest mer
- ch and rep the B's all year-round.\nhttps://www.ticketmaster.com/event/010
- 064EDC5187A57?brand=BRU&camefrom=CFC_BRU_1114Boston_Bruins_vs_Minnesota_Wi
- ld000100IND1114TDW&f_PPL=true&utm_source=event_page&utm_medium=web&utm_cam
- paign=bruins-2026
+UID:pro-bruins-40e5d6170b8d@funotronic
+DESCRIPTION:Boston Bruins host the Minnesota Wild at TD Garden.\nresale fr
+ om $56\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-wild-26-27
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cozy Throne + Pocketwrench + Sleep Destroyer + Big Bug
@@ -5831,17 +5818,13 @@ LOCATION:AS220 Black Box\, 95 Empire Street
 URL:https://as220.org/calendar/pvdloopfest-2026-pr652
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Mavericks
+SUMMARY:Boston Celtics vs Dallas Mavericks
 DTSTART;TZID="UTC-05:00":20261115T180000
-UID:ch-tdgarden-17ad1a2a030c@funotronic
-DESCRIPTION:The Boston Celtics take on the Dallas Mavericks. CELTICS MERCH
- ANDISE Shop at the ProShop powered by ’47 to pick up the latest Celtics 
- merchandise to rep the team this season.\nhttps://www.ticketmaster.com/eve
- nt/0100650C94759448?brand=TDG&camefrom=CFC_TDG_1115Celtics_vs._Mavericks00
- 0100IND1115TDW&f_PPL=true&utm_source=event_page&utm_medium=web&utm_campaig
- n=celtics-2026
+UID:pro-celtics-43b14c0e540b@funotronic
+DESCRIPTION:Boston Celtics host the Dallas Mavericks at TD Garden.\nresale
+  from $117\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-mavericks-26-27
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Christian Worship Service
@@ -6404,18 +6387,13 @@ URL:https://clpvd.org/event/banned-book-club-the-satanic-verses/2026-11-16
  /
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Magic
+SUMMARY:Boston Celtics vs Orlando Magic
 DTSTART;TZID="UTC-05:00":20261116T190000
-UID:ch-tdgarden-0d834673dd98@funotronic
-DESCRIPTION:The Boston Celtics take on the Orlando Magic. CELTICS MERCHAND
- ISE Shop at the ProShop powered by ’47 to pick up the latest Celtics mer
- chandise to rep the team this season. Shop the latest tees\, hats\, sweats
- hirts\, novelty items\, and more.\nhttps://www.ticketmaster.com/event/0100
- 650C947A945E?brand=TDG&camefrom=CFC_TDG_1116Celtics_vs._Magic000100IND1116
- TDW&f_PPL=true&utm_source=event_page&utm_medium=web&utm_campaign=celtics-2
- 026
+UID:pro-celtics-fe41f74bbf88@funotronic
+DESCRIPTION:Boston Celtics host the Orlando Magic at TD Garden.\nresale fr
+ om $53\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-magic-26-27
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:National Theatre Live: All My Sons
@@ -7117,17 +7095,13 @@ LOCATION:Mt. Pleasant Library\, 315 Academy Avenue Providence 02908
 URL:https://clpvd.org/event/conversations-book-club/2026-11-17/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Kings
+SUMMARY:Boston Bruins vs Los Angeles Kings
 DTSTART;TZID="UTC-05:00":20261117T190000
-UID:ch-tdgarden-39f3677016d1@funotronic
-DESCRIPTION:The Boston Bruins take on the Los Angeles Kings Bruins Merchan
- dise Shop Bruins gear at the ProShop powered by '47 to pick up the latest 
- merch and rep the B's all year-round.\nhttps://www.ticketmaster.com/event/
- 010064EDC51D7A67?brand=BRU&camefrom=CFC_BRU_1117Boston_Bruins_vs_Los_Angel
- es_Kings000100IND1117TDW&f_PPL=true&utm_source=event_page&utm_medium=web&u
- tm_campaign=bruins-2026
+UID:pro-bruins-9e71649e845c@funotronic
+DESCRIPTION:Boston Bruins host the Los Angeles Kings at TD Garden.\nresale
+  from $45\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-kings-26-27
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Catie Turner\, Kiss Bang
@@ -10007,6 +9981,15 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Bruins vs Washington Capitals
+DTSTART;TZID="UTC-05:00":20261121T190000
+UID:pro-bruins-e063e74933af@funotronic
+DESCRIPTION:Boston Bruins host the Washington Capitals at TD Garden.\nresa
+ le from $56\nhttps://www.nhl.com/bruins/tickets
+LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
+URL:https://www.nhl.com/bruins/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Brown University Orchestra with Rachel Barton Pine
 DTSTART;TZID="UTC-05:00":20261121T190000
 UID:brown-events-561c010ee7ca@funotronic
@@ -10015,19 +9998,6 @@ DESCRIPTION:15\nhttps://events.brown.edu/music/event/337142-brown-universi
 LOCATION:The Lindemann Performing Arts Center\, Providence
 URL:https://events.brown.edu/music/event/337142-brown-university-orchestra
  -with-rachel-barton-pine
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Bruins vs. Capitals
-DTSTART;TZID="UTC-05:00":20261121T190000
-UID:ch-tdgarden-8ded23b49df1@funotronic
-DESCRIPTION:The Boston Bruins take on the Washington Capitals Bruins Merch
- andise Shop Bruins gear at the ProShop powered by '47 to pick up the lates
- t merch and rep the B's all year-round.\nhttps://www.ticketmaster.com/even
- t/010064EDC5227A8B?brand=BRU&camefrom=CFC_BRU_1121Boston_Bruins_vs_Washing
- ton_Capitals000100IND1121TDW&f_PPL=true&utm_source=event_page&utm_medium=w
- eb&utm_campaign=bruins-2026
-LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-capitals-26-27
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Julia Minkin + Justice Cow + Space Cowboy Newt
@@ -11614,17 +11584,13 @@ URL:https://www.ppacri.org/events/detail/twas-the-night-before-by-cirque-d
  u-soleil
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Jets
+SUMMARY:Boston Bruins vs Winnipeg Jets
 DTSTART;TZID="UTC-05:00":20261125T190000
-UID:ch-tdgarden-22bd7e49b0ae@funotronic
-DESCRIPTION:The Boston Bruins take on the Winnepeg Jets Bruins Merchandise
-  Shop Bruins gear at the ProShop powered by '47 to pick up the latest merc
- h and rep the B's all year-round.\nhttps://www.ticketmaster.com/event/0100
- 64EDC5277AB0?brand=BRU&camefrom=CFC_BRU_1125Boston_Bruins_vs_Winnepeg_Jets
- 000100IND1125TDW&f_PPL=true&utm_source=event_page&utm_medium=web&utm_campa
- ign=bruins-2026
+UID:pro-bruins-9fd700444035@funotronic
+DESCRIPTION:Boston Bruins host the Winnipeg Jets at TD Garden.\nresale fro
+ m $50\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-jets-26-27
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Jessimae Peluso
@@ -11910,17 +11876,13 @@ LOCATION:Roger Williams Park\, 1000 Elmwood Ave Providence 02907
 URL:https://www.providenceri.gov/event/bwc-open-houses/2026-11-27/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Maple Leafs
+SUMMARY:Boston Bruins vs Toronto Maple Leafs
 DTSTART;TZID="UTC-05:00":20261127T130000
-UID:ch-tdgarden-a467a7378b6a@funotronic
-DESCRIPTION:The Boston Bruins take on the Toronto Maple Leafs Bruins Merch
- andise Shop Bruins gear at the ProShop powered by '47 to pick up the lates
- t merch and rep the B's all year-round.\nhttps://www.ticketmaster.com/even
- t/010064EDC52C7AD3?brand=BRU&camefrom=CFC_BRU_1127Boston_Bruins_vs_Toronto
- _Maple_Leafs000100IND1127TDW&f_PPL=true&utm_source=event_page&utm_medium=w
- eb&utm_campaign=bruins-2026
+UID:pro-bruins-3efe1c919fe9@funotronic
+DESCRIPTION:Boston Bruins host the Toronto Maple Leafs at TD Garden.\nresa
+ le from $56\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-maple-leafs-26-27
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:~Virtual~ Lunch Bunch Story
@@ -12096,18 +12058,13 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Hawks
+SUMMARY:Boston Celtics vs Atlanta Hawks
 DTSTART;TZID="UTC-05:00":20261127T200000
-UID:ch-tdgarden-fd5bcf7eca82@funotronic
-DESCRIPTION:The Boston Celtics take on the Atlanta Hawks. CELTICS MERCHAND
- ISE Shop at the ProShop powered by ’47 to pick up the latest Celtics mer
- chandise to rep the team this season. Shop the latest tees\, hats\, sweats
- hirts\, novelty items\, and more.\nhttps://www.ticketmaster.com/event/0100
- 650C94809466?brand=TDG&camefrom=CFC_TDG_1127Celtics_vs._Hawks000100IND1127
- TDW&f_PPL=true&utm_source=event_page&utm_medium=web&utm_campaign=celtics-2
- 026
+UID:pro-celtics-c2dd80d50368@funotronic
+DESCRIPTION:Boston Celtics host the Atlanta Hawks at TD Garden.\nresale fr
+ om $116\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-hawks-26-27
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:PIG: The People vs. PIG
@@ -12740,17 +12697,13 @@ LOCATION:Chace Athletic Center\, Smithfield
 URL:https://bryantbulldogs.com/calendar.aspx?game_id=12504&amp;sport_id=7
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Canucks
+SUMMARY:Boston Bruins vs Vancouver Canucks
 DTSTART;TZID="UTC-05:00":20261129T170000
-UID:ch-tdgarden-04a1368a3621@funotronic
-DESCRIPTION:The Boston Bruins take on the Vancouver Canucks Bruins Merchan
- dise Shop Bruins gear at the ProShop powered by '47 to pick up the latest 
- merch and rep the B's all year-round.\nhttps://www.ticketmaster.com/event/
- 010064EDC5317AE9?brand=BRU&camefrom=CFC_BRU_1129Boston_Bruins_vs_Vancouver
- _Canucks000100IND1129TDW&f_PPL=true&utm_source=event_page&utm_medium=web&u
- tm_campaign=bruins-2026
+UID:pro-bruins-0856af4df5c0@funotronic
+DESCRIPTION:Boston Bruins host the Vancouver Canucks at TD Garden.\nresale
+  from $56\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-canucks-26-27
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Christmas Carol
@@ -13492,17 +13445,13 @@ LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
 URL:https://events.brown.edu/live/events/336928-daily-mass
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Avalanche
+SUMMARY:Boston Bruins vs Colorado Avalanche
 DTSTART;TZID="UTC-05:00":20261201T200000
-UID:ch-tdgarden-a064b956e032@funotronic
-DESCRIPTION:The Boston Bruins take on the Colorado Avalanche. Bruins Merch
- andise Shop Bruins gear at the ProShop powered by '47 to pick up the lates
- t merch and rep the B's all year-round.\nhttps://www.ticketmaster.com/even
- t/010064EDC5367B00?brand=BRU&camefrom=CFC_BRU_1201Boston_Bruins_vs_Colorad
- o_Avalanche000100IND1201TDW&f_PPL=true&utm_source=event_page&utm_medium=we
- b&utm_campaign=bruins-2026
+UID:pro-bruins-a9ed12c0a493@funotronic
+DESCRIPTION:Boston Bruins host the Colorado Avalanche at TD Garden.\nresal
+ e from $56\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-avalanche-26-27
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Jazz Combos Concert
@@ -13973,17 +13922,13 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Hornets
+SUMMARY:Boston Celtics vs Charlotte Hornets
 DTSTART;TZID="UTC-05:00":20261202T193000
-UID:ch-tdgarden-35387c0184dc@funotronic
-DESCRIPTION:The Boston Celtics take on the Charlotte Hornets. CELTICS MERC
- HANDISE Shop at the ProShop powered by ’47 to pick up the latest Celtics
-  merchandise to rep the team this season.\nhttps://www.ticketmaster.com/ev
- ent/0100650C94859490?brand=TDG&camefrom=CFC_TDG_1202Celtics_vs._Hornets000
- 100IND1202TDW&f_PPL=true&utm_source=event_page&utm_medium=web&utm_campaign
- =celtics-2026
+UID:pro-celtics-1d7f8e05a349@funotronic
+DESCRIPTION:Boston Celtics host the Charlotte Hornets at TD Garden.\nresal
+ e from $48\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-hornets-26-27
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Daily Mass
@@ -14948,6 +14893,15 @@ URL:https://www.ppacri.org/events/detail/twas-the-night-before-by-cirque-d
  u-soleil
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Bruins vs Detroit Red Wings
+DTSTART;TZID="UTC-05:00":20261205T130000
+UID:pro-bruins-6ac18a7b063d@funotronic
+DESCRIPTION:Boston Bruins host the Detroit Red Wings at TD Garden.\nresale
+  from $66\nhttps://www.nhl.com/bruins/tickets
+LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
+URL:https://www.nhl.com/bruins/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Brown University Women’s Basketball vs George Washington
 DTSTART;TZID="UTC-05:00":20261205T130000
 DTEND;TZID="UTC-05:00":20261205T150000
@@ -14957,19 +14911,6 @@ DESCRIPTION:https://events.brown.edu/athletics/event/335991-brown-universi
 LOCATION:Pizzitola Sports Center\, Providence
 URL:https://events.brown.edu/athletics/event/335991-brown-university-women
  s-basketball-vs-george
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Bruins vs. Red Wings
-DTSTART;TZID="UTC-05:00":20261205T130000
-UID:ch-tdgarden-91c3ced4e4ad@funotronic
-DESCRIPTION:The Boston Bruins take on the Detroit Red Wings Bruins Merchan
- dise Shop Bruins gear at the ProShop powered by '47 to pick up the latest 
- merch and rep the B's all year-round.\nhttps://www.ticketmaster.com/event/
- 010064EDC53B7B22?brand=BRU&camefrom=CFC_BRU_1205Boston_Bruins_vs_Detroit_R
- ed_Wings000100IND1205TDW&f_PPL=true&utm_source=event_page&utm_medium=web&u
- tm_campaign=bruins-2026
-LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-red-wings-26-27
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Christmas with Cantus
@@ -15545,6 +15486,15 @@ DESCRIPTION:https://events.brown.edu/athletics/event/336233-brown-universi
 LOCATION:Meehan Auditorium\, Providence
 URL:https://events.brown.edu/athletics/event/336233-brown-university-mens-
  ice-hockey-vs-stonehill
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:New England Patriots vs Buffalo Bills
+DTSTART;TZID="UTC-05:00":20261206T162500
+UID:pro-patriots-1f42667a2cd2@funotronic
+DESCRIPTION:New England Patriots host the Buffalo Bills at Gillette Stadiu
+ m.\nresale from $331\nhttps://www.patriots.com/tickets/
+LOCATION:Gillette Stadium\, 1 Patriot Pl\, Foxborough\, MA
+URL:https://www.patriots.com/tickets/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Christmas Carol
@@ -16592,6 +16542,15 @@ URL:https://www.greenwichodeum.com/events/odeum-classic-films-love-actuall
  y
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:New England Patriots vs Minnesota Vikings
+DTSTART;TZID="UTC-05:00":20261210T201500
+UID:pro-patriots-b3091f9c7d5b@funotronic
+DESCRIPTION:New England Patriots host the Minnesota Vikings at Gillette St
+ adium.\nresale from $142\nhttps://www.patriots.com/tickets/
+LOCATION:Gillette Stadium\, 1 Patriot Pl\, Foxborough\, MA
+URL:https://www.patriots.com/tickets/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Art at Watson Presents — Diagnósticos: technology\, information
   and self
 DTSTART;VALUE=DATE:20261211
@@ -17004,17 +16963,13 @@ URL:https://newporthistory.org/event/pictures-with-santa-a-visit-from-st-n
  icholas-reading-at-the-colony-house-holiday-market/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Devils
+SUMMARY:Boston Bruins vs New Jersey Devils
 DTSTART;TZID="UTC-05:00":20261212T130000
-UID:ch-tdgarden-c7a82b45b3b0@funotronic
-DESCRIPTION:The Boston Bruins take on the New Jersey Devils Bruins Merchan
- dise Shop Bruins gear at the ProShop powered by '47 to pick up the latest 
- merch and rep the B's all year-round.\nhttps://www.ticketmaster.com/event/
- 010064EDC5407B3C?brand=BRU&camefrom=CFC_BRU_1212Boston_Bruins_vs_New_Jerse
- y_Devils000100IND1212TDW&f_PPL=true&utm_source=event_page&utm_medium=web&u
- tm_campaign=bruins-2026
+UID:pro-bruins-adf6292dddb2@funotronic
+DESCRIPTION:Boston Bruins host the New Jersey Devils at TD Garden.\nresale
+  from $56\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-devils-26-27
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Classical Christmas with Frisson
@@ -17645,17 +17600,13 @@ LOCATION:Shubert Theatre\, 247 College St\, New Haven\, CT
 URL:https://www.shubert.com/events/detail/the-rock-orchestra
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Wizards
+SUMMARY:Boston Celtics vs Washington Wizards
 DTSTART;TZID="UTC-05:00":20261214T193000
-UID:ch-tdgarden-811808d2eac0@funotronic
-DESCRIPTION:The Boston Celtics take on the Washington Wizards. CELTICS MER
- CHANDISE Shop at the ProShop powered by ’47 to pick up the latest Celtic
- s merchandise to rep the team this season.\nhttps://www.ticketmaster.com/e
- vent/0100650C949494C5?brand=TDG&camefrom=CFC_TDG_1214Celtics_vs._Wizards00
- 0100IND1214TDW&f_PPL=true&utm_source=event_page&utm_medium=web&utm_campaig
- n=celtics-2026
+UID:pro-celtics-2b4da21ac416@funotronic
+DESCRIPTION:Boston Celtics host the Washington Wizards at TD Garden.\nresa
+ le from $54\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-wizards-26-27
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Art at Watson Presents — Diagnósticos: technology\, information
@@ -17744,17 +17695,13 @@ LOCATION:Boch Center\, 270 Tremont St\, Boston\, MA
 URL:https://www.bochcenter.org/events/detail/bmg
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Panthers
+SUMMARY:Boston Bruins vs Florida Panthers
 DTSTART;TZID="UTC-05:00":20261215T190000
-UID:ch-tdgarden-f59dc02e9ed2@funotronic
-DESCRIPTION:The Boston Bruins take on the Florida Panthers Bruins Merchand
- ise Shop Bruins gear at the ProShop powered by '47 to pick up the latest m
- erch and rep the B's all year-round.\nhttps://www.ticketmaster.com/event/0
- 10064EDC5457B62?brand=BRU&camefrom=CFC_BRU_1215Boston_Bruins_vs_Florida_Pa
- nthers000100IND1215TDW&f_PPL=true&utm_source=event_page&utm_medium=web&utm
- _campaign=bruins-2026
+UID:pro-bruins-6f129c2cbb91@funotronic
+DESCRIPTION:Boston Bruins host the Florida Panthers at TD Garden.\nresale 
+ from $56\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-panthers-26-27-1
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hell's Kitchen
@@ -17942,15 +17889,13 @@ URL:https://events.brown.edu/chaplains-religious-life/event/336990-adorati
  on-confession
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Wizards
+SUMMARY:Boston Celtics vs Washington Wizards
 DTSTART;TZID="UTC-05:00":20261216T190000
-UID:ch-tdgarden-77fe30a40537@funotronic
-DESCRIPTION:The Boston Celtics take on the Washington Wizards. CELTICS MER
- CHANDISE Shop at the ProShop powered by ’47 to pick up the latest Celtic
- s merchandise to rep the team this season.\nhttps://www.tdgarden.com/event
- s/detail/celtics-vs-wizards-26-27-1
+UID:pro-celtics-0f1d81453c26@funotronic
+DESCRIPTION:Boston Celtics host the Washington Wizards at TD Garden.\nresa
+ le from $55\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-wizards-26-27-1
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hell's Kitchen
@@ -18157,15 +18102,13 @@ URL:https://www.buttonwoodsbrewery.com/new-events/2026/12/17/smoking-hot-j
  azz
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Blues
+SUMMARY:Boston Bruins vs St. Louis Blues
 DTSTART;TZID="UTC-05:00":20261217T190000
-UID:ch-tdgarden-df7770b54c1b@funotronic
-DESCRIPTION:The Boston Bruins take on the St. Louis Blues Bruins Merchandi
- se Shop Bruins gear at the ProShop powered by '47 to pick up the latest me
- rch and rep the B's all year-round.\nhttps://www.tdgarden.com/events/detai
- l/bruins-vs-blues-26-27
+UID:pro-bruins-eef847d38dc0@funotronic
+DESCRIPTION:Boston Bruins host the St. Louis Blues at TD Garden.\nresale f
+ rom $45\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-blues-26-27
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GIANT - The Play
@@ -18428,16 +18371,13 @@ LOCATION:Stadium Theatre\, 28 Monument Sq
 URL:https://www.stadiumtheatre.com/events/christmas-carol
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Jazz
+SUMMARY:Boston Celtics vs Utah Jazz
 DTSTART;TZID="UTC-05:00":20261218T193000
-UID:ch-tdgarden-797d53a83f14@funotronic
-DESCRIPTION:The Boston Celtics take on the Utah Jazz. CELTICS MERCHANDISE 
- Shop at the ProShop powered by ’47 to pick up the latest Celtics merchan
- dise to rep the team this season. Shop the latest tees\, hats\, sweatshirt
- s\, novelty items\, and more.\nhttps://www.tdgarden.com/events/detail/celt
- ics-vs-jazz-26-27
+UID:pro-celtics-64954ebb3611@funotronic
+DESCRIPTION:Boston Celtics host the Utah Jazz at TD Garden.\nresale from $
+ 82\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-jazz-26-27
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hell's Kitchen
@@ -18816,15 +18756,13 @@ URL:https://www.longlivebeerworks.com/pop-ups/2024/3/7/south-county-bbq-po
  p-up-gtyjn-w9tka-e76jk-w4rpj-a94k7
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Flyers
+SUMMARY:Boston Bruins vs Philadelphia Flyers
 DTSTART;TZID="UTC-05:00":20261220T130000
-UID:ch-tdgarden-8651de6fd7a4@funotronic
-DESCRIPTION:The Boston Bruins take on the Philadelphia Flyers Bruins Merch
- andise Shop Bruins gear at the ProShop powered by '47 to pick up the lates
- t merch and rep the B's all year-round.\nhttps://www.tdgarden.com/events/d
- etail/bruins-vs-flyers-26-27-1
+UID:pro-bruins-78c013012639@funotronic
+DESCRIPTION:Boston Bruins host the Philadelphia Flyers at TD Garden.\nresa
+ le from $56\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-flyers-26-27-1
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bryant Men's Basketball vs University of Delaware
@@ -19000,16 +18938,13 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Pistons
+SUMMARY:Boston Celtics vs Detroit Pistons
 DTSTART;TZID="UTC-05:00":20261220T200000
-UID:ch-tdgarden-6821ddaa077f@funotronic
-DESCRIPTION:The Boston Celtics take on the Detroit Pistons. CELTICS MERCHA
- NDISE Shop at the ProShop powered by ’47 to pick up the latest Celtics m
- erchandise to rep the team this season. Shop the latest tees\, hats\, swea
- tshirts\, novelty items\, and more.\nhttps://www.tdgarden.com/events/detai
- l/celtics-vs-pistons-26-27
+UID:pro-celtics-57fdf5e99127@funotronic
+DESCRIPTION:Boston Celtics host the Detroit Pistons at TD Garden.\nresale 
+ from $92\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-pistons-26-27
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -19303,15 +19238,13 @@ URL:https://www.longlivebeerworks.com/pop-ups/2022/trivia-zaeg7-xwm66-rs3b
  f9m
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Trail Blazers
+SUMMARY:Boston Celtics vs Portland Trail Blazers
 DTSTART;TZID="UTC-05:00":20261223T193000
-UID:ch-tdgarden-e17055af8d78@funotronic
-DESCRIPTION:The Boston Celtics take on the Portland Trail Blazers. CELTICS
-  MERCHANDISE Shop at the ProShop powered by ’47 to pick up the latest Ce
- ltics merchandise to rep the team this season.\nhttps://www.tdgarden.com/e
- vents/detail/celtics-vs-trailblazers-26-27
+UID:pro-celtics-818c0383c3e0@funotronic
+DESCRIPTION:Boston Celtics host the Portland Trail Blazers at TD Garden.\n
+ resale from $107\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-trailblazers-26-27
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Holiday Pops with the Stadium Theatre Orchestra
@@ -19390,16 +19323,13 @@ URL:https://events.brown.edu/library/event/341448-a-pictorial-dragon-the-a
  rt-of-fernando-birri
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Heat
+SUMMARY:Boston Celtics vs Miami Heat
 DTSTART;TZID="UTC-05:00":20261225T143000
-UID:ch-tdgarden-8b2350cd21be@funotronic
-DESCRIPTION:The Boston Celtics take on the Miami Heat. CELTICS MERCHANDISE
-  Shop at the ProShop powered by ’47 to pick up the latest Celtics mercha
- ndise to rep the team this season. Shop the latest tees\, hats\, sweatshir
- ts\, novelty items\, and more.\nhttps://www.tdgarden.com/events/detail/cel
- tics-vs-heat-26-27
+UID:pro-celtics-40d517be025b@funotronic
+DESCRIPTION:Boston Celtics host the Miami Heat at TD Garden.\nresale from 
+ $174\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-heat-26-27
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tai Chi Beginner Level
@@ -19487,15 +19417,13 @@ LOCATION:Providence Performing Arts Center\, 220 Weybosset St
 URL:https://www.ppacri.org/events/detail/the-nutcracker-4
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Islanders
+SUMMARY:Boston Bruins vs New York Islanders
 DTSTART;TZID="UTC-05:00":20261226T190000
-UID:ch-tdgarden-97212a0d074d@funotronic
-DESCRIPTION:The Boston Bruins take on the New York Islanders Bruins Mercha
- ndise Shop Bruins gear at the ProShop powered by '47 to pick up the latest
-  merch and rep the B's all year-round.\nhttps://www.tdgarden.com/events/de
- tail/bruins-vs-islanders-26-27
+UID:pro-bruins-506f8afe38c9@funotronic
+DESCRIPTION:Boston Bruins host the New York Islanders at TD Garden.\nresal
+ e from $56\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-islanders-26-27
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:It's a Wonderful Life: A Live Radio Play
@@ -19672,15 +19600,13 @@ URL:https://www.longlivebeerworks.com/pop-ups/2026/10/5/hot-dog-monday-w-h
  ot-q-wienie-b957c-lsw9f
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Cavaliers
+SUMMARY:Boston Celtics vs Cleveland Cavaliers
 DTSTART;TZID="UTC-05:00":20261228T200000
-UID:ch-tdgarden-2654cb983f64@funotronic
-DESCRIPTION:The Boston Celtics take on the Cleveland Cavaliers. CELTICS ME
- RCHANDISE Shop at the ProShop powered by ’47 to pick up the latest Celti
- cs merchandise to rep the team this season.\nhttps://www.tdgarden.com/even
- ts/detail/celtics-vs-cavaliers-26-27
+UID:pro-celtics-6ab532802a12@funotronic
+DESCRIPTION:Boston Celtics host the Cleveland Cavaliers at TD Garden.\nres
+ ale from $146\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-cavaliers-26-27
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -19847,15 +19773,13 @@ URL:https://www.longlivebeerworks.com/pop-ups/2022/trivia-zaeg7-xwm66-rs3b
  5gm
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Oilers
+SUMMARY:Boston Bruins vs Edmonton Oilers
 DTSTART;TZID="UTC-05:00":20261230T193000
-UID:ch-tdgarden-2abe2e824146@funotronic
-DESCRIPTION:The Boston Bruins take on the Edmonton Oilers Bruins Merchandi
- se Shop Bruins gear at the ProShop powered by '47 to pick up the latest me
- rch and rep the B's all year-round.\nhttps://www.tdgarden.com/events/detai
- l/bruins-vs-oilers-26-27
+UID:pro-bruins-48159793e454@funotronic
+DESCRIPTION:Boston Bruins host the Edmonton Oilers at TD Garden.\nresale f
+ rom $56\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-oilers-26-27
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -20049,6 +19973,15 @@ LOCATION:Narrows Center for the Arts\, 16 Anawan St\, Fall River\, MA
 URL:https://narrowscenter.showare.com/eventperformances.asp?evt=403
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:New England Patriots vs Denver Broncos
+DTSTART;TZID="UTC-05:00":20270103T000000
+UID:pro-patriots-2eec18372817@funotronic
+DESCRIPTION:New England Patriots host the Denver Broncos at Gillette Stadi
+ um.\nresale from $165\nhttps://www.patriots.com/tickets/
+LOCATION:Gillette Stadium\, 1 Patriot Pl\, Foxborough\, MA
+URL:https://www.patriots.com/tickets/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Christian Worship Service
 DTSTART;TZID="UTC-05:00":20270103T180000
 UID:brown-events-c34fa7238f99@funotronic
@@ -20137,15 +20070,13 @@ URL:https://events.brown.edu/athletics/event/336230-brown-university-mens-
  ice-hockey-vs-army
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Sabres
+SUMMARY:Boston Bruins vs Buffalo Sabres
 DTSTART;TZID="UTC-05:00":20270105T193000
-UID:ch-tdgarden-22ed43a40919@funotronic
-DESCRIPTION:The Boston Bruins take on the Buffalo Sabres Bruins Merchandis
- e Shop Bruins gear at the ProShop powered by '47 to pick up the latest mer
- ch and rep the B's all year-round.\nhttps://www.tdgarden.com/events/detail
- /bruins-vs-sabres-26-27
+UID:pro-bruins-fbe5130c4944@funotronic
+DESCRIPTION:Boston Bruins host the Buffalo Sabres at TD Garden.\nresale fr
+ om $82\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-sabres-26-27
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -20458,6 +20389,15 @@ LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/shayne-smith-2027
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:New England Patriots vs Miami Dolphins
+DTSTART;TZID="UTC-05:00":20270110T000000
+UID:pro-patriots-87fca24fadbf@funotronic
+DESCRIPTION:New England Patriots host the Miami Dolphins at Gillette Stadi
+ um.\nresale from $108\nhttps://www.patriots.com/tickets/
+LOCATION:Gillette Stadium\, 1 Patriot Pl\, Foxborough\, MA
+URL:https://www.patriots.com/tickets/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Bluey's Big Play
 DTSTART;TZID="UTC-05:00":20270110T110000
 UID:carbonhouse-d702e3bc8a0f@funotronic
@@ -20504,16 +20444,13 @@ URL:https://events.brown.edu/chaplains-religious-life/event/338656-christi
  an-worship-service
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Rockets
+SUMMARY:Boston Celtics vs Houston Rockets
 DTSTART;TZID="UTC-05:00":20270111T193000
-UID:ch-tdgarden-0bf38a20a2e0@funotronic
-DESCRIPTION:The Boston Celtics take on the Houston Rockets. CELTICS MERCHA
- NDISE Shop at the ProShop powered by ’47 to pick up the latest Celtics m
- erchandise to rep the team this season. Shop the latest tees\, hats\, swea
- tshirts\, novelty items\, and more.\nhttps://www.tdgarden.com/events/detai
- l/celtics-vs-rockets-26-27
+UID:pro-celtics-8e02ae8e78f9@funotronic
+DESCRIPTION:Boston Celtics host the Houston Rockets at TD Garden.\nresale 
+ from $77\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-rockets-26-27
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -20531,15 +20468,13 @@ URL:https://events.brown.edu/library/event/341460-a-pictorial-dragon-the-a
  rt-of-fernando-birri
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Hurricanes
+SUMMARY:Boston Bruins vs Carolina Hurricanes
 DTSTART;TZID="UTC-05:00":20270112T190000
-UID:ch-tdgarden-c127c4d7364a@funotronic
-DESCRIPTION:The Boston Bruins take on the Carolina Hurricanes Bruins Merch
- andise Shop Bruins gear at the ProShop powered by '47 to pick up the lates
- t merch and rep the B's all year-round.\nhttps://www.tdgarden.com/events/d
- etail/bruins-vs-hurricanes-26-27
+UID:pro-bruins-de2ffe7594b8@funotronic
+DESCRIPTION:Boston Bruins host the Carolina Hurricanes at TD Garden.\nresa
+ le from $86\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-hurricanes-26-27
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -20580,16 +20515,13 @@ URL:https://events.brown.edu/chaplains-religious-life/event/340380-gratitu
  de-group
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Knicks
+SUMMARY:Boston Celtics vs New York Knicks
 DTSTART;TZID="UTC-05:00":20270113T190000
-UID:ch-tdgarden-e17adf92bfa2@funotronic
-DESCRIPTION:The Boston Celtics take on the New York Knicks. CELTICS MERCHA
- NDISE Shop at the ProShop powered by ’47 to pick up the latest Celtics m
- erchandise to rep the team this season. Shop the latest tees\, hats\, swea
- tshirts\, novelty items\, and more.\nhttps://www.tdgarden.com/events/detai
- l/celtics-vs-knicks-26-27-1
+UID:pro-celtics-0fdd6cfc4911@funotronic
+DESCRIPTION:Boston Celtics host the New York Knicks at TD Garden.\nresale 
+ from $132\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-knicks-26-27-1
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -20628,15 +20560,13 @@ LOCATION:RISD — Woods-Gerry Gallery\, Providence
 URL:https://involved.risd.edu/event/12603440
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Stars
+SUMMARY:Boston Bruins vs Dallas Stars
 DTSTART;TZID="UTC-05:00":20270114T190000
-UID:ch-tdgarden-ad576eab4ed1@funotronic
-DESCRIPTION:The Boston Bruins take on the Dallas Stars Bruins Merchandise 
- Shop Bruins gear at the ProShop powered by '47 to pick up the latest merch
-  and rep the B's all year-round.\nhttps://www.tdgarden.com/events/detail/b
- ruins-vs-stars-26-27
+UID:pro-bruins-ea4ee2282b18@funotronic
+DESCRIPTION:Boston Bruins host the Dallas Stars at TD Garden.\nresale from
+  $89\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-stars-26-27
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Dan Altano Stand Up Comedy
@@ -20945,16 +20875,13 @@ URL:https://events.brown.edu/athletics/event/336226-brown-university-mens-
  ice-hockey-vs-rpi
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Nets
+SUMMARY:Boston Celtics vs Brooklyn Nets
 DTSTART;TZID="UTC-05:00":20270116T190000
-UID:ch-tdgarden-97003c4eb357@funotronic
-DESCRIPTION:The Boston Celtics take on the New York Knicks. CELTICS MERCHA
- NDISE Shop at the ProShop powered by ’47 to pick up the latest Celtics m
- erchandise to rep the team this season. Shop the latest tees\, hats\, swea
- tshirts\, novelty items\, and more.\nhttps://www.tdgarden.com/events/detai
- l/celtics-vs-nets-26-27-2
+UID:pro-celtics-5f72f48d22c4@funotronic
+DESCRIPTION:Boston Celtics host the Brooklyn Nets at TD Garden.\nresale fr
+ om $89\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-nets-26-27-2
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Dave Attell
@@ -21150,15 +21077,13 @@ URL:https://events.brown.edu/athletics/event/335984-brown-university-women
  s-basketball-vs-cornell
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Lightning
+SUMMARY:Boston Bruins vs Tampa Bay Lightning
 DTSTART;TZID="UTC-05:00":20270118T133000
-UID:ch-tdgarden-16fbda705cd7@funotronic
-DESCRIPTION:The Boston Bruins take on the Tampa Bay Lightning Bruins Merch
- andise Shop Bruins gear at the ProShop powered by '47 to pick up the lates
- t merch and rep the B's all year-round.\nhttps://www.tdgarden.com/events/d
- etail/bruins-vs-lightning-26-27
+UID:pro-bruins-1e8eafaccd40@funotronic
+DESCRIPTION:Boston Bruins host the Tampa Bay Lightning at TD Garden.\nresa
+ le from $105\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-lightning-26-27
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Providence College Women's Ice Hockey vs Yale University
@@ -21263,16 +21188,13 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Pacers
+SUMMARY:Boston Celtics vs Indiana Pacers
 DTSTART;TZID="UTC-05:00":20270120T193000
-UID:ch-tdgarden-bf73a54c8459@funotronic
-DESCRIPTION:The Boston Celtics take on the Indiana Pacers. CELTICS MERCHAN
- DISE Shop at the ProShop powered by ’47 to pick up the latest Celtics me
- rchandise to rep the team this season. Shop the latest tees\, hats\, sweat
- shirts\, novelty items\, and more.\nhttps://www.tdgarden.com/events/detail
- /celtics-vs-pacers-26-27
+UID:pro-celtics-55fbca06db88@funotronic
+DESCRIPTION:Boston Celtics host the Indiana Pacers at TD Garden.\nresale f
+ rom $56\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-pacers-26-27
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -21350,15 +21272,13 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. 76ers
+SUMMARY:Boston Celtics vs Philadelphia 76ers
 DTSTART;TZID="UTC-05:00":20270121T193000
-UID:ch-tdgarden-4face8d7b1d3@funotronic
-DESCRIPTION:The Boston Celtics take on the Philadelphia 76ers. CELTICS MER
- CHANDISE Shop at the ProShop powered by ’47 to pick up the latest Celtic
- s merchandise to rep the team this season.\nhttps://www.tdgarden.com/event
- s/detail/celtics-vs-76ers-26-27
+UID:pro-celtics-b7c1553d5324@funotronic
+DESCRIPTION:Boston Celtics host the Philadelphia 76ers at TD Garden.\nresa
+ le from $310\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-76ers-26-27
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -21551,15 +21471,13 @@ LOCATION:Fete Music Hall\, 103 Dike
 URL:https://www.fetemusic.com/all-shows/thursday-5mwrl
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Hornets
+SUMMARY:Boston Celtics vs Charlotte Hornets
 DTSTART;TZID="UTC-05:00":20270123T190000
-UID:ch-tdgarden-84f0b6d2d5c9@funotronic
-DESCRIPTION:The Boston Celtics take on the Charlotte Hornets. CELTICS MERC
- HANDISE Shop at the ProShop powered by ’47 to pick up the latest Celtics
-  merchandise to rep the team this season.\nhttps://www.tdgarden.com/events
- /detail/celtics-vs-hornets-26-28
+UID:pro-celtics-e8bdfe93d152@funotronic
+DESCRIPTION:Boston Celtics host the Charlotte Hornets at TD Garden.\nresal
+ e from $94\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-hornets-26-28
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Martin Amini
@@ -21793,16 +21711,13 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Raptors
+SUMMARY:Boston Celtics vs Toronto Raptors
 DTSTART;TZID="UTC-05:00":20270125T190000
-UID:ch-tdgarden-638126e36378@funotronic
-DESCRIPTION:The Boston Celtics take on the Toronto Raptors. CELTICS MERCHA
- NDISE Shop at the ProShop powered by ’47 to pick up the latest Celtics m
- erchandise to rep the team this season. Shop the latest tees\, hats\, swea
- tshirts\, novelty items\, and more.\nhttps://www.tdgarden.com/events/detai
- l/celtics-vs-raptors-26-27
+UID:pro-celtics-33a0020d3946@funotronic
+DESCRIPTION:Boston Celtics host the Toronto Raptors at TD Garden.\nresale 
+ from $54\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-raptors-26-27
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -21832,15 +21747,13 @@ URL:https://events.brown.edu/global-health/event/341258-global-orthopedic-
  surgery-paul-j-galkin-global
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Blue Jackets
+SUMMARY:Boston Bruins vs Columbus Blue Jackets
 DTSTART;TZID="UTC-05:00":20270126T190000
-UID:ch-tdgarden-79c1b72dfe33@funotronic
-DESCRIPTION:The Boston Bruins take on the Tampa Bay Lightning Bruins Merch
- andise Shop Bruins gear at the ProShop powered by '47 to pick up the lates
- t merch and rep the B's all year-round.\nhttps://www.tdgarden.com/events/d
- etail/bruins-vs-blue-jackets-26-27
+UID:pro-bruins-1db368ec7f9b@funotronic
+DESCRIPTION:Boston Bruins host the Columbus Blue Jackets at TD Garden.\nre
+ sale from $64\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-blue-jackets-26-27
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -21920,16 +21833,13 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Clippers
+SUMMARY:Boston Celtics vs LA Clippers
 DTSTART;TZID="UTC-05:00":20270127T193000
-UID:ch-tdgarden-17704ddcbd2e@funotronic
-DESCRIPTION:The Boston Celtics take on the LA Clippers. CELTICS MERCHANDIS
- E Shop at the ProShop powered by ’47 to pick up the latest Celtics merch
- andise to rep the team this season. Shop the latest tees\, hats\, sweatshi
- rts\, novelty items\, and more.\nhttps://www.tdgarden.com/events/detail/ce
- ltics-vs-clippers-26-27
+UID:pro-celtics-1b4c95214c67@funotronic
+DESCRIPTION:Boston Celtics host the LA Clippers at TD Garden.\nresale from
+  $52\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-clippers-26-27
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cyrano
@@ -22133,6 +22043,15 @@ LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/william-montgomery-2026
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Celtics vs Phoenix Suns
+DTSTART;TZID="UTC-05:00":20270129T193000
+UID:pro-celtics-2cd840efa6fc@funotronic
+DESCRIPTION:Boston Celtics host the Phoenix Suns at TD Garden.\nresale fro
+ m $84\nhttps://www.nba.com/celtics/tickets
+LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
+URL:https://www.nba.com/celtics/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Cello Sonatas with Sterling Elliott and Elliot Wuu
 DTSTART;TZID="UTC-05:00":20270129T193000
 UID:newport-classical-371d2c5bf399@funotronic
@@ -22142,18 +22061,6 @@ DESCRIPTION:Tracing the evolution of the beloved sonata form\, cellist Ste
  t-elliot-wuu/
 LOCATION:Newport Classical\, 42 Dearborn St\, Newport RI 02840
 URL:https://newportclassical.org/event/sterling-elliott-elliot-wuu/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Celtics vs. Suns
-DTSTART;TZID="UTC-05:00":20270129T193000
-UID:ch-tdgarden-19a38f2746ab@funotronic
-DESCRIPTION:The Boston Celtics take on the Phoenix Suns. CELTICS MERCHANDI
- SE Shop at the ProShop powered by ’47 to pick up the latest Celtics merc
- handise to rep the team this season. Shop the latest tees\, hats\, sweatsh
- irts\, novelty items\, and more.\nhttps://www.tdgarden.com/events/detail/c
- eltics-vs-suns-26-27
-LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-suns-26-27
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cirque Alice
@@ -22327,6 +22234,15 @@ URL:https://events.brown.edu/athletics/event/335981-brown-university-women
  s-basketball-vs-dartmouth
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Bruins vs Toronto Maple Leafs
+DTSTART;TZID="UTC-05:00":20270130T190000
+UID:pro-bruins-793a0b6ee4e4@funotronic
+DESCRIPTION:Boston Bruins host the Toronto Maple Leafs at TD Garden.\nresa
+ le from $155\nhttps://www.nhl.com/bruins/tickets
+LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
+URL:https://www.nhl.com/bruins/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Brown University Men’s Ice Hockey vs Princeton - Teddy Toss
 DTSTART;TZID="UTC-05:00":20270130T190000
 DTEND;TZID="UTC-05:00":20270130T220000
@@ -22336,17 +22252,6 @@ DESCRIPTION:https://events.brown.edu/athletics/event/336223-brown-universi
 LOCATION:Meehan Auditorium\, Providence
 URL:https://events.brown.edu/athletics/event/336223-brown-university-mens-
  ice-hockey-vs-princeton
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Bruins vs. Maple Leafs
-DTSTART;TZID="UTC-05:00":20270130T190000
-UID:ch-tdgarden-7cea2c8ef8dc@funotronic
-DESCRIPTION:The Boston Bruins take on the Toronto Maple Leafs Bruins Merch
- andise Shop Bruins gear at the ProShop powered by '47 to pick up the lates
- t merch and rep the B's all year-round.\nhttps://www.tdgarden.com/events/d
- etail/bruins-vs-maple-leafs-26-27-1
-LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-maple-leafs-26-27-1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The English Understand Wool
@@ -22544,16 +22449,13 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Lakers
+SUMMARY:Boston Celtics vs Los Angeles Lakers
 DTSTART;TZID="UTC-05:00":20270202T200000
-UID:ch-tdgarden-f0bd57375368@funotronic
-DESCRIPTION:The Boston Celtics take on the LA Lakers. CELTICS MERCHANDISE 
- Shop at the ProShop powered by ’47 to pick up the latest Celtics merchan
- dise to rep the team this season. Shop the latest tees\, hats\, sweatshirt
- s\, novelty items\, and more.\nhttps://www.tdgarden.com/events/detail/celt
- ics-vs-lakers-26-27
+UID:pro-celtics-475be845008c@funotronic
+DESCRIPTION:Boston Celtics host the Los Angeles Lakers at TD Garden.\nresa
+ le from $114\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-lakers-26-27
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -23174,16 +23076,13 @@ LOCATION:Boch Center\, 270 Tremont St\, Boston\, MA
 URL:https://www.bochcenter.org/events/detail/beetlejuice
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Nuggets
+SUMMARY:Boston Celtics vs Denver Nuggets
 DTSTART;TZID="UTC-05:00":20270209T193000
-UID:ch-tdgarden-bd591af63286@funotronic
-DESCRIPTION:The Boston Celtics take on the Denver Nuggets. CELTICS MERCHAN
- DISE Shop at the ProShop powered by ’47 to pick up the latest Celtics me
- rchandise to rep the team this season. Shop the latest tees\, hats\, sweat
- shirts\, novelty items\, and more.\nhttps://www.tdgarden.com/events/detail
- /celtics-vs-nuggets-26-27
+UID:pro-celtics-b550c48d4146@funotronic
+DESCRIPTION:Boston Celtics host the Denver Nuggets at TD Garden.\nresale f
+ rom $78\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-nuggets-26-27
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -23276,15 +23175,13 @@ URL:https://www.amicamutualpavilion.com/events/detail/providence-college-v
  s-marquette-2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Warriors
+SUMMARY:Boston Celtics vs Golden State Warriors
 DTSTART;TZID="UTC-05:00":20270210T193000
-UID:ch-tdgarden-7d16135e95a6@funotronic
-DESCRIPTION:The Boston Celtics take on the Golden State Warriors. CELTICS 
- MERCHANDISE Shop at the ProShop powered by ’47 to pick up the latest Cel
- tics merchandise to rep the team this season.\nhttps://www.tdgarden.com/ev
- ents/detail/celtics-vs-warriors-26-27-1
+UID:pro-celtics-8466e70b2dd9@funotronic
+DESCRIPTION:Boston Celtics host the Golden State Warriors at TD Garden.\nr
+ esale from $111\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-warriors-26-27-1
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -23453,15 +23350,13 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Timberwolves
+SUMMARY:Boston Celtics vs Minnesota Timberwolves
 DTSTART;TZID="UTC-05:00":20270212T200000
-UID:ch-tdgarden-4e0f95b63614@funotronic
-DESCRIPTION:The Boston Celtics take on the Minnesots Timberwolves. CELTICS
-  MERCHANDISE Shop at the ProShop powered by ’47 to pick up the latest Ce
- ltics merchandise to rep the team this season.\nhttps://www.tdgarden.com/e
- vents/detail/celtics-vs-warriors-26-27
+UID:pro-celtics-f936afb10f4f@funotronic
+DESCRIPTION:Boston Celtics host the Minnesota Timberwolves at TD Garden.\n
+ resale from $138\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-warriors-26-27
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Direct From Sweden
@@ -23551,15 +23446,13 @@ URL:https://events.brown.edu/athletics/event/335819-brown-university-mens-
  basketball-vs-harvard
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Blue Jackets
+SUMMARY:Boston Bruins vs Columbus Blue Jackets
 DTSTART;TZID="UTC-05:00":20270213T190000
-UID:ch-tdgarden-bbf31ff4c467@funotronic
-DESCRIPTION:The Boston Bruins take on the Columbus Blue Jackets Bruins Mer
- chandise Shop Bruins gear at the ProShop powered by '47 to pick up the lat
- est merch and rep the B's all year-round.\nhttps://www.tdgarden.com/events
- /detail/bruins-vs-blue-jackets-26-27-1
+UID:pro-bruins-1bbe54d7106a@funotronic
+DESCRIPTION:Boston Bruins host the Columbus Blue Jackets at TD Garden.\nre
+ sale from $129\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-blue-jackets-26-27-1
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Greg Warren
@@ -23688,16 +23581,13 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Raptors
+SUMMARY:Boston Celtics vs Toronto Raptors
 DTSTART;TZID="UTC-05:00":20270214T130000
-UID:ch-tdgarden-7d0bc75a27c2@funotronic
-DESCRIPTION:The Boston Celtics take on the Toronto Raptors. CELTICS MERCHA
- NDISE Shop at the ProShop powered by ’47 to pick up the latest Celtics m
- erchandise to rep the team this season. Shop the latest tees\, hats\, swea
- tshirts\, novelty items\, and more.\nhttps://www.tdgarden.com/events/detai
- l/celtics-vs-raptors-26-27-1
+UID:pro-celtics-7622f5e10469@funotronic
+DESCRIPTION:Boston Celtics host the Toronto Raptors at TD Garden.\nresale 
+ from $97\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-raptors-26-27-1
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Providence College Women's Basketball vs DePaul
@@ -23756,15 +23646,13 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Ducks
+SUMMARY:Boston Bruins vs Anaheim Ducks
 DTSTART;TZID="UTC-05:00":20270215T140000
-UID:ch-tdgarden-93ae9f866bc9@funotronic
-DESCRIPTION:The Boston Bruins take on the Anaheim Ducks Bruins Merchandise
-  Shop Bruins gear at the ProShop powered by '47 to pick up the latest merc
- h and rep the B's all year-round.\nhttps://www.tdgarden.com/events/detail/
- bruins-vs-ducks-26-27
+UID:pro-bruins-33d293095709@funotronic
+DESCRIPTION:Boston Bruins host the Anaheim Ducks at TD Garden.\nresale fro
+ m $96\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-ducks-26-27
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Gamm Free Movie Nights
@@ -23975,6 +23863,15 @@ DESCRIPTION:By Lauren Yee Directed by Tatyana-Marie Carlo It’s 1992 in t
  0FQr00000NYw5xMAD
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Northeastern Huskies
+DTSTART;VALUE=DATE:20270219
+UID:pro-redsox-a8be36da2005@funotronic
+DESCRIPTION:Boston Red Sox host the Northeastern Huskies at Fenway Park.\n
+ https://www.mlb.com/redsox/tickets
+LOCATION:JetBlue Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -24285,6 +24182,15 @@ LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/joe-dombrowski-2027
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Minnesota Twins
+DTSTART;VALUE=DATE:20270221
+UID:pro-redsox-6016ffae65a9@funotronic
+DESCRIPTION:Boston Red Sox host the Minnesota Twins at Fenway Park.\nhttps
+ ://www.mlb.com/redsox/tickets
+LOCATION:JetBlue Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Cyrano
 DTSTART;TZID="UTC-05:00":20270221T120000
 UID:pm-trinity-681ebac66f89@funotronic
@@ -24340,6 +24246,15 @@ LOCATION:Fete Music\, 103 Dike Street
 URL:https://www.fetemusic.com/all-shows/babyfxce-e-74f5p
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs St. Louis Cardinals
+DTSTART;VALUE=DATE:20270222
+UID:pro-redsox-09c70ae33922@funotronic
+DESCRIPTION:Boston Red Sox host the St. Louis Cardinals at Fenway Park.\nh
+ ttps://www.mlb.com/redsox/tickets
+LOCATION:JetBlue Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20270222T090000
 DTEND;TZID="UTC-05:00":20270222T170000
@@ -24353,6 +24268,15 @@ LOCATION:John Hay Library\, Harriette Hemmasi Exhibition Gallery\, Brown U
  niversity
 URL:https://events.brown.edu/library/event/341489-a-pictorial-dragon-the-a
  rt-of-fernando-birri
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Philadelphia Phillies
+DTSTART;VALUE=DATE:20270223
+UID:pro-redsox-4de717b8c3dc@funotronic
+DESCRIPTION:Boston Red Sox host the Philadelphia Phillies at Fenway Park.
+ \nhttps://www.mlb.com/redsox/tickets
+LOCATION:JetBlue Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -24514,6 +24438,15 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Baltimore Orioles
+DTSTART;VALUE=DATE:20270225
+UID:pro-redsox-c97560e17a20@funotronic
+DESCRIPTION:Boston Red Sox host the Baltimore Orioles at Fenway Park.\nhtt
+ ps://www.mlb.com/redsox/tickets
+LOCATION:JetBlue Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20270225T090000
 DTEND;TZID="UTC-05:00":20270225T170000
@@ -24630,15 +24563,13 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Capitals
+SUMMARY:Boston Bruins vs Washington Capitals
 DTSTART;TZID="UTC-05:00":20270225T200000
-UID:ch-tdgarden-34d6fa60e382@funotronic
-DESCRIPTION:The Boston Bruins take on the Washington Capitals Bruins Merch
- andise Shop Bruins gear at the ProShop powered by '47 to pick up the lates
- t merch and rep the B's all year-round.\nhttps://www.tdgarden.com/events/d
- etail/bruins-vs-capitals-26-27-1
+UID:pro-bruins-e7e42454805b@funotronic
+DESCRIPTION:Boston Bruins host the Washington Capitals at TD Garden.\nresa
+ le from $51\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-capitals-26-27-1
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -24740,15 +24671,13 @@ LOCATION:Amica Mutual Pavilion\, 1 La Salle Square
 URL:https://www.providencebruins.com/schedule
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Cavaliers
+SUMMARY:Boston Celtics vs Cleveland Cavaliers
 DTSTART;TZID="UTC-05:00":20270226T193000
-UID:ch-tdgarden-6d59a291f57a@funotronic
-DESCRIPTION:The Boston Celtics take on the Cleveland Cavaliers. CELTICS ME
- RCHANDISE Shop at the ProShop powered by ’47 to pick up the latest Celti
- cs merchandise to rep the team this season.\nhttps://www.tdgarden.com/even
- ts/detail/celtics-vs-cavaliers-26-27-1
+UID:pro-celtics-6650ff63ba7f@funotronic
+DESCRIPTION:Boston Celtics host the Cleveland Cavaliers at TD Garden.\nres
+ ale from $86\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-cavaliers-26-27-1
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cyrano
@@ -24788,6 +24717,15 @@ DESCRIPTION:Comedian\, actor\, and impressionist Frank Caliendo’s impecc
  ank-caliendo-2026
 LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/frank-caliendo-2026
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Atlanta Braves
+DTSTART;VALUE=DATE:20270227
+UID:pro-redsox-935f2063f360@funotronic
+DESCRIPTION:Boston Red Sox host the Atlanta Braves at Fenway Park.\nhttps:
+ //www.mlb.com/redsox/tickets
+LOCATION:JetBlue Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bachata & Merengue
@@ -24833,15 +24771,13 @@ LOCATION:Chace Athletic Center\, Smithfield
 URL:https://bryantbulldogs.com/calendar.aspx?game_id=12524&amp;sport_id=16
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Red Wings
+SUMMARY:Boston Bruins vs Detroit Red Wings
 DTSTART;TZID="UTC-05:00":20270227T123000
-UID:ch-tdgarden-7a612ba93189@funotronic
-DESCRIPTION:The Boston Bruins take on the Detroit Red Wings Bruins Merchan
- dise Shop Bruins gear at the ProShop powered by '47 to pick up the latest 
- merch and rep the B's all year-round.\nhttps://www.tdgarden.com/events/det
- ail/bruins-vs-red-wings-26-27-1
+UID:pro-bruins-65eafcf7575b@funotronic
+DESCRIPTION:Boston Bruins host the Detroit Red Wings at TD Garden.\nresale
+  from $116\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-red-wings-26-27-1
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:New Playwright Showcase
@@ -24977,6 +24913,15 @@ DESCRIPTION:an authentic live musical experience for hardcore fans and int
 LOCATION:Greenwich Odeum\, 59 Main St
 URL:https://www.greenwichodeum.com/events/the-musical-box-presents-and-the
  n-there-was-phil
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Tampa Bay Rays
+DTSTART;VALUE=DATE:20270301
+UID:pro-redsox-29ee978de1fb@funotronic
+DESCRIPTION:Boston Red Sox host the Tampa Bay Rays at Fenway Park.\nhttps:
+ //www.mlb.com/redsox/tickets
+LOCATION:JetBlue Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -25196,6 +25141,15 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Minnesota Twins
+DTSTART;VALUE=DATE:20270305
+UID:pro-redsox-2f49cdd3fa97@funotronic
+DESCRIPTION:Boston Red Sox host the Minnesota Twins at Fenway Park.\nhttps
+ ://www.mlb.com/redsox/tickets
+LOCATION:JetBlue Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20270305T090000
 DTEND;TZID="UTC-05:00":20270305T170000
@@ -25347,15 +25301,13 @@ LOCATION:Gateway Center at Roger Williams Park\, 1197 Broad Street Provide
 URL:https://www.providenceri.gov/event/bachata-merengue/2027-03-06/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Penguins
+SUMMARY:Boston Bruins vs Pittsburgh Penguins
 DTSTART;TZID="UTC-05:00":20270306T123000
-UID:ch-tdgarden-6cd092495d2d@funotronic
-DESCRIPTION:The Boston Bruins take on the Pittsburgh Penguins Bruins Merch
- andise Shop Bruins gear at the ProShop powered by '47 to pick up the lates
- t merch and rep the B's all year-round.\nhttps://www.tdgarden.com/events/d
- etail/bruins-vs-penguins-26-27
+UID:pro-bruins-cc1264ff142d@funotronic
+DESCRIPTION:Boston Bruins host the Pittsburgh Penguins at TD Garden.\nresa
+ le from $139\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-penguins-26-27
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Brown University Women’s Basketball vs Penn- Senior Day
@@ -25469,6 +25421,15 @@ LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/craig-conant-2027
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Toronto Blue Jays
+DTSTART;VALUE=DATE:20270307
+UID:pro-redsox-9c624c98fec4@funotronic
+DESCRIPTION:Boston Red Sox host the Toronto Blue Jays at Fenway Park.\nhtt
+ ps://www.mlb.com/redsox/tickets
+LOCATION:JetBlue Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Brown University Fencing vs Regionals
 DTSTART;TZID="UTC-05:00":20270307T090000
 DTEND;TZID="UTC-05:00":20270307T120000
@@ -25492,15 +25453,13 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. 76ers
+SUMMARY:Boston Celtics vs Philadelphia 76ers
 DTSTART;TZID="UTC-05:00":20270307T130000
-UID:ch-tdgarden-14d449fcc976@funotronic
-DESCRIPTION:The Boston Celtics take on the Philadelphia 76ers. CELTICS MER
- CHANDISE Shop at the ProShop powered by ’47 to pick up the latest Celtic
- s merchandise to rep the team this season.\nhttps://www.tdgarden.com/event
- s/detail/celtics-vs-76ers-26-27-1
+UID:pro-celtics-de2685b31791@funotronic
+DESCRIPTION:Boston Celtics host the Philadelphia 76ers at TD Garden.\nresa
+ le from $240\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-76ers-26-27-1
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Providence Bruins vs Syracuse Crunch
@@ -25570,15 +25529,13 @@ URL:https://events.brown.edu/rhodes-center/event/342568-jorge-casimiro-6th
  -annual-lecture-series-on-the
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Kraken
+SUMMARY:Boston Bruins vs Seattle Kraken
 DTSTART;TZID="UTC-05:00":20270308T190000
-UID:ch-tdgarden-83b0be0e1176@funotronic
-DESCRIPTION:The Boston Bruins take on the Seattle Kraken Bruins Merchandis
- e Shop Bruins gear at the ProShop powered by '47 to pick up the latest mer
- ch and rep the B's all year-round.\nhttps://www.tdgarden.com/events/detail
- /bruins-vs-kraken-26-27
+UID:pro-bruins-7e2cd75cde89@funotronic
+DESCRIPTION:Boston Bruins host the Seattle Kraken at TD Garden.\nresale fr
+ om $67\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-kraken-26-27
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bryant Baseball vs Stonehill College
@@ -25599,6 +25556,15 @@ DESCRIPTION:By Lauren Yee Directed by Tatyana-Marie Carlo It’s 1992 in t
  0FQr00000NYwabMAD
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Atlanta Braves
+DTSTART;VALUE=DATE:20270310
+UID:pro-redsox-979474458428@funotronic
+DESCRIPTION:Boston Red Sox host the Atlanta Braves at Fenway Park.\nhttps:
+ //www.mlb.com/redsox/tickets
+LOCATION:JetBlue Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wee-One Wednesdays
@@ -25668,6 +25634,15 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Washington Nationals
+DTSTART;VALUE=DATE:20270311
+UID:pro-redsox-925943241618@funotronic
+DESCRIPTION:Boston Red Sox host the Washington Nationals at Fenway Park.\n
+ https://www.mlb.com/redsox/tickets
+LOCATION:JetBlue Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Getting Lost in the Dark: Speculations of Black Insecurity | Justi
  n Mann | Gay at the Hay Series
 DTSTART;TZID="UTC-05:00":20270311T160000
@@ -25719,15 +25694,13 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Grizzlies
+SUMMARY:Boston Celtics vs Memphis Grizzlies
 DTSTART;TZID="UTC-05:00":20270311T193000
-UID:ch-tdgarden-cce8c6ddc5ec@funotronic
-DESCRIPTION:The Boston Celtics take on the Memphis Grizzlies. CELTICS MERC
- HANDISE Shop at the ProShop powered by ’47 to pick up the latest Celtics
-  merchandise to rep the team this season.\nhttps://www.tdgarden.com/events
- /detail/celtics-vs-grizzlies-26-27
+UID:pro-celtics-f1e1e2d8d470@funotronic
+DESCRIPTION:Boston Celtics host the Memphis Grizzlies at TD Garden.\nresal
+ e from $73\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-grizzlies-26-27
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Mother Russia
@@ -25826,6 +25799,15 @@ LOCATION:Amica Mutual Pavilion\, 1 La Salle Square
 URL:https://www.providencebruins.com/schedule
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Celtics vs Oklahoma City Thunder
+DTSTART;TZID="UTC-05:00":20270312T193000
+UID:pro-celtics-2c5c4a02bf24@funotronic
+DESCRIPTION:Boston Celtics host the Oklahoma City Thunder at TD Garden.\nr
+ esale from $107\nhttps://www.nba.com/celtics/tickets
+LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
+URL:https://www.nba.com/celtics/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Broadway in Worcester presents Tituss Burgess in Concert
 DTSTART;TZID="UTC-05:00":20270312T193000
 DTEND;TZID="UTC-05:00":20270312T210000
@@ -25838,17 +25820,6 @@ DESCRIPTION:March 12th 2027\, 7:30 pm Run Time: 90 minutes followed by a p
 LOCATION:The Hanover Theatre — BrickBox (JMAC)\, 20B Franklin St Worcest
  er 01608
 URL:https://thehanovertheatre.org/event/biw-titus-burgess/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Celtics vs. Thunder
-DTSTART;TZID="UTC-05:00":20270312T193000
-UID:ch-tdgarden-5029580c4b86@funotronic
-DESCRIPTION:The Boston Celtics take on the Oklahoma City Thunder. CELTICS 
- MERCHANDISE Shop at the ProShop powered by ’47 to pick up the latest Cel
- tics merchandise to rep the team this season.\nhttps://www.tdgarden.com/ev
- ents/detail/celtics-vs-thunder-26-27
-LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-thunder-26-27
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cyrano
@@ -25887,6 +25858,15 @@ LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/sahib-singh-2027
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Tampa Bay Rays
+DTSTART;VALUE=DATE:20270313
+UID:pro-redsox-bb96af7aa1d5@funotronic
+DESCRIPTION:Boston Red Sox host the Tampa Bay Rays at Fenway Park.\nhttps:
+ //www.mlb.com/redsox/tickets
+LOCATION:JetBlue Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Bachata & Merengue
 DTSTART;TZID="UTC-05:00":20270313T110000
 DTEND;TZID="UTC-05:00":20270313T120000
@@ -25913,15 +25893,13 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Flames
+SUMMARY:Boston Bruins vs Calgary Flames
 DTSTART;TZID="UTC-05:00":20270313T190000
-UID:ch-tdgarden-2cc8a9d45dd3@funotronic
-DESCRIPTION:The Boston Bruins take on the Calgary Flames Bruins Merchandis
- e Shop Bruins gear at the ProShop powered by '47 to pick up the latest mer
- ch and rep the B's all year-round.\nhttps://www.tdgarden.com/events/detail
- /bruins-vs-flames-26-27
+UID:pro-bruins-54b79aba3f3e@funotronic
+DESCRIPTION:Boston Bruins host the Calgary Flames at TD Garden.\nresale fr
+ om $118\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-flames-26-27
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Extrasensory
@@ -26094,15 +26072,22 @@ LOCATION:The VETS\, 1 Avenue of the Arts
 URL:https://www.thevetsri.com/events/detail/brit-floyd-animals-50
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Islanders
+SUMMARY:Boston Red Sox vs Detroit Tigers
+DTSTART;VALUE=DATE:20270315
+UID:pro-redsox-3f532054fe73@funotronic
+DESCRIPTION:Boston Red Sox host the Detroit Tigers at Fenway Park.\nhttps:
+ //www.mlb.com/redsox/tickets
+LOCATION:JetBlue Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Bruins vs New York Islanders
 DTSTART;TZID="UTC-04:00":20270315T190000
-UID:ch-tdgarden-67db9bb4688f@funotronic
-DESCRIPTION:The Boston Bruins take on the New York Islanders Bruins Mercha
- ndise Shop Bruins gear at the ProShop powered by '47 to pick up the latest
-  merch and rep the B's all year-round.\nhttps://www.tdgarden.com/events/de
- tail/bruins-vs-islanders-26-27-1
+UID:pro-bruins-5756aa0eb2c6@funotronic
+DESCRIPTION:Boston Bruins host the New York Islanders at TD Garden.\nresal
+ e from $81\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-islanders-26-27-1
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bryant Baseball vs Holy Cross
@@ -26126,15 +26111,13 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Kings
+SUMMARY:Boston Celtics vs Sacramento Kings
 DTSTART;TZID="UTC-04:00":20270316T193000
-UID:ch-tdgarden-4691249c9571@funotronic
-DESCRIPTION:The Boston Celtics take on the Sacramento Kings. CELTICS MERCH
- ANDISE Shop at the ProShop powered by ’47 to pick up the latest Celtics 
- merchandise to rep the team this season.\nhttps://www.tdgarden.com/events/
- detail/celtics-vs-kings-26-27
+UID:pro-celtics-d52efb3dd62b@funotronic
+DESCRIPTION:Boston Celtics host the Sacramento Kings at TD Garden.\nresale
+  from $53\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-kings-26-27
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cyrano
@@ -26147,6 +26130,15 @@ DESCRIPTION:By Jason O’Connell and Brenda Withers Adapted from Cyrano de
  .com/ticket/#/instances/a0FQr00000NYDooMAH
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs New York Yankees
+DTSTART;VALUE=DATE:20270317
+UID:pro-redsox-bdd1eeb703d5@funotronic
+DESCRIPTION:Boston Red Sox host the New York Yankees at Fenway Park.\nhttp
+ s://www.mlb.com/redsox/tickets
+LOCATION:JetBlue Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wee-One Wednesdays
@@ -26267,16 +26259,13 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Magic
+SUMMARY:Boston Celtics vs Orlando Magic
 DTSTART;TZID="UTC-04:00":20270318T193000
-UID:ch-tdgarden-b9ba4614e7fe@funotronic
-DESCRIPTION:The Boston Celtics take on the Orlando Magic. CELTICS MERCHAND
- ISE Shop at the ProShop powered by ’47 to pick up the latest Celtics mer
- chandise to rep the team this season. Shop the latest tees\, hats\, sweats
- hirts\, novelty items\, and more.\nhttps://www.tdgarden.com/events/detail/
- celtics-vs-magic-26-27-1
+UID:pro-celtics-e5283f90f0cb@funotronic
+DESCRIPTION:Boston Celtics host the Orlando Magic at TD Garden.\nresale fr
+ om $62\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-magic-26-27-1
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cyrano
@@ -26289,6 +26278,15 @@ DESCRIPTION:By Jason O’Connell and Brenda Withers Adapted from Cyrano de
  .com/ticket/#/instances/a0FQr00000NYCcbMAH
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Pittsburgh Pirates
+DTSTART;VALUE=DATE:20270319
+UID:pro-redsox-6d3fa7f8c0b9@funotronic
+DESCRIPTION:Boston Red Sox host the Pittsburgh Pirates at Fenway Park.\nht
+ tps://www.mlb.com/redsox/tickets
+LOCATION:JetBlue Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Brown University Women’s Swimming & Diving vs NCAA Championships
@@ -26489,6 +26487,15 @@ LOCATION:Greenwich Odeum\, 59 Main St
 URL:https://www.greenwichodeum.com/events/rob-davis-plays-springsteen
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Minnesota Twins
+DTSTART;VALUE=DATE:20270321
+UID:pro-redsox-b680a4069323@funotronic
+DESCRIPTION:Boston Red Sox host the Minnesota Twins at Fenway Park.\nhttps
+ ://www.mlb.com/redsox/tickets
+LOCATION:JetBlue Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Mother Russia
 DTSTART;TZID="UTC-04:00":20270321T120000
 UID:pm-trinity-48f70549af42@funotronic
@@ -26512,15 +26519,13 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Pelicans
+SUMMARY:Boston Celtics vs New Orleans Pelicans
 DTSTART;TZID="UTC-04:00":20270321T150000
-UID:ch-tdgarden-f623837f5175@funotronic
-DESCRIPTION:The Boston Celtics take on the New Orleans Pelicans. CELTICS M
- ERCHANDISE Shop at the ProShop powered by ’47 to pick up the latest Celt
- ics merchandise to rep the team this season.\nhttps://www.tdgarden.com/eve
- nts/detail/celtics-vs-pelicans-26-27
+UID:pro-celtics-cb2336ffebfd@funotronic
+DESCRIPTION:Boston Celtics host the New Orleans Pelicans at TD Garden.\nre
+ sale from $91\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-pelicans-26-27
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Christian Worship Service
@@ -26544,15 +26549,13 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Sabres
+SUMMARY:Boston Bruins vs Buffalo Sabres
 DTSTART;TZID="UTC-04:00":20270323T190000
-UID:ch-tdgarden-76e752fe9f6d@funotronic
-DESCRIPTION:The Boston Bruins take on the Buffalo Sabres Bruins Merchandis
- e Shop Bruins gear at the ProShop powered by '47 to pick up the latest mer
- ch and rep the B's all year-round.\nhttps://www.tdgarden.com/events/detail
- /bruins-vs-sabres-26-27-1
+UID:pro-bruins-12434f6155e3@funotronic
+DESCRIPTION:Boston Bruins host the Buffalo Sabres at TD Garden.\nresale fr
+ om $87\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-sabres-26-27-1
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wee-One Wednesdays
@@ -26600,15 +26603,13 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Spurs
+SUMMARY:Boston Celtics vs San Antonio Spurs
 DTSTART;TZID="UTC-04:00":20270324T193000
-UID:ch-tdgarden-d51bfcee2d82@funotronic
-DESCRIPTION:The Boston Celtics take on the San Antonio Spurs. CELTICS MERC
- HANDISE Shop at the ProShop powered by ’47 to pick up the latest Celtics
-  merchandise to rep the team this season.\nhttps://www.tdgarden.com/events
- /detail/celtics-vs-spurs-26-27
+UID:pro-celtics-f52e6bfadaa5@funotronic
+DESCRIPTION:Boston Celtics host the San Antonio Spurs at TD Garden.\nresal
+ e from $127\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-spurs-26-27
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Brown University Fencing vs NCAA Tournament
@@ -26670,15 +26671,13 @@ URL:https://www.longlivebeerworks.com/pop-ups/2023/skip-the-small-talk-78w
  kw-4wgtc-345d8-glwbf-4e4gk-fnptm-mmjth-cesfa-c3bbw-b3hff
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Senators
+SUMMARY:Boston Bruins vs Ottawa Senators
 DTSTART;TZID="UTC-04:00":20270325T190000
-UID:ch-tdgarden-57a1a38dc31b@funotronic
-DESCRIPTION:The Boston Bruins take on the Ottawa Senators Bruins Merchandi
- se Shop Bruins gear at the ProShop powered by '47 to pick up the latest me
- rch and rep the B's all year-round.\nhttps://www.tdgarden.com/events/detai
- l/bruins-vs-senators-26-27-1
+UID:pro-bruins-3cb8121594e7@funotronic
+DESCRIPTION:Boston Bruins host the Ottawa Senators at TD Garden.\nresale f
+ rom $83\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-senators-26-27-1
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rosencrantz & Guildenstern Are Dead
@@ -26700,6 +26699,15 @@ DESCRIPTION:https://bryantbulldogs.com/calendar.aspx?game_id=12700&amp\;sp
  ort_id=1
 LOCATION:Conaty Park\, Smithfield
 URL:https://bryantbulldogs.com/calendar.aspx?game_id=12700&amp;sport_id=1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre RailRiders
+DTSTART;TZID="UTC-04:00":20270326T160500
+UID:pro-woosox-0f46ed462a0a@funotronic
+DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre RailRiders at
+  Polar Park.\nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tai Chi Beginner Level
@@ -26787,6 +26795,15 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre RailRiders
+DTSTART;TZID="UTC-04:00":20270327T160500
+UID:pro-woosox-293916476890@funotronic
+DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre RailRiders at
+  Polar Park.\nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:All Things Equal
 DTSTART;TZID="UTC-04:00":20270327T190000
 UID:ch-shubertnh-0a96758e33c7@funotronic
@@ -26855,6 +26872,15 @@ LOCATION:Conaty Park\, Smithfield
 URL:https://bryantbulldogs.com/calendar.aspx?game_id=12702&amp;sport_id=1
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre RailRiders
+DTSTART;TZID="UTC-04:00":20270328T130500
+UID:pro-woosox-5ee685311a98@funotronic
+DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre RailRiders at
+  Polar Park.\nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Rosencrantz & Guildenstern Are Dead
 DTSTART;TZID="UTC-04:00":20270328T140000
 UID:pm-gamm-68d4dc371db2@funotronic
@@ -26909,15 +26935,13 @@ URL:https://events.brown.edu/global-health/event/341259-building-emergency
  -healthcare-systems-in-low-and
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Canadiens
+SUMMARY:Boston Bruins vs Montreal Canadiens
 DTSTART;TZID="UTC-04:00":20270330T190000
-UID:ch-tdgarden-2103ca89ea67@funotronic
-DESCRIPTION:The Boston Bruins take on the Montreal Canadiens Bruins Mercha
- ndise Shop Bruins gear at the ProShop powered by '47 to pick up the latest
-  merch and rep the B's all year-round.\nhttps://www.tdgarden.com/events/de
- tail/bruins-vs-canadiens-26-27-1
+UID:pro-bruins-bc058cc97e50@funotronic
+DESCRIPTION:Boston Bruins host the Montreal Canadiens at TD Garden.\nresal
+ e from $131\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-canadiens-26-27-1
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Calema – Origin Tour
@@ -26991,6 +27015,15 @@ DESCRIPTION:Global superstar DJ and producer Calvin Harris has announced h
  2027.\nhttps://www.tdgarden.com/events/detail/calvin-harris
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.tdgarden.com/events/detail/calvin-harris
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Cincinnati Reds
+DTSTART;VALUE=DATE:20270401
+UID:pro-redsox-a46378204202@funotronic
+DESCRIPTION:Boston Red Sox host the Cincinnati Reds at Fenway Park.\nhttps
+ ://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Winter's Tale
@@ -27090,16 +27123,22 @@ LOCATION:Amica Mutual Pavilion\, 1 La Salle Square
 URL:https://www.providencebruins.com/schedule
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Heat
+SUMMARY:Boston Celtics vs Miami Heat
 DTSTART;TZID="UTC-04:00":20270402T193000
-UID:ch-tdgarden-95e324c1e002@funotronic
-DESCRIPTION:The Boston Celtics take on the Miami Heat. CELTICS MERCHANDISE
-  Shop at the ProShop powered by ’47 to pick up the latest Celtics mercha
- ndise to rep the team this season. Shop the latest tees\, hats\, sweatshir
- ts\, novelty items\, and more.\nhttps://www.tdgarden.com/events/detail/cel
- tics-vs-heat-26-27-1
+UID:pro-celtics-cf65b035338e@funotronic
+DESCRIPTION:Boston Celtics host the Miami Heat at TD Garden.\nresale from 
+ $97\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-heat-26-27-1
+URL:https://www.nba.com/celtics/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Cincinnati Reds
+DTSTART;VALUE=DATE:20270403
+UID:pro-redsox-358ccbd058a6@funotronic
+DESCRIPTION:Boston Red Sox host the Cincinnati Reds at Fenway Park.\nhttps
+ ://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bachata & Merengue
@@ -27128,15 +27167,13 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bruins vs. Lightning
+SUMMARY:Boston Bruins vs Tampa Bay Lightning
 DTSTART;TZID="UTC-04:00":20270403T150000
-UID:ch-tdgarden-d2ea60e8afa9@funotronic
-DESCRIPTION:The Boston Bruins take on the Tampa Bay Lightning Bruins Merch
- andise Shop Bruins gear at the ProShop powered by '47 to pick up the lates
- t merch and rep the B's all year-round.\nhttps://www.tdgarden.com/events/d
- etail/bruins-vs-lightning-26-27-1
+UID:pro-bruins-b2e2c0f40d8f@funotronic
+DESCRIPTION:Boston Bruins host the Tampa Bay Lightning at TD Garden.\nresa
+ le from $150\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/bruins-vs-lightning-26-27-1
+URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ARRIVAL From Sweden - THE MUSIC OF ABBA
@@ -27196,6 +27233,15 @@ LOCATION:Greenwich Odeum\, 59 Main St
 URL:https://www.greenwichodeum.com/events/donna-the-buffalo
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Cincinnati Reds
+DTSTART;VALUE=DATE:20270404
+UID:pro-redsox-56c5cbf99bf6@funotronic
+DESCRIPTION:Boston Red Sox host the Cincinnati Reds at Fenway Park.\nhttps
+ ://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Gamm Studio Jr: Winter/Spring 2027
 DTSTART;TZID="UTC-04:00":20270404T110000
 UID:pm-gamm-1033b39af00a@funotronic
@@ -27227,6 +27273,15 @@ URL:https://events.brown.edu/chaplains-religious-life/event/338668-christi
  an-worship-service
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Houston Astros
+DTSTART;VALUE=DATE:20270405
+UID:pro-redsox-2431fec39c94@funotronic
+DESCRIPTION:Boston Red Sox host the Houston Astros at Fenway Park.\nhttps:
+ //www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Gamm Studio Jr: Winter/Spring 2027
 DTSTART;TZID="UTC-04:00":20270405T160000
 UID:pm-gamm-7f9324e85b5e@funotronic
@@ -27234,6 +27289,15 @@ DESCRIPTION:https://gammtheatre.my.salesforce-sites.com/ticket/#/instances
  /a0Fcw000015hEEBEA2
 LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Houston Astros
+DTSTART;VALUE=DATE:20270406
+UID:pro-redsox-d206f5547389@funotronic
+DESCRIPTION:Boston Red Sox host the Houston Astros at Fenway Park.\nhttps:
+ //www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sun Style Tai Chi for Beginners
@@ -27250,6 +27314,15 @@ URL:https://www.providenceri.gov/event/sun-style-tai-chi-for-beginners/202
  7-04-06/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Syracuse Mets
+DTSTART;TZID="UTC-04:00":20270406T180500
+UID:pro-woosox-1e2846c9163b@funotronic
+DESCRIPTION:Worcester Red Sox host the Syracuse Mets at Polar Park.\nhttps
+ ://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Phil Vassar
 DTSTART;TZID="UTC-04:00":20270406T200000
 DTEND;TZID="UTC-04:00":20270406T220000
@@ -27261,6 +27334,15 @@ DESCRIPTION:Tuesday\, April 6\, 2027 $79 Advance | $84 Day of Show [all-in
  performances.asp?evt=703
 LOCATION:Narrows Center for the Arts\, 16 Anawan St\, Fall River\, MA
 URL:https://narrowscenter.showare.com/eventperformances.asp?evt=703
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Houston Astros
+DTSTART;VALUE=DATE:20270407
+UID:pro-redsox-67d77be1da5c@funotronic
+DESCRIPTION:Boston Red Sox host the Houston Astros at Fenway Park.\nhttps:
+ //www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wee-One Wednesdays
@@ -27290,6 +27372,15 @@ LOCATION:The Hanover Theatre — Main Stage\, 2 Southbridge St Worcester 0
  1608
 URL:https://thehanovertheatre.org/event/the-carnival-of-the-animals-studen
  t-matinee/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Syracuse Mets
+DTSTART;TZID="UTC-04:00":20270407T150500
+UID:pro-woosox-fd13937c8c1b@funotronic
+DESCRIPTION:Worcester Red Sox host the Syracuse Mets at Polar Park.\nhttps
+ ://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Computational Biology Seminar: Jazlyn Mooney (USC)
@@ -27348,6 +27439,15 @@ LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/shafi-houssain-2027
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Syracuse Mets
+DTSTART;TZID="UTC-04:00":20270408T180500
+UID:pro-woosox-28990dc5f51b@funotronic
+DESCRIPTION:Worcester Red Sox host the Syracuse Mets at Polar Park.\nhttps
+ ://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Glass Graduate Biennial
 DTSTART;TZID="UTC-04:00":20270408T190000
 DTEND;TZID="UTC-04:00":20270408T210000
@@ -27378,6 +27478,15 @@ DESCRIPTION:https://bryantbulldogs.com/calendar.aspx?game_id=12708&amp\;sp
  ort_id=1
 LOCATION:Conaty Park\, Smithfield
 URL:https://bryantbulldogs.com/calendar.aspx?game_id=12708&amp;sport_id=1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Syracuse Mets
+DTSTART;TZID="UTC-04:00":20270409T180500
+UID:pro-woosox-25b7fa2d0a50@funotronic
+DESCRIPTION:Worcester Red Sox host the Syracuse Mets at Polar Park.\nhttps
+ ://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Amica Rush Hour 4: Spano Conducts Puccini
@@ -27499,6 +27608,15 @@ DESCRIPTION:https://bryantbulldogs.com/calendar.aspx?game_id=12709&amp\;sp
  ort_id=1
 LOCATION:Conaty Park\, Smithfield
 URL:https://bryantbulldogs.com/calendar.aspx?game_id=12709&amp;sport_id=1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Syracuse Mets
+DTSTART;TZID="UTC-04:00":20270410T160500
+UID:pro-woosox-85bdc4864feb@funotronic
+DESCRIPTION:Worcester Red Sox host the Syracuse Mets at Polar Park.\nhttps
+ ://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Providence Bruins vs Springfield Thunderbirds
@@ -27637,6 +27755,15 @@ LOCATION:Conaty Park\, Smithfield
 URL:https://bryantbulldogs.com/calendar.aspx?game_id=12710&amp;sport_id=1
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Syracuse Mets
+DTSTART;TZID="UTC-04:00":20270411T130500
+UID:pro-woosox-00e10cb3ae98@funotronic
+DESCRIPTION:Worcester Red Sox host the Syracuse Mets at Polar Park.\nhttps
+ ://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Providence Bruins vs Hartford Wolf Pack
 DTSTART;TZID="UTC-04:00":20270411T150500
 UID:pbruins-c7df9d51dde3@funotronic
@@ -27656,16 +27783,13 @@ LOCATION:Shubert Theatre\, 247 College St\, New Haven\, CT
 URL:https://www.shubert.com/events/detail/terminator-2-live-in-concert
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Celtics vs. Bucks
+SUMMARY:Boston Celtics vs Milwaukee Bucks
 DTSTART;TZID="UTC-04:00":20270411T180000
-UID:ch-tdgarden-d3822516fe3c@funotronic
-DESCRIPTION:The Boston Celtics take on the Miami Heat. CELTICS MERCHANDISE
-  Shop at the ProShop powered by ’47 to pick up the latest Celtics mercha
- ndise to rep the team this season. Shop the latest tees\, hats\, sweatshir
- ts\, novelty items\, and more.\nhttps://www.tdgarden.com/events/detail/cel
- tics-vs-bucks-26-27-1
+UID:pro-celtics-76f9d7c09225@funotronic
+DESCRIPTION:Boston Celtics host the Milwaukee Bucks at TD Garden.\nresale 
+ from $77\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/celtics-vs-bucks-26-27-1
+URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Christian Worship Service
@@ -27767,6 +27891,15 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Cleveland Guardians
+DTSTART;VALUE=DATE:20270416
+UID:pro-redsox-5019ca3f742a@funotronic
+DESCRIPTION:Boston Red Sox host the Cleveland Guardians at Fenway Park.\nh
+ ttps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Limits of Legibility: What Is Thinking?
 DTSTART;TZID="UTC-04:00":20270416T130000
 DTEND;TZID="UTC-04:00":20270416T180000
@@ -27838,6 +27971,15 @@ DESCRIPTION:Jeffrey Keller brings his stand-up comedy to Comedy Connection
  ts/jeffrey-keller-2027
 LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/jeffrey-keller-2027
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Cleveland Guardians
+DTSTART;VALUE=DATE:20270417
+UID:pro-redsox-1323cac75ce9@funotronic
+DESCRIPTION:Boston Red Sox host the Cleveland Guardians at Fenway Park.\nh
+ ttps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bachata & Merengue
@@ -27926,6 +28068,15 @@ LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/jeffrey-keller-2027
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Cleveland Guardians
+DTSTART;VALUE=DATE:20270418
+UID:pro-redsox-786452a9eb6a@funotronic
+DESCRIPTION:Boston Red Sox host the Cleveland Guardians at Fenway Park.\nh
+ ttps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:August Wilson's Ma Rainey's Black Bottom
 DTSTART;TZID="UTC-04:00":20270418T120000
 UID:pm-trinity-ceab83885f6d@funotronic
@@ -27985,6 +28136,15 @@ URL:https://events.brown.edu/chaplains-religious-life/event/338670-christi
  an-worship-service
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Cleveland Guardians
+DTSTART;VALUE=DATE:20270419
+UID:pro-redsox-a147ad9d6326@funotronic
+DESCRIPTION:Boston Red Sox host the Cleveland Guardians at Fenway Park.\nh
+ ttps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Gamm Education: Vacation Intensives
 DTSTART;TZID="UTC-04:00":20270419T090000
 UID:pm-gamm-a5c41d445523@funotronic
@@ -27996,6 +28156,15 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Tampa Bay Rays
+DTSTART;VALUE=DATE:20270420
+UID:pro-redsox-77bc782a33d2@funotronic
+DESCRIPTION:Boston Red Sox host the Tampa Bay Rays at Fenway Park.\nhttps:
+ //www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Mira Nair: The Pembroke Center Publics Lecture
 DTSTART;TZID="UTC-04:00":20270420T160000
 UID:brown-events-f133beeee685@funotronic
@@ -28004,6 +28173,24 @@ DESCRIPTION:Free\nhttps://events.brown.edu/pembroke/event/335091-mira-nair
 LOCATION:Pembroke Hall\, 305\, Brown University
 URL:https://events.brown.edu/pembroke/event/335091-mira-nair-the-pembroke-
  center-publics-lecture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Lehigh Valley IronPigs
+DTSTART;TZID="UTC-04:00":20270420T180500
+UID:pro-woosox-f29610ce0ef5@funotronic
+DESCRIPTION:Worcester Red Sox host the Lehigh Valley IronPigs at Polar Par
+ k.\nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Tampa Bay Rays
+DTSTART;VALUE=DATE:20270421
+UID:pro-redsox-0222795a4b97@funotronic
+DESCRIPTION:Boston Red Sox host the Tampa Bay Rays at Fenway Park.\nhttps:
+ //www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wee-One Wednesdays
@@ -28028,6 +28215,15 @@ DESCRIPTION:By August Wilson Director to be announced. Blues legend Ma Rai
  et/#/instances/a0FQr00000NZ4JdMAL
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Lehigh Valley IronPigs
+DTSTART;TZID="UTC-04:00":20270421T150500
+UID:pro-woosox-ee366cbced98@funotronic
+DESCRIPTION:Worcester Red Sox host the Lehigh Valley IronPigs at Polar Par
+ k.\nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Gratitude Group
@@ -28074,6 +28270,24 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Tampa Bay Rays
+DTSTART;VALUE=DATE:20270422
+UID:pro-redsox-d6e6b2f789f4@funotronic
+DESCRIPTION:Boston Red Sox host the Tampa Bay Rays at Fenway Park.\nhttps:
+ //www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Lehigh Valley IronPigs
+DTSTART;TZID="UTC-04:00":20270422T150500
+UID:pro-woosox-183b850acea9@funotronic
+DESCRIPTION:Worcester Red Sox host the Lehigh Valley IronPigs at Polar Par
+ k.\nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:August Wilson's Ma Rainey's Black Bottom
 DTSTART;TZID="UTC-04:00":20270422T193000
 UID:pm-trinity-cbea4628a712@funotronic
@@ -28103,6 +28317,15 @@ DESCRIPTION:https://bryantbulldogs.com/calendar.aspx?game_id=12716&amp\;sp
  ort_id=1
 LOCATION:Conaty Park\, Smithfield
 URL:https://bryantbulldogs.com/calendar.aspx?game_id=12716&amp;sport_id=1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Lehigh Valley IronPigs
+DTSTART;TZID="UTC-04:00":20270423T180500
+UID:pro-woosox-561bdbf432b0@funotronic
+DESCRIPTION:Worcester Red Sox host the Lehigh Valley IronPigs at Polar Par
+ k.\nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tai Chi Beginner Level
@@ -28186,6 +28409,15 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Lehigh Valley IronPigs
+DTSTART;TZID="UTC-04:00":20270424T160500
+UID:pro-woosox-1fe1f39b4350@funotronic
+DESCRIPTION:Worcester Red Sox host the Lehigh Valley IronPigs at Polar Par
+ k.\nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Killers of Kill Tony
 DTSTART;TZID="UTC-04:00":20270424T190000
 UID:ch-boch-7d00db6a733b@funotronic
@@ -28262,6 +28494,15 @@ DESCRIPTION:https://bryantbulldogs.com/calendar.aspx?game_id=12718&amp\;sp
  ort_id=1
 LOCATION:Conaty Park\, Smithfield
 URL:https://bryantbulldogs.com/calendar.aspx?game_id=12718&amp;sport_id=1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Lehigh Valley IronPigs
+DTSTART;TZID="UTC-04:00":20270425T130500
+UID:pro-woosox-50a755742217@funotronic
+DESCRIPTION:Worcester Red Sox host the Lehigh Valley IronPigs at Polar Par
+ k.\nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:August Wilson's Ma Rainey's Black Bottom
@@ -28385,6 +28626,15 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs St. Louis Cardinals
+DTSTART;VALUE=DATE:20270430
+UID:pro-redsox-d593330a78cf@funotronic
+DESCRIPTION:Boston Red Sox host the St. Louis Cardinals at Fenway Park.\nh
+ ttps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Open Rehearsal 4: Ruth Conducts Beethoven's Missa Solemnis
 DTSTART;TZID="UTC-04:00":20270430T173000
 UID:riphil-5789f95c2bfd@funotronic
@@ -28482,6 +28732,15 @@ LOCATION:Boch Center\, 270 Tremont St\, Boston\, MA
 URL:https://www.bochcenter.org/events/detail/alvinailey
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs St. Louis Cardinals
+DTSTART;VALUE=DATE:20270501
+UID:pro-redsox-96ce1c3e47cd@funotronic
+DESCRIPTION:Boston Red Sox host the St. Louis Cardinals at Fenway Park.\nh
+ ttps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Bachata & Merengue
 DTSTART;TZID="UTC-04:00":20270501T110000
 DTEND;TZID="UTC-04:00":20270501T120000
@@ -28571,6 +28830,15 @@ LOCATION:Greenwich Odeum\, 59 Main St
 URL:https://www.greenwichodeum.com/events/candice-guardino-s-italian-bred
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs St. Louis Cardinals
+DTSTART;VALUE=DATE:20270502
+UID:pro-redsox-dd592adcfed3@funotronic
+DESCRIPTION:Boston Red Sox host the St. Louis Cardinals at Fenway Park.\nh
+ ttps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:August Wilson's Ma Rainey's Black Bottom
 DTSTART;TZID="UTC-04:00":20270502T120000
 UID:pm-trinity-1ee71ac49b5e@funotronic
@@ -28627,6 +28895,24 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Toronto Blue Jays
+DTSTART;VALUE=DATE:20270503
+UID:pro-redsox-8a64dddf2cfd@funotronic
+DESCRIPTION:Boston Red Sox host the Toronto Blue Jays at Fenway Park.\nhtt
+ ps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Toronto Blue Jays
+DTSTART;VALUE=DATE:20270504
+UID:pro-redsox-6a6c3b32c040@funotronic
+DESCRIPTION:Boston Red Sox host the Toronto Blue Jays at Fenway Park.\nhtt
+ ps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ROSIE REVERE\, ADA TWIST\, AND IGGY PECK: THE QUESTIONEERS (Studen
  t Matinee)
 DTSTART;TZID="UTC-04:00":20270504T103000
@@ -28677,6 +28963,15 @@ DESCRIPTION:NICK CAVE has been performing\, writing and recording music fo
  l/nickcave
 LOCATION:Boch Center\, 270 Tremont St\, Boston\, MA
 URL:https://www.bochcenter.org/events/detail/nickcave
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Toronto Blue Jays
+DTSTART;VALUE=DATE:20270505
+UID:pro-redsox-32f4583c0988@funotronic
+DESCRIPTION:Boston Red Sox host the Toronto Blue Jays at Fenway Park.\nhtt
+ ps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wee-One Wednesdays
@@ -28993,6 +29288,15 @@ URL:https://events.brown.edu/student-health-wellness/event/334936-blood-dr
  ive-with-ri-blood-center-at-student-health-we
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Buffalo Bisons
+DTSTART;TZID="UTC-04:00":20270511T180500
+UID:pro-woosox-4b15395f42e0@funotronic
+DESCRIPTION:Worcester Red Sox host the Buffalo Bisons at Polar Park.\nhttp
+ s://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Wee-One Wednesdays
 DTSTART;TZID="UTC-04:00":20270512T090000
 DTEND;TZID="UTC-04:00":20270512T100000
@@ -29004,6 +29308,15 @@ DESCRIPTION:Wednesdays 9-10 am Wee-One Wednesdays is our weekly toddler pr
 LOCATION:Roger Williams Park Botanical Center\, 1 Floral Ave Providence 02
  905
 URL:https://www.providenceri.gov/event/wee-one-wednesdays-2-2/2027-05-12/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Buffalo Bisons
+DTSTART;TZID="UTC-04:00":20270512T110500
+UID:pro-woosox-f8426d3de030@funotronic
+DESCRIPTION:Worcester Red Sox host the Buffalo Bisons at Polar Park.\nhttp
+ s://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Gratitude Group
@@ -29028,6 +29341,15 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Buffalo Bisons
+DTSTART;TZID="UTC-04:00":20270513T180500
+UID:pro-woosox-434ba828c9a4@funotronic
+DESCRIPTION:Worcester Red Sox host the Buffalo Bisons at Polar Park.\nhttp
+ s://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Sonia Flew
 DTSTART;TZID="UTC-04:00":20270513T190000
 UID:pm-gamm-9b18afa9bed0@funotronic
@@ -29040,6 +29362,15 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Los Angeles Dodgers
+DTSTART;VALUE=DATE:20270514
+UID:pro-redsox-b94fdedd986a@funotronic
+DESCRIPTION:Boston Red Sox host the Los Angeles Dodgers at Fenway Park.\nh
+ ttps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Bryant Baseball vs Binghamton University
 DTSTART;TZID="UTC-04:00":20270514T150000
 UID:college-sports-6a3bb880c7f2@funotronic
@@ -29047,6 +29378,15 @@ DESCRIPTION:https://bryantbulldogs.com/calendar.aspx?game_id=12725&amp\;sp
  ort_id=1
 LOCATION:Conaty Park\, Smithfield
 URL:https://bryantbulldogs.com/calendar.aspx?game_id=12725&amp;sport_id=1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Buffalo Bisons
+DTSTART;TZID="UTC-04:00":20270514T180500
+UID:pro-woosox-3426a5147490@funotronic
+DESCRIPTION:Worcester Red Sox host the Buffalo Bisons at Polar Park.\nhttp
+ s://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tai Chi Beginner Level
@@ -29111,6 +29451,15 @@ LOCATION:The Hanover Theatre — Main Stage\, 2 Southbridge St Worcester 0
 URL:https://thehanovertheatre.org/event/the-wiz2627/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Los Angeles Dodgers
+DTSTART;VALUE=DATE:20270515
+UID:pro-redsox-914c5f10ab2b@funotronic
+DESCRIPTION:Boston Red Sox host the Los Angeles Dodgers at Fenway Park.\nh
+ ttps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Bachata & Merengue
 DTSTART;TZID="UTC-04:00":20270515T110000
 DTEND;TZID="UTC-04:00":20270515T120000
@@ -29146,6 +29495,15 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Buffalo Bisons
+DTSTART;TZID="UTC-04:00":20270515T160500
+UID:pro-woosox-79a28e1102fc@funotronic
+DESCRIPTION:Worcester Red Sox host the Buffalo Bisons at Polar Park.\nhttp
+ s://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Jeff Arcuri: The Road Trip Tour
 DTSTART;TZID="UTC-04:00":20270515T190000
 DTEND;TZID="UTC-04:00":20270515T213000
@@ -29169,6 +29527,15 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Los Angeles Dodgers
+DTSTART;VALUE=DATE:20270516
+UID:pro-redsox-c3288bd9add7@funotronic
+DESCRIPTION:Boston Red Sox host the Los Angeles Dodgers at Fenway Park.\nh
+ ttps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Bryant Baseball vs Binghamton University
 DTSTART;TZID="UTC-04:00":20270516T130000
 UID:college-sports-e52c143497a0@funotronic
@@ -29176,6 +29543,15 @@ DESCRIPTION:https://bryantbulldogs.com/calendar.aspx?game_id=12727&amp\;sp
  ort_id=1
 LOCATION:Conaty Park\, Smithfield
 URL:https://bryantbulldogs.com/calendar.aspx?game_id=12727&amp;sport_id=1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Buffalo Bisons
+DTSTART;TZID="UTC-04:00":20270516T130500
+UID:pro-woosox-174ba566fb26@funotronic
+DESCRIPTION:Worcester Red Sox host the Buffalo Bisons at Polar Park.\nhttp
+ s://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sonia Flew
@@ -29257,6 +29633,15 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Texas Rangers
+DTSTART;VALUE=DATE:20270521
+UID:pro-redsox-e25a27ca27ce@funotronic
+DESCRIPTION:Boston Red Sox host the Texas Rangers at Fenway Park.\nhttps:/
+ /www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Tai Chi Beginner Level
 DTSTART;TZID="UTC-04:00":20270521T183000
 DTEND;TZID="UTC-04:00":20270521T193000
@@ -29305,6 +29690,15 @@ DESCRIPTION:GRAMMY® Award-winning vocal powerhouse\, Fantasia Barrino \,
 LOCATION:Amica Mutual Pavilion\, 1 La Salle Square
 URL:https://www.amicamutualpavilion.com/events/detail/fantasia-anthony-ham
  ilton-october-london
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Texas Rangers
+DTSTART;VALUE=DATE:20270522
+UID:pro-redsox-78b4aa02a3a9@funotronic
+DESCRIPTION:Boston Red Sox host the Texas Rangers at Fenway Park.\nhttps:/
+ /www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bachata & Merengue
@@ -29357,6 +29751,15 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Texas Rangers
+DTSTART;VALUE=DATE:20270523
+UID:pro-redsox-c926210b880e@funotronic
+DESCRIPTION:Boston Red Sox host the Texas Rangers at Fenway Park.\nhttps:/
+ /www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Sonia Flew
 DTSTART;TZID="UTC-04:00":20270523T140000
 UID:pm-gamm-4e6c127d32c8@funotronic
@@ -29381,6 +29784,15 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Chicago White Sox
+DTSTART;VALUE=DATE:20270524
+UID:pro-redsox-0808ebdf8bae@funotronic
+DESCRIPTION:Boston Red Sox host the Chicago White Sox at Fenway Park.\nhtt
+ ps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Queens of the Stage Age
 DTSTART;TZID="UTC-04:00":20270524T190000
 UID:ch-tdgarden-287ccb7c7e36@funotronic
@@ -29389,6 +29801,24 @@ DESCRIPTION:Queens of the Stone Age will support their soon-to-be-released
  .\nhttps://www.tdgarden.com/events/detail/queens-of-the-stone-age
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.tdgarden.com/events/detail/queens-of-the-stone-age
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Chicago White Sox
+DTSTART;VALUE=DATE:20270525
+UID:pro-redsox-f2f3b727b3f0@funotronic
+DESCRIPTION:Boston Red Sox host the Chicago White Sox at Fenway Park.\nhtt
+ ps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre RailRiders
+DTSTART;TZID="UTC-04:00":20270525T180500
+UID:pro-woosox-c785ce58a7ee@funotronic
+DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre RailRiders at
+  Polar Park.\nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Nothing Up My Sleeve
@@ -29401,6 +29831,15 @@ DESCRIPTION:By Dendy and Aaron Posner Magic by Dendy Directed by Aaron Pos
  om/ticket/#/instances/a0FQr00000NgFF9MAN
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Chicago White Sox
+DTSTART;VALUE=DATE:20270526
+UID:pro-redsox-523fc85c25a3@funotronic
+DESCRIPTION:Boston Red Sox host the Chicago White Sox at Fenway Park.\nhtt
+ ps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wee-One Wednesdays
@@ -29416,6 +29855,15 @@ LOCATION:Roger Williams Park Botanical Center\, 1 Floral Ave Providence 02
 URL:https://www.providenceri.gov/event/wee-one-wednesdays-2-2/2027-05-26/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre RailRiders
+DTSTART;TZID="UTC-04:00":20270526T110500
+UID:pro-woosox-895c2563620a@funotronic
+DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre RailRiders at
+  Polar Park.\nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Nothing Up My Sleeve
 DTSTART;TZID="UTC-04:00":20270526T193000
 UID:pm-trinity-8862e54256fc@funotronic
@@ -29428,6 +29876,15 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre RailRiders
+DTSTART;TZID="UTC-04:00":20270527T180500
+UID:pro-woosox-a7c506dad790@funotronic
+DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre RailRiders at
+  Polar Park.\nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Nothing Up My Sleeve
 DTSTART;TZID="UTC-04:00":20270527T193000
 UID:pm-trinity-6366814fa3c5@funotronic
@@ -29438,6 +29895,15 @@ DESCRIPTION:By Dendy and Aaron Posner Magic by Dendy Directed by Aaron Pos
  om/ticket/#/instances/a0FQr00000Ng8dSMAR
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre RailRiders
+DTSTART;TZID="UTC-04:00":20270528T180500
+UID:pro-woosox-6a6e01c2a342@funotronic
+DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre RailRiders at
+  Polar Park.\nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tai Chi Beginner Level
@@ -29492,6 +29958,15 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre RailRiders
+DTSTART;TZID="UTC-04:00":20270529T160500
+UID:pro-woosox-44862a230e74@funotronic
+DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre RailRiders at
+  Polar Park.\nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Nothing Up My Sleeve
 DTSTART;TZID="UTC-04:00":20270529T193000
 UID:pm-trinity-d3df89182294@funotronic
@@ -29525,6 +30000,15 @@ DESCRIPTION:By Dendy and Aaron Posner Magic by Dendy Directed by Aaron Pos
  om/ticket/#/instances/a0FQr00000NgOjqMAF
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre RailRiders
+DTSTART;TZID="UTC-04:00":20270530T130500
+UID:pro-woosox-89fa9e6f82c7@funotronic
+DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre RailRiders at
+  Polar Park.\nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Nothing Up My Sleeve
@@ -29613,6 +30097,15 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs New York Yankees
+DTSTART;VALUE=DATE:20270604
+UID:pro-redsox-56492c29db0f@funotronic
+DESCRIPTION:Boston Red Sox host the New York Yankees at Fenway Park.\nhttp
+ s://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Tai Chi Beginner Level
 DTSTART;TZID="UTC-04:00":20270604T183000
 DTEND;TZID="UTC-04:00":20270604T193000
@@ -29674,6 +30167,15 @@ DESCRIPTION:Colum Tyrrell brings his stand-up comedy to Comedy Connection
  tion.com/events/colum-tyrrell-2027
 LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/colum-tyrrell-2027
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs New York Yankees
+DTSTART;VALUE=DATE:20270605
+UID:pro-redsox-0f95000d5709@funotronic
+DESCRIPTION:Boston Red Sox host the New York Yankees at Fenway Park.\nhttp
+ s://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bachata & Merengue
@@ -29740,6 +30242,15 @@ LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/colum-tyrrell-2027
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs New York Yankees
+DTSTART;VALUE=DATE:20270606
+UID:pro-redsox-62f36062b40c@funotronic
+DESCRIPTION:Boston Red Sox host the New York Yankees at Fenway Park.\nhttp
+ s://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Nothing Up My Sleeve
 DTSTART;TZID="UTC-04:00":20270606T120000
 UID:pm-trinity-702201738a9e@funotronic
@@ -29777,6 +30288,15 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs New York Yankees
+DTSTART;VALUE=DATE:20270607
+UID:pro-redsox-31e5eba4ea10@funotronic
+DESCRIPTION:Boston Red Sox host the New York Yankees at Fenway Park.\nhttp
+ s://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Gamm Free Movie Nights
 DTSTART;TZID="UTC-04:00":20270607T190000
 UID:pm-gamm-8ae96fcf6779@funotronic
@@ -29787,6 +30307,33 @@ DESCRIPTION:Join us for FREE MOVIE NIGHTS at The Gamm Theatre! Enjoy your
  es/a0Fcw00000zlLx7EAE
 LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Miami Marlins
+DTSTART;VALUE=DATE:20270608
+UID:pro-redsox-8f78f1fa863f@funotronic
+DESCRIPTION:Boston Red Sox host the Miami Marlins at Fenway Park.\nhttps:/
+ /www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Lehigh Valley IronPigs
+DTSTART;TZID="UTC-04:00":20270608T180500
+UID:pro-woosox-e5e136c38633@funotronic
+DESCRIPTION:Worcester Red Sox host the Lehigh Valley IronPigs at Polar Par
+ k.\nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Miami Marlins
+DTSTART;VALUE=DATE:20270609
+UID:pro-redsox-5b69f57d81a8@funotronic
+DESCRIPTION:Boston Red Sox host the Miami Marlins at Fenway Park.\nhttps:/
+ /www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wee-One Wednesdays
@@ -29800,6 +30347,15 @@ DESCRIPTION:Wednesdays 9-10 am Wee-One Wednesdays is our weekly toddler pr
 LOCATION:Roger Williams Park Botanical Center\, 1 Floral Ave Providence 02
  905
 URL:https://www.providenceri.gov/event/wee-one-wednesdays-2-2/2027-06-09/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Lehigh Valley IronPigs
+DTSTART;TZID="UTC-04:00":20270609T110500
+UID:pro-woosox-e8d071c8bf94@funotronic
+DESCRIPTION:Worcester Red Sox host the Lehigh Valley IronPigs at Polar Par
+ k.\nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Nothing Up My Sleeve
@@ -29826,6 +30382,24 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Miami Marlins
+DTSTART;VALUE=DATE:20270610
+UID:pro-redsox-1c35f6466666@funotronic
+DESCRIPTION:Boston Red Sox host the Miami Marlins at Fenway Park.\nhttps:/
+ /www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Lehigh Valley IronPigs
+DTSTART;TZID="UTC-04:00":20270610T180500
+UID:pro-woosox-27d734a3ffe6@funotronic
+DESCRIPTION:Worcester Red Sox host the Lehigh Valley IronPigs at Polar Par
+ k.\nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Nothing Up My Sleeve
 DTSTART;TZID="UTC-04:00":20270610T193000
 UID:pm-trinity-a312c61fef59@funotronic
@@ -29836,6 +30410,15 @@ DESCRIPTION:By Dendy and Aaron Posner Magic by Dendy Directed by Aaron Pos
  om/ticket/#/instances/a0FQr00000NgEEEMA3
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Lehigh Valley IronPigs
+DTSTART;TZID="UTC-04:00":20270611T180500
+UID:pro-woosox-055ecc1de345@funotronic
+DESCRIPTION:Worcester Red Sox host the Lehigh Valley IronPigs at Polar Par
+ k.\nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tai Chi Beginner Level
@@ -29890,6 +30473,15 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Lehigh Valley IronPigs
+DTSTART;TZID="UTC-04:00":20270612T160500
+UID:pro-woosox-bcc917b837cc@funotronic
+DESCRIPTION:Worcester Red Sox host the Lehigh Valley IronPigs at Polar Par
+ k.\nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Nothing Up My Sleeve
 DTSTART;TZID="UTC-04:00":20270612T193000
 UID:pm-trinity-77545fad2343@funotronic
@@ -29914,6 +30506,15 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Lehigh Valley IronPigs
+DTSTART;TZID="UTC-04:00":20270613T130500
+UID:pro-woosox-eb878aec00c6@funotronic
+DESCRIPTION:Worcester Red Sox host the Lehigh Valley IronPigs at Polar Par
+ k.\nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Nothing Up My Sleeve
 DTSTART;TZID="UTC-04:00":20270613T180000
 UID:pm-trinity-fdfecab17562@funotronic
@@ -29926,6 +30527,15 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Athletics
+DTSTART;VALUE=DATE:20270615
+UID:pro-redsox-bd559ae16e5f@funotronic
+DESCRIPTION:Boston Red Sox host the Athletics at Fenway Park.\nhttps://www
+ .mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:An Evening With Robbie Fowler
 DTSTART;TZID="UTC-04:00":20270615T193000
 UID:ch-boch-b51fadff66df@funotronic
@@ -29935,6 +30545,15 @@ DESCRIPTION:This event is for ages 16+ Join Liverpool legend ROBBIE FOWLER
  ter.org/events/detail/robbiefowler
 LOCATION:Boch Center\, 270 Tremont St\, Boston\, MA
 URL:https://www.bochcenter.org/events/detail/robbiefowler
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Athletics
+DTSTART;VALUE=DATE:20270616
+UID:pro-redsox-2d07ce5b32ed@funotronic
+DESCRIPTION:Boston Red Sox host the Athletics at Fenway Park.\nhttps://www
+ .mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wee-One Wednesdays
@@ -29972,6 +30591,15 @@ DESCRIPTION:By Dendy and Aaron Posner Magic by Dendy Directed by Aaron Pos
  om/ticket/#/instances/a0FQr00000NgHQdMAN
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Athletics
+DTSTART;VALUE=DATE:20270617
+UID:pro-redsox-0b46f2e48b64@funotronic
+DESCRIPTION:Boston Red Sox host the Athletics at Fenway Park.\nhttps://www
+ .mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Nothing Up My Sleeve
@@ -30058,6 +30686,303 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Colorado Rockies
+DTSTART;VALUE=DATE:20270625
+UID:pro-redsox-9519be29e82d@funotronic
+DESCRIPTION:Boston Red Sox host the Colorado Rockies at Fenway Park.\nhttp
+ s://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Colorado Rockies
+DTSTART;VALUE=DATE:20270626
+UID:pro-redsox-64f2a61be8d7@funotronic
+DESCRIPTION:Boston Red Sox host the Colorado Rockies at Fenway Park.\nhttp
+ s://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Colorado Rockies
+DTSTART;VALUE=DATE:20270627
+UID:pro-redsox-7f9cc58cf184@funotronic
+DESCRIPTION:Boston Red Sox host the Colorado Rockies at Fenway Park.\nhttp
+ s://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Minnesota Twins
+DTSTART;VALUE=DATE:20270629
+UID:pro-redsox-0429c0892720@funotronic
+DESCRIPTION:Boston Red Sox host the Minnesota Twins at Fenway Park.\nhttps
+ ://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Rochester Red Wings
+DTSTART;TZID="UTC-04:00":20270629T180500
+UID:pro-woosox-bde158c03731@funotronic
+DESCRIPTION:Worcester Red Sox host the Rochester Red Wings at Polar Park.
+ \nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Minnesota Twins
+DTSTART;VALUE=DATE:20270630
+UID:pro-redsox-bf41a8ee35cf@funotronic
+DESCRIPTION:Boston Red Sox host the Minnesota Twins at Fenway Park.\nhttps
+ ://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Rochester Red Wings
+DTSTART;TZID="UTC-04:00":20270630T180500
+UID:pro-woosox-75b09e6d5c75@funotronic
+DESCRIPTION:Worcester Red Sox host the Rochester Red Wings at Polar Park.
+ \nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Minnesota Twins
+DTSTART;VALUE=DATE:20270701
+UID:pro-redsox-a6829977ddfc@funotronic
+DESCRIPTION:Boston Red Sox host the Minnesota Twins at Fenway Park.\nhttps
+ ://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Rochester Red Wings
+DTSTART;TZID="UTC-04:00":20270701T180500
+UID:pro-woosox-ecd9a6c90bd2@funotronic
+DESCRIPTION:Worcester Red Sox host the Rochester Red Wings at Polar Park.
+ \nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Baltimore Orioles
+DTSTART;VALUE=DATE:20270702
+UID:pro-redsox-175983d0b41b@funotronic
+DESCRIPTION:Boston Red Sox host the Baltimore Orioles at Fenway Park.\nhtt
+ ps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Rochester Red Wings
+DTSTART;TZID="UTC-04:00":20270702T180500
+UID:pro-woosox-cad6606bf7cd@funotronic
+DESCRIPTION:Worcester Red Sox host the Rochester Red Wings at Polar Park.
+ \nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Baltimore Orioles
+DTSTART;VALUE=DATE:20270703
+UID:pro-redsox-bc543a1d53a1@funotronic
+DESCRIPTION:Boston Red Sox host the Baltimore Orioles at Fenway Park.\nhtt
+ ps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Rochester Red Wings
+DTSTART;TZID="UTC-04:00":20270703T180500
+UID:pro-woosox-a427e05ffeec@funotronic
+DESCRIPTION:Worcester Red Sox host the Rochester Red Wings at Polar Park.
+ \nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Baltimore Orioles
+DTSTART;VALUE=DATE:20270704
+UID:pro-redsox-b2322fdd6684@funotronic
+DESCRIPTION:Boston Red Sox host the Baltimore Orioles at Fenway Park.\nhtt
+ ps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Rochester Red Wings
+DTSTART;TZID="UTC-04:00":20270704T180500
+UID:pro-woosox-1dda2cd28a87@funotronic
+DESCRIPTION:Worcester Red Sox host the Rochester Red Wings at Polar Park.
+ \nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Syracuse Mets
+DTSTART;TZID="UTC-04:00":20270706T184000
+UID:pro-woosox-344a1270114d@funotronic
+DESCRIPTION:Worcester Red Sox host the Syracuse Mets at Polar Park.\nhttps
+ ://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Syracuse Mets
+DTSTART;TZID="UTC-04:00":20270707T150500
+UID:pro-woosox-f782d400e46b@funotronic
+DESCRIPTION:Worcester Red Sox host the Syracuse Mets at Polar Park.\nhttps
+ ://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Syracuse Mets
+DTSTART;TZID="UTC-04:00":20270708T184000
+UID:pro-woosox-bb45ffdbeaf8@funotronic
+DESCRIPTION:Worcester Red Sox host the Syracuse Mets at Polar Park.\nhttps
+ ://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Syracuse Mets
+DTSTART;TZID="UTC-04:00":20270709T184000
+UID:pro-woosox-877486882273@funotronic
+DESCRIPTION:Worcester Red Sox host the Syracuse Mets at Polar Park.\nhttps
+ ://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Syracuse Mets
+DTSTART;TZID="UTC-04:00":20270710T160500
+UID:pro-woosox-41593e5af43e@funotronic
+DESCRIPTION:Worcester Red Sox host the Syracuse Mets at Polar Park.\nhttps
+ ://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Syracuse Mets
+DTSTART;TZID="UTC-04:00":20270711T130500
+UID:pro-woosox-97b5c28919b7@funotronic
+DESCRIPTION:Worcester Red Sox host the Syracuse Mets at Polar Park.\nhttps
+ ://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Atlanta Braves
+DTSTART;VALUE=DATE:20270716
+UID:pro-redsox-dbf5c8573633@funotronic
+DESCRIPTION:Boston Red Sox host the Atlanta Braves at Fenway Park.\nhttps:
+ //www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Atlanta Braves
+DTSTART;VALUE=DATE:20270717
+UID:pro-redsox-456d3b928718@funotronic
+DESCRIPTION:Boston Red Sox host the Atlanta Braves at Fenway Park.\nhttps:
+ //www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Atlanta Braves
+DTSTART;VALUE=DATE:20270718
+UID:pro-redsox-9d9d3e7d8996@funotronic
+DESCRIPTION:Boston Red Sox host the Atlanta Braves at Fenway Park.\nhttps:
+ //www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs New York Mets
+DTSTART;VALUE=DATE:20270719
+UID:pro-redsox-7d329d78f291@funotronic
+DESCRIPTION:Boston Red Sox host the New York Mets at Fenway Park.\nhttps:/
+ /www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs New York Mets
+DTSTART;VALUE=DATE:20270720
+UID:pro-redsox-a68cd3f53c03@funotronic
+DESCRIPTION:Boston Red Sox host the New York Mets at Fenway Park.\nhttps:/
+ /www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Columbus Clippers
+DTSTART;TZID="UTC-04:00":20270720T184000
+UID:pro-woosox-3356fa624f59@funotronic
+DESCRIPTION:Worcester Red Sox host the Columbus Clippers at Polar Park.\nh
+ ttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs New York Mets
+DTSTART;VALUE=DATE:20270721
+UID:pro-redsox-f6e9c0b03ce2@funotronic
+DESCRIPTION:Boston Red Sox host the New York Mets at Fenway Park.\nhttps:/
+ /www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Columbus Clippers
+DTSTART;TZID="UTC-04:00":20270721T150500
+UID:pro-woosox-bed739d6c052@funotronic
+DESCRIPTION:Worcester Red Sox host the Columbus Clippers at Polar Park.\nh
+ ttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Columbus Clippers
+DTSTART;TZID="UTC-04:00":20270722T184000
+UID:pro-woosox-2e2fe3567627@funotronic
+DESCRIPTION:Worcester Red Sox host the Columbus Clippers at Polar Park.\nh
+ ttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Columbus Clippers
+DTSTART;TZID="UTC-04:00":20270723T184000
+UID:pro-woosox-ddecc2533962@funotronic
+DESCRIPTION:Worcester Red Sox host the Columbus Clippers at Polar Park.\nh
+ ttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Columbus Clippers
+DTSTART;TZID="UTC-04:00":20270724T160500
+UID:pro-woosox-a8cf93d74d53@funotronic
+DESCRIPTION:Worcester Red Sox host the Columbus Clippers at Polar Park.\nh
+ ttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Columbus Clippers
+DTSTART;TZID="UTC-04:00":20270725T130500
+UID:pro-woosox-ac082093758a@funotronic
+DESCRIPTION:Worcester Red Sox host the Columbus Clippers at Polar Park.\nh
+ ttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Donny Osmond – Crazy Horses 2027 Summer Tour
 DTSTART;TZID="UTC-04:00":20270726T190000
 UID:ch-boch-980547a7b778@funotronic
@@ -30070,6 +30995,222 @@ LOCATION:Boch Center\, 270 Tremont St\, Boston\, MA
 URL:https://www.bochcenter.org/events/detail/donnyosmond
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Los Angeles Angels
+DTSTART;VALUE=DATE:20270802
+UID:pro-redsox-132cb2c7d7e0@funotronic
+DESCRIPTION:Boston Red Sox host the Los Angeles Angels at Fenway Park.\nht
+ tps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Los Angeles Angels
+DTSTART;VALUE=DATE:20270803
+UID:pro-redsox-9724bc632934@funotronic
+DESCRIPTION:Boston Red Sox host the Los Angeles Angels at Fenway Park.\nht
+ tps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Buffalo Bisons
+DTSTART;TZID="UTC-04:00":20270803T184000
+UID:pro-woosox-d5cf9100f61e@funotronic
+DESCRIPTION:Worcester Red Sox host the Buffalo Bisons at Polar Park.\nhttp
+ s://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Los Angeles Angels
+DTSTART;VALUE=DATE:20270804
+UID:pro-redsox-04d7f4b082cf@funotronic
+DESCRIPTION:Boston Red Sox host the Los Angeles Angels at Fenway Park.\nht
+ tps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Buffalo Bisons
+DTSTART;TZID="UTC-04:00":20270804T150500
+UID:pro-woosox-b439638d9602@funotronic
+DESCRIPTION:Worcester Red Sox host the Buffalo Bisons at Polar Park.\nhttp
+ s://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Buffalo Bisons
+DTSTART;TZID="UTC-04:00":20270805T184000
+UID:pro-woosox-35846f6b4583@funotronic
+DESCRIPTION:Worcester Red Sox host the Buffalo Bisons at Polar Park.\nhttp
+ s://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs New York Yankees
+DTSTART;VALUE=DATE:20270806
+UID:pro-redsox-71011ea715f7@funotronic
+DESCRIPTION:Boston Red Sox host the New York Yankees at Fenway Park.\nhttp
+ s://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Buffalo Bisons
+DTSTART;TZID="UTC-04:00":20270806T184000
+UID:pro-woosox-66daf0aaa50a@funotronic
+DESCRIPTION:Worcester Red Sox host the Buffalo Bisons at Polar Park.\nhttp
+ s://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs New York Yankees
+DTSTART;VALUE=DATE:20270807
+UID:pro-redsox-15e362b0e470@funotronic
+DESCRIPTION:Boston Red Sox host the New York Yankees at Fenway Park.\nhttp
+ s://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Buffalo Bisons
+DTSTART;TZID="UTC-04:00":20270807T160500
+UID:pro-woosox-4a76c5338f08@funotronic
+DESCRIPTION:Worcester Red Sox host the Buffalo Bisons at Polar Park.\nhttp
+ s://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs New York Yankees
+DTSTART;VALUE=DATE:20270808
+UID:pro-redsox-b2cd633c5573@funotronic
+DESCRIPTION:Boston Red Sox host the New York Yankees at Fenway Park.\nhttp
+ s://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Buffalo Bisons
+DTSTART;TZID="UTC-04:00":20270808T130500
+UID:pro-woosox-cc45ec4a36fa@funotronic
+DESCRIPTION:Worcester Red Sox host the Buffalo Bisons at Polar Park.\nhttp
+ s://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Toronto Blue Jays
+DTSTART;VALUE=DATE:20270816
+UID:pro-redsox-06952b9b7fe9@funotronic
+DESCRIPTION:Boston Red Sox host the Toronto Blue Jays at Fenway Park.\nhtt
+ ps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Toronto Blue Jays
+DTSTART;VALUE=DATE:20270817
+UID:pro-redsox-6d6926bff8bd@funotronic
+DESCRIPTION:Boston Red Sox host the Toronto Blue Jays at Fenway Park.\nhtt
+ ps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Rochester Red Wings
+DTSTART;TZID="UTC-04:00":20270817T184000
+UID:pro-woosox-92037c9cca93@funotronic
+DESCRIPTION:Worcester Red Sox host the Rochester Red Wings at Polar Park.
+ \nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Toronto Blue Jays
+DTSTART;VALUE=DATE:20270818
+UID:pro-redsox-9afade172d01@funotronic
+DESCRIPTION:Boston Red Sox host the Toronto Blue Jays at Fenway Park.\nhtt
+ ps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Rochester Red Wings
+DTSTART;TZID="UTC-04:00":20270818T184000
+UID:pro-woosox-01498fdd8c10@funotronic
+DESCRIPTION:Worcester Red Sox host the Rochester Red Wings at Polar Park.
+ \nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Rochester Red Wings
+DTSTART;TZID="UTC-04:00":20270819T184000
+UID:pro-woosox-6d163e672bc8@funotronic
+DESCRIPTION:Worcester Red Sox host the Rochester Red Wings at Polar Park.
+ \nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Pittsburgh Pirates
+DTSTART;VALUE=DATE:20270820
+UID:pro-redsox-55de8cf9a30c@funotronic
+DESCRIPTION:Boston Red Sox host the Pittsburgh Pirates at Fenway Park.\nht
+ tps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Rochester Red Wings
+DTSTART;TZID="UTC-04:00":20270820T184000
+UID:pro-woosox-8eb6b5e22fa0@funotronic
+DESCRIPTION:Worcester Red Sox host the Rochester Red Wings at Polar Park.
+ \nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Pittsburgh Pirates
+DTSTART;VALUE=DATE:20270821
+UID:pro-redsox-3fd7d0e8f8af@funotronic
+DESCRIPTION:Boston Red Sox host the Pittsburgh Pirates at Fenway Park.\nht
+ tps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Rochester Red Wings
+DTSTART;TZID="UTC-04:00":20270821T160500
+UID:pro-woosox-9d011c12ae7b@funotronic
+DESCRIPTION:Worcester Red Sox host the Rochester Red Wings at Polar Park.
+ \nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Pittsburgh Pirates
+DTSTART;VALUE=DATE:20270822
+UID:pro-redsox-95f54f34c842@funotronic
+DESCRIPTION:Boston Red Sox host the Pittsburgh Pirates at Fenway Park.\nht
+ tps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Rochester Red Wings
+DTSTART;TZID="UTC-04:00":20270822T130500
+UID:pro-woosox-22631c66d313@funotronic
+DESCRIPTION:Worcester Red Sox host the Rochester Red Wings at Polar Park.
+ \nhttps://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Steve Hofstetter
 DTSTART;TZID="UTC-04:00":20270828T200000
 UID:odeum-a7ccc9b3b015@funotronic
@@ -30077,6 +31218,132 @@ DESCRIPTION:No-holds-barred stand-up\, sold out around the world.\n$47 - $
  54\nhttps://ci.ovationtix.com/35158/production/1284052
 LOCATION:Greenwich Odeum\, 59 Main St
 URL:https://www.greenwichodeum.com/events/steve-hofstetter
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Baltimore Orioles
+DTSTART;VALUE=DATE:20270830
+UID:pro-redsox-9ea11ee93bfd@funotronic
+DESCRIPTION:Boston Red Sox host the Baltimore Orioles at Fenway Park.\nhtt
+ ps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Baltimore Orioles
+DTSTART;VALUE=DATE:20270831
+UID:pro-redsox-2b8e92135810@funotronic
+DESCRIPTION:Boston Red Sox host the Baltimore Orioles at Fenway Park.\nhtt
+ ps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Durham Bulls
+DTSTART;TZID="UTC-04:00":20270831T180500
+UID:pro-woosox-5f52e5dcaf27@funotronic
+DESCRIPTION:Worcester Red Sox host the Durham Bulls at Polar Park.\nhttps:
+ //www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Baltimore Orioles
+DTSTART;VALUE=DATE:20270901
+UID:pro-redsox-13a0086df2e2@funotronic
+DESCRIPTION:Boston Red Sox host the Baltimore Orioles at Fenway Park.\nhtt
+ ps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Durham Bulls
+DTSTART;TZID="UTC-04:00":20270901T180500
+UID:pro-woosox-e781d553dd20@funotronic
+DESCRIPTION:Worcester Red Sox host the Durham Bulls at Polar Park.\nhttps:
+ //www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Baltimore Orioles
+DTSTART;VALUE=DATE:20270902
+UID:pro-redsox-07892997f1f4@funotronic
+DESCRIPTION:Boston Red Sox host the Baltimore Orioles at Fenway Park.\nhtt
+ ps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Durham Bulls
+DTSTART;TZID="UTC-04:00":20270902T180500
+UID:pro-woosox-b619fb5c5f89@funotronic
+DESCRIPTION:Worcester Red Sox host the Durham Bulls at Polar Park.\nhttps:
+ //www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Seattle Mariners
+DTSTART;VALUE=DATE:20270903
+UID:pro-redsox-b1795dc29acf@funotronic
+DESCRIPTION:Boston Red Sox host the Seattle Mariners at Fenway Park.\nhttp
+ s://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Durham Bulls
+DTSTART;TZID="UTC-04:00":20270903T180500
+UID:pro-woosox-3435d7cdbf78@funotronic
+DESCRIPTION:Worcester Red Sox host the Durham Bulls at Polar Park.\nhttps:
+ //www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Seattle Mariners
+DTSTART;VALUE=DATE:20270904
+UID:pro-redsox-8de1edd4be9b@funotronic
+DESCRIPTION:Boston Red Sox host the Seattle Mariners at Fenway Park.\nhttp
+ s://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Durham Bulls
+DTSTART;TZID="UTC-04:00":20270904T160500
+UID:pro-woosox-3145ec133106@funotronic
+DESCRIPTION:Worcester Red Sox host the Durham Bulls at Polar Park.\nhttps:
+ //www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Seattle Mariners
+DTSTART;VALUE=DATE:20270905
+UID:pro-redsox-e8cda5cf04b0@funotronic
+DESCRIPTION:Boston Red Sox host the Seattle Mariners at Fenway Park.\nhttp
+ s://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Durham Bulls
+DTSTART;TZID="UTC-04:00":20270905T130500
+UID:pro-woosox-affa321f4fb7@funotronic
+DESCRIPTION:Worcester Red Sox host the Durham Bulls at Polar Park.\nhttps:
+ //www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Detroit Tigers
+DTSTART;VALUE=DATE:20270910
+UID:pro-redsox-06c535251b1e@funotronic
+DESCRIPTION:Boston Red Sox host the Detroit Tigers at Fenway Park.\nhttps:
+ //www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Brian Culbertson's Boston Jazz Getaway
@@ -30090,6 +31357,60 @@ LOCATION:Boch Center\, 270 Tremont St\, Boston\, MA
 URL:https://www.bochcenter.org/events/detail/bostonjazzgetaway
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Detroit Tigers
+DTSTART;VALUE=DATE:20270911
+UID:pro-redsox-dbdae91c56a3@funotronic
+DESCRIPTION:Boston Red Sox host the Detroit Tigers at Fenway Park.\nhttps:
+ //www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Detroit Tigers
+DTSTART;VALUE=DATE:20270912
+UID:pro-redsox-38a395b66f4c@funotronic
+DESCRIPTION:Boston Red Sox host the Detroit Tigers at Fenway Park.\nhttps:
+ //www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Norfolk Tides
+DTSTART;TZID="UTC-04:00":20270914T180500
+UID:pro-woosox-47beb794bbf3@funotronic
+DESCRIPTION:Worcester Red Sox host the Norfolk Tides at Polar Park.\nhttps
+ ://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Norfolk Tides
+DTSTART;TZID="UTC-04:00":20270915T180500
+UID:pro-woosox-1a108557b70c@funotronic
+DESCRIPTION:Worcester Red Sox host the Norfolk Tides at Polar Park.\nhttps
+ ://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Norfolk Tides
+DTSTART;TZID="UTC-04:00":20270916T180500
+UID:pro-woosox-3beae6398e60@funotronic
+DESCRIPTION:Worcester Red Sox host the Norfolk Tides at Polar Park.\nhttps
+ ://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Norfolk Tides
+DTSTART;TZID="UTC-04:00":20270917T180500
+UID:pro-woosox-77e9ef16ee32@funotronic
+DESCRIPTION:Worcester Red Sox host the Norfolk Tides at Polar Park.\nhttps
+ ://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Brown Football vs New Haven
 DTSTART;VALUE=DATE:20270918
 UID:college-sports-f59e2c0e882c@funotronic
@@ -30098,6 +31419,78 @@ DESCRIPTION:https://admin.brownbears.com/calendar.aspx?game_id=19486&amp\;
 LOCATION:Richard Gouse Field at Brown Stadium\, Providence
 URL:https://admin.brownbears.com/calendar.aspx?game_id=19486&amp;sport_id=
  6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Norfolk Tides
+DTSTART;TZID="UTC-04:00":20270918T160500
+UID:pro-woosox-1ba80ed1c59d@funotronic
+DESCRIPTION:Worcester Red Sox host the Norfolk Tides at Polar Park.\nhttps
+ ://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Worcester Red Sox vs Norfolk Tides
+DTSTART;TZID="UTC-04:00":20270919T130500
+UID:pro-woosox-923ce3604d9d@funotronic
+DESCRIPTION:Worcester Red Sox host the Norfolk Tides at Polar Park.\nhttps
+ ://www.milb.com/worcester/tickets
+LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
+URL:https://www.milb.com/worcester/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Tampa Bay Rays
+DTSTART;VALUE=DATE:20270921
+UID:pro-redsox-3f4053a78276@funotronic
+DESCRIPTION:Boston Red Sox host the Tampa Bay Rays at Fenway Park.\nhttps:
+ //www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Tampa Bay Rays
+DTSTART;VALUE=DATE:20270922
+UID:pro-redsox-7c2673faea5f@funotronic
+DESCRIPTION:Boston Red Sox host the Tampa Bay Rays at Fenway Park.\nhttps:
+ //www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Tampa Bay Rays
+DTSTART;VALUE=DATE:20270923
+UID:pro-redsox-3dea697145bc@funotronic
+DESCRIPTION:Boston Red Sox host the Tampa Bay Rays at Fenway Park.\nhttps:
+ //www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Kansas City Royals
+DTSTART;VALUE=DATE:20270924
+UID:pro-redsox-0f2c74c7ec7b@funotronic
+DESCRIPTION:Boston Red Sox host the Kansas City Royals at Fenway Park.\nht
+ tps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Kansas City Royals
+DTSTART;VALUE=DATE:20270925
+UID:pro-redsox-89e1a61c1ee6@funotronic
+DESCRIPTION:Boston Red Sox host the Kansas City Royals at Fenway Park.\nht
+ tps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Red Sox vs Kansas City Royals
+DTSTART;VALUE=DATE:20270926
+UID:pro-redsox-d15a6a579e55@funotronic
+DESCRIPTION:Boston Red Sox host the Kansas City Royals at Fenway Park.\nht
+ tps://www.mlb.com/redsox/tickets
+LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
+URL:https://www.mlb.com/redsox/tickets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Eros Ramazzotti - Una Historia Importante

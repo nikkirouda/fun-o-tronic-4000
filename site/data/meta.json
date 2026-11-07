@@ -1,7 +1,17 @@
 {
- "generated": "2026-11-07T12:24-05:00",
- "count": 2558,
+ "generated": "2026-11-07T16:07-05:00",
+ "count": 2734,
  "sources": {
+  "carbonhouse_rss": {
+   "ok": true,
+   "count": 175,
+   "last_ok": "2026-11-07T16:07-05:00"
+  },
+  "pro_sports": {
+   "ok": true,
+   "count": 246,
+   "last_ok": "2026-11-07T16:06-05:00"
+  },
   "alchemy": {
    "ok": true,
    "count": 34,
@@ -20,11 +30,6 @@
   "carbonhouse": {
    "ok": true,
    "count": 49,
-   "last_ok": "2026-11-07T12:24-05:00"
-  },
-  "carbonhouse_rss": {
-   "ok": true,
-   "count": 244,
    "last_ok": "2026-11-07T12:24-05:00"
   },
   "college_sports": {
@@ -119,9 +124,9 @@
   }
  },
  "categories": {
-  "talk": 512,
+  "sports": 556,
+  "talk": 511,
   "theater": 413,
-  "sports": 379,
   "music": 356,
   "community": 311,
   "comedy": 162,
@@ -136,18 +141,19 @@
   "family": 2
  },
  "cities": {
-  "Providence": 1907,
-  "Boston, MA": 129,
+  "Providence": 1906,
+  "Boston, MA": 226,
   "Warwick": 122,
   "East Providence": 119,
+  "Worcester, MA": 112,
   "Smithfield": 51,
   "Fall River": 42,
   "Woonsocket": 37,
-  "Worcester, MA": 37,
   "New Haven, CT": 36,
   "East Greenwich": 34,
   "Newport": 26,
   "Kingston": 15,
+  "Foxborough, MA": 5,
   "Pawtucket": 3
  }
 }
