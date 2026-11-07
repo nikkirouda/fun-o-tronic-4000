@@ -132,6 +132,26 @@ def build(mode: str) -> dict:
             "on_sale": [ids[c["id"]] for c in on_sale if c["id"] in ids][:10], "new": new_big, "upcoming_onsale": upcoming_onsale}
 
 
+def freshness_line(d: dict) -> str:
+    """'Sources: Brown 2h ago · Trinity 2h ago · PPAC last good Thu' — so a dead feed never hides behind a confident email."""
+    try:
+        meta = load("meta")
+    except Exception:  # noqa: BLE001
+        return ""
+    now = datetime.now(TZ)
+    parts = []
+    for name, v in sorted(meta.get("sources", {}).items(), key=lambda kv: (kv[1].get("ok", False), -kv[1].get("count", 0))):
+        last = v.get("last_ok")
+        if not last:
+            parts.append(f"{name}: never")
+            continue
+        age = now - datetime.fromisoformat(last)
+        when = f"{int(age.total_seconds() // 3600)}h ago" if age.days < 2 else datetime.fromisoformat(last).strftime("%a %b %-d")
+        parts.append(f"{name}: {'' if v.get('ok') else 'FAILING, last good '}{when}")
+    gen = datetime.fromisoformat(meta["generated"]).strftime("%a %b %-d %-I:%M %p")
+    return f"Data built {gen}. " + " · ".join(parts)
+
+
 def as_text(d: dict) -> str:
     L = [f"FUN-O-TRONIC 4000 — {d['title']}", f"{d['total']} things on. Full list: {SITE_URL}", ""]
     if d["picks"]:
@@ -165,6 +185,7 @@ def as_text(d: dict) -> str:
         if len(evs) > 8:
             L.append(f"  …and {len(evs) - 8} more on the site")
         L.append("")
+    L.append(freshness_line(d))
     L.append("Listings come from the venues; check before you go. — the staff")
     return "\n".join(L)
 
@@ -203,7 +224,7 @@ def as_html(d: dict) -> str:
         if len(evs) > 8:
             h.append(f"<li style='color:#888'>…and {len(evs) - 8} more on the site</li>")
         h.append("</ul>")
-    h.append("<p style='color:#888;font-size:12px;margin-top:18px'>Listings come from the venues; check before you go. — the staff</p>")
+    h.append(f"<p style='color:#888;font-size:12px;margin-top:18px'>{esc(freshness_line(d))}<br>Listings come from the venues; check before you go. — the staff</p>")
     return "\n".join(h)
 
 

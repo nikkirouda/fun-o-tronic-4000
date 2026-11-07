@@ -40,7 +40,7 @@
 </header>
 <main class="season">
   <h1>Season at a glance</h1>
-  <p class="lede">Every production with three or more performances, by house — for planning ahead and buying early. Built from the same listings as the main page.</p>
+  <p class="lede">Every theater, music, comedy, dance and film run with three or more performances, by house — for planning ahead and buying early. Built from the same listings as the main page.</p>
   <div class="legend" id="legend"></div>
   <div id="root"><p class="empty">Loading…</p></div>
   <a class="back" href="./">← Back to the listings</a>
@@ -54,11 +54,13 @@
   const data = await fetch(`data/events.json?v=${Math.floor(Date.now() / 6e5)}`).then(r => r.json());
   const key = e => `${e.title.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim()}|${e.venue_id || e.venue}`;
   const runs = new Map();
-  for (const e of data.events) { if (e.category === "sports" || e.kids) continue; (runs.get(key(e)) || runs.set(key(e), []).get(key(e))).push(e); }
+  const KEEP = new Set(["theater", "classical", "dance", "comedy", "music", "film", "festival"]);
+  const PREMIER = /trinity|ppac|gamm|vets|philharmonic|firstworks|odeum|stadium|comedy connection|avon|newport classical|wilbury|strand|met\b|fete|as220|risd|brown/i;
+  for (const e of data.events) { if (!KEEP.has(e.category) || e.kids) continue; (runs.get(key(e)) || runs.set(key(e), []).get(key(e))).push(e); }
   const prods = [...runs.values()].filter(g => g.length >= 3 && new Set(g.map(e => e.start.slice(0, 10))).size >= 2).map(g => { g.sort((a, b) => a.start.localeCompare(b.start)); return g; });
   const byOrg = new Map();
   for (const g of prods) { const org = g[0].source_name || g[0].venue; (byOrg.get(org) || byOrg.set(org, []).get(org)).push(g); }
-  const orgs = [...byOrg.entries()].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
+  const orgs = [...byOrg.entries()].sort((a, b) => Number(PREMIER.test(b[0])) - Number(PREMIER.test(a[0])) || b[1].length - a[1].length || a[0].localeCompare(b[0]));
   const cats = new Set(prods.map(g => g[0].category));
   document.getElementById("legend").innerHTML = [...cats].map(c => `<span><i style="background:var(--c-${c})"></i>${CATS[c] || c}</span>`).join("");
   const root = document.getElementById("root"); root.innerHTML = "";
