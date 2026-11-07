@@ -83,6 +83,8 @@ def fetch() -> list[dict]:
                 details[r["link"]] = details.get(r["link"]) or _detail(r["link"])
         n = 0
         for r in rows:
+            if f["key"] == "tdgarden" and (r["type"].lower() in ("sports", "hockey", "basketball") or re.search(r"\b(Bruins|Celtics)\b", r["title"])):
+                continue  # the league schedules (pro_sports.py) carry these with better detail
             d = details.get(r["link"], {})
             cat = TYPE_MAP.get(r["type"].lower(), None)
             on_sale = d.get("on_sale")
