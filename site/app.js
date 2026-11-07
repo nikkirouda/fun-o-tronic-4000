@@ -161,11 +161,11 @@
     $("#btnStars").classList.toggle("lit", S.mode === "stars");
     $("#btnNew").classList.toggle("lit", S.mode === "new");
     const sc = $("#starCount"); sc.textContent = S.stars.size; sc.hidden = !S.stars.size;
-    const list = sorted(S.events.filter(e => matches(e, S.view !== "list")));
+    const list = sorted(S.events.filter(e => matches(e, S.view === "cal")));  // only the calendar ignores the date chips
     if (S.view === "list") { $("#listView").hidden = false; renderList(list); }
     else if (S.view === "cal") { $("#calView").hidden = false; renderCal(list); }
     else { $("#mapView").hidden = false; renderMap(list); }
-    const label = S.mode === "stars" ? "saved" : S.mode === "new" ? "new since last visit" : S.view !== "list" ? "upcoming" : ({ tonight: "tonight", tomorrow: "tomorrow", weekend: "this weekend", week: "in the next 7 days", month: "in the next 30 days", all: "upcoming", custom: "in your dates" })[S.when];
+    const label = S.mode === "stars" ? "saved" : S.mode === "new" ? "new since last visit" : S.view === "cal" ? "upcoming" : ({ tonight: "tonight", tomorrow: "tomorrow", weekend: "this weekend", week: "in the next 7 days", month: "in the next 30 days", all: "upcoming", custom: "in your dates" })[S.when];
     $("#count").textContent = `${list.length} ${label}`;
   }
 
