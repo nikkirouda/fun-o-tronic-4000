@@ -219,20 +219,6 @@ URL:https://www.newportlive.org/concerts/african-jazz-legends-mccoy-mrubat
  a-with-aaron-rimbui
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:30th Annual Comics Come Home
-DTSTART;TZID="UTC-05:00":20261107T200000
-UID:ch-tdgarden-0222c4b41b15@funotronic
-DESCRIPTION:Comics Come Home is a star-studded stand-up comedy benefit hos
- ted by Denis Leary\, featuring performances by John Mulaney\, Jimmy Fallon
- \, Ray Romano\, Jon Stewart\, Leslie Jones\, Alex Edelman\, Sam Jay\, Robe
- rt Kelly\, and Lenny Clarke.\nhttps://www.ticketmaster.com/event/010064D0A
- 4D3D305?brand=TDG&camefrom=CFC_TDG_1107Comics_Come_Home000100IND1107TDW&f_
- PPL=true&utm_source=web&utm_medium=event-page&utm_campaign=comics-come-hom
- e
-LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
-URL:https://www.tdgarden.com/events/detail/comics-come-home-30
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Emo Night Encore
 DTSTART;TZID="UTC-05:00":20261107T200000
 DTEND;TZID="UTC-05:00":20261108T010000
