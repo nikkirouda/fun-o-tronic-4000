@@ -34,7 +34,8 @@
     when: "weekend", from: null, to: null, cats: new Set(), q: "",
     freeOnly: false, hideKids: true, ticketsOnly: false, farToo: false, maxPrice: null, area: "", venue: "",
     view: "list", sort: "time", shown: 60, calMonth: null, calSel: null, mood: 50, group: true,
-    stars: new Set(LS("stars", [])), hidden: new Set(LS("hidden", [])), hiddenVenues: new Set(LS("hiddenVenues", [])),
+    stars: new Set(LS("stars", [])), going: new Set(LS("going", [])), seenRuns: new Set(LS("seenRuns", [])),
+    hidden: new Set(LS("hidden", [])), hiddenVenues: new Set(LS("hiddenVenues", [])),
     follows: LS("follows", []), taste: LS("taste", { cat: {}, venue: {}, tag: {}, source: {}, n: 0 }),
     votes: LS("votes", {}), lastVisit: LS("lastVisit", null), mode: "browse", // browse | stars | new | shortlist
     shortlist: null, shortlistFrom: "",
@@ -44,7 +45,7 @@
   if (LS("theme", null)) document.documentElement.dataset.theme = LS("theme", null);
   function persist() {
     save("filters", { when: S.when, hideKids: S.hideKids, area: S.area, view: S.view, sort: S.sort, freeOnly: S.freeOnly, ticketsOnly: S.ticketsOnly, farToo: S.farToo, maxPrice: S.maxPrice, mood: S.mood, group: S.group, cats: [...S.cats] });
-    save("stars", [...S.stars]); save("hidden", [...S.hidden]); save("hiddenVenues", [...S.hiddenVenues]);
+    save("stars", [...S.stars]); save("going", [...S.going]); save("seenRuns", [...S.seenRuns]); save("hidden", [...S.hidden]); save("hiddenVenues", [...S.hiddenVenues]);
     save("follows", S.follows); save("taste", S.taste); save("votes", S.votes);
   }
 
@@ -106,6 +107,8 @@
     buildCatChips(); buildVenueSel();
     const since = S.lastVisit ? (S.lastVisit > new Date(Date.now() - 14 * 864e5).toISOString() ? S.lastVisit : new Date(Date.now() - 14 * 864e5).toISOString()) : "9999";
     S.newIds = new Set(S.events.filter(e => e.first_seen && e.first_seen > since).map(e => e.id));
+    for (const e of S.events) if (S.going.has(e.id) && (e.end ? new Date(e.end).getTime() : e._t + 3 * 36e5) < Date.now()) S.seenRuns.add(runKey(e));
+    persist();
     S.followIds = new Set(S.events.filter(isFollowed).map(e => e.id));
     const nb = $("#newCount"); const n = new Set([...S.newIds, ...S.followIds]).size; nb.textContent = n; nb.hidden = n === 0;
     readHash();
@@ -201,6 +204,7 @@
     if (e.description && e.description.length > 120) r += .5;
     if (e.far) r -= 1.5;
     if (S.stars.has(e.id)) r += 10;
+    if (S.going.has(e.id)) r += 20;
     if (S.followIds && S.followIds.has(e.id)) r += 5;
     return r + taste(e);
   }
@@ -216,7 +220,8 @@
   function matches(e, ignoreWhen = false) {
     if (S.mode === "shortlist") return S.shortlist && S.shortlist.has(e.id);
     if (S.hidden.has(e.id) || S.hiddenVenues.has(e.venue_id)) return false;
-    if (S.mode === "stars") return S.stars.has(e.id);
+    if (S.mode === "stars") return S.stars.has(e.id) || S.going.has(e.id);
+    if (S.seenRuns.has(runKey(e)) && !S.going.has(e.id)) return false;
     if (S.mode === "new" && !(S.newIds.has(e.id) || S.followIds.has(e.id))) return false;
     if (!ignoreWhen && S.mode === "browse") { const [a, b] = range(); if (e._day < a || e._day > b) return false; }
     if (S.dateNight) { const h = hourOf(e); if (e.all_day || h < 17 || h > 22) return false; }
@@ -285,6 +290,8 @@
     $(".where", n).textContent = [e.venue, e.city].filter(Boolean).join(" · ") + (e.price_text || e.price_min != null ? ` · ${priceStr(e)}` : "") + (e.far && e.miles ? ` · ${Math.round(e.miles)} mi` : "");
     $(".sum", n).textContent = e.summary || "";
     if (perfs.length > 1) { const last = perfs[perfs.length - 1]; $(".run", n).textContent = `Runs through ${fmt(new Date(last.start), { month: "short", day: "numeric" })} · ${perfs.length} performances`; }
+    if (S.going.has(e.id)) n.classList.add("going");
+    else if (S.going.size && [...S.going].some(id => { const g = S.events.find(x => x.id === id); return g && g._day === e._day && !g.all_day && !e.all_day && Math.abs(g._t - e._t) < 4 * 36e5; })) n.classList.add("busy");
     const st = $(".star", n); st.textContent = S.stars.has(e.id) ? "★" : "☆"; st.classList.toggle("on", S.stars.has(e.id));
     st.onclick = ev => { ev.stopPropagation(); toggleStar(e); st.textContent = S.stars.has(e.id) ? "★" : "☆"; st.classList.toggle("on", S.stars.has(e.id)); };
     $(".nope", n).onclick = ev => { ev.stopPropagation(); nope(e, perfs); };
@@ -293,6 +300,7 @@
   }
   function flags(e) {
     const f = [];
+    if (S.going.has(e.id)) f.push(`<span class="flag going">✓ GOING</span>`);
     if (e.is_free) f.push(`<span class="flag free">FREE</span>`);
     if (S.newIds && S.newIds.has(e.id)) f.push(`<span class="flag new">NEW</span>`);
     if (S.followIds && S.followIds.has(e.id)) f.push(`<span class="flag follow">✦ FOLLOWING</span>`);
@@ -400,14 +408,16 @@
           venues.set(v, (venues.get(v) || 0) + 1); top.push(g); if (top.length >= 6) break;
         }
       }
+      const goingHere = evs.filter(e => S.going.has(e.id));
+      if (goingHere.length) { top = top.filter(g => !S.going.has(g[0].id)).slice(0, 6 - goingHere.length); top.unshift(...goingHere.map(e => [e])); }
       const shown = top.reduce((n, g) => n + g.length, 0);
       c.innerHTML = `<span class="n">${d}${WX && WX.days[key] && wide ? ` <small class="wxd">${WX.days[key].icon}${WX.days[key].hi ?? ""}°</small>` : ""}</span>` +
-        (wide ? `<span class="evs">${top.map(g => { const e = g[0]; const times = e.all_day ? "" : g.slice(0, 3).map(timeStr).join(" & ") + (g.length > 3 ? " +" : ""); return `<a class="ev" data-id="${e.id}" style="--cc:var(--c-${e.category})" title="${esc(e.title)} · ${esc(e.venue)}${times ? " · " + times : ""}">${times ? `<b>${times}</b> ` : ""}${esc(e.title)}</a>`; }).join("")}${evs.length > shown ? `<span class="morel">+${evs.length - shown} more</span>` : ""}</span>`
+        (wide ? `<span class="evs">${top.map(g => { const e = g[0]; const times = e.all_day ? "" : g.slice(0, 3).map(timeStr).join(" & ") + (g.length > 3 ? " +" : ""); return `<a class="ev${S.going.has(e.id) ? " go" : (goingHere.length ? " dim" : "")}" data-id="${e.id}" style="--cc:var(--c-${e.category})" title="${esc(e.title)} · ${esc(e.venue)}${times ? " · " + times : ""}">${S.going.has(e.id) ? "✓ " : ""}${times ? `<b>${times}</b> ` : ""}${esc(e.title)}</a>`; }).join("")}${evs.length > shown ? `<span class="morel">+${evs.length - shown} more</span>` : ""}</span>`
               : `<span class="dots">${cats.map(k => `<i style="background:var(--c-${k})"></i>`).join("")}</span>`) +
         (evs.length ? `<span class="cnt">${evs.length}</span><span class="heat" style="width:${Math.round(100 * evs.length / max)}%"></span>` : "");
       const [ra, rb] = S.when === "custom" && S.mode === "browse" ? range() : [null, null];
       if (key < t || (ra && (key < ra || key > rb))) c.style.opacity = .45;
-      c.onclick = ev => { const a = ev.target.closest("a.ev"); if (a) { ev.stopPropagation(); openSheet(S.events.find(e => e.id === a.dataset.id)); return; } S.calSel = key; renderCal(list); };
+      c.onclick = ev => { const a = ev.target.closest("a.ev"); if (a) { ev.stopPropagation(); openSheet(S.events.find(e => e.id === a.dataset.id)); return; } S.calSel = key; renderCal(list); if (evs.length) openDaySheet(key, evs); };
       grid.appendChild(c);
     }
     const dayRoot = $("#calDay"); dayRoot.innerHTML = "";
@@ -419,6 +429,16 @@
       evs.forEach(e => g.appendChild(card(e)));
       if (!evs.length) dayRoot.innerHTML += `<p class="empty">Quiet day. Or the venues haven't posted yet.</p>`;
     }
+  }
+  function openDaySheet(key, evs) {
+    const [a, b] = dayLabel(key);
+    const sortedDay = [...evs].sort((x, y) => rank(y) - rank(x) || x._t - y._t);
+    const going = sortedDay.filter(e => S.going.has(e.id));
+    openSheet(null, `<h2>${esc(a)} <small style="font-weight:400;color:var(--ink2)">${esc(b)}</small></h2>
+      <p class="fine">${evs.length} event${evs.length === 1 ? "" : "s"} · best first${going.length ? ` · <b style="color:var(--ok)">you're going to ${esc(going[0].title)}${going.length > 1 ? " and " + (going.length - 1) + " more" : ""}</b>` : ""}</p>
+      <div class="list-sm" id="daySheetList"></div>`);
+    const root = $("#daySheetList");
+    for (const e of sortedDay) root.appendChild(card(e));
   }
   $("#calPrev").onclick = () => { const [y, m] = S.calMonth.split("-").map(Number); S.calMonth = `${m === 1 ? y - 1 : y}-${String(m === 1 ? 12 : m - 1).padStart(2, "0")}`; render(); };
   $("#calNext").onclick = () => { const [y, m] = S.calMonth.split("-").map(Number); S.calMonth = `${m === 12 ? y + 1 : y}-${String(m === 12 ? 1 : m + 1).padStart(2, "0")}`; render(); };
@@ -490,6 +510,8 @@
           ${e.ticket_url ? `<a class="btn tickets" id="shTix" href="${esc(e.ticket_url)}" target="_blank" rel="noopener">🎟 Tickets</a>` : ""}
           ${e.url ? `<a class="btn" href="${esc(e.url)}" target="_blank" rel="noopener">Details ↗</a>` : ""}
           <button class="btn primary" id="shStar">${S.stars.has(e.id) ? "★ Saved" : "☆ Save"}</button>
+          <button class="btn ${S.going.has(e.id) ? "going-on" : ""}" id="shGoing" title="Booked it — the day shows this as a reminder; afterwards the run retires">${S.going.has(e.id) ? "✓ Going" : "Going?"}</button>
+          <button class="btn" id="shSeen" title="Seen it — hide every remaining performance of this run">${S.seenRuns.has(runKey(e)) ? "Seen ✓" : "Seen it"}</button>
           <a class="btn" href="${gcal}" target="_blank" rel="noopener">＋ Google Calendar</a>
           <button class="btn" id="shIcs">⬇ .ics</button>
           <button class="btn" id="shShare">↗ Share</button>
@@ -499,6 +521,8 @@
         ${e.description ? `<p class="desc clamp" id="shDesc">${esc(e.description)}</p><button class="linkish" id="shMore">read more</button>` : e.summary ? `<p class="desc">${esc(e.summary)}</p>` : ""}
         <p class="fine">Listed by ${esc(e.source_name || e.source)}${e.also_from ? ` (also ${e.also_from.join(", ")})` : ""}${e.first_seen ? ` · first seen ${fmt(new Date(e.first_seen), { month: "short", day: "numeric" })}` : ""}. Check the venue before you go; listings change. <a href="${issue}" target="_blank" rel="noopener">Report a wrong listing</a> · <button class="linkish" id="shHideVenue">hide this venue</button></p>`;
       $("#shStar").onclick = () => { toggleStar(e); $("#shStar").textContent = S.stars.has(e.id) ? "★ Saved" : "☆ Save"; render(); };
+      $("#shGoing").onclick = () => { toggleGoing(e); $("#shGoing").textContent = S.going.has(e.id) ? "✓ Going" : "Going?"; $("#shGoing").classList.toggle("going-on", S.going.has(e.id)); render(); };
+      $("#shSeen").onclick = () => { const k = runKey(e); if (S.seenRuns.has(k)) { S.seenRuns.delete(k); toast("Run restored"); } else { S.seenRuns.add(k); learn(e, 3); toast(`Seen — ${perfs.length > 1 ? "the rest of the run is" : "it's"} retired`); } persist(); closeSheet(); render(); };
       $("#shIcs").onclick = () => downloadIcs(e);
       $("#shShare").onclick = () => share(e);
       $("#shNope").onclick = () => { closeSheet(); nope(e, perfs); };
@@ -513,6 +537,11 @@
   function closeSheet() { $("#sheet").hidden = true; $("#backdrop").hidden = true; document.body.style.overflow = ""; }
   document.addEventListener("keydown", e => { if (e.key === "Escape") closeSheet(); });
 
+  function toggleGoing(e) {
+    if (S.going.has(e.id)) S.going.delete(e.id);
+    else { S.going.add(e.id); S.stars.add(e.id); learn(e, 4); toast("Going — the day will remind you"); }
+    persist(); const sc = $("#starCount"); sc.textContent = S.stars.size; sc.hidden = !S.stars.size;
+  }
   function toggleStar(e) { const on = !S.stars.has(e.id); on ? S.stars.add(e.id) : S.stars.delete(e.id); learn(e, on ? 3 : -1); persist(); const sc = $("#starCount"); sc.textContent = S.stars.size; sc.hidden = !S.stars.size; }
   function nope(e, perfs = [e]) {
     for (const p of perfs) S.hidden.add(p.id);
@@ -653,6 +682,8 @@
         <div><b>Follow</b> venues, artists or words — matches get a ✦ badge, rank higher, and appear under ✦.<br>
           <input type="text" id="followIn" placeholder="e.g. trinity, odeum, dave matthews, jazz" value="${esc(S.follows.join(", "))}"><button class="btn" id="followSave" style="margin-top:6px">Save follows</button></div>
         <div><b>Hidden.</b> ${S.hidden.size} event${S.hidden.size === 1 ? "" : "s"}${hv.length ? `, venues: ${esc(hv.join(", "))}` : ""}. <button class="linkish" id="unhide">Unhide everything</button></div>
+        <div><b>Seen.</b> ${S.seenRuns.size} run${S.seenRuns.size === 1 ? "" : "s"} retired (a show you marked Going and attended, or tapped "Seen it"). <button class="linkish" id="unseen">Bring them back</button></div>
+        <div><b>Going.</b> ${S.going.size} booked. The day's tile shows it first and dims the rest; it lives under ★ too.</div>
         <div><b>Mood.</b> Quiet night ↔ big night. Tilts <i>Best for you</i>, Surprise me and the calendar's picks; the list itself stays as sorted.<div class="mood-row">🕯 Quiet <input type="range" id="moodSheet" min="0" max="100" value="${S.mood}"> Big 🎆</div></div>
         <div><label class="tog"><input type="checkbox" id="groupTog" ${S.group ? "checked" : ""}> Group a production's performances into one card</label></div>
         <div><b>Calendar feed.</b> Everything in one subscribable calendar. In Google Calendar: <i>Other calendars → + → From URL</i>, paste:<br><input type="url" readonly value="${esc(feed)}" onclick="this.select()"></div>
@@ -663,6 +694,7 @@
   }
   function wireSettings() {
     $("#followSave").onclick = () => { S.follows = $("#followIn").value.split(",").map(s => s.trim()).filter(Boolean); S.followIds = new Set(S.events.filter(isFollowed).map(e => e.id)); persist(); closeSheet(); render(); toast(`Following ${S.follows.length} thing${S.follows.length === 1 ? "" : "s"}`); };
+    $("#unseen").onclick = () => { S.seenRuns.clear(); persist(); closeSheet(); render(); toast("Seen runs restored"); };
     $("#unhide").onclick = () => { S.hidden.clear(); S.hiddenVenues.clear(); persist(); buildVenueSel(); closeSheet(); render(); toast("Everything unhidden"); };
     $("#groupTog").onchange = e => { S.group = e.target.checked; persist(); render(); };
     $("#moodSheet").oninput = e => { S.mood = Number(e.target.value); $("#mood").value = S.mood; persist(); };

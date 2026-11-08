@@ -332,3 +332,14 @@ main { padding: 0 16px 24px; max-width: 1400px; margin: 0 auto; }
 
 .kv input[type=range] { width: 100%; accent-color: var(--accent); }
 .kv .mood-row { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--ink2); }
+
+/* ---------- going / seen ---------- */
+.flag.going { background: var(--ok); color: #fff; }
+.card.going { box-shadow: 0 0 0 2px var(--ok), var(--shadow); }
+.card.busy { opacity: .55; }
+.btn.going-on { background: var(--ok); border-color: var(--ok); color: #fff; }
+.cal-cell .ev.go { background: color-mix(in srgb, var(--ok) 22%, var(--panel)); border-left-color: var(--ok); font-weight: 600; }
+.cal-cell .ev.dim { opacity: .5; }
+.sheet .list-sm .card { margin: 8px 0; }
+.sheet .list-sm .cards-grid { display: block; }
+.cal-cell { cursor: pointer; }
