@@ -326,3 +326,5 @@ main { padding: 0 16px 24px; max-width: 1400px; margin: 0 auto; }
   .cal-cell .dots i { width: 5px; height: 5px; }
   .foot { padding: 16px 12px 32px; }
 }
+
+.chips.cats button.empty { opacity: .45; }

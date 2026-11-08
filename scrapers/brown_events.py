@@ -72,6 +72,9 @@ def convert(r: dict) -> dict | None:
     if is_athletics:
         if re.search(r"\bat\b", title) and not re.search(r"\bvs\.?\b", title):
             return None  # away game
+        loc_txt = clean(r.get("location") or r.get("location_title") or "")
+        if loc_txt and not re.search(r"R\.I\.|Rhode Island|Providence|Pawtucket|Kingston|Bristol|Newport", loc_txt):
+            return None  # neutral site out of state (e.g. "Charlottesville, Va.")
         cat = "sports"
     else:
         cat = None
@@ -99,7 +102,7 @@ def convert(r: dict) -> dict | None:
         extra={"group": group, "sponsor": r.get("custom_event_sponsor")},
     )
     if ev and ev["category"] == "other" and "Performances, Concerts and Exhibitions" in types_clean:
-        ev["category"] = "art" if re.search(r"exhibit|gallery|opening", title + (r.get("description") or ""), re.I) else "music"
+        ev["category"] = "art" if re.search(r"exhibit|gallery|opening|art at watson|installation|on view", title + (r.get("description") or "") + group, re.I) else "music"
     if ev and ev["category"] == "other" and (public or group):
         ev["category"] = "talk"
     if ev and not ev["is_free"] and not ev["price_text"] and not is_athletics:

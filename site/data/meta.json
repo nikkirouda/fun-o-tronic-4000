@@ -1,7 +1,12 @@
 {
- "generated": "2026-11-07T19:16-05:00",
- "count": 2712,
+ "generated": "2026-11-07T21:00-05:00",
+ "count": 2671,
  "sources": {
+  "brown_events": {
+   "ok": true,
+   "count": 793,
+   "last_ok": "2026-11-07T21:00-05:00"
+  },
   "alchemy": {
    "ok": true,
    "count": 34,
@@ -10,11 +15,6 @@
   "avon": {
    "ok": true,
    "count": 13,
-   "last_ok": "2026-11-07T19:16-05:00"
-  },
-  "brown_events": {
-   "ok": true,
-   "count": 832,
    "last_ok": "2026-11-07T19:16-05:00"
   },
   "carbonhouse": {
@@ -134,14 +134,14 @@
   }
  },
  "categories": {
-  "sports": 556,
-  "theater": 431,
-  "talk": 407,
-  "music": 368,
-  "community": 309,
-  "film": 173,
+  "sports": 522,
+  "theater": 430,
+  "talk": 403,
+  "community": 308,
+  "music": 303,
+  "film": 172,
+  "art": 171,
   "comedy": 162,
-  "art": 106,
   "food": 71,
   "classical": 69,
   "other": 22,
@@ -151,7 +151,7 @@
   "family": 2
  },
  "cities": {
-  "Providence": 1802,
+  "Providence": 1761,
   "Boston, MA": 226,
   "Warwick": 121,
   "East Providence": 119,

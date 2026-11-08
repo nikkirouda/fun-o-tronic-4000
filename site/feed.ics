@@ -42,41 +42,6 @@ URL:https://www.amicamutualpavilion.com/events/detail/rhode-island-comic-c
  on-4
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[T] Brown University Men’s Soccer vs Yale- Senior Day
-DTSTART;TZID="UTC-05:00":20261107T130000
-DTEND;TZID="UTC-05:00":20261107T150000
-UID:brown-events-69418a94813e@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/333421-brown-universi
- ty-mens-soccer-vs-yale
-LOCATION:Stevenson-Pincince Field\, Providence
-URL:https://events.brown.edu/athletics/event/333421-brown-university-mens-
- soccer-vs-yale
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[W] Brown University Men’s Water Polo vs Iona
-DTSTART;TZID="UTC-05:00":20261107T130000
-DTEND;TZID="UTC-05:00":20261107T143000
-UID:brown-events-66a846b8fd9d@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/334134-brown-universi
- ty-mens-water-polo-vs-iona
-LOCATION:Katherine Moran Coleman Aquatics Center\, Providence
-URL:https://events.brown.edu/athletics/event/334134-brown-university-mens-
- water-polo-vs-iona
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Broom Making at Rochambeau
-DTSTART;TZID="UTC-05:00":20261107T130000
-DTEND;TZID="UTC-05:00":20261107T150000
-UID:tribe-clpvd-15c1a5aeb644@funotronic
-DESCRIPTION:Come learn to make a broom using traditional broom making tech
- niques! This adult beginners workshop will introduce the materials and tec
- hniques for making a simple single bundle whisk broom. All materials will 
- be provided.\nhttps://clpvd.org/event/broom-making-at-rochambeau/
-LOCATION:Rochambeau Library – Community Room\, 708 Hope Street Providenc
- e 02906
-URL:https://clpvd.org/event/broom-making-at-rochambeau/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Tufting Workshop
 DTSTART;TZID="UTC-05:00":20261107T130000
 DTEND;TZID="UTC-05:00":20261107T170000
@@ -89,42 +54,6 @@ LOCATION:Mt. Pleasant Library\, 315 Academy Avenue Providence 02908
 URL:https://clpvd.org/event/tufting-workshop/2026-11-07/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:African American Fiction Book Club: Where the Wildflowers Grow
-DTSTART;TZID="UTC-05:00":20261107T131500
-DTEND;TZID="UTC-05:00":20261107T143000
-UID:tribe-clpvd-a303208ecbc0@funotronic
-DESCRIPTION:Could it be fate or a second chance? This compelling story of 
- survival and love\, written by Terah Shelton Harris is just what you need 
- to snuggle up with as we say goodbye to summer. The goal of this meeting i
- s to finish the book.\nhttps://clpvd.org/event/african-american-fiction-bo
- ok-club-where-the-wildflowers-grow-2/
-LOCATION:Knight Memorial Library\, 275 Elmwood Avenue Providence 02907
-URL:https://clpvd.org/event/african-american-fiction-book-club-where-the-w
- ildflowers-grow-2/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[W] Brown University Women’s Ice Hockey vs Dartmouth- Alumnae Da
- y
-DTSTART;TZID="UTC-05:00":20261107T140000
-DTEND;TZID="UTC-05:00":20261107T170000
-UID:brown-events-375fe8bd0195@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/336475-brown-universi
- ty-womens-ice-hockey-vs-dartmouth
-LOCATION:Meehan Auditorium\, Providence
-URL:https://events.brown.edu/athletics/event/336475-brown-university-women
- s-ice-hockey-vs-dartmouth
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Brown Women's Ice Hockey vs Dartmouth - Alumnae Day
-DTSTART;TZID="UTC-05:00":20261107T140000
-UID:college-sports-2223bbbcac9b@funotronic
-DESCRIPTION:W 2-1\nhttps://admin.brownbears.com/calendar.aspx?game_id=2092
- 0&amp\;sport_id=28
-LOCATION:Meehan Auditorium\, Providence
-URL:https://admin.brownbears.com/calendar.aspx?game_id=20920&amp;sport_id=
- 28
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Monument (2026) Screening and Discussion
 DTSTART;TZID="UTC-05:00":20261107T140000
 DTEND;TZID="UTC-05:00":20261107T193000
@@ -135,31 +64,6 @@ DESCRIPTION:This singular new 6-part essay film on the history of the stat
  e particular: the very local…\nhttps://involved.risd.edu/event/12823300
 LOCATION:RISD — Metcalf Auditorium\, Providence
 URL:https://involved.risd.edu/event/12823300
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Planetarium Show at the Museum of Natural History
-DTSTART;TZID="UTC-05:00":20261107T140000
-DTEND;TZID="UTC-05:00":20261107T143000
-UID:tribe-pvdcity-13232d2a9af2@funotronic
-DESCRIPTION:Located in the Museum of Natural History in Roger Williams Par
- k \, the Planetarium is a dome theater with a Zeiss projector that casts i
- mages of stars\, planets and constellations to simulate the night sky.\nht
- tps://www.providenceri.gov/event/planetarium-show-at-the-museum-of-natural
- -history/2026-11-07/
-LOCATION:Museum of Natural History and Planetarium\, 1000 Elmwood Ave\, Pr
- ovidence\, RI 02907\, USA\, 1000 Elmwood Ave Providence 02907
-URL:https://www.providenceri.gov/event/planetarium-show-at-the-museum-of-n
- atural-history/2026-11-07/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Providence College Women's Ice Hockey vs University of New Hampshi
- re
-DTSTART;TZID="UTC-05:00":20261107T140000
-UID:college-sports-485cd6b3eb9c@funotronic
-DESCRIPTION:W 4-2\nhttps://admin.friars.com/calendar.aspx?game_id=12794&am
- p\;sport_id=13
-LOCATION:Schneider Arena\, Providence
-URL:https://admin.friars.com/calendar.aspx?game_id=12794&amp;sport_id=13
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Teddi's Food Truck Pop-Up
@@ -187,65 +91,6 @@ DESCRIPTION:Collage\, journaling\, comics\, book-making\, and design colli
 LOCATION:Rochambeau Library – Teen Space\, 708 Hope Street Providence 02
  906
 URL:https://clpvd.org/event/teen-zine-roc-4/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Tween Journaling Club
-DTSTART;TZID="UTC-05:00":20261107T140000
-DTEND;TZID="UTC-05:00":20261107T150000
-UID:tribe-clpvd-9171ecf6ad80@funotronic
-DESCRIPTION:NEW TIME IN NOVEMBER – 2PM L et‘s journal! Guided journali
- ng for tweens 10+. We will spend the first 30 minutes working on our journ
- aling prompt and then next 30 minutes decorating! We have stickers\, pens
- \, and markers.\nhttps://clpvd.org/event/tween-journaling-club-2/2026-11-0
- 7/
-LOCATION:Rochambeau Library – Children’s Area 1\, 708 Hope Street Prov
- idence 02906
-URL:https://clpvd.org/event/tween-journaling-club-2/2026-11-07/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[W] Brown University Women’s Basketball vs Bucknell
-DTSTART;TZID="UTC-05:00":20261107T150000
-DTEND;TZID="UTC-05:00":20261107T170000
-UID:brown-events-18c5f7feb417@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/335999-brown-universi
- ty-womens-basketball-vs-bucknell
-LOCATION:Pizzitola Sports Center\, Providence
-URL:https://events.brown.edu/athletics/event/335999-brown-university-women
- s-basketball-vs-bucknell
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Brown Women's Basketball vs Bucknell
-DTSTART;TZID="UTC-05:00":20261107T150000
-UID:college-sports-17b3cac563e9@funotronic
-DESCRIPTION:W 73-61\nhttps://admin.brownbears.com/calendar.aspx?game_id=21
- 131&amp\;sport_id=22
-LOCATION:Pizzitola Sports Center\, Providence
-URL:https://admin.brownbears.com/calendar.aspx?game_id=21131&amp;sport_id=
- 22
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Children's Event with Mariahadessa Ekere Tallie
-DTSTART;TZID="UTC-05:00":20261107T150000
-UID:books-booksq-1bf096db790e@funotronic
-DESCRIPTION:Join us on Saturday\, November 7th at 3:00 p.m. for a reading 
- and book signing with Mariahadessa Ekere Tallie\, author of Rainbows\, Sta
- rs\, and Apples. Rainbows\, Stars\, and Apples by Mariahadessa Eker...\nht
- tps://www.booksq.com/event/2026-11-07/childrens-event-mariahadessa-ekere-t
- allie
-LOCATION:Books on the Square\, 471 Angell St
-URL:https://www.booksq.com/event/2026-11-07/childrens-event-mariahadessa-e
- kere-tallie
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:“Hurt Me On Purpose”: Lecture on Disability\, Desirability\, a
- nd Representation With Carta Monir
-DTSTART;TZID="UTC-05:00":20261107T150000
-UID:brown-events-a0ae5a665dcf@funotronic
-DESCRIPTION:https://events.brown.edu/general/event/343144-hurt-me-on-purpo
- se-lecture-on-disability
-LOCATION:Smith-Buonanno Hall\, 106\, Brown University
-URL:https://events.brown.edu/general/event/343144-hurt-me-on-purpose-lectu
- re-on-disability
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Saturday\, November 7 - Full Lighting
@@ -330,16 +175,6 @@ DESCRIPTION:From two⁠-⁠time Palme d’Or winner Cristian Mungiu\, a No
  www.avoncinema.com/now-playing.php
 LOCATION:Avon Cinema\, 260 Thayer St
 URL:https://www.avoncinema.com/now-playing.php
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:A Night of Nottage- November 7th
-DTSTART;TZID="UTC-05:00":20261107T190000
-UID:brown-events-d3470f51d4c5@funotronic
-DESCRIPTION:https://events.brown.edu/africana/event/342744-a-night-of-nott
- age-november-7th
-LOCATION:Churchill House\, BassPas\, Brown University
-URL:https://events.brown.edu/africana/event/342744-a-night-of-nottage-nove
- mber-7th
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ABT Studio Company
@@ -561,16 +396,6 @@ LOCATION:The Watson School\, 111 Thayer Street\, 2nd Floor\, Brown Univers
  ity
 URL:https://events.brown.edu/watson/event/340499-art-at-watson-presents-hu
  man-mythology
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Brown University Men’s Tennis vs ITA Sectional Championships
-DTSTART;VALUE=DATE:20261108
-UID:brown-events-b3362ec74fc8@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/335578-brown-universi
- ty-mens-tennis-vs-ita-sectional
-LOCATION:Charlottesville\, Va.\, Providence
-URL:https://events.brown.edu/athletics/event/335578-brown-university-mens-
- tennis-vs-ita-sectional
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Emergent Hacks
@@ -3160,16 +2985,6 @@ URL:https://events.brown.edu/watson/event/340503-art-at-watson-presents-hu
  man-mythology
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Brown University Women’s Soccer vs TBD- Semifinals
-DTSTART;VALUE=DATE:20261112
-UID:brown-events-05a772468858@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/342921-brown-universi
- ty-womens-soccer-vs-tbd-semifinals
-LOCATION:TBD\, Providence
-URL:https://events.brown.edu/athletics/event/342921-brown-university-women
- s-soccer-vs-tbd-semifinals
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Exhibition on View | Building Books with Dayanita Singh
 DTSTART;VALUE=DATE:20261112
 UID:brown-events-baa307234a14@funotronic
@@ -5102,17 +4917,6 @@ LOCATION:Gateway Center at Roger Williams Park\, 1197 Broad Street Provide
 URL:https://www.providenceri.gov/event/bachata-merengue/2026-11-14/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Brown University Women’s Swimming & Diving vs Columbia
-DTSTART;TZID="UTC-05:00":20261114T110000
-DTEND;TZID="UTC-05:00":20261114T140000
-UID:brown-events-7ce333ca642b@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/337485-brown-universi
- ty-womens-swimming-diving-vs
-LOCATION:Cambridge\, Mass.\, Providence
-URL:https://events.brown.edu/athletics/event/337485-brown-university-women
- s-swimming-diving-vs
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Howard Mansfield in conversation with Sy Montgomery
 DTSTART;TZID="UTC-05:00":20261114T110000
 UID:books-booksq-873ac9a3a6f6@funotronic
@@ -5253,17 +5057,6 @@ DESCRIPTION:Free\nhttps://events.brown.edu/bai/event/331193-public-art-tou
  rs
 LOCATION:College Green\, Bronze Bruno Sculpture\, Brown University
 URL:https://events.brown.edu/bai/event/331193-public-art-tours
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Brown University Men’s Swimming & Diving vs Columbia
-DTSTART;TZID="UTC-05:00":20261114T153000
-DTEND;TZID="UTC-05:00":20261114T183000
-UID:brown-events-4c35baa1c708@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/336846-brown-universi
- ty-mens-swimming-diving-vs
-LOCATION:Cambridge\, Mass.\, Providence
-URL:https://events.brown.edu/athletics/event/336846-brown-university-mens-
- swimming-diving-vs
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Brown University Women’s Volleyball vs Penn
@@ -5716,18 +5509,6 @@ DESCRIPTION:Our neighbors\, Brother & Moffatt\, will be serving their comf
 LOCATION:Long Live Beerworks | Providence\, 40R Sprague Street
 URL:https://www.longlivebeerworks.com/pop-ups/3rt6mtyg4ehh2ma-ehtlj-ne6x9-
  ejr6j-3fs2d-bdnm9-cwdy9-d4ssf-syzgl-mz7ws-6f6k4
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Brown University Women’s Soccer vs TBD- Championship | Pending A
- dvancement
-DTSTART;TZID="UTC-05:00":20261115T130000
-DTEND;TZID="UTC-05:00":20261115T150000
-UID:brown-events-06fa9c55c376@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/342920-brown-universi
- ty-womens-soccer-vs-ivy-league-
-LOCATION:TBD\, Providence
-URL:https://events.brown.edu/athletics/event/342920-brown-university-women
- s-soccer-vs-ivy-league-
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sip & Sculpt Class w/ Pottery with a Purpose (Ticketed)
@@ -6512,16 +6293,6 @@ LOCATION:The Watson School\, 111 Thayer Street\, 2nd Floor\, Brown Univers
  ity
 URL:https://events.brown.edu/watson/event/340508-art-at-watson-presents-hu
  man-mythology
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Brown University Men’s Tennis vs NCAA Individual Championships
-DTSTART;VALUE=DATE:20261117
-UID:brown-events-8a0d0a11c783@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/335576-brown-universi
- ty-mens-tennis-vs-ncaa-individual
-LOCATION:Athens\, Ga.\, Providence
-URL:https://events.brown.edu/athletics/event/335576-brown-university-mens-
- tennis-vs-ncaa-individual
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Exhibition on View | Building Books with Dayanita Singh
@@ -7341,16 +7112,6 @@ URL:https://events.brown.edu/watson/event/340509-art-at-watson-presents-hu
  man-mythology
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Brown University Men’s Tennis vs NCAA Individual Championships
-DTSTART;VALUE=DATE:20261118
-UID:brown-events-ec237f9d5dc8@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/335575-brown-universi
- ty-mens-tennis-vs-ncaa-individual
-LOCATION:Athens\, Ga.\, Providence
-URL:https://events.brown.edu/athletics/event/335575-brown-university-mens-
- tennis-vs-ncaa-individual
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Exhibition on View | Building Books with Dayanita Singh
 DTSTART;VALUE=DATE:20261118
 UID:brown-events-d93b785fb304@funotronic
@@ -8071,16 +7832,6 @@ LOCATION:The Watson School\, 111 Thayer Street\, 2nd Floor\, Brown Univers
  ity
 URL:https://events.brown.edu/watson/event/340510-art-at-watson-presents-hu
  man-mythology
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Brown University Men’s Tennis vs NCAA Individual Championships
-DTSTART;VALUE=DATE:20261119
-UID:brown-events-428567390130@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/335574-brown-universi
- ty-mens-tennis-vs-ncaa-individual
-LOCATION:Athens\, Ga.\, Providence
-URL:https://events.brown.edu/athletics/event/335574-brown-university-mens-
- tennis-vs-ncaa-individual
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Exhibition on View | Building Books with Dayanita Singh
@@ -8968,26 +8719,6 @@ URL:https://events.brown.edu/watson/event/340511-art-at-watson-presents-hu
  man-mythology
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Brown University Men’s Tennis vs NCAA Individual Championships
-DTSTART;VALUE=DATE:20261120
-UID:brown-events-0e186f5724c0@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/335573-brown-universi
- ty-mens-tennis-vs-ncaa-individual
-LOCATION:Athens\, Ga.\, Providence
-URL:https://events.brown.edu/athletics/event/335573-brown-university-mens-
- tennis-vs-ncaa-individual
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Brown University Men’s Water Polo vs Brown University
-DTSTART;VALUE=DATE:20261120
-UID:brown-events-60a6cb9e4df6@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/334131-brown-universi
- ty-mens-water-polo-vs-nwpc
-LOCATION:Cambridge\, Mass.\, Providence
-URL:https://events.brown.edu/athletics/event/334131-brown-university-mens-
- water-polo-vs-nwpc
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Exhibition on View | Building Books with Dayanita Singh
 DTSTART;VALUE=DATE:20261120
 UID:brown-events-542d338a5d01@funotronic
@@ -9667,26 +9398,6 @@ URL:https://events.brown.edu/watson/event/340512-art-at-watson-presents-hu
  man-mythology
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Brown University Men’s Tennis vs NCAA Individual Championships
-DTSTART;VALUE=DATE:20261121
-UID:brown-events-b61daad5b852@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/335572-brown-universi
- ty-mens-tennis-vs-ncaa-individual
-LOCATION:Athens\, Ga.\, Providence
-URL:https://events.brown.edu/athletics/event/335572-brown-university-mens-
- tennis-vs-ncaa-individual
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Brown University Men’s Water Polo vs Brown University
-DTSTART;VALUE=DATE:20261121
-UID:brown-events-c9daa3947bd1@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/334131-brown-universi
- ty-mens-water-polo-vs-nwpc
-LOCATION:Cambridge\, Mass.\, Providence
-URL:https://events.brown.edu/athletics/event/334131-brown-university-mens-
- water-polo-vs-nwpc
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Brown University Women’s Rugby vs NIRA Championship
 DTSTART;VALUE=DATE:20261121
 UID:brown-events-920cc5622528@funotronic
@@ -10302,16 +10013,6 @@ LOCATION:The Watson School\, 111 Thayer Street\, 2nd Floor\, Brown Univers
  ity
 URL:https://events.brown.edu/watson/event/340513-art-at-watson-presents-hu
  man-mythology
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Brown University Men’s Tennis vs NCAA Individual Championships
-DTSTART;VALUE=DATE:20261122
-UID:brown-events-5805dc6c551c@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/335571-brown-universi
- ty-mens-tennis-vs-ncaa-individual
-LOCATION:Athens\, Ga.\, Providence
-URL:https://events.brown.edu/athletics/event/335571-brown-university-mens-
- tennis-vs-ncaa-individual
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Exhibition on View | Building Books with Dayanita Singh
@@ -12279,6 +11980,28 @@ LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/rich-vos-2026
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Art at Watson Presents — Diagnósticos: technology\, information
+  and self
+DTSTART;VALUE=DATE:20261128
+UID:brown-events-2186eb83927d@funotronic
+DESCRIPTION:Free\nhttps://events.brown.edu/live/events/340647-art-at-watso
+ n-presents-diagnosticos-technology
+LOCATION:The Watson School\, 280 Brook Street
+URL:https://events.brown.edu/live/events/340647-art-at-watson-presents-dia
+ gnosticos-technology
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Art at Watson Presents — Human Mythology
+DTSTART;VALUE=DATE:20261128
+UID:brown-events-ae75b164bdea@funotronic
+DESCRIPTION:https://events.brown.edu/watson/event/340519-art-at-watson-pre
+ sents-human-mythology
+LOCATION:The Watson School\, 111 Thayer Street\, 2nd Floor\, Brown Univers
+ ity
+URL:https://events.brown.edu/watson/event/340519-art-at-watson-presents-hu
+ man-mythology
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Beginnings Live : A Celebration of the Music of Chicago
 DTSTART;VALUE=DATE:20261128
 UID:jpt-9a67317d9c05@funotronic
@@ -12693,28 +12416,6 @@ LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/rich-vos-2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Art at Watson Presents — Diagnósticos: technology\, information
-  and self
-DTSTART;VALUE=DATE:20261129
-UID:brown-events-fb7fffa0b6cc@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/live/events/340648-art-at-watso
- n-presents-diagnosticos-technology
-LOCATION:The Watson School\, 280 Brook Street
-URL:https://events.brown.edu/live/events/340648-art-at-watson-presents-dia
- gnosticos-technology
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Art at Watson Presents — Human Mythology
-DTSTART;VALUE=DATE:20261129
-UID:brown-events-b8286a3735d9@funotronic
-DESCRIPTION:https://events.brown.edu/watson/event/340520-art-at-watson-pre
- sents-human-mythology
-LOCATION:The Watson School\, 111 Thayer Street\, 2nd Floor\, Brown Univers
- ity
-URL:https://events.brown.edu/watson/event/340520-art-at-watson-presents-hu
- man-mythology
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Exhibition on View | Building Books with Dayanita Singh
 DTSTART;VALUE=DATE:20261129
 UID:brown-events-3e830f933425@funotronic
@@ -12783,17 +12484,6 @@ DESCRIPTION:South County Barbeque is a Rhode Island based\, mobile food se
 LOCATION:Long Live Beerworks | Providence\, 40R Sprague Street
 URL:https://www.longlivebeerworks.com/pop-ups/2024/3/7/south-county-bbq-po
  p-up-gtyjn-w9tka-e76jk-w4rpj-jbkpm
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Brown University Women’s Ice Hockey vs Assumption
-DTSTART;TZID="UTC-05:00":20261129T130000
-DTEND;TZID="UTC-05:00":20261129T160000
-UID:brown-events-9e9e62bcce91@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/336469-brown-universi
- ty-womens-ice-hockey-vs-assumption
-LOCATION:Meehan Auditorium\, Providence
-URL:https://events.brown.edu/athletics/event/336469-brown-university-women
- s-ice-hockey-vs-assumption
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bryant Women's Basketball vs Boston University
@@ -15564,17 +15254,6 @@ DESCRIPTION:Free\nhttps://events.brown.edu/music/event/343369-chamber-musi
 LOCATION:Grant Recital Hall\, Providence
 URL:https://events.brown.edu/music/event/343369-chamber-music-and-strings-
  recital
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Brown University Men’s Basketball vs Central Connecticut State
-DTSTART;TZID="UTC-05:00":20261206T153000
-DTEND;TZID="UTC-05:00":20261206T173000
-UID:brown-events-358006fca4e6@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/335832-brown-universi
- ty-mens-basketball-vs-central
-LOCATION:Springfield\, Mass.\, MassMutual Center\, Providence
-URL:https://events.brown.edu/athletics/event/335832-brown-university-mens-
- basketball-vs-central
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Messiah at the Mansion
@@ -18679,6 +18358,17 @@ LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/peter-revello-2026
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Art at Watson Presents — Diagnósticos: technology\, information
+  and self
+DTSTART;VALUE=DATE:20261220
+UID:brown-events-ee3652de6e2a@funotronic
+DESCRIPTION:Free\nhttps://events.brown.edu/live/events/340669-art-at-watso
+ n-presents-diagnosticos-technology
+LOCATION:The Watson School\, 280 Brook Street
+URL:https://events.brown.edu/live/events/340669-art-at-watson-presents-dia
+ gnosticos-technology
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Exhibition on View | Building Books with Dayanita Singh
 DTSTART;VALUE=DATE:20261220
 UID:brown-events-db99cc284713@funotronic
@@ -18915,21 +18605,6 @@ DESCRIPTION:A successful song-and-dance team become romantically involved
  ens.com/shows/white-christmas
 LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
 URL:https://janepickens.com/shows/white-christmas
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
-DTSTART;TZID="UTC-05:00":20261221T090000
-DTEND;TZID="UTC-05:00":20261221T170000
-UID:brown-events-3c049a1e90ca@funotronic
-DESCRIPTION:The exhibit A Pictorial Dragon: The Art of Fernando Birri is o
- n view in the Harriette Hemmasi Exhibition Gallery at the John Hay Library
-  at Brown University\, and online through a digital exhibition.\nFree\nhtt
- ps://events.brown.edu/library/event/341444-a-pictorial-dragon-the-art-of-f
- ernando-birri
-LOCATION:John Hay Library\, Harriette Hemmasi Exhibition Gallery\, Brown U
- niversity
-URL:https://events.brown.edu/library/event/341444-a-pictorial-dragon-the-a
- rt-of-fernando-birri
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Enjoy a $5 Shift Beer!
@@ -20519,6 +20194,21 @@ URL:https://www.amicamutualpavilion.com/events/detail/providence-bruins-vs
  -hartford-wolfpack-0110
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
+DTSTART;TZID="UTC-05:00":20270111T090000
+DTEND;TZID="UTC-05:00":20270111T170000
+UID:brown-events-ea4410d109dc@funotronic
+DESCRIPTION:The exhibit A Pictorial Dragon: The Art of Fernando Birri is o
+ n view in the Harriette Hemmasi Exhibition Gallery at the John Hay Library
+  at Brown University\, and online through a digital exhibition.\nFree\nhtt
+ ps://events.brown.edu/library/event/341459-a-pictorial-dragon-the-art-of-f
+ ernando-birri
+LOCATION:John Hay Library\, Harriette Hemmasi Exhibition Gallery\, Brown U
+ niversity
+URL:https://events.brown.edu/library/event/341459-a-pictorial-dragon-the-a
+ rt-of-fernando-birri
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Boston Celtics vs Houston Rockets
 DTSTART;TZID="UTC-05:00":20270111T193000
 UID:pro-celtics-8e02ae8e78f9@funotronic
@@ -20526,21 +20216,6 @@ DESCRIPTION:Boston Celtics host the Houston Rockets at TD Garden.\nresale
  from $78\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nba.com/celtics/tickets
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
-DTSTART;TZID="UTC-05:00":20270112T090000
-DTEND;TZID="UTC-05:00":20270112T170000
-UID:brown-events-3de00dcee8ca@funotronic
-DESCRIPTION:The exhibit A Pictorial Dragon: The Art of Fernando Birri is o
- n view in the Harriette Hemmasi Exhibition Gallery at the John Hay Library
-  at Brown University\, and online through a digital exhibition.\nFree\nhtt
- ps://events.brown.edu/library/event/341460-a-pictorial-dragon-the-art-of-f
- ernando-birri
-LOCATION:John Hay Library\, Harriette Hemmasi Exhibition Gallery\, Brown U
- niversity
-URL:https://events.brown.edu/library/event/341460-a-pictorial-dragon-the-a
- rt-of-fernando-birri
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Boston Bruins vs Carolina Hurricanes
@@ -22161,16 +21836,6 @@ LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/william-montgomery-2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Brown University Men’s Swimming & Diving vs Penn
-DTSTART;VALUE=DATE:20270130
-UID:brown-events-2bf163191d72@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/336837-brown-universi
- ty-mens-swimming-diving-vs-penn
-LOCATION:Hanover\, N.H.\, Providence
-URL:https://events.brown.edu/athletics/event/336837-brown-university-mens-
- swimming-diving-vs-penn
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:PAW Patrol Live! "A Mighty Adventure"
 DTSTART;TZID="UTC-05:00":20270130T100000
 DTEND;TZID="UTC-05:00":20270131T150000
@@ -22459,6 +22124,21 @@ URL:https://events.brown.edu/general/event/340357-sustainableed-virtual-se
  minar-patricia-fabian
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
+DTSTART;TZID="UTC-05:00":20270202T090000
+DTEND;TZID="UTC-05:00":20270202T170000
+UID:brown-events-b9cb25e9c689@funotronic
+DESCRIPTION:The exhibit A Pictorial Dragon: The Art of Fernando Birri is o
+ n view in the Harriette Hemmasi Exhibition Gallery at the John Hay Library
+  at Brown University\, and online through a digital exhibition.\nFree\nhtt
+ ps://events.brown.edu/library/event/341475-a-pictorial-dragon-the-art-of-f
+ ernando-birri
+LOCATION:John Hay Library\, Harriette Hemmasi Exhibition Gallery\, Brown U
+ niversity
+URL:https://events.brown.edu/library/event/341475-a-pictorial-dragon-the-a
+ rt-of-fernando-birri
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Sun Style Tai Chi for Beginners
 DTSTART;TZID="UTC-05:00":20270202T110000
 DTEND;TZID="UTC-05:00":20270202T120000
@@ -22492,21 +22172,6 @@ DESCRIPTION:Boston Celtics host the Los Angeles Lakers at TD Garden.\nresa
  le from $119\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nba.com/celtics/tickets
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
-DTSTART;TZID="UTC-05:00":20270203T090000
-DTEND;TZID="UTC-05:00":20270203T170000
-UID:brown-events-fd14b18672fe@funotronic
-DESCRIPTION:The exhibit A Pictorial Dragon: The Art of Fernando Birri is o
- n view in the Harriette Hemmasi Exhibition Gallery at the John Hay Library
-  at Brown University\, and online through a digital exhibition.\nFree\nhtt
- ps://events.brown.edu/library/event/341476-a-pictorial-dragon-the-art-of-f
- ernando-birri
-LOCATION:John Hay Library\, Harriette Hemmasi Exhibition Gallery\, Brown U
- niversity
-URL:https://events.brown.edu/library/event/341476-a-pictorial-dragon-the-a
- rt-of-fernando-birri
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wee-One Wednesdays
@@ -22820,17 +22485,6 @@ DESCRIPTION:Anthony Rodia is an Italian-American comedian whose razor-shar
  .ricomedyconnection.com/events/anthony-rodia-2027
 LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/anthony-rodia-2027
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Brown University Fencing vs Ivy League Championship
-DTSTART;TZID="UTC-05:00":20270206T090000
-DTEND;TZID="UTC-05:00":20270206T120000
-UID:brown-events-6f919dadffdd@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/340737-brown-universi
- ty-fencing-vs-ivy-league
-LOCATION:New Haven\, Conn.\, Providence
-URL:https://events.brown.edu/athletics/event/340737-brown-university-fenci
- ng-vs-ivy-league
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bachata & Merengue
@@ -23728,18 +23382,6 @@ LOCATION:Roger Williams Park Botanical Center\, 1 Floral Ave Providence 02
 URL:https://www.providenceri.gov/event/wee-one-wednesdays-2-2/2027-02-17/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Brown University Women’s Swimming & Diving vs Ivy League Champio
- nships
-DTSTART;TZID="UTC-05:00":20270217T100000
-DTEND;TZID="UTC-05:00":20270217T130000
-UID:brown-events-99ce9f836adb@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/337470-brown-universi
- ty-womens-swimming-diving-vs-ivy
-LOCATION:Princeton\, N.J.\, Providence
-URL:https://events.brown.edu/athletics/event/337470-brown-university-women
- s-swimming-diving-vs-ivy
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Nonfiction@Brown • Cody Rose Clevidence
 DTSTART;TZID="UTC-05:00":20270217T180000
 UID:brown-events-03074f20c808@funotronic
@@ -23806,18 +23448,6 @@ URL:https://events.brown.edu/library/event/341487-a-pictorial-dragon-the-a
  rt-of-fernando-birri
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Brown University Women’s Swimming & Diving vs Ivy League Champio
- nships
-DTSTART;TZID="UTC-05:00":20270218T100000
-DTEND;TZID="UTC-05:00":20270218T130000
-UID:brown-events-3fdbf90784f6@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/337469-brown-universi
- ty-womens-swimming-diving-vs-ivy
-LOCATION:Princeton\, N.J.\, Providence
-URL:https://events.brown.edu/athletics/event/337469-brown-university-women
- s-swimming-diving-vs-ivy
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Bryant Women's Basketball vs University of Maine
 DTSTART;TZID="UTC-05:00":20270218T180000
 UID:college-sports-d989dcbe5f28@funotronic
@@ -23873,18 +23503,6 @@ LOCATION:John Hay Library\, Harriette Hemmasi Exhibition Gallery\, Brown U
  niversity
 URL:https://events.brown.edu/library/event/341488-a-pictorial-dragon-the-a
  rt-of-fernando-birri
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Brown University Women’s Swimming & Diving vs Ivy League Champio
- nships
-DTSTART;TZID="UTC-05:00":20270219T100000
-DTEND;TZID="UTC-05:00":20270219T130000
-UID:brown-events-78bfe1c69e77@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/337468-brown-universi
- ty-womens-swimming-diving-vs-ivy
-LOCATION:Princeton\, N.J.\, Providence
-URL:https://events.brown.edu/athletics/event/337468-brown-university-women
- s-swimming-diving-vs-ivy
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Curious George: The Golden Meatball
@@ -23982,18 +23600,6 @@ DESCRIPTION:Recently named one of Variety’s Top 10 Comics to Watch\, Det
  .com/events/joe-dombrowski-2027
 LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/joe-dombrowski-2027
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Brown University Women’s Swimming & Diving vs Ivy League Champio
- nships
-DTSTART;TZID="UTC-05:00":20270220T100000
-DTEND;TZID="UTC-05:00":20270220T130000
-UID:brown-events-1df92e525171@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/337467-brown-universi
- ty-womens-swimming-diving-vs-ivy
-LOCATION:Princeton\, N.J.\, Providence
-URL:https://events.brown.edu/athletics/event/337467-brown-university-women
- s-swimming-diving-vs-ivy
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:WORKSHOP | Inventions and Rejections in Ancient Metalworking Pract
@@ -24333,6 +23939,21 @@ URL:https://www.amicamutualpavilion.com/events/detail/providence-college-v
  s-georgetown-2
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
+DTSTART;TZID="UTC-05:00":20270224T090000
+DTEND;TZID="UTC-05:00":20270224T170000
+UID:brown-events-39521990e827@funotronic
+DESCRIPTION:The exhibit A Pictorial Dragon: The Art of Fernando Birri is o
+ n view in the Harriette Hemmasi Exhibition Gallery at the John Hay Library
+  at Brown University\, and online through a digital exhibition.\nFree\nhtt
+ ps://events.brown.edu/library/event/341491-a-pictorial-dragon-the-art-of-f
+ ernando-birri
+LOCATION:John Hay Library\, Harriette Hemmasi Exhibition Gallery\, Brown U
+ niversity
+URL:https://events.brown.edu/library/event/341491-a-pictorial-dragon-the-a
+ rt-of-fernando-birri
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Wee-One Wednesdays
 DTSTART;TZID="UTC-05:00":20270224T090000
 DTEND;TZID="UTC-05:00":20270224T100000
@@ -24361,14 +23982,15 @@ URL:https://thehanovertheatre.org/event/the-magic-school-bus-student-matin
  ee/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Brown Men's Swimming & Diving vs Ivy Championships
+SUMMARY:Brown University Men’s Swimming & Diving vs Ivy Championships
 DTSTART;TZID="UTC-05:00":20270224T110000
-UID:college-sports-77ff59e6855e@funotronic
-DESCRIPTION:https://admin.brownbears.com/calendar.aspx?game_id=21287&amp\;
- sport_id=17
+DTEND;TZID="UTC-05:00":20270224T140000
+UID:brown-events-69c3200d6e5f@funotronic
+DESCRIPTION:https://events.brown.edu/athletics/event/336833-brown-universi
+ ty-mens-swimming-diving-vs-ivy
 LOCATION:Katherine Moran Coleman Aquatics Center\, Providence
-URL:https://admin.brownbears.com/calendar.aspx?game_id=21287&amp;sport_id=
- 17
+URL:https://events.brown.edu/athletics/event/336833-brown-university-mens-
+ swimming-diving-vs-ivy
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Mother Russia
@@ -24380,6 +24002,16 @@ DESCRIPTION:By Lauren Yee Directed by Tatyana-Marie Carlo It’s 1992 in t
  0FQr00000NYvwIMAT
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nasrin Olla (University of Virginia)
+DTSTART;TZID="UTC-05:00":20270224T180000
+UID:brown-events-b2a9202b8e49@funotronic
+DESCRIPTION:https://events.brown.edu/english/event/333689-nasrin-olla-univ
+ ersity-of-virginia
+LOCATION:70 Brown Street\, Barker Room\, 315\, Brown University
+URL:https://events.brown.edu/english/event/333689-nasrin-olla-university-o
+ f-virginia
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Providence Bruins vs Springfield Thunderbirds
@@ -24421,44 +24053,6 @@ DESCRIPTION:Boston Red Sox host the Baltimore Orioles at Fenway Park.\nhtt
  ps://www.mlb.com/redsox/tickets
 LOCATION:JetBlue Park\, 4 Jersey St\, Boston\, MA
 URL:https://www.mlb.com/redsox/tickets
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
-DTSTART;TZID="UTC-05:00":20270225T090000
-DTEND;TZID="UTC-05:00":20270225T170000
-UID:brown-events-e1309d2088ba@funotronic
-DESCRIPTION:The exhibit A Pictorial Dragon: The Art of Fernando Birri is o
- n view in the Harriette Hemmasi Exhibition Gallery at the John Hay Library
-  at Brown University\, and online through a digital exhibition.\nFree\nhtt
- ps://events.brown.edu/library/event/341492-a-pictorial-dragon-the-art-of-f
- ernando-birri
-LOCATION:John Hay Library\, Harriette Hemmasi Exhibition Gallery\, Brown U
- niversity
-URL:https://events.brown.edu/library/event/341492-a-pictorial-dragon-the-a
- rt-of-fernando-birri
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Brown University Men’s Swimming & Diving vs Ivy Championships
-DTSTART;TZID="UTC-05:00":20270225T110000
-DTEND;TZID="UTC-05:00":20270225T140000
-UID:brown-events-0e48be75fb90@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/336832-brown-universi
- ty-mens-swimming-diving-vs-ivy
-LOCATION:Katherine Moran Coleman Aquatics Center\, Providence
-URL:https://events.brown.edu/athletics/event/336832-brown-university-mens-
- swimming-diving-vs-ivy
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Brown Bag Series in Archaeology | Marina Redina-Thomas *Note new d
- ate!
-DTSTART;TZID="UTC-05:00":20270225T120000
-DTEND;TZID="UTC-05:00":20270225T125000
-UID:brown-events-273011cf0f5a@funotronic
-DESCRIPTION:https://events.brown.edu/live/events/339450-brown-bag-series-i
- n-archaeology-marina-redina-thomas
-LOCATION:Rhode Island Hall\, 108\, Brown University
-URL:https://events.brown.edu/live/events/339450-brown-bag-series-in-archae
- ology-marina-redina-thomas
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bryant Men's Basketball vs University of Massachusetts Lowell
@@ -25386,17 +24980,6 @@ LOCATION:JetBlue Park\, 4 Jersey St\, Boston\, MA
 URL:https://www.mlb.com/redsox/tickets
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Brown University Fencing vs Regionals
-DTSTART;TZID="UTC-05:00":20270307T090000
-DTEND;TZID="UTC-05:00":20270307T120000
-UID:brown-events-8058dc697617@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/340736-brown-universi
- ty-fencing-vs-regionals
-LOCATION:Chestnut Hill\, Mass.\, Providence
-URL:https://events.brown.edu/athletics/event/340736-brown-university-fenci
- ng-vs-regionals
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Cyrano
 DTSTART;TZID="UTC-05:00":20270307T120000
 UID:pm-trinity-e272ed40ede3@funotronic
@@ -26080,17 +25663,6 @@ LOCATION:Roger Williams Park Botanical Center\, 1 Floral Ave Providence 02
 URL:https://www.providenceri.gov/event/wee-one-wednesdays-2-2/2027-03-17/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Brown University Women’s Swimming & Diving vs NCAA Championships
-DTSTART;TZID="UTC-04:00":20270317T100000
-DTEND;TZID="UTC-04:00":20270317T130000
-UID:brown-events-d1f215585f7d@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/337466-brown-universi
- ty-womens-swimming-diving-vs
-LOCATION:Austin\, Texas\, Providence
-URL:https://events.brown.edu/athletics/event/337466-brown-university-women
- s-swimming-diving-vs
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Mexodus (Student Matinee)
 DTSTART;TZID="UTC-04:00":20270317T100000
 DTEND;TZID="UTC-04:00":20270317T170000
@@ -26205,29 +25777,6 @@ LOCATION:JetBlue Park\, 4 Jersey St\, Boston\, MA
 URL:https://www.mlb.com/redsox/tickets
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Brown University Women’s Swimming & Diving vs NCAA Championships
-DTSTART;TZID="UTC-04:00":20270319T100000
-DTEND;TZID="UTC-04:00":20270319T130000
-UID:brown-events-47e3ab961b95@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/337464-brown-universi
- ty-womens-swimming-diving-at
-LOCATION:Austin\, Texas\, Providence
-URL:https://events.brown.edu/athletics/event/337464-brown-university-women
- s-swimming-diving-at
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Megan Mullin - Adaptation & Recovery From the LA Fires
-DTSTART;TZID="UTC-04:00":20270319T140000
-DTEND;TZID="UTC-04:00":20270319T150000
-UID:brown-events-d2e9ce1ab82c@funotronic
-DESCRIPTION:https://events.brown.edu/climate-solutions-lab/event/338179-me
- gan-mullin-adaptation-recovery-from-the-la-fires
-LOCATION:Watson School of International and Public Affairs\, 111 Thayer St
- reet\, Providence
-URL:https://events.brown.edu/climate-solutions-lab/event/338179-megan-mull
- in-adaptation-recovery-from-the-la-fires
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Tai Chi Beginner Level
 DTSTART;TZID="UTC-04:00":20270319T183000
 DTEND;TZID="UTC-04:00":20270319T193000
@@ -26306,17 +25855,6 @@ DESCRIPTION:From the #1 rated NPR show\, "Wait Wait...Don't Tell Me!"\n$61
   - $67\nhttps://ci.ovationtix.com/35158/production/1293015
 LOCATION:Greenwich Odeum\, 59 Main St
 URL:https://www.greenwichodeum.com/events/paula-poundstone
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Brown University Women’s Swimming & Diving vs NCAA Championships
-DTSTART;TZID="UTC-04:00":20270320T100000
-DTEND;TZID="UTC-04:00":20270320T130000
-UID:brown-events-849b319929fa@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/337463-brown-universi
- ty-womens-swimming-diving-at
-LOCATION:Austin\, Texas\, Providence
-URL:https://events.brown.edu/athletics/event/337463-brown-university-women
- s-swimming-diving-at
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bachata & Merengue
@@ -26506,16 +26044,6 @@ DESCRIPTION:Boston Celtics host the San Antonio Spurs at TD Garden.\nresal
  e from $127\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nba.com/celtics/tickets
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Brown University Fencing vs NCAA Tournament
-DTSTART;VALUE=DATE:20270325
-UID:brown-events-ab74ef7ba172@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/340735-brown-universi
- ty-fencing-vs-ncaa-tournament
-LOCATION:Durham\, N.C.\, Providence
-URL:https://events.brown.edu/athletics/event/340735-brown-university-fenci
- ng-vs-ncaa-tournament
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:August Wilson's Ma Rainey's Black Bottom
@@ -27385,6 +26913,17 @@ DESCRIPTION:By August Wilson Director to be announced. Blues legend Ma Rai
  et/#/instances/a0FQr00000NYyirMAD
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rereading with Barbara Johnson
+DTSTART;TZID="UTC-04:00":20270409T130000
+DTEND;TZID="UTC-04:00":20270409T170000
+UID:brown-events-90abd442175d@funotronic
+DESCRIPTION:Free\nhttps://events.brown.edu/pembroke/event/336493-rereading
+ -with-barbara-johnson
+LOCATION:Pembroke Hall\, 305\, Brown University
+URL:https://events.brown.edu/pembroke/event/336493-rereading-with-barbara-
+ johnson
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bryant Baseball vs University of Massachusetts Lowell

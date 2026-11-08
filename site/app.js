@@ -113,6 +113,17 @@
     render();
     loadWeather().then(() => { if (S.view === "list") render(); });
   }
+  function liveCounts() {
+    const saved = S.cats; S.cats = new Set();
+    const counts = {};
+    try { for (const e of S.events) if (matches(e, S.view === "cal")) counts[e.category] = (counts[e.category] || 0) + 1; }
+    finally { S.cats = saved; }
+    return counts;
+  }
+  function updateCatCounts() {
+    const counts = liveCounts();
+    $$("#catChips button").forEach(b => { const n = counts[b.dataset.cat] || 0; $(".n", b).textContent = n; b.classList.toggle("empty", n === 0 && !S.cats.has(b.dataset.cat)); });
+  }
   function buildCatChips() {
     const counts = {};
     for (const e of S.events) counts[e.category] = (counts[e.category] || 0) + 1;
@@ -253,6 +264,7 @@
     $("#btnDate").classList.toggle("lit", !!S.dateNight);
     const sc = $("#starCount"); sc.textContent = S.stars.size; sc.hidden = !S.stars.size;
     const list = sorted(S.events.filter(e => matches(e, S.view === "cal")));
+    updateCatCounts();
     if (S.view === "list") { $("#listView").hidden = false; renderList(list); }
     else if (S.view === "cal") { $("#calView").hidden = false; renderCal(list); }
     else { $("#mapView").hidden = false; renderMap(list); }
