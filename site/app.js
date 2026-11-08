@@ -38,7 +38,7 @@
     hidden: new Set(LS("hidden", [])), hiddenVenues: new Set(LS("hiddenVenues", [])),
     follows: LS("follows", []), taste: LS("taste", { cat: {}, venue: {}, tag: {}, source: {}, n: 0 }),
     votes: LS("votes", {}), lastVisit: LS("lastVisit", null), mode: "browse", // browse | stars | new | shortlist
-    shortlist: null, shortlistFrom: "", mine: LS("mine", null), busy: [],
+    shortlist: null, shortlistFrom: "", mine: LS("mine", null), busy: [], hideBusy: LS("hideBusy", true),
   };
   Object.assign(S, LS("filters", {}));
   if (Array.isArray(S.cats)) S.cats = new Set(S.cats);
@@ -152,11 +152,11 @@
   // Your calendar never touches the public site. The staff emails you a small JSON file built from your
   // calendar (tools/mine.py); you import it under ⋯ and it lives only in this browser's storage.
   async function loadMine() {
-    S.busy = [];
+    S.busy = []; refreshGoingDays();
     const mine = S.mine; if (!mine) return;
     for (const id of mine.going || []) if (S.events.some(e => e.id === id)) { S.going.add(id); S.stars.add(id); }
     S.busy = (mine.busy || []).map(b => ({ ...b, _s: new Date(b.start).getTime(), _e: new Date(b.end).getTime(), _day: dayKey(new Date(b.start)) }));
-    persist();
+    refreshGoingDays(); persist();
   }
   async function importMine(file) {
     try {
@@ -171,6 +171,13 @@
     const st = e._t, en = e.end ? new Date(e.end).getTime() : st + 2 * 36e5;
     return S.busy.find(b => !b.allDay && b._s < en && b._e > st && !S.going.has(e.id)) || null;
   }
+  function cantAttend(e) {
+    if (!S.hideBusy || S.going.has(e.id)) return false;
+    if (S.goingDays && S.goingDays.has(e._day)) return true;               // the day is spoken for
+    if (S.busy.some(b => b.allDay && b.start.slice(0, 10) <= e._day && b.end.slice(0, 10) > e._day)) return true;  // away all day
+    return !!busyAt(e);                                                      // overlaps an appointment
+  }
+  function refreshGoingDays() { S.goingDays = new Set(S.events.filter(e => S.going.has(e.id)).map(e => e._day)); }
   function busyOn(day) { return S.busy.filter(b => b._day === day || (b.allDay && b.start.slice(0, 10) <= day && b.end.slice(0, 10) > day)); }
 
   // ---------------------------------------------------------- weather ---
@@ -246,8 +253,9 @@
   function matches(e, ignoreWhen = false) {
     if (S.mode === "shortlist") return S.shortlist && S.shortlist.has(e.id);
     if (S.hidden.has(e.id) || S.hiddenVenues.has(e.venue_id)) return false;
-    if (S.mode === "stars") return (S.stars.has(e.id) || S.going.has(e.id)) && e._t > Date.now() - 6 * 36e5;
+    if (S.mode === "stars") return (S.stars.has(e.id) || S.going.has(e.id)) && e._t > Date.now() - 6 * 36e5;  // saved things stay visible even on busy days
     if (S.seenRuns.has(runKey(e)) && !S.going.has(e.id)) return false;
+    if (cantAttend(e)) return false;
     if (S.mode === "new" && !(S.newIds.has(e.id) || S.followIds.has(e.id))) return false;
     if (!ignoreWhen && S.mode === "browse") { const [a, b] = range(); if (e._day < a || e._day > b) return false; }
     if (S.dateNight) { const h = hourOf(e); if (e.all_day || h < 17 || h > 22) return false; }
@@ -466,7 +474,7 @@
         }
       }
       const goingHere = evs.filter(e => S.going.has(e.id));
-      if (goingHere.length) { top = top.filter(g => !S.going.has(g[0].id)).slice(0, 6 - goingHere.length); top.unshift(...goingHere.map(e => [e])); }
+      if (goingHere.length) { top = S.hideBusy ? [] : top.filter(g => !S.going.has(g[0].id)).slice(0, 6 - goingHere.length); top.unshift(...goingHere.map(e => [e])); }
       const shown = top.reduce((n, g) => n + g.length, 0);
       c.innerHTML = `<span class="n">${d}${goingDay ? ` <i class="goingdot" title="You're going">✓</i>` : ""}${WX && WX.days[key] && wide ? ` <small class="wxd">${WX.days[key].icon}${WX.days[key].hi ?? ""}°</small>` : ""}</span>` +
         (busyDay.length ? `<span class="busyline" title="${esc(busyDay.map(b => b.title).join(" · "))}">⏰ ${wide ? esc(busyDay.map(b => (b.allDay ? "" : timeStr({ start: b.start }) + " ") + b.title).join(" · ")).slice(0, 60) : "busy"}</span>` : "") +
@@ -598,7 +606,7 @@
   function toggleGoing(e) {
     if (S.going.has(e.id)) S.going.delete(e.id);
     else { S.going.add(e.id); S.stars.add(e.id); learn(e, 4); toast("Going — the day will remind you"); }
-    persist(); const sc = $("#starCount"); sc.textContent = S.stars.size; sc.hidden = !S.stars.size;
+    refreshGoingDays(); persist(); const sc = $("#starCount"); sc.textContent = S.stars.size; sc.hidden = !S.stars.size;
   }
   function toggleStar(e) { const on = !S.stars.has(e.id); on ? S.stars.add(e.id) : S.stars.delete(e.id); learn(e, on ? 3 : -1); persist(); const sc = $("#starCount"); sc.textContent = S.stars.size; sc.hidden = !S.stars.size; }
   function nope(e, perfs = [e]) {
@@ -744,6 +752,7 @@
         <div><b>Your calendar (private).</b> Import the file the staff emailed you: booked shows become Going, other appointments show as busy. It is stored only in this browser and never published.<br>
           <input type="file" id="mineFile" accept="application/json,.json" style="margin-top:6px">
           ${S.mine ? `<div class="fine">✓ on · ${S.mine.going.length} shows marked, ${S.busy.length} busy windows, built ${fmt(new Date(S.mine.generated), { month: "short", day: "numeric" })} · <button class="linkish" id="mineClear">remove</button></div>` : ""}</div>
+        <div><label class="tog"><input type="checkbox" id="hideBusyTog" ${S.hideBusy ? "checked" : ""}> Hide what I can't attend (busy windows, days I'm away, days I'm already going somewhere)</label></div>
         <div><b>Going.</b> ${S.going.size} booked. The day's tile shows it first and dims the rest; it lives under ★ too.</div>
         <div><b>Mood.</b> Quiet night ↔ big night. Tilts <i>Best for you</i>, Surprise me and the calendar's picks; the list itself stays as sorted.<div class="mood-row">🕯 Quiet <input type="range" id="moodSheet" min="0" max="100" value="${S.mood}"> Big 🎆</div></div>
         <div><label class="tog"><input type="checkbox" id="groupTog" ${S.group ? "checked" : ""}> Group a production's performances into one card</label></div>
@@ -760,6 +769,7 @@
     $("#unseen").onclick = () => { S.seenRuns.clear(); persist(); closeSheet(); render(); toast("Seen runs restored"); };
     $("#unhide").onclick = () => { S.hidden.clear(); S.hiddenVenues.clear(); persist(); buildVenueSel(); closeSheet(); render(); toast("Everything unhidden"); };
     $("#groupTog").onchange = e => { S.group = e.target.checked; persist(); render(); };
+    $("#hideBusyTog").onchange = e => { S.hideBusy = e.target.checked; save("hideBusy", S.hideBusy); render(); };
     $("#moodSheet").oninput = e => { S.mood = Number(e.target.value); $("#mood").value = S.mood; persist(); };
     $("#moodSheet").onchange = () => { if (S.sort === "you" || S.view !== "list") render(); };
     $("#copyTaste").onclick = async () => { await navigator.clipboard.writeText(tasteSummary()); toast("Copied — paste it to Jeeves"); };
