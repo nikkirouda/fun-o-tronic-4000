@@ -38,7 +38,7 @@
     hidden: new Set(LS("hidden", [])), hiddenVenues: new Set(LS("hiddenVenues", [])),
     follows: LS("follows", []), taste: LS("taste", { cat: {}, venue: {}, tag: {}, source: {}, n: 0 }),
     votes: LS("votes", {}), lastVisit: LS("lastVisit", null), mode: "browse", // browse | stars | new | shortlist
-    shortlist: null, shortlistFrom: "", mine: LS("mine", null), busy: [], hideBusy: LS("hideBusy", true), mineIgnore: LS("mineIgnore", ["antarctica"]),
+    shortlist: null, shortlistFrom: "", mine: LS("mine", null), busy: [], hideBusy: LS("hideBusy", true), mineIgnore: LS("mineIgnore", ["antarctica"]), nflMode: LS("nflMode", "all"), nfl: [],
   };
   Object.assign(S, LS("filters", {}));
   if (Array.isArray(S.cats)) S.cats = new Set(S.cats);
@@ -95,7 +95,8 @@
   async function load() {
     const bust = `?v=${Math.floor(Date.now() / 6e5)}`;
     const j = (f, d) => fetch(`data/${f}${bust}`).then(r => r.json()).catch(() => d);
-    const [ev, meta, venues, changes, notes, watch] = await Promise.all([j("events.json", { events: [], count: 0, generated: new Date().toISOString() }), j("meta.json", null), j("venues.json", []), j("changes.json", { items: [] }), j("venue_notes.json", {}), j("watch.json", { items: [] })]);
+    const [ev, meta, venues, changes, notes, watch, nfl] = await Promise.all([j("events.json", { events: [], count: 0, generated: new Date().toISOString() }), j("meta.json", null), j("venues.json", []), j("changes.json", { items: [] }), j("venue_notes.json", {}), j("watch.json", { items: [] }), j("nfl.json", { games: [] })]);
+    S.nfl = (nfl.games || []).map(g => ({ ...g, _s: new Date(g.start).getTime(), _e: new Date(g.end).getTime(), _day: dayKey(new Date(g.start)) }));
     S.watch = watch.items || [];
     S.events = ev.events.map(e => ({ ...e, _day: dayKey(new Date(e.start)), _t: new Date(e.start).getTime(),
       _hay: `${e.title} ${e.venue} ${e.city} ${e.performer} ${e.tags.join(" ")} ${e.summary} ${CATS[e.category] || ""}`.toLowerCase() }));
@@ -180,6 +181,19 @@
     return !!busyAt(e);                                                      // overlaps an appointment
   }
   function refreshGoingDays() { S.goingDays = new Set(S.events.filter(e => S.going.has(e.id)).map(e => e._day)); }
+  // 🏈 the NFL caution: games (all, or Patriots only) that overlap a listing — a reminder, never a block
+  function nflAt(e) {
+    if (S.nflMode === "off" || !S.nfl.length || e.all_day) return [];
+    const st = e._t, en = e.end ? new Date(e.end).getTime() : st + 2.5 * 36e5;
+    return S.nfl.filter(g => (S.nflMode === "all" || g.patriots) && g._s < en && g._e > st);
+  }
+  function nflOn(day) { return S.nflMode === "off" ? [] : S.nfl.filter(g => g._day === day && (S.nflMode === "all" || g.patriots)); }
+  function nflLabel(games) {
+    const pats = games.find(g => g.patriots);
+    if (pats) return `${pats.title.replace("@", "at").replace(" VS ", " vs ")} ${pats.tba ? "(time TBA)" : timeStr({ start: pats.start })}`;
+    const first = games[0], last = games[games.length - 1];
+    return games.length === 1 ? `${first.title} ${first.tba ? "(time TBA)" : timeStr({ start: first.start })}` : `${games.length} games, ${timeStr({ start: first.start })}–${timeStr({ start: last.end })}`;
+  }
   function busyOn(day) { return S.busy.filter(b => b._day === day || (b.allDay && b.start.slice(0, 10) <= day && b.end.slice(0, 10) > day)); }
 
   // ---------------------------------------------------------- weather ---
@@ -340,6 +354,7 @@
     const f = [];
     if (S.going.has(e.id)) f.push(`<span class="flag going">✓ GOING</span>`);
     const bz = busyAt(e); if (bz) f.push(`<span class="flag busy" title="${esc(bz.title)}">⏰ YOU'RE BUSY</span>`);
+    const nf = nflAt(e); if (nf.length) f.push(`<span class="flag nfl" title="${esc(nf.map(g => g.title + " " + timeStr({ start: g.start })).join(" · "))}">🏈 ${nf.some(g => g.patriots) ? "PATRIOTS" : "NFL"}</span>`);
     if (e.is_free) f.push(`<span class="flag free">FREE</span>`);
     if (S.newIds && S.newIds.has(e.id)) f.push(`<span class="flag new">NEW</span>`);
     if (S.followIds && S.followIds.has(e.id)) f.push(`<span class="flag follow">✦ FOLLOWING</span>`);
@@ -480,7 +495,8 @@
       const goingHere = evs.filter(e => S.going.has(e.id));
       if (goingHere.length) { top = S.hideBusy ? [] : top.filter(g => !S.going.has(g[0].id)).slice(0, 6 - goingHere.length); top.unshift(...goingHere.map(e => [e])); }
       const shown = top.reduce((n, g) => n + g.length, 0);
-      c.innerHTML = `<span class="n">${d}${goingDay ? ` <i class="goingdot" title="You're going">✓</i>` : ""}${WX && WX.days[key] && wide ? ` <small class="wxd">${WX.days[key].icon}${WX.days[key].hi ?? ""}°</small>` : ""}</span>` +
+      const nflToday = nflOn(key);
+      c.innerHTML = `<span class="n">${d}${goingDay ? ` <i class="goingdot" title="You're going">✓</i>` : ""}${nflToday.length ? ` <i class="nfldot" title="${esc(nflToday.map(g => g.title + " " + (g.tba ? "TBA" : timeStr({ start: g.start }))).join(" · "))}">🏈${nflToday.some(g => g.patriots) ? "" : ""}</i>` : ""}${WX && WX.days[key] && wide ? ` <small class="wxd">${WX.days[key].icon}${WX.days[key].hi ?? ""}°</small>` : ""}</span>` +
         (busyDay.length ? `<span class="busyline${awayDay ? " away" : ""}" title="${esc(busyDay.map(b => b.title).join(" · "))}">${awayDay ? "✈" : "⏰"} ${wide ? esc(busyDay.map(b => (b.allDay ? "" : timeStr({ start: b.start }) + " ") + b.title).join(" · ")).slice(0, 60) : (awayDay ? "away" : "busy")}</span>` : "") +
         (wide ? `<span class="evs">${top.map(g => { const e = g[0]; const times = e.all_day ? "" : g.slice(0, 3).map(timeStr).join(" & ") + (g.length > 3 ? " +" : ""); return `<a class="ev${S.going.has(e.id) ? " go" : (goingHere.length ? " dim" : "")}" data-id="${e.id}" style="--cc:var(--c-${e.category})" title="${esc(e.title)} · ${esc(e.venue)}${times ? " · " + times : ""}">${S.going.has(e.id) ? "✓ " : ""}${times ? `<b>${times}</b> ` : ""}${esc(e.title)}</a>`; }).join("")}${evs.length > shown ? `<span class="morel">+${evs.length - shown} more</span>` : ""}</span>`
               : `<span class="dots">${cats.map(k => `<i style="background:var(--c-${k})"></i>`).join("")}</span>`) +
@@ -575,6 +591,7 @@
           ${e.price_text || e.price_min != null || e.is_free ? `<span>🎟 <b>${esc(priceStr(e))}</b>${e.price_text && priceStr(e) !== e.price_text ? ` <small>(${esc(e.price_text)})</small>` : ""}</span>` : ""}
           ${e.on_sale ? `<span>🕗 Tickets on sale ${fmt(new Date(e.on_sale), { weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })}</span>` : ""}
           ${note ? `<span>🚗 ${esc(note)}</span>` : ""}
+          ${nflAt(e).length ? `<span class="nfl-line">🏈 <b>Football at the same time:</b> ${esc(nflAt(e).map(g => `${g.title.replace("@", "at")} ${g.tba ? "(time TBA)" : timeStr({ start: g.start })}${g.tv ? " on " + g.tv : ""}`).join(" · "))}. A reminder, not a verdict.</span>` : ""}
         </div>
         <div class="actions">
           ${e.ticket_url ? `<a class="btn tickets" id="shTix" href="${esc(e.ticket_url)}" target="_blank" rel="noopener">🎟 Tickets</a>` : ""}
@@ -757,6 +774,8 @@
           <input type="file" id="mineFile" accept="application/json,.json" style="margin-top:6px">
           ${S.mine ? `<div class="fine">✓ on · ${S.mine.going.length} shows marked, ${S.busy.length} busy windows, built ${fmt(new Date(S.mine.generated), { month: "short", day: "numeric" })} · <button class="linkish" id="mineClear">remove</button></div>` : ""}</div>
         <div><label class="tog"><input type="checkbox" id="hideBusyTog" ${S.hideBusy ? "checked" : ""}> Hide what I can't attend (busy windows, days I'm away, days I'm already going somewhere)</label></div>
+        <div><b>🏈 Football caution.</b> Flags listings that overlap an NFL game (kickoff to final), on cards, in the sheet and on game days in the calendar. A reminder, never a block.<br>
+          <select id="nflMode"><option value="all" ${S.nflMode === "all" ? "selected" : ""}>Every game (fantasy season)</option><option value="patriots" ${S.nflMode === "patriots" ? "selected" : ""}>Patriots games only</option><option value="off" ${S.nflMode === "off" ? "selected" : ""}>Off</option></select></div>
         <div><b>Ignore calendar entries containing</b> (reminders, chores — comma-separated):<br><input type="text" id="mineIgnore" value="${esc((S.mineIgnore || []).join(", "))}" placeholder="e.g. antarctica, garden, boiler"><button class="btn" id="mineIgnoreSave" style="margin-top:6px">Save</button></div>
         <div><b>Going.</b> ${S.going.size} booked. The day's tile shows it first and dims the rest; it lives under ★ too.</div>
         <div><b>Mood.</b> Quiet night ↔ big night. Tilts <i>Best for you</i>, Surprise me and the calendar's picks; the list itself stays as sorted.<div class="mood-row">🕯 Quiet <input type="range" id="moodSheet" min="0" max="100" value="${S.mood}"> Big 🎆</div></div>
@@ -775,6 +794,7 @@
     $("#unhide").onclick = () => { S.hidden.clear(); S.hiddenVenues.clear(); persist(); buildVenueSel(); closeSheet(); render(); toast("Everything unhidden"); };
     $("#groupTog").onchange = e => { S.group = e.target.checked; persist(); render(); };
     $("#hideBusyTog").onchange = e => { S.hideBusy = e.target.checked; save("hideBusy", S.hideBusy); render(); };
+    $("#nflMode").onchange = e => { S.nflMode = e.target.value; save("nflMode", S.nflMode); render(); };
     $("#mineIgnoreSave").onclick = async () => { S.mineIgnore = $("#mineIgnore").value.split(",").map(x => x.trim()).filter(Boolean); save("mineIgnore", S.mineIgnore); closeSheet(); await loadMine(); render(); toast(`Ignoring ${S.mineIgnore.length} pattern${S.mineIgnore.length === 1 ? "" : "s"}`); };
     $("#moodSheet").oninput = e => { S.mood = Number(e.target.value); $("#mood").value = S.mood; persist(); };
     $("#moodSheet").onchange = () => { if (S.sort === "you" || S.view !== "list") render(); };

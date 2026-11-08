@@ -368,3 +368,8 @@ main { padding: 0 16px 24px; max-width: 1400px; margin: 0 auto; }
 .cal-cell .busyline.away { color: #fcd34d; }
 .cal-cell.sel .busyline { color: var(--bg); background: color-mix(in srgb, #d97706 55%, var(--bg)); }
 .cal-cell.has-going .goingdot { color: var(--ok); }
+
+/* ---------- NFL caution ---------- */
+.flag.nfl { background: #7c2d12; color: #fed7aa; }
+.cal-cell .nfldot { font-style: normal; font-size: 10px; margin-left: 3px; opacity: .9; }
+.sheet .nfl-line { background: color-mix(in srgb, #7c2d12 35%, var(--panel)); border-radius: 8px; padding: 6px 8px; color: var(--ink); }
