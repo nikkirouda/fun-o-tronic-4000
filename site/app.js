@@ -563,12 +563,23 @@
   function setWhen(w) { S.when = w; S.mode = "browse"; S.shown = 60; syncWhen(); persist(); render(); }
   function syncWhen() {
     $$("#whenChips button").forEach(b => b.classList.toggle("on", b.dataset.when === S.when && S.mode === "browse"));
-    $("#customRange").hidden = S.when !== "custom";
+    // the From/To pickers always show the window in force: a preset fills them, editing them makes a custom window
+    const [a, b] = range();
+    $("#fromDate").value = a;
+    $("#toDate").value = b === "9999-12-31" ? "" : b;
   }
-  $$("#whenChips button").forEach(b => b.onclick = () => { if (b.dataset.when === "custom" && !S.from) { S.from = todayKey(); S.to = addDays(S.from, 30); $("#fromDate").value = S.from; $("#toDate").value = S.to; } if (b.dataset.when === "custom") jumpCal(); else { S.calMonth = null; S.calSel = null; } setWhen(b.dataset.when); });
+  $$("#whenChips button").forEach(b => b.onclick = () => { S.calMonth = null; S.calSel = null; setWhen(b.dataset.when); });
   const jumpCal = () => { if (S.from) { S.calMonth = S.from.slice(0, 7); S.calSel = S.from; } };
-  $("#fromDate").onchange = e => { S.from = e.target.value; if (S.to && S.to < S.from) { S.to = S.from; $("#toDate").value = S.to; } jumpCal(); render(); };
-  $("#toDate").onchange = e => { S.to = e.target.value; render(); };
+  function customFromPickers(changed) {
+    let from = $("#fromDate").value, to = $("#toDate").value;
+    if (!from) from = todayKey();
+    if (!to) to = addDays(from, 30);
+    if (to < from) { if (changed === "from") to = from; else from = to; }   // never an upside-down window
+    S.from = from; S.to = to; S.when = "custom"; S.mode = "browse"; S.shown = 60;
+    jumpCal(); syncWhen(); persist(); render();
+  }
+  $("#fromDate").onchange = () => customFromPickers("from");
+  $("#toDate").onchange = () => customFromPickers("to");
   let qTimer; $("#q").oninput = e => { clearTimeout(qTimer); qTimer = setTimeout(() => { S.q = e.target.value.trim(); S.shown = 60; if (S.q && S.when !== "all" && S.when !== "custom") { S._whenBefore ||= S.when; S.when = "all"; syncWhen(); } else if (!S.q && S._whenBefore) { S.when = S._whenBefore; S._whenBefore = null; syncWhen(); } render(); }, 180); };
   $("#freeOnly").onchange = e => { S.freeOnly = e.target.checked; persist(); render(); };
   $("#hideKids").onchange = e => { S.hideKids = e.target.checked; persist(); render(); };
