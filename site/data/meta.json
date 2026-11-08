@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-07T19:03-05:00",
- "count": 2696,
+ "count": 2824,
  "sources": {
   "pig": {
    "ok": true,
@@ -10,137 +10,142 @@
   "alchemy": {
    "ok": true,
    "count": 34,
-   "last_ok": "2026-11-07T18:51-05:00"
+   "last_ok": "2026-11-07T19:03-05:00"
   },
   "avon": {
    "ok": true,
    "count": 13,
-   "last_ok": "2026-11-07T18:51-05:00"
+   "last_ok": "2026-11-07T19:03-05:00"
   },
   "brown_events": {
    "ok": true,
    "count": 832,
-   "last_ok": "2026-11-07T18:51-05:00"
+   "last_ok": "2026-11-07T19:03-05:00"
   },
   "carbonhouse": {
    "ok": true,
    "count": 48,
-   "last_ok": "2026-11-07T18:51-05:00"
+   "last_ok": "2026-11-07T19:03-05:00"
   },
   "carbonhouse_rss": {
    "ok": true,
    "count": 175,
-   "last_ok": "2026-11-07T18:51-05:00"
+   "last_ok": "2026-11-07T19:03-05:00"
   },
   "college_sports": {
    "ok": true,
    "count": 252,
-   "last_ok": "2026-11-07T18:51-05:00"
+   "last_ok": "2026-11-07T19:03-05:00"
   },
   "comedy_connection": {
    "ok": true,
    "count": 119,
-   "last_ok": "2026-11-07T18:51-05:00"
+   "last_ok": "2026-11-07T19:03-05:00"
   },
   "ics_feeds": {
    "ok": true,
-   "count": 21,
-   "last_ok": "2026-11-07T18:51-05:00"
+   "count": 20,
+   "last_ok": "2026-11-07T19:03-05:00"
   },
   "indie_bookstores": {
    "ok": true,
    "count": 13,
-   "last_ok": "2026-11-07T18:51-05:00"
+   "last_ok": "2026-11-07T19:03-05:00"
   },
   "jane_pickens": {
    "ok": true,
-   "count": 71,
-   "last_ok": "2026-11-07T18:51-05:00"
+   "count": 85,
+   "last_ok": "2026-11-07T19:03-05:00"
   },
   "machines": {
    "ok": true,
    "count": 3,
-   "last_ok": "2026-11-07T18:51-05:00"
+   "last_ok": "2026-11-07T19:03-05:00"
   },
   "narrows": {
    "ok": true,
    "count": 42,
-   "last_ok": "2026-11-07T18:51-05:00"
+   "last_ok": "2026-11-07T19:03-05:00"
   },
   "newport_classical": {
    "ok": true,
    "count": 58,
-   "last_ok": "2026-11-07T18:51-05:00"
+   "last_ok": "2026-11-07T19:03-05:00"
   },
   "odeum": {
    "ok": true,
    "count": 34,
-   "last_ok": "2026-11-07T18:51-05:00"
+   "last_ok": "2026-11-07T19:03-05:00"
   },
   "onsale_watch": {
    "ok": true,
    "count": 0,
-   "last_ok": "2026-11-07T18:51-05:00"
+   "last_ok": "2026-11-07T19:03-05:00"
   },
   "patronmanager": {
    "ok": true,
-   "count": 338,
-   "last_ok": "2026-11-07T18:51-05:00"
+   "count": 337,
+   "last_ok": "2026-11-07T19:03-05:00"
   },
   "pbruins": {
    "ok": true,
    "count": 30,
-   "last_ok": "2026-11-07T18:51-05:00"
+   "last_ok": "2026-11-07T19:03-05:00"
+  },
+  "pig": {
+   "ok": true,
+   "count": 7,
+   "last_ok": "2026-11-07T19:03-05:00"
   },
   "pro_sports": {
    "ok": true,
    "count": 246,
-   "last_ok": "2026-11-07T18:51-05:00"
+   "last_ok": "2026-11-07T19:03-05:00"
   },
   "rhp_venues": {
    "ok": true,
    "count": 51,
-   "last_ok": "2026-11-07T18:51-05:00"
+   "last_ok": "2026-11-07T19:03-05:00"
   },
   "riphil": {
    "ok": true,
    "count": 16,
-   "last_ok": "2026-11-07T18:51-05:00"
+   "last_ok": "2026-11-07T19:03-05:00"
   },
   "risd_engage": {
    "ok": true,
    "count": 45,
-   "last_ok": "2026-11-07T18:51-05:00"
+   "last_ok": "2026-11-07T19:03-05:00"
   },
   "squarespace": {
    "ok": true,
    "count": 122,
-   "last_ok": "2026-11-07T18:51-05:00"
+   "last_ok": "2026-11-07T19:03-05:00"
   },
   "stadium": {
    "ok": true,
    "count": 36,
-   "last_ok": "2026-11-07T18:51-05:00"
+   "last_ok": "2026-11-07T19:03-05:00"
   },
   "ticketmaster": {
    "ok": true,
    "count": 0,
-   "last_ok": "2026-11-07T18:51-05:00"
+   "last_ok": "2026-11-07T19:03-05:00"
   },
   "tribe_sites": {
    "ok": true,
    "count": 495,
-   "last_ok": "2026-11-07T18:51-05:00"
+   "last_ok": "2026-11-07T19:03-05:00"
   }
  },
  "categories": {
   "sports": 554,
-  "theater": 432,
-  "talk": 407,
+  "talk": 521,
+  "theater": 431,
   "music": 368,
   "community": 309,
-  "comedy": 161,
-  "film": 159,
+  "film": 173,
+  "comedy": 162,
   "art": 106,
   "food": 71,
   "classical": 69,
@@ -151,12 +156,12 @@
   "family": 2
  },
  "cities": {
-  "Providence": 1799,
+  "Providence": 1914,
   "Boston, MA": 226,
-  "Warwick": 122,
+  "Warwick": 121,
   "East Providence": 119,
   "Worcester, MA": 112,
-  "Newport": 96,
+  "Newport": 110,
   "Smithfield": 50,
   "Fall River": 42,
   "Woonsocket": 37,
