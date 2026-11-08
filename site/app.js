@@ -38,7 +38,7 @@
     hidden: new Set(LS("hidden", [])), hiddenVenues: new Set(LS("hiddenVenues", [])),
     follows: LS("follows", []), taste: LS("taste", { cat: {}, venue: {}, tag: {}, source: {}, n: 0 }),
     votes: LS("votes", {}), lastVisit: LS("lastVisit", null), mode: "browse", // browse | stars | new | shortlist
-    shortlist: null, shortlistFrom: "",
+    shortlist: null, shortlistFrom: "", mine: LS("mine", null), busy: [],
   };
   Object.assign(S, LS("filters", {}));
   if (Array.isArray(S.cats)) S.cats = new Set(S.cats);
@@ -111,6 +111,7 @@
     persist();
     S.followIds = new Set(S.events.filter(isFollowed).map(e => e.id));
     const nb = $("#newCount"); const n = new Set([...S.newIds, ...S.followIds]).size; nb.textContent = n; nb.hidden = n === 0;
+    await loadMine();
     readHash();
     const qp = new URLSearchParams(location.search).get("q"); if (qp) { S.q = qp; S.when = "all"; S.mode = "browse"; $("#q").value = qp; syncWhen(); }
     render();
@@ -146,6 +147,31 @@
     sel.innerHTML = `<option value="">Any venue</option>` + S.venues.filter(v => v.count >= 2 && !S.hiddenVenues.has(v.id)).map(v => `<option value="${v.id}">${esc(v.name)} (${v.count})</option>`).join("");
     sel.value = S.venue;
   }
+
+  // ------------------------------------------------- private layer (yours) ---
+  // Your calendar never touches the public site. The staff emails you a small JSON file built from your
+  // calendar (tools/mine.py); you import it under ⋯ and it lives only in this browser's storage.
+  async function loadMine() {
+    S.busy = [];
+    const mine = S.mine; if (!mine) return;
+    for (const id of mine.going || []) if (S.events.some(e => e.id === id)) { S.going.add(id); S.stars.add(id); }
+    S.busy = (mine.busy || []).map(b => ({ ...b, _s: new Date(b.start).getTime(), _e: new Date(b.end).getTime(), _day: dayKey(new Date(b.start)) }));
+    persist();
+  }
+  async function importMine(file) {
+    try {
+      const mine = JSON.parse(await file.text());
+      if (!Array.isArray(mine.busy) || !Array.isArray(mine.going)) throw new Error("not a calendar layer");
+      S.mine = mine; save("mine", mine); await loadMine(); render();
+      toast(`Calendar layer on — ${mine.going.length} shows marked, ${mine.busy.length} busy windows`);
+    } catch (err) { toast("That file isn't a Fun-o-tronic calendar layer"); console.warn(err); }
+  }
+  function busyAt(e) {  // the calendar entry (if any) that collides with this listing
+    if (!S.busy.length) return null;
+    const st = e._t, en = e.end ? new Date(e.end).getTime() : st + 2 * 36e5;
+    return S.busy.find(b => !b.allDay && b._s < en && b._e > st && !S.going.has(e.id)) || null;
+  }
+  function busyOn(day) { return S.busy.filter(b => b._day === day || (b.allDay && b.start.slice(0, 10) <= day && b.end.slice(0, 10) > day)); }
 
   // ---------------------------------------------------------- weather ---
   let WX = LS("wx", null);
@@ -291,6 +317,7 @@
     $(".sum", n).textContent = e.summary || "";
     if (perfs.length > 1) { const last = perfs[perfs.length - 1]; $(".run", n).textContent = `Runs through ${fmt(new Date(last.start), { month: "short", day: "numeric" })} · ${perfs.length} performances`; }
     if (S.going.has(e.id)) n.classList.add("going");
+    else if (busyAt(e)) n.classList.add("busy");
     else if (S.going.size && [...S.going].some(id => { const g = S.events.find(x => x.id === id); return g && g._day === e._day && !g.all_day && !e.all_day && Math.abs(g._t - e._t) < 4 * 36e5; })) n.classList.add("busy");
     const st = $(".star", n); st.textContent = S.stars.has(e.id) ? "★" : "☆"; st.classList.toggle("on", S.stars.has(e.id));
     st.onclick = ev => { ev.stopPropagation(); toggleStar(e); st.textContent = S.stars.has(e.id) ? "★" : "☆"; st.classList.toggle("on", S.stars.has(e.id)); };
@@ -301,6 +328,7 @@
   function flags(e) {
     const f = [];
     if (S.going.has(e.id)) f.push(`<span class="flag going">✓ GOING</span>`);
+    const bz = busyAt(e); if (bz) f.push(`<span class="flag busy" title="${esc(bz.title)}">⏰ YOU'RE BUSY</span>`);
     if (e.is_free) f.push(`<span class="flag free">FREE</span>`);
     if (S.newIds && S.newIds.has(e.id)) f.push(`<span class="flag new">NEW</span>`);
     if (S.followIds && S.followIds.has(e.id)) f.push(`<span class="flag follow">✦ FOLLOWING</span>`);
@@ -395,7 +423,9 @@
       const key = `${S.calMonth}-${String(d).padStart(2, "0")}`;
       const evs = byDay[key] || [];
       const c = document.createElement("div");
-      c.className = "cal-cell" + (key === t ? " today" : "") + (key === S.calSel ? " sel" : "");
+      const goingDay = evs.some(e => S.going.has(e.id));
+      const busyDay = busyOn(key).filter(b => !evs.some(e => S.going.has(e.id) && Math.abs(e._t - b._s) < 2 * 36e5));
+      c.className = "cal-cell" + (key === t ? " today" : "") + (key === S.calSel ? " sel" : "") + (goingDay ? " has-going" : "") + (busyDay.length ? " has-busy" : "");
       const cats = [...new Set(evs.map(e => e.category))].slice(0, 8);
       let top = [];
       if (wide) {
@@ -411,7 +441,8 @@
       const goingHere = evs.filter(e => S.going.has(e.id));
       if (goingHere.length) { top = top.filter(g => !S.going.has(g[0].id)).slice(0, 6 - goingHere.length); top.unshift(...goingHere.map(e => [e])); }
       const shown = top.reduce((n, g) => n + g.length, 0);
-      c.innerHTML = `<span class="n">${d}${WX && WX.days[key] && wide ? ` <small class="wxd">${WX.days[key].icon}${WX.days[key].hi ?? ""}°</small>` : ""}</span>` +
+      c.innerHTML = `<span class="n">${d}${goingDay ? ` <i class="goingdot" title="You're going">✓</i>` : ""}${WX && WX.days[key] && wide ? ` <small class="wxd">${WX.days[key].icon}${WX.days[key].hi ?? ""}°</small>` : ""}</span>` +
+        (busyDay.length ? `<span class="busyline" title="${esc(busyDay.map(b => b.title).join(" · "))}">⏰ ${wide ? esc(busyDay.map(b => (b.allDay ? "" : timeStr({ start: b.start }) + " ") + b.title).join(" · ")).slice(0, 60) : "busy"}</span>` : "") +
         (wide ? `<span class="evs">${top.map(g => { const e = g[0]; const times = e.all_day ? "" : g.slice(0, 3).map(timeStr).join(" & ") + (g.length > 3 ? " +" : ""); return `<a class="ev${S.going.has(e.id) ? " go" : (goingHere.length ? " dim" : "")}" data-id="${e.id}" style="--cc:var(--c-${e.category})" title="${esc(e.title)} · ${esc(e.venue)}${times ? " · " + times : ""}">${S.going.has(e.id) ? "✓ " : ""}${times ? `<b>${times}</b> ` : ""}${esc(e.title)}</a>`; }).join("")}${evs.length > shown ? `<span class="morel">+${evs.length - shown} more</span>` : ""}</span>`
               : `<span class="dots">${cats.map(k => `<i style="background:var(--c-${k})"></i>`).join("")}</span>`) +
         (evs.length ? `<span class="cnt">${evs.length}</span><span class="heat" style="width:${Math.round(100 * evs.length / max)}%"></span>` : "");
@@ -683,6 +714,9 @@
           <input type="text" id="followIn" placeholder="e.g. trinity, odeum, dave matthews, jazz" value="${esc(S.follows.join(", "))}"><button class="btn" id="followSave" style="margin-top:6px">Save follows</button></div>
         <div><b>Hidden.</b> ${S.hidden.size} event${S.hidden.size === 1 ? "" : "s"}${hv.length ? `, venues: ${esc(hv.join(", "))}` : ""}. <button class="linkish" id="unhide">Unhide everything</button></div>
         <div><b>Seen.</b> ${S.seenRuns.size} run${S.seenRuns.size === 1 ? "" : "s"} retired (a show you marked Going and attended, or tapped "Seen it"). <button class="linkish" id="unseen">Bring them back</button></div>
+        <div><b>Your calendar (private).</b> Import the file the staff emailed you: booked shows become Going, other appointments show as busy. It is stored only in this browser and never published.<br>
+          <input type="file" id="mineFile" accept="application/json,.json" style="margin-top:6px">
+          ${S.mine ? `<div class="fine">✓ on · ${S.mine.going.length} shows marked, ${S.busy.length} busy windows, built ${fmt(new Date(S.mine.generated), { month: "short", day: "numeric" })} · <button class="linkish" id="mineClear">remove</button></div>` : ""}</div>
         <div><b>Going.</b> ${S.going.size} booked. The day's tile shows it first and dims the rest; it lives under ★ too.</div>
         <div><b>Mood.</b> Quiet night ↔ big night. Tilts <i>Best for you</i>, Surprise me and the calendar's picks; the list itself stays as sorted.<div class="mood-row">🕯 Quiet <input type="range" id="moodSheet" min="0" max="100" value="${S.mood}"> Big 🎆</div></div>
         <div><label class="tog"><input type="checkbox" id="groupTog" ${S.group ? "checked" : ""}> Group a production's performances into one card</label></div>
@@ -694,6 +728,8 @@
   }
   function wireSettings() {
     $("#followSave").onclick = () => { S.follows = $("#followIn").value.split(",").map(s => s.trim()).filter(Boolean); S.followIds = new Set(S.events.filter(isFollowed).map(e => e.id)); persist(); closeSheet(); render(); toast(`Following ${S.follows.length} thing${S.follows.length === 1 ? "" : "s"}`); };
+    $("#mineFile").onchange = e => { const f = e.target.files && e.target.files[0]; if (f) { closeSheet(); importMine(f); } };
+    const mc = $("#mineClear"); if (mc) mc.onclick = () => { S.mine = null; S.busy = []; save("mine", null); closeSheet(); render(); toast("Calendar layer removed from this browser"); };
     $("#unseen").onclick = () => { S.seenRuns.clear(); persist(); closeSheet(); render(); toast("Seen runs restored"); };
     $("#unhide").onclick = () => { S.hidden.clear(); S.hiddenVenues.clear(); persist(); buildVenueSel(); closeSheet(); render(); toast("Everything unhidden"); };
     $("#groupTog").onchange = e => { S.group = e.target.checked; persist(); render(); };
