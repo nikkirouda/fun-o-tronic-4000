@@ -350,12 +350,12 @@
 
   function renderList(list) {
     const root = $("#listView"); root.innerHTML = "";
+    if (S.mode === "stars") { renderMyEvents(root, list); return; }
     if (!list.length) {
       root.innerHTML = `<div class="empty"><h3>${S.mode === "stars" ? "Nothing saved yet" : S.mode === "new" ? "Nothing new, nothing followed" : "Nothing here"}</h3><p>${S.mode === "stars" ? "Tap ☆ on anything that looks like fun." : S.mode === "new" ? "Follow a venue, artist or word under ⋯ and it will show up here." : "Try a wider date range, fewer categories, or clear the search."}</p>${S.mode === "browse" ? `<button class="more" id="widen">Show the next 30 days instead</button>` : ""}</div>`;
       const w = $("#widen"); if (w) w.onclick = () => setWhen("month");
       return;
     }
-    if (S.mode === "stars") { renderMyEvents(root, list); return; }
     if (S.mode === "new") root.appendChild(ticketsBlock());
     if (S.mode === "shortlist") {
       const bar = document.createElement("div"); bar.className = "listbar";
