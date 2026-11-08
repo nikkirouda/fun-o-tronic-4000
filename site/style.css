@@ -346,12 +346,7 @@ main { padding: 0 16px 24px; max-width: 1400px; margin: 0 auto; }
 
 /* ---------- private calendar layer ---------- */
 .flag.busy { background: #b45309; color: #fff; }
-.cal-cell.has-going { border-color: var(--ok); box-shadow: inset 0 0 0 1px var(--ok); background: color-mix(in srgb, var(--ok) 10%, var(--panel)); }
-.cal-cell.has-busy { border-color: #f59e0b; border-left-width: 4px; background-image: repeating-linear-gradient(135deg, transparent 0 6px, color-mix(in srgb, #f59e0b 45%, transparent) 6px 11px); }
-.cal-cell.has-busy.has-going { border-color: var(--ok); }
 .cal-cell .goingdot { font-style: normal; color: var(--ok); font-weight: 800; margin-left: 2px; }
-.cal-cell .busyline { display: block; font-size: 10px; color: #fbbf24; font-weight: 700; background: color-mix(in srgb, #d97706 22%, var(--panel)); border-radius: 4px; padding: 1px 4px; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 100%; }
-.cal-cell.sel .busyline { color: var(--bg); }
 
 /* ---------- my events ---------- */
 .icon-btn.wide { width: auto; padding: 0 10px; gap: 4px; font-size: 14px; }
@@ -361,3 +356,15 @@ main { padding: 0 16px 24px; max-width: 1400px; margin: 0 auto; }
 .cr-when { color: var(--ink2); white-space: nowrap; }
 .cr-title { font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 @media (max-width: 719px) { .icon-btn.wide .lbl { display: none; } .icon-btn.wide { width: 34px; padding: 0; } .calrow { grid-template-columns: 1fr; gap: 2px; } }
+
+/* ---------- calendar day states (calm palette) ----------
+   going: green edge + green first line.  busy (timed): amber edge + amber band, listings stay.
+   away (all day): dimmed tile, soft dots, amber band — nothing to do that day. */
+.cal-cell.has-going { border-color: var(--ok); border-left: 4px solid var(--ok); background: color-mix(in srgb, var(--ok) 7%, var(--panel)); }
+.cal-cell.has-busy { border-left: 4px solid #d97706; }
+.cal-cell.has-away { background: repeating-linear-gradient(135deg, var(--panel) 0 14px, color-mix(in srgb, #d97706 7%, var(--panel)) 14px 16px); }
+.cal-cell.has-away .n { color: var(--ink2); }
+.cal-cell .busyline { display: block; width: 100%; box-sizing: border-box; font-size: 10px; font-weight: 700; color: #fbbf24; background: color-mix(in srgb, #d97706 18%, var(--panel)); border-radius: 4px; padding: 2px 5px; margin: 3px 0 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.cal-cell .busyline.away { color: #fcd34d; }
+.cal-cell.sel .busyline { color: var(--bg); background: color-mix(in srgb, #d97706 55%, var(--bg)); }
+.cal-cell.has-going .goingdot { color: var(--ok); }

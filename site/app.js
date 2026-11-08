@@ -260,6 +260,7 @@
     if (cantAttend(e)) return false;
     if (S.mode === "new" && !(S.newIds.has(e.id) || S.followIds.has(e.id))) return false;
     if (!ignoreWhen && S.mode === "browse") { const [a, b] = range(); if (e._day < a || e._day > b) return false; }
+    if (S.going.has(e.id) && S.mode === "browse") return true;  // your booking is never filtered out by chips, area or venue
     if (S.dateNight) { const h = hourOf(e); if (e.all_day || h < 17 || h > 22) return false; }
     if (S.cats.size && !S.cats.has(e.category)) return false;
     if (S.hideKids && e.kids && !S.cats.has("family")) return false;
@@ -462,7 +463,8 @@
       const c = document.createElement("div");
       const goingDay = evs.some(e => S.going.has(e.id));
       const busyDay = busyOn(key).filter(b => !evs.some(e => S.going.has(e.id) && Math.abs(e._t - b._s) < 2 * 36e5));
-      c.className = "cal-cell" + (key === t ? " today" : "") + (key === S.calSel ? " sel" : "") + (goingDay ? " has-going" : "") + (busyDay.length ? " has-busy" : "");
+      const awayDay = busyDay.some(b => b.allDay);
+      c.className = "cal-cell" + (key === t ? " today" : "") + (key === S.calSel ? " sel" : "") + (goingDay ? " has-going" : "") + (busyDay.length ? " has-busy" : "") + (awayDay && !goingDay ? " has-away" : "");
       const cats = [...new Set(evs.map(e => e.category))].slice(0, 8);
       let top = [];
       if (wide) {
@@ -479,7 +481,7 @@
       if (goingHere.length) { top = S.hideBusy ? [] : top.filter(g => !S.going.has(g[0].id)).slice(0, 6 - goingHere.length); top.unshift(...goingHere.map(e => [e])); }
       const shown = top.reduce((n, g) => n + g.length, 0);
       c.innerHTML = `<span class="n">${d}${goingDay ? ` <i class="goingdot" title="You're going">✓</i>` : ""}${WX && WX.days[key] && wide ? ` <small class="wxd">${WX.days[key].icon}${WX.days[key].hi ?? ""}°</small>` : ""}</span>` +
-        (busyDay.length ? `<span class="busyline" title="${esc(busyDay.map(b => b.title).join(" · "))}">⏰ ${wide ? esc(busyDay.map(b => (b.allDay ? "" : timeStr({ start: b.start }) + " ") + b.title).join(" · ")).slice(0, 60) : "busy"}</span>` : "") +
+        (busyDay.length ? `<span class="busyline${awayDay ? " away" : ""}" title="${esc(busyDay.map(b => b.title).join(" · "))}">${awayDay ? "✈" : "⏰"} ${wide ? esc(busyDay.map(b => (b.allDay ? "" : timeStr({ start: b.start }) + " ") + b.title).join(" · ")).slice(0, 60) : (awayDay ? "away" : "busy")}</span>` : "") +
         (wide ? `<span class="evs">${top.map(g => { const e = g[0]; const times = e.all_day ? "" : g.slice(0, 3).map(timeStr).join(" & ") + (g.length > 3 ? " +" : ""); return `<a class="ev${S.going.has(e.id) ? " go" : (goingHere.length ? " dim" : "")}" data-id="${e.id}" style="--cc:var(--c-${e.category})" title="${esc(e.title)} · ${esc(e.venue)}${times ? " · " + times : ""}">${S.going.has(e.id) ? "✓ " : ""}${times ? `<b>${times}</b> ` : ""}${esc(e.title)}</a>`; }).join("")}${evs.length > shown ? `<span class="morel">+${evs.length - shown} more</span>` : ""}</span>`
               : `<span class="dots">${cats.map(k => `<i style="background:var(--c-${k})"></i>`).join("")}</span>`) +
         (evs.length ? `<span class="cnt">${evs.length}</span><span class="heat" style="width:${Math.round(100 * evs.length / max)}%"></span>` : "");
