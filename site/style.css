@@ -351,3 +351,12 @@ main { padding: 0 16px 24px; max-width: 1400px; margin: 0 auto; }
 .cal-cell .goingdot { font-style: normal; color: var(--ok); font-weight: 800; margin-left: 2px; }
 .cal-cell .busyline { display: block; font-size: 10px; color: #d97706; font-weight: 600; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 100%; }
 .cal-cell.sel .busyline { color: var(--bg); }
+
+/* ---------- my events ---------- */
+.icon-btn.wide { width: auto; padding: 0 10px; gap: 4px; font-size: 14px; }
+.icon-btn.wide .lbl { font-size: 13px; font-weight: 600; }
+.calrows { display: grid; gap: 4px; margin: 6px 0 10px; }
+.calrow { display: grid; grid-template-columns: 150px 1fr; gap: 10px; padding: 7px 12px; background: var(--panel); border: 1px solid var(--line); border-left: 4px solid #d97706; border-radius: 10px; font-size: 13px; }
+.cr-when { color: var(--ink2); white-space: nowrap; }
+.cr-title { font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+@media (max-width: 719px) { .icon-btn.wide .lbl { display: none; } .icon-btn.wide { width: 34px; padding: 0; } .calrow { grid-template-columns: 1fr; gap: 2px; } }

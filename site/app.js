@@ -246,7 +246,7 @@
   function matches(e, ignoreWhen = false) {
     if (S.mode === "shortlist") return S.shortlist && S.shortlist.has(e.id);
     if (S.hidden.has(e.id) || S.hiddenVenues.has(e.venue_id)) return false;
-    if (S.mode === "stars") return S.stars.has(e.id) || S.going.has(e.id);
+    if (S.mode === "stars") return (S.stars.has(e.id) || S.going.has(e.id)) && e._t > Date.now() - 6 * 36e5;
     if (S.seenRuns.has(runKey(e)) && !S.going.has(e.id)) return false;
     if (S.mode === "new" && !(S.newIds.has(e.id) || S.followIds.has(e.id))) return false;
     if (!ignoreWhen && S.mode === "browse") { const [a, b] = range(); if (e._day < a || e._day > b) return false; }
@@ -355,11 +355,7 @@
       const w = $("#widen"); if (w) w.onclick = () => setWhen("month");
       return;
     }
-    if (S.mode === "stars" && S.stars.size) {
-      const bar = document.createElement("div"); bar.className = "listbar";
-      bar.innerHTML = `<button class="btn" id="sendList">↗ Send this shortlist to Ms Belleville</button><span class="fine">She gets a link, thumbs-up what she likes, sends it back; her 👍 then show here.</span>`;
-      root.appendChild(bar); $("#sendList").onclick = sendShortlist;
-    }
+    if (S.mode === "stars") { renderMyEvents(root, list); return; }
     if (S.mode === "new") root.appendChild(ticketsBlock());
     if (S.mode === "shortlist") {
       const bar = document.createElement("div"); bar.className = "listbar";
@@ -402,6 +398,37 @@
       hot.map(w => `<li>👀 <a href="${esc(w.url)}" target="_blank" rel="noopener">${esc(w.title)}</a>: <b>${esc(w.status)}</b>${w.evidence ? ` <span class="fine">— ${esc(w.evidence.slice(0, 100))}</span>` : ""}${w.checked ? ` <span class="fine">(checked ${fmt(new Date(w.checked), { month: "short", day: "numeric" })})</span>` : ""}</li>`).join("") + `</ul>`;
     $$("a[data-id]", box).forEach(a => a.onclick = ev => { ev.preventDefault(); openSheet(S.events.find(e => e.id === a.dataset.id)); });
     return box;
+  }
+
+  function renderMyEvents(root, list) {
+    const now = Date.now();
+    const going = list.filter(e => S.going.has(e.id)).sort((a, b) => a._t - b._t);
+    const saved = list.filter(e => !S.going.has(e.id)).sort((a, b) => a._t - b._t);
+    const goingDays = new Set(going.map(e => e._day));
+    const cal = S.busy.filter(b => b._e > now && !(goingDays.has(b._day) && going.some(g => g._day === b._day && Math.abs(g._t - b._s) < 3 * 36e5))).sort((a, b) => a._s - b._s);
+    const h = (t, sub) => { const d = document.createElement("div"); d.className = "day-head"; d.innerHTML = `${t} <small>${sub}</small>`; root.appendChild(d); };
+    const grid = () => { const g = document.createElement("div"); g.className = "cards-grid"; root.appendChild(g); return g; };
+    if (S.stars.size || S.going.size) {
+      const bar = document.createElement("div"); bar.className = "listbar";
+      bar.innerHTML = `<button class="btn" id="sendList">↗ Send a shortlist to Ms Belleville</button><span class="fine">She gets a link, thumbs-up what she likes, sends it back; her 👍 then show here.</span>`;
+      root.appendChild(bar); $("#sendList").onclick = sendShortlist;
+    }
+    h("Going", `${going.length} booked`);
+    if (going.length) { const g = grid(); going.forEach(e => g.appendChild(card(e))); }
+    else root.insertAdjacentHTML("beforeend", `<p class="empty">Nothing booked yet — tap <b>Going?</b> on a show, or import your calendar layer under ⋯.</p>`);
+    if (S.mine) {
+      h("Your calendar", `${cal.length} other appointment${cal.length === 1 ? "" : "s"} · private to this browser`);
+      const ul = document.createElement("div"); ul.className = "calrows";
+      for (const b of cal.slice(0, 80)) {
+        const st = new Date(b.start);
+        ul.insertAdjacentHTML("beforeend", `<div class="calrow"><span class="cr-when">${fmt(st, { weekday: "short", month: "short", day: "numeric" })}${b.allDay ? "" : " · " + timeStr({ start: b.start })}</span><span class="cr-title">${esc(b.title)}</span></div>`);
+      }
+      if (cal.length > 80) ul.insertAdjacentHTML("beforeend", `<div class="calrow fine">…and ${cal.length - 80} more</div>`);
+      root.appendChild(ul);
+    }
+    h("Saved", `${saved.length} starred, not booked`);
+    if (saved.length) { const g = grid(); saved.forEach(e => g.appendChild(card(e))); }
+    else root.insertAdjacentHTML("beforeend", `<p class="empty">Tap ☆ on anything that looks like fun.</p>`);
   }
 
   // ---------------------------------------------------------- calendar ---
