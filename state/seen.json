@@ -9,6 +9,11 @@
 "on_sale": null,
 "ticket": true
 },
+"alchemy-259beaaa8e7c": {
+"first_seen": "2026-11-08T07:08-05:00",
+"on_sale": null,
+"ticket": false
+},
 "alchemy-27967c228de0": {
 "first_seen": "2026-11-07T09:17-05:00",
 "on_sale": null,
@@ -23,6 +28,16 @@
 "first_seen": "2026-11-07T09:17-05:00",
 "on_sale": null,
 "ticket": false
+},
+"alchemy-2ce9c81ae169": {
+"first_seen": "2026-11-08T07:08-05:00",
+"on_sale": null,
+"ticket": false
+},
+"alchemy-325526ed34cb": {
+"first_seen": "2026-11-08T07:08-05:00",
+"on_sale": null,
+"ticket": true
 },
 "alchemy-3d3b4fd9689f": {
 "first_seen": "2026-11-07T09:17-05:00",
@@ -89,6 +104,11 @@
 "on_sale": null,
 "ticket": false
 },
+"alchemy-92d13f49450e": {
+"first_seen": "2026-11-08T07:08-05:00",
+"on_sale": null,
+"ticket": false
+},
 "alchemy-97eff8114b0d": {
 "first_seen": "2026-11-07T09:17-05:00",
 "on_sale": null,
@@ -106,6 +126,11 @@
 },
 "alchemy-9f787aa19249": {
 "first_seen": "2026-11-07T09:17-05:00",
+"on_sale": null,
+"ticket": true
+},
+"alchemy-a2f6dc7e7042": {
+"first_seen": "2026-11-08T07:08-05:00",
 "on_sale": null,
 "ticket": true
 },
@@ -5921,6 +5946,11 @@
 },
 "ch-amica-dfd25131d112": {
 "first_seen": "2026-11-07T09:17-05:00",
+"on_sale": null,
+"ticket": true
+},
+"ch-amica-e11865a0ed6a": {
+"first_seen": "2026-11-08T07:08-05:00",
 "on_sale": null,
 "ticket": true
 },
@@ -13969,6 +13999,11 @@
 "on_sale": null,
 "ticket": false
 },
+"tribe-clpvd-3ef91faaa934": {
+"first_seen": "2026-11-08T07:08-05:00",
+"on_sale": null,
+"ticket": false
+},
 "tribe-clpvd-405778ab073c": {
 "first_seen": "2026-11-07T09:17-05:00",
 "on_sale": null,
@@ -14054,6 +14089,11 @@
 "on_sale": null,
 "ticket": false
 },
+"tribe-clpvd-4b6366126ccb": {
+"first_seen": "2026-11-08T07:08-05:00",
+"on_sale": null,
+"ticket": true
+},
 "tribe-clpvd-4bd56fc25cc6": {
 "first_seen": "2026-11-07T09:17-05:00",
 "on_sale": null,
@@ -14109,6 +14149,11 @@
 "on_sale": null,
 "ticket": false
 },
+"tribe-clpvd-584fdd385ecd": {
+"first_seen": "2026-11-08T07:08-05:00",
+"on_sale": null,
+"ticket": false
+},
 "tribe-clpvd-58d37925b38e": {
 "first_seen": "2026-11-07T09:17-05:00",
 "on_sale": null,
@@ -14151,6 +14196,11 @@
 },
 "tribe-clpvd-62925e167416": {
 "first_seen": "2026-11-07T09:17-05:00",
+"on_sale": null,
+"ticket": false
+},
+"tribe-clpvd-636505536a83": {
+"first_seen": "2026-11-08T07:08-05:00",
 "on_sale": null,
 "ticket": false
 },
@@ -14461,6 +14511,11 @@
 },
 "tribe-clpvd-9ba856ee5272": {
 "first_seen": "2026-11-07T09:17-05:00",
+"on_sale": null,
+"ticket": false
+},
+"tribe-clpvd-a007508c316a": {
+"first_seen": "2026-11-08T07:08-05:00",
 "on_sale": null,
 "ticket": false
 },
@@ -14806,6 +14861,11 @@
 },
 "tribe-clpvd-ddc792dbf052": {
 "first_seen": "2026-11-07T09:17-05:00",
+"on_sale": null,
+"ticket": false
+},
+"tribe-clpvd-e028bb50bdec": {
+"first_seen": "2026-11-08T07:08-05:00",
 "on_sale": null,
 "ticket": false
 },

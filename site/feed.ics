@@ -17,32 +17,6 @@ LOCATION:RISD — Joan T. Boghossian Gallery\, Providence Public Library\,
 URL:https://involved.risd.edu/event/12886737
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Rhode Island Comic Con 2026
-DTSTART;TZID="UTC-05:00":20261107T100000
-DTEND;TZID="UTC-05:00":20261108T100000
-UID:ch-amica-69b92a06f72e@funotronic
-DESCRIPTION:The biggest show in the smallest state! The tradition continue
- s for Rhode Island Comic Con with so much to see and explore. For more tic
- ket information please click here\nhttps://www.ticketmaster.com/search?q=r
- hode+island+comic+con
-LOCATION:Amica Mutual Pavilion\, 1 La Salle Square
-URL:https://www.amicamutualpavilion.com/events/detail/rhode-island-comic-c
- on-4
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Island Saturdays
-DTSTART;TZID="UTC-05:00":20261107T220000
-DTEND;TZID="UTC-05:00":20261108T020000
-UID:alchemy-d2ec4c794b31@funotronic
-DESCRIPTION:New England's Number 1 Carribean Dance Night! DJ Paul Michael 
- spinning up Dancehall\, Soca\, Afrobeats\, and Reggae vibes! Doors at 10:0
- 0. *Everyone free to 11:00. *$10 after.\nNew England's Number 1 Carribean 
- Dance Night! DJ Paul Michael spinning up Danceh\nhttps://alchemyri.net/pro
- vidence-downtown-alchemy-events
-LOCATION:Alchemy\, 71 Richmond St
-URL:https://alchemyri.net/providence-downtown-alchemy-events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Brown University Men’s Water Polo vs LIU
 DTSTART;TZID="UTC-05:00":20261108T100000
 DTEND;TZID="UTC-05:00":20261108T113000
@@ -52,6 +26,18 @@ DESCRIPTION:https://events.brown.edu/athletics/event/334133-brown-universi
 LOCATION:Katherine Moran Coleman Aquatics Center\, Providence
 URL:https://events.brown.edu/athletics/event/334133-brown-university-mens-
  water-polo-vs-liu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rhode Island Comic Con 2026
+DTSTART;TZID="UTC-05:00":20261108T100000
+UID:ch-amica-e11865a0ed6a@funotronic
+DESCRIPTION:The biggest show in the smallest state! The tradition continue
+ s for Rhode Island Comic Con with so much to see and explore. For more tic
+ ket information please click here\nhttps://www.ticketmaster.com/search?q=r
+ hode+island+comic+con
+LOCATION:Amica Mutual Pavilion\, 1 La Salle Square
+URL:https://www.amicamutualpavilion.com/events/detail/rhode-island-comic-c
+ on-4
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Roger Williams Park Urban Naturalist Hikes with the Museum of Natu
@@ -199,7 +185,7 @@ SUMMARY:New England Patriots vs Green Bay Packers
 DTSTART;TZID="UTC-05:00":20261108T162500
 UID:pro-patriots-7ccb49c18986@funotronic
 DESCRIPTION:New England Patriots host the Green Bay Packers at Gillette St
- adium.\nresale from $333\nhttps://www.patriots.com/tickets/
+ adium.\nresale from $326\nhttps://www.patriots.com/tickets/
 LOCATION:Gillette Stadium\, 1 Patriot Pl\, Foxborough\, MA
 URL:https://www.patriots.com/tickets/
 END:VEVENT
@@ -5243,7 +5229,7 @@ SUMMARY:Boston Celtics vs Dallas Mavericks
 DTSTART;TZID="UTC-05:00":20261115T180000
 UID:pro-celtics-43b14c0e540b@funotronic
 DESCRIPTION:Boston Celtics host the Dallas Mavericks at TD Garden.\nresale
-  from $117\nhttps://www.nba.com/celtics/tickets
+  from $116\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nba.com/celtics/tickets
 END:VEVENT
@@ -9724,6 +9710,19 @@ LOCATION:Narrows Center for the Arts\, 16 Anawan St\, Fall River\, MA
 URL:https://narrowscenter.showare.com/eventperformances.asp?evt=396
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Violin River
+DTSTART;TZID="UTC-05:00":20261122T130000
+DTEND;TZID="UTC-05:00":20261122T160000
+UID:alchemy-259beaaa8e7c@funotronic
+DESCRIPTION:Violin River explores the music of The Grateful Dead Join us a
+ s we raise the good vibes! PRO SOUND Specialty adult beverages Cozy couche
+ s\, plenty of seating & a big beautifully clean dance floor!!\nViolin Rive
+ r explores the music of The Grateful Dead Join us as we raise the goo\nhtt
+ ps://alchemyri.net/providence-downtown-alchemy-events
+LOCATION:Alchemy\, 71 Richmond St
+URL:https://alchemyri.net/providence-downtown-alchemy-events
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Work in Process with Robin Spears\, Jr. (Narragansett) and Robin S
  pears III (Narragansett)
 DTSTART;TZID="UTC-05:00":20261122T133000
@@ -11610,6 +11609,28 @@ LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/rich-vos-2026
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Art at Watson Presents — Diagnósticos: technology\, information
+  and self
+DTSTART;VALUE=DATE:20261128
+UID:brown-events-2186eb83927d@funotronic
+DESCRIPTION:Free\nhttps://events.brown.edu/live/events/340647-art-at-watso
+ n-presents-diagnosticos-technology
+LOCATION:The Watson School\, 280 Brook Street
+URL:https://events.brown.edu/live/events/340647-art-at-watson-presents-dia
+ gnosticos-technology
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Art at Watson Presents — Human Mythology
+DTSTART;VALUE=DATE:20261128
+UID:brown-events-ae75b164bdea@funotronic
+DESCRIPTION:https://events.brown.edu/watson/event/340519-art-at-watson-pre
+ sents-human-mythology
+LOCATION:The Watson School\, 111 Thayer Street\, 2nd Floor\, Brown Univers
+ ity
+URL:https://events.brown.edu/watson/event/340519-art-at-watson-presents-hu
+ man-mythology
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Beginnings Live : A Celebration of the Music of Chicago
 DTSTART;VALUE=DATE:20261128
 UID:jpt-9a67317d9c05@funotronic
@@ -12024,28 +12045,6 @@ LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/rich-vos-2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Art at Watson Presents — Diagnósticos: technology\, information
-  and self
-DTSTART;VALUE=DATE:20261129
-UID:brown-events-fb7fffa0b6cc@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/live/events/340648-art-at-watso
- n-presents-diagnosticos-technology
-LOCATION:The Watson School\, 280 Brook Street
-URL:https://events.brown.edu/live/events/340648-art-at-watson-presents-dia
- gnosticos-technology
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Art at Watson Presents — Human Mythology
-DTSTART;VALUE=DATE:20261129
-UID:brown-events-b8286a3735d9@funotronic
-DESCRIPTION:https://events.brown.edu/watson/event/340520-art-at-watson-pre
- sents-human-mythology
-LOCATION:The Watson School\, 111 Thayer Street\, 2nd Floor\, Brown Univers
- ity
-URL:https://events.brown.edu/watson/event/340520-art-at-watson-presents-hu
- man-mythology
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Exhibition on View | Building Books with Dayanita Singh
 DTSTART;VALUE=DATE:20261129
 UID:brown-events-3e830f933425@funotronic
@@ -12116,15 +12115,14 @@ URL:https://www.longlivebeerworks.com/pop-ups/2024/3/7/south-county-bbq-po
  p-up-gtyjn-w9tka-e76jk-w4rpj-jbkpm
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Brown University Women’s Ice Hockey vs Assumption
+SUMMARY:Brown Women's Ice Hockey vs Assumption
 DTSTART;TZID="UTC-05:00":20261129T130000
-DTEND;TZID="UTC-05:00":20261129T160000
-UID:brown-events-9e9e62bcce91@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/336469-brown-universi
- ty-womens-ice-hockey-vs-assumption
+UID:college-sports-cbc58bedea42@funotronic
+DESCRIPTION:https://admin.brownbears.com/calendar.aspx?game_id=21169&amp\;
+ sport_id=28
 LOCATION:Meehan Auditorium\, Providence
-URL:https://events.brown.edu/athletics/event/336469-brown-university-women
- s-ice-hockey-vs-assumption
+URL:https://admin.brownbears.com/calendar.aspx?game_id=21169&amp;sport_id=
+ 28
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bryant Women's Basketball vs Boston University
@@ -13902,6 +13900,43 @@ LOCATION:Sayles Hall\, Providence
 URL:https://events.brown.edu/music/event/343363-midday-music-concert
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:~Virtual~ Lunch Bunch Story
+DTSTART;TZID="UTC-05:00":20261204T130000
+DTEND;TZID="UTC-05:00":20261204T140000
+UID:tribe-clpvd-4b6366126ccb@funotronic
+DESCRIPTION:Librarian Taylor will be live streaming on YouTube a virtual s
+ tory hour. This program is intended for all families\, especially those wh
+ o are home bound or unable to make it to the library for any reason.\nhttp
+ s://www.youtube.com/@9librariespvd
+LOCATION:Providence
+URL:https://clpvd.org/event/virtual-lunch-bunch-story/2026-12-04/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Arts and Crafts
+DTSTART;TZID="UTC-05:00":20261204T140000
+DTEND;TZID="UTC-05:00":20261204T163000
+UID:tribe-clpvd-3ef91faaa934@funotronic
+DESCRIPTION:Stop in on Friday afternoons for arts and crafts. Coloring\, s
+ tructured/themed crafts\, and grab-and-go crafts offered. Children of all 
+ ages are welcome.\nhttps://clpvd.org/event/arts-and-crafts/2026-12-04/
+LOCATION:Fox Point Library – Children’s Computer Lab\, 90 Ives Street 
+ Providence 02906
+URL:https://clpvd.org/event/arts-and-crafts/2026-12-04/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Book Chat
+DTSTART;TZID="UTC-05:00":20261204T140000
+DTEND;TZID="UTC-05:00":20261204T150000
+UID:tribe-clpvd-636505536a83@funotronic
+DESCRIPTION:Share a bit about what you’ve been reading over the past mon
+ th and hear about what others are reading\, too. It’s a great way to lea
+ rn about books you haven’t encountered and gives you a chance to express
+  your thoughts on your own reading.\nhttps://clpvd.org/event/book-chat-12-
+ 3/2026-12-04/
+LOCATION:Rochambeau Library – Cafe\, 708 Hope Street Providence 02906
+URL:https://clpvd.org/event/book-chat-12-3/2026-12-04/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Joint Seminar on South Asian Politics: Akshay Govind Dixit — The
   Impact of Welfare on Intergroup Relations
 DTSTART;TZID="UTC-05:00":20261204T140000
@@ -13947,6 +13982,44 @@ DESCRIPTION:https://events.brown.edu/physics/event/342698-physics-colloqui
 LOCATION:Barus and Holley\, 190\, Brown University
 URL:https://events.brown.edu/physics/event/342698-physics-colloquium-featu
  ring-domenico-di-sante
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Upcycle Sewing
+DTSTART;TZID="UTC-05:00":20261204T150000
+DTEND;TZID="UTC-05:00":20261204T170000
+UID:tribe-clpvd-e028bb50bdec@funotronic
+DESCRIPTION:Join us each Friday to use the sewing area of the Makerspace 
+ – fabric and supplies are provided – all ages! Upcycle to wear\, repai
+ r and repurpose – call 401-274-4145\, x4701 or email dbrophy@clpvd.org w
+ ith questions.\nhttps://clpvd.org/event/upcycle-sewing/2026-12-04/
+LOCATION:Wanskuck Library – MakerSpace\, 233 Veazie Street Providence 02
+ 904
+URL:https://clpvd.org/event/upcycle-sewing/2026-12-04/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:After School Movie
+DTSTART;TZID="UTC-05:00":20261204T153000
+DTEND;TZID="UTC-05:00":20261204T170000
+UID:tribe-clpvd-a007508c316a@funotronic
+DESCRIPTION:Join us every other Friday for a FREE after-school movie! Rate
+ d PG. Snacks provided too! Recommended for children ages 8 and up.\nhttps:
+ //clpvd.org/event/after-school-movie-9/2026-12-04/
+LOCATION:Washington Park Library – Children’s Area\, 1316 Broad Street
+  Providence 02905
+URL:https://clpvd.org/event/after-school-movie-9/2026-12-04/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crochet Workshop
+DTSTART;TZID="UTC-05:00":20261204T153000
+DTEND;TZID="UTC-05:00":20261204T170000
+UID:tribe-clpvd-584fdd385ecd@funotronic
+DESCRIPTION:Every Friday 3:30 – 5:00 Come learn and level up your croche
+ t skills each week! From amigurumi to tapestry crochet\, this workshop is 
+ a great opportunity for any kid interested in crochet!\nhttps://clpvd.org/
+ event/crochet-workshop/2026-12-04/
+LOCATION:Wanskuck Library – Children’s Area 1\, 233 Veazie Street Prov
+ idence 02904
+URL:https://clpvd.org/event/crochet-workshop/2026-12-04/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Science\, Stakes\, and Feelings of a Warming Planet with Kate 
@@ -15010,6 +15083,18 @@ LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/tommy-pope-2026
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Sweet Rose\; Best Of 2016
+DTSTART;TZID="UTC-05:00":20261206T193000
+DTEND;TZID="UTC-05:00":20261206T223000
+UID:alchemy-92d13f49450e@funotronic
+DESCRIPTION:SEMI'S BIRTHDAY SHOW!! ton of performers\, vendors\, and a who
+ le lot more!! doors 7:30pm show 8pm\nSEMI'S BIRTHDAY SHOW!! ton of perform
+ ers\, vendors\, and a whole lot more!! doors \nhttps://alchemyri.net/provi
+ dence-downtown-alchemy-events
+LOCATION:Alchemy\, 71 Richmond St
+URL:https://alchemyri.net/providence-downtown-alchemy-events
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Art at Watson Presents — Diagnósticos: technology\, information
   and self
 DTSTART;VALUE=DATE:20261207
@@ -15923,7 +16008,7 @@ SUMMARY:New England Patriots vs Minnesota Vikings
 DTSTART;TZID="UTC-05:00":20261210T201500
 UID:pro-patriots-b3091f9c7d5b@funotronic
 DESCRIPTION:New England Patriots host the Minnesota Vikings at Gillette St
- adium.\nresale from $142\nhttps://www.patriots.com/tickets/
+ adium.\nresale from $136\nhttps://www.patriots.com/tickets/
 LOCATION:Gillette Stadium\, 1 Patriot Pl\, Foxborough\, MA
 URL:https://www.patriots.com/tickets/
 END:VEVENT
@@ -17685,6 +17770,20 @@ LOCATION:Narrows Center for the Arts\, 16 Anawan St\, Fall River\, MA
 URL:https://narrowscenter.showare.com/eventperformances.asp?evt=641
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The 13th Annual Holiday Benefit Cover Show
+DTSTART;TZID="UTC-05:00":20261218T200000
+DTEND;TZID="UTC-05:00":20261219T003000
+UID:alchemy-2ce9c81ae169@funotronic
+DESCRIPTION:THE 13TH ANNUAL HOLIDAY BENEFIT COVER SHOW Friday 12/18/26 at 
+ Alchemy (171 Chestnut St\, PVD) 8pm\, 18+ $15/$20 with raffle tickets ***P
+ LEASE NOTE: THESE ARE COVER BANDS AND A BENEFIT WITH ALL PROCEEDS GOING TO
+  THE RI COMMUNITY FOOD BANK…\nTHE 13TH ANNUAL HOLIDAY BENEFIT COVER SHOW
+  Friday 12/18/26 at Alchemy (171 Chest\nhttps://alchemyri.net/providence-d
+ owntown-alchemy-events
+LOCATION:Alchemy\, 71 Richmond St
+URL:https://alchemyri.net/providence-downtown-alchemy-events
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:The Del Fuegos
 DTSTART;TZID="UTC-05:00":20261218T200000
 UID:odeum-71969cec8ac4@funotronic
@@ -18013,6 +18112,17 @@ LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/peter-revello-2026
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Art at Watson Presents — Diagnósticos: technology\, information
+  and self
+DTSTART;VALUE=DATE:20261220
+UID:brown-events-ee3652de6e2a@funotronic
+DESCRIPTION:Free\nhttps://events.brown.edu/live/events/340669-art-at-watso
+ n-presents-diagnosticos-technology
+LOCATION:The Watson School\, 280 Brook Street
+URL:https://events.brown.edu/live/events/340669-art-at-watson-presents-dia
+ gnosticos-technology
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Exhibition on View | Building Books with Dayanita Singh
 DTSTART;VALUE=DATE:20261220
 UID:brown-events-db99cc284713@funotronic
@@ -18249,21 +18359,6 @@ DESCRIPTION:A successful song-and-dance team become romantically involved
  ens.com/shows/white-christmas
 LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
 URL:https://janepickens.com/shows/white-christmas
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
-DTSTART;TZID="UTC-05:00":20261221T090000
-DTEND;TZID="UTC-05:00":20261221T170000
-UID:brown-events-3c049a1e90ca@funotronic
-DESCRIPTION:The exhibit A Pictorial Dragon: The Art of Fernando Birri is o
- n view in the Harriette Hemmasi Exhibition Gallery at the John Hay Library
-  at Brown University\, and online through a digital exhibition.\nFree\nhtt
- ps://events.brown.edu/library/event/341444-a-pictorial-dragon-the-art-of-f
- ernando-birri
-LOCATION:John Hay Library\, Harriette Hemmasi Exhibition Gallery\, Brown U
- niversity
-URL:https://events.brown.edu/library/event/341444-a-pictorial-dragon-the-a
- rt-of-fernando-birri
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Enjoy a $5 Shift Beer!
@@ -19381,7 +19476,7 @@ SUMMARY:New England Patriots vs Denver Broncos
 DTSTART;TZID="UTC-05:00":20270103T000000
 UID:pro-patriots-2eec18372817@funotronic
 DESCRIPTION:New England Patriots host the Denver Broncos at Gillette Stadi
- um.\nresale from $165\nhttps://www.patriots.com/tickets/
+ um.\nresale from $171\nhttps://www.patriots.com/tickets/
 LOCATION:Gillette Stadium\, 1 Patriot Pl\, Foxborough\, MA
 URL:https://www.patriots.com/tickets/
 END:VEVENT
@@ -19878,6 +19973,21 @@ URL:https://www.amicamutualpavilion.com/events/detail/providence-bruins-vs
  -hartford-wolfpack-0110
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
+DTSTART;TZID="UTC-05:00":20270111T090000
+DTEND;TZID="UTC-05:00":20270111T170000
+UID:brown-events-ea4410d109dc@funotronic
+DESCRIPTION:The exhibit A Pictorial Dragon: The Art of Fernando Birri is o
+ n view in the Harriette Hemmasi Exhibition Gallery at the John Hay Library
+  at Brown University\, and online through a digital exhibition.\nFree\nhtt
+ ps://events.brown.edu/library/event/341459-a-pictorial-dragon-the-art-of-f
+ ernando-birri
+LOCATION:John Hay Library\, Harriette Hemmasi Exhibition Gallery\, Brown U
+ niversity
+URL:https://events.brown.edu/library/event/341459-a-pictorial-dragon-the-a
+ rt-of-fernando-birri
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Boston Celtics vs Houston Rockets
 DTSTART;TZID="UTC-05:00":20270111T193000
 UID:pro-celtics-8e02ae8e78f9@funotronic
@@ -19885,21 +19995,6 @@ DESCRIPTION:Boston Celtics host the Houston Rockets at TD Garden.\nresale
  from $78\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nba.com/celtics/tickets
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
-DTSTART;TZID="UTC-05:00":20270112T090000
-DTEND;TZID="UTC-05:00":20270112T170000
-UID:brown-events-3de00dcee8ca@funotronic
-DESCRIPTION:The exhibit A Pictorial Dragon: The Art of Fernando Birri is o
- n view in the Harriette Hemmasi Exhibition Gallery at the John Hay Library
-  at Brown University\, and online through a digital exhibition.\nFree\nhtt
- ps://events.brown.edu/library/event/341460-a-pictorial-dragon-the-art-of-f
- ernando-birri
-LOCATION:John Hay Library\, Harriette Hemmasi Exhibition Gallery\, Brown U
- niversity
-URL:https://events.brown.edu/library/event/341460-a-pictorial-dragon-the-a
- rt-of-fernando-birri
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Boston Bruins vs Carolina Hurricanes
@@ -21808,6 +21903,21 @@ URL:https://events.brown.edu/general/event/340357-sustainableed-virtual-se
  minar-patricia-fabian
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
+DTSTART;TZID="UTC-05:00":20270202T090000
+DTEND;TZID="UTC-05:00":20270202T170000
+UID:brown-events-b9cb25e9c689@funotronic
+DESCRIPTION:The exhibit A Pictorial Dragon: The Art of Fernando Birri is o
+ n view in the Harriette Hemmasi Exhibition Gallery at the John Hay Library
+  at Brown University\, and online through a digital exhibition.\nFree\nhtt
+ ps://events.brown.edu/library/event/341475-a-pictorial-dragon-the-art-of-f
+ ernando-birri
+LOCATION:John Hay Library\, Harriette Hemmasi Exhibition Gallery\, Brown U
+ niversity
+URL:https://events.brown.edu/library/event/341475-a-pictorial-dragon-the-a
+ rt-of-fernando-birri
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Sun Style Tai Chi for Beginners
 DTSTART;TZID="UTC-05:00":20270202T110000
 DTEND;TZID="UTC-05:00":20270202T120000
@@ -21841,21 +21951,6 @@ DESCRIPTION:Boston Celtics host the Los Angeles Lakers at TD Garden.\nresa
  le from $119\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nba.com/celtics/tickets
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
-DTSTART;TZID="UTC-05:00":20270203T090000
-DTEND;TZID="UTC-05:00":20270203T170000
-UID:brown-events-fd14b18672fe@funotronic
-DESCRIPTION:The exhibit A Pictorial Dragon: The Art of Fernando Birri is o
- n view in the Harriette Hemmasi Exhibition Gallery at the John Hay Library
-  at Brown University\, and online through a digital exhibition.\nFree\nhtt
- ps://events.brown.edu/library/event/341476-a-pictorial-dragon-the-art-of-f
- ernando-birri
-LOCATION:John Hay Library\, Harriette Hemmasi Exhibition Gallery\, Brown U
- niversity
-URL:https://events.brown.edu/library/event/341476-a-pictorial-dragon-the-a
- rt-of-fernando-birri
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wee-One Wednesdays
@@ -23536,6 +23631,18 @@ URL:https://events.brown.edu/library/event/341489-a-pictorial-dragon-the-a
  rt-of-fernando-birri
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Lydia Loveless
+DTSTART;TZID="UTC-05:00":20270222T190000
+DTEND;TZID="UTC-05:00":20270222T230000
+UID:alchemy-325526ed34cb@funotronic
+DESCRIPTION:Intrinsic Events & The Hammer Collective Present: Lydia Lovele
+ ss Live at Alchemy 171 Chestnut St. Providence\, RI 7 pm doors - $20 adv.
+ \nIntrinsic Events & The Hammer Collective Present: Lydia Loveless Live at
+  Alchemy\nhttps://app.opendate.io/e/lydia-loveless-february-22-2027-796407
+LOCATION:Alchemy\, 71 Richmond St
+URL:https://alchemyri.net/providence-downtown-alchemy-events
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Boston Red Sox vs Philadelphia Phillies
 DTSTART;VALUE=DATE:20270223
 UID:pro-redsox-4de717b8c3dc@funotronic
@@ -23623,6 +23730,21 @@ URL:https://www.amicamutualpavilion.com/events/detail/providence-college-v
  s-georgetown-2
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
+DTSTART;TZID="UTC-05:00":20270224T090000
+DTEND;TZID="UTC-05:00":20270224T170000
+UID:brown-events-39521990e827@funotronic
+DESCRIPTION:The exhibit A Pictorial Dragon: The Art of Fernando Birri is o
+ n view in the Harriette Hemmasi Exhibition Gallery at the John Hay Library
+  at Brown University\, and online through a digital exhibition.\nFree\nhtt
+ ps://events.brown.edu/library/event/341491-a-pictorial-dragon-the-art-of-f
+ ernando-birri
+LOCATION:John Hay Library\, Harriette Hemmasi Exhibition Gallery\, Brown U
+ niversity
+URL:https://events.brown.edu/library/event/341491-a-pictorial-dragon-the-a
+ rt-of-fernando-birri
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Wee-One Wednesdays
 DTSTART;TZID="UTC-05:00":20270224T090000
 DTEND;TZID="UTC-05:00":20270224T100000
@@ -23651,14 +23773,15 @@ URL:https://thehanovertheatre.org/event/the-magic-school-bus-student-matin
  ee/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Brown Men's Swimming & Diving vs Ivy Championships
+SUMMARY:Brown University Men’s Swimming & Diving vs Ivy Championships
 DTSTART;TZID="UTC-05:00":20270224T110000
-UID:college-sports-77ff59e6855e@funotronic
-DESCRIPTION:https://admin.brownbears.com/calendar.aspx?game_id=21287&amp\;
- sport_id=17
+DTEND;TZID="UTC-05:00":20270224T140000
+UID:brown-events-69c3200d6e5f@funotronic
+DESCRIPTION:https://events.brown.edu/athletics/event/336833-brown-universi
+ ty-mens-swimming-diving-vs-ivy
 LOCATION:Katherine Moran Coleman Aquatics Center\, Providence
-URL:https://admin.brownbears.com/calendar.aspx?game_id=21287&amp;sport_id=
- 17
+URL:https://events.brown.edu/athletics/event/336833-brown-university-mens-
+ swimming-diving-vs-ivy
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Mother Russia
@@ -23670,6 +23793,16 @@ DESCRIPTION:By Lauren Yee Directed by Tatyana-Marie Carlo It’s 1992 in t
  0FQr00000NYvwIMAT
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nasrin Olla (University of Virginia)
+DTSTART;TZID="UTC-05:00":20270224T180000
+UID:brown-events-b2a9202b8e49@funotronic
+DESCRIPTION:https://events.brown.edu/english/event/333689-nasrin-olla-univ
+ ersity-of-virginia
+LOCATION:70 Brown Street\, Barker Room\, 315\, Brown University
+URL:https://events.brown.edu/english/event/333689-nasrin-olla-university-o
+ f-virginia
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Providence Bruins vs Springfield Thunderbirds
@@ -23713,42 +23846,14 @@ LOCATION:JetBlue Park\, 4 Jersey St\, Boston\, MA
 URL:https://www.mlb.com/redsox/tickets
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
-DTSTART;TZID="UTC-05:00":20270225T090000
-DTEND;TZID="UTC-05:00":20270225T170000
-UID:brown-events-e1309d2088ba@funotronic
-DESCRIPTION:The exhibit A Pictorial Dragon: The Art of Fernando Birri is o
- n view in the Harriette Hemmasi Exhibition Gallery at the John Hay Library
-  at Brown University\, and online through a digital exhibition.\nFree\nhtt
- ps://events.brown.edu/library/event/341492-a-pictorial-dragon-the-art-of-f
- ernando-birri
-LOCATION:John Hay Library\, Harriette Hemmasi Exhibition Gallery\, Brown U
- niversity
-URL:https://events.brown.edu/library/event/341492-a-pictorial-dragon-the-a
- rt-of-fernando-birri
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Brown University Men’s Swimming & Diving vs Ivy Championships
+SUMMARY:Brown Men's Swimming & Diving vs Ivy Championships
 DTSTART;TZID="UTC-05:00":20270225T110000
-DTEND;TZID="UTC-05:00":20270225T140000
-UID:brown-events-0e48be75fb90@funotronic
-DESCRIPTION:https://events.brown.edu/athletics/event/336832-brown-universi
- ty-mens-swimming-diving-vs-ivy
+UID:college-sports-4f0fb1a880fd@funotronic
+DESCRIPTION:https://admin.brownbears.com/calendar.aspx?game_id=21288&amp\;
+ sport_id=17
 LOCATION:Katherine Moran Coleman Aquatics Center\, Providence
-URL:https://events.brown.edu/athletics/event/336832-brown-university-mens-
- swimming-diving-vs-ivy
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Brown Bag Series in Archaeology | Marina Redina-Thomas *Note new d
- ate!
-DTSTART;TZID="UTC-05:00":20270225T120000
-DTEND;TZID="UTC-05:00":20270225T125000
-UID:brown-events-273011cf0f5a@funotronic
-DESCRIPTION:https://events.brown.edu/live/events/339450-brown-bag-series-i
- n-archaeology-marina-redina-thomas
-LOCATION:Rhode Island Hall\, 108\, Brown University
-URL:https://events.brown.edu/live/events/339450-brown-bag-series-in-archae
- ology-marina-redina-thomas
+URL:https://admin.brownbears.com/calendar.aspx?game_id=21288&amp;sport_id=
+ 17
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bryant Men's Basketball vs University of Massachusetts Lowell
@@ -24576,6 +24681,20 @@ DESCRIPTION:By Lauren Yee Directed by Tatyana-Marie Carlo It’s 1992 in t
  0FQr00000NYxd7MAD
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cory Branan
+DTSTART;TZID="UTC-05:00":20270306T170000
+DTEND;TZID="UTC-05:00":20270306T213000
+UID:alchemy-a2f6dc7e7042@funotronic
+DESCRIPTION:Over the last two decades Cory Branan has released five albums
+  to much critical acclaim from NPR\, Pitchfork and Rolling Stone among oth
+ ers\, who called him\, “A country boy with a punk-rock heart.” He has 
+ toured extensively\, appearing on…\nOver the last two decades Cory Brana
+ n has released five albums to much critical \nhttps://app.opendate.io/e/co
+ ry-branan-march-06-2027-788538
+LOCATION:Alchemy\, 71 Richmond St
+URL:https://alchemyri.net/providence-downtown-alchemy-events
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Craig Conant
@@ -25471,18 +25590,6 @@ DESCRIPTION:Boston Red Sox host the Pittsburgh Pirates at Fenway Park.\nht
  tps://www.mlb.com/redsox/tickets
 LOCATION:JetBlue Park\, 4 Jersey St\, Boston\, MA
 URL:https://www.mlb.com/redsox/tickets
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Megan Mullin - Adaptation & Recovery From the LA Fires
-DTSTART;TZID="UTC-04:00":20270319T140000
-DTEND;TZID="UTC-04:00":20270319T150000
-UID:brown-events-d2e9ce1ab82c@funotronic
-DESCRIPTION:https://events.brown.edu/climate-solutions-lab/event/338179-me
- gan-mullin-adaptation-recovery-from-the-la-fires
-LOCATION:Watson School of International and Public Affairs\, 111 Thayer St
- reet\, Providence
-URL:https://events.brown.edu/climate-solutions-lab/event/338179-megan-mull
- in-adaptation-recovery-from-the-la-fires
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tai Chi Beginner Level
@@ -26620,6 +26727,17 @@ DESCRIPTION:By August Wilson Director to be announced. Blues legend Ma Rai
  et/#/instances/a0FQr00000NYyirMAD
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rereading with Barbara Johnson
+DTSTART;TZID="UTC-04:00":20270409T130000
+DTEND;TZID="UTC-04:00":20270409T170000
+UID:brown-events-90abd442175d@funotronic
+DESCRIPTION:Free\nhttps://events.brown.edu/pembroke/event/336493-rereading
+ -with-barbara-johnson
+LOCATION:Pembroke Hall\, 305\, Brown University
+URL:https://events.brown.edu/pembroke/event/336493-rereading-with-barbara-
+ johnson
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bryant Baseball vs University of Massachusetts Lowell
