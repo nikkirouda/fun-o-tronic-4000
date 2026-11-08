@@ -103,15 +103,26 @@ URL:https://clpvd.org/event/african-american-fiction-book-club-where-the-w
  ildflowers-grow-2/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Brown University Women’s Ice Hockey vs Dartmouth- Alumnae Day
+SUMMARY:[W] Brown University Women’s Ice Hockey vs Dartmouth- Alumnae Da
+ y
 DTSTART;TZID="UTC-05:00":20261107T140000
 DTEND;TZID="UTC-05:00":20261107T170000
-UID:brown-events-6cc1b9769750@funotronic
-DESCRIPTION:W 2-1\nhttps://events.brown.edu/athletics/event/336475-brown-u
- niversity-womens-ice-hockey-vs-dartmouth
+UID:brown-events-375fe8bd0195@funotronic
+DESCRIPTION:https://events.brown.edu/athletics/event/336475-brown-universi
+ ty-womens-ice-hockey-vs-dartmouth
 LOCATION:Meehan Auditorium\, Providence
 URL:https://events.brown.edu/athletics/event/336475-brown-university-women
  s-ice-hockey-vs-dartmouth
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Brown Women's Ice Hockey vs Dartmouth - Alumnae Day
+DTSTART;TZID="UTC-05:00":20261107T140000
+UID:college-sports-2223bbbcac9b@funotronic
+DESCRIPTION:W 2-1\nhttps://admin.brownbears.com/calendar.aspx?game_id=2092
+ 0&amp\;sport_id=28
+LOCATION:Meehan Auditorium\, Providence
+URL:https://admin.brownbears.com/calendar.aspx?game_id=20920&amp;sport_id=
+ 28
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Monument (2026) Screening and Discussion
@@ -192,15 +203,25 @@ LOCATION:Rochambeau Library – Children’s Area 1\, 708 Hope Street Prov
 URL:https://clpvd.org/event/tween-journaling-club-2/2026-11-07/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Brown University Women’s Basketball vs Bucknell
+SUMMARY:[W] Brown University Women’s Basketball vs Bucknell
 DTSTART;TZID="UTC-05:00":20261107T150000
 DTEND;TZID="UTC-05:00":20261107T170000
-UID:brown-events-f02f39cb4119@funotronic
-DESCRIPTION:W 73-61\nhttps://events.brown.edu/athletics/event/335999-brown
- -university-womens-basketball-vs-bucknell
+UID:brown-events-18c5f7feb417@funotronic
+DESCRIPTION:https://events.brown.edu/athletics/event/335999-brown-universi
+ ty-womens-basketball-vs-bucknell
 LOCATION:Pizzitola Sports Center\, Providence
 URL:https://events.brown.edu/athletics/event/335999-brown-university-women
  s-basketball-vs-bucknell
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Brown Women's Basketball vs Bucknell
+DTSTART;TZID="UTC-05:00":20261107T150000
+UID:college-sports-17b3cac563e9@funotronic
+DESCRIPTION:W 73-61\nhttps://admin.brownbears.com/calendar.aspx?game_id=21
+ 131&amp\;sport_id=22
+LOCATION:Pizzitola Sports Center\, Providence
+URL:https://admin.brownbears.com/calendar.aspx?game_id=21131&amp;sport_id=
+ 22
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Children's Event with Mariahadessa Ekere Tallie
@@ -387,6 +408,17 @@ DESCRIPTION:THIS EVENT TAKES PLACE AT THE VETS LOCATED AT 1 AVENUE OF THE
  vacious vagabond voyages with…\nhttps://thevets.evenue.net/events/LUCY
 LOCATION:The VETS\, 1 Avenue of the Arts
 URL:https://www.ppacri.org/events/detail/lucy-darling-youre-welcome
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:PIG: Saturday Night Show - 11/7
+DTSTART;TZID="UTC-05:00":20261107T193000
+UID:pig-2c20d89d7dbd@funotronic
+DESCRIPTION:Improv Comedy Night featuring class showcases\, P.I.G House te
+ ams\, and indie teams. Show Line Up: 7:30pm: Level 2 Showcase\, Level 4 Sh
+ owcase\, Real Mature\, The Hubbub 9:30pm: Business Donut\, Traffic Strike
+ \nhttps://improvpig.com/products/saturday-night-show-11-7
+LOCATION:Providence Improv Guild\, 95 Empire St
+URL:https://improvpig.com/products/saturday-night-show-11-7
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Great Gatsby
@@ -19531,16 +19563,6 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-05:00":20261227T180000
-UID:brown-events-36b21c89193b@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338654
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338654-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:The Debut
 DTSTART;VALUE=DATE:20261228
 UID:jpt-4be41e5d3c92@funotronic
@@ -20030,16 +20052,6 @@ DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
  kens.com/shows/debut
 LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
 URL:https://janepickens.com/shows/debut
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-05:00":20270103T180000
-UID:brown-events-c34fa7238f99@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338655
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338655-christi
- an-worship-service
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Debut
