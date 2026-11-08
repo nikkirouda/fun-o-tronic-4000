@@ -321,18 +321,6 @@ URL:https://events.brown.edu/africana/event/342744-a-night-of-nottage-nove
  mber-7th
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A View From The Bridge
-DTSTART;TZID="UTC-05:00":20261107T190000
-UID:pm-gamm-4aa4cb75a741@funotronic
-DESCRIPTION:"Just remember\, kid\, you can quicker get back a million doll
- ars that was stolen than a word that you gave away." On the Brooklyn water
- front\, longshoreman Eddie Carbone lives by a strict code of loyalty\, fam
- ily\, and respect.\nhttps://gammtheatre.my.salesforce-sites.com/ticket/#/i
- nstances/a0Fcw00000oLRTREA4
-LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
-URL:https://www.gammtheatre.org/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:ABT Studio Company
 DTSTART;TZID="UTC-05:00":20261107T190000
 UID:ch-shubertnh-76c8c26506ea@funotronic
@@ -19209,6 +19197,17 @@ URL:https://www.stadiumtheatre.com/events/holiday-pops-with-the-stadium-th
  eatre-orchestra
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20261224
+UID:jpt-9fed853a5694@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20261224T090000
 DTEND;TZID="UTC-05:00":20261224T170000
@@ -19259,6 +19258,17 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20261225
+UID:jpt-486ff1d47a86@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20261225T090000
 DTEND;TZID="UTC-05:00":20261225T170000
@@ -19295,6 +19305,17 @@ DESCRIPTION:RSVP: Contact be.balanced01@gmail.com and link All Fitness in
 LOCATION:Gateway Center at Roger Williams Park\, 1197 Broad Street Provide
  nce 02907
 URL:https://www.providenceri.gov/event/taichi-beginner-level/2026-12-25/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20261226
+UID:jpt-5157d525e7f6@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bachata & Merengue
@@ -19414,6 +19435,17 @@ LOCATION:Narrows Center for the Arts\, 16 Anawan St\, Fall River\, MA
 URL:https://narrowscenter.showare.com/eventperformances.asp?evt=256
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20261227
+UID:jpt-8346f503f0ed@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Visit the Zoo Day Food Drive (free Zoo admission)
 DTSTART;TZID="UTC-05:00":20261227T100000
 DTEND;TZID="UTC-05:00":20261227T160000
@@ -19499,6 +19531,27 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Christian Worship Service
+DTSTART;TZID="UTC-05:00":20261227T180000
+UID:brown-events-36b21c89193b@funotronic
+DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338654
+ -christian-worship-service
+LOCATION:Manning Chapel\, Providence
+URL:https://events.brown.edu/chaplains-religious-life/event/338654-christi
+ an-worship-service
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20261228
+UID:jpt-4be41e5d3c92@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20261228T090000
 DTEND;TZID="UTC-05:00":20261228T170000
@@ -19550,6 +19603,17 @@ LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20261229
+UID:jpt-212f3818a86f@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20261229T090000
 DTEND;TZID="UTC-05:00":20261229T170000
@@ -19596,6 +19660,17 @@ DESCRIPTION:Trinity Rep's 50th Anniversary Production Adapted from the ori
  instances/a0FQr00000NRDrxMAH
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20261230
+UID:jpt-8cb4837cf430@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -19713,6 +19788,17 @@ LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20261231
+UID:jpt-3d0dc977e28c@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20261231T090000
 DTEND;TZID="UTC-05:00":20261231T170000
@@ -19772,6 +19858,17 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20270101
+UID:jpt-55539dec5b89@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20270101T090000
 DTEND;TZID="UTC-05:00":20270101T170000
@@ -19819,6 +19916,17 @@ DESCRIPTION:https://events.brown.edu/athletics/event/336232-brown-universi
 LOCATION:Meehan Auditorium\, Providence
 URL:https://events.brown.edu/athletics/event/336232-brown-university-mens-
  ice-hockey-vs-dartmouth
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20270102
+UID:jpt-63e687bd341b@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bachata & Merengue
@@ -19913,6 +20021,38 @@ LOCATION:Gillette Stadium\, 1 Patriot Pl\, Foxborough\, MA
 URL:https://www.patriots.com/tickets/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20270103
+UID:jpt-2f281c7df920@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Christian Worship Service
+DTSTART;TZID="UTC-05:00":20270103T180000
+UID:brown-events-c34fa7238f99@funotronic
+DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338655
+ -christian-worship-service
+LOCATION:Manning Chapel\, Providence
+URL:https://events.brown.edu/chaplains-religious-life/event/338655-christi
+ an-worship-service
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20270104
+UID:jpt-fca07a46deff@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20270104T090000
 DTEND;TZID="UTC-05:00":20270104T170000
@@ -19937,6 +20077,17 @@ DESCRIPTION:https://events.brown.edu/athletics/event/335987-brown-universi
 LOCATION:Pizzitola Sports Center\, Providence
 URL:https://events.brown.edu/athletics/event/335987-brown-university-women
  s-basketball-vs-yale
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20270105
+UID:jpt-457cd103bd55@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -19998,6 +20149,17 @@ DESCRIPTION:Boston Bruins host the Buffalo Sabres at TD Garden.\nresale fr
  om $82\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nhl.com/bruins/tickets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Debut
+DTSTART;VALUE=DATE:20270106
+UID:jpt-a4fbab75b2f5@funotronic
+DESCRIPTION:When an unassuming housewife is unexpectedly cast in a communi
+ ty theater production\, she loses herself in the role under the spell of a
+  strong-willed director. Showtimes on the theater's page.\nhttps://janepic
+ kens.com/shows/debut
+LOCATION:Jane Pickens Theater\, 49 Touro St\, Newport
+URL:https://janepickens.com/shows/debut
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
