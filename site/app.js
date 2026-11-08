@@ -38,7 +38,7 @@
     hidden: new Set(LS("hidden", [])), hiddenVenues: new Set(LS("hiddenVenues", [])),
     follows: LS("follows", []), taste: LS("taste", { cat: {}, venue: {}, tag: {}, source: {}, n: 0 }),
     votes: LS("votes", {}), lastVisit: LS("lastVisit", null), mode: "browse", // browse | stars | new | shortlist
-    shortlist: null, shortlistFrom: "", mine: LS("mine", null), busy: [], hideBusy: LS("hideBusy", true),
+    shortlist: null, shortlistFrom: "", mine: LS("mine", null), busy: [], hideBusy: LS("hideBusy", true), mineIgnore: LS("mineIgnore", ["antarctica"]),
   };
   Object.assign(S, LS("filters", {}));
   if (Array.isArray(S.cats)) S.cats = new Set(S.cats);
@@ -155,7 +155,9 @@
     S.busy = []; refreshGoingDays();
     const mine = S.mine; if (!mine) return;
     for (const id of mine.going || []) if (S.events.some(e => e.id === id)) { S.going.add(id); S.stars.add(id); }
-    S.busy = (mine.busy || []).map(b => ({ ...b, _s: new Date(b.start).getTime(), _e: new Date(b.end).getTime(), _day: dayKey(new Date(b.start)) }));
+    const ig = (S.mineIgnore || []).map(x => x.toLowerCase()).filter(Boolean);
+    S.busy = (mine.busy || []).filter(b => !ig.some(x => (b.title || "").toLowerCase().includes(x)))
+      .map(b => ({ ...b, _s: new Date(b.start).getTime(), _e: new Date(b.end).getTime(), _day: dayKey(new Date(b.start)) }));
     refreshGoingDays(); persist();
   }
   async function importMine(file) {
@@ -753,6 +755,7 @@
           <input type="file" id="mineFile" accept="application/json,.json" style="margin-top:6px">
           ${S.mine ? `<div class="fine">✓ on · ${S.mine.going.length} shows marked, ${S.busy.length} busy windows, built ${fmt(new Date(S.mine.generated), { month: "short", day: "numeric" })} · <button class="linkish" id="mineClear">remove</button></div>` : ""}</div>
         <div><label class="tog"><input type="checkbox" id="hideBusyTog" ${S.hideBusy ? "checked" : ""}> Hide what I can't attend (busy windows, days I'm away, days I'm already going somewhere)</label></div>
+        <div><b>Ignore calendar entries containing</b> (reminders, chores — comma-separated):<br><input type="text" id="mineIgnore" value="${esc((S.mineIgnore || []).join(", "))}" placeholder="e.g. antarctica, garden, boiler"><button class="btn" id="mineIgnoreSave" style="margin-top:6px">Save</button></div>
         <div><b>Going.</b> ${S.going.size} booked. The day's tile shows it first and dims the rest; it lives under ★ too.</div>
         <div><b>Mood.</b> Quiet night ↔ big night. Tilts <i>Best for you</i>, Surprise me and the calendar's picks; the list itself stays as sorted.<div class="mood-row">🕯 Quiet <input type="range" id="moodSheet" min="0" max="100" value="${S.mood}"> Big 🎆</div></div>
         <div><label class="tog"><input type="checkbox" id="groupTog" ${S.group ? "checked" : ""}> Group a production's performances into one card</label></div>
@@ -770,6 +773,7 @@
     $("#unhide").onclick = () => { S.hidden.clear(); S.hiddenVenues.clear(); persist(); buildVenueSel(); closeSheet(); render(); toast("Everything unhidden"); };
     $("#groupTog").onchange = e => { S.group = e.target.checked; persist(); render(); };
     $("#hideBusyTog").onchange = e => { S.hideBusy = e.target.checked; save("hideBusy", S.hideBusy); render(); };
+    $("#mineIgnoreSave").onclick = async () => { S.mineIgnore = $("#mineIgnore").value.split(",").map(x => x.trim()).filter(Boolean); save("mineIgnore", S.mineIgnore); closeSheet(); await loadMine(); render(); toast(`Ignoring ${S.mineIgnore.length} pattern${S.mineIgnore.length === 1 ? "" : "s"}`); };
     $("#moodSheet").oninput = e => { S.mood = Number(e.target.value); $("#mood").value = S.mood; persist(); };
     $("#moodSheet").onchange = () => { if (S.sort === "you" || S.view !== "list") render(); };
     $("#copyTaste").onclick = async () => { await navigator.clipboard.writeText(tasteSummary()); toast("Copied — paste it to Jeeves"); };

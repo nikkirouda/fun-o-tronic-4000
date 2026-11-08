@@ -81,8 +81,11 @@ def main() -> int:
     ap.add_argument("calendar")
     ap.add_argument("--out", required=True, help="a private path — never inside site/")
     ap.add_argument("--report", action="store_true")
+    ap.add_argument("--ignore", default="antarctica", help="comma-separated substrings; matching calendar titles are left out (reminders, chores)")
     a = ap.parse_args()
     cal = json.load(open(a.calendar))
+    ig = [x.strip().lower() for x in a.ignore.split(",") if x.strip()]
+    cal = [c for c in cal if not any(x in (c.get("summary") or "").lower() for x in ig)]
     events = json.load(open(ROOT / "site" / "data" / "events.json"))["events"]
     going, matches = match(cal, events)
     busy = []
