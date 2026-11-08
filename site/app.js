@@ -393,7 +393,8 @@
         (wide ? `<span class="evs">${top.map(g => { const e = g[0]; const times = e.all_day ? "" : g.slice(0, 3).map(timeStr).join(" & ") + (g.length > 3 ? " +" : ""); return `<a class="ev" data-id="${e.id}" style="--cc:var(--c-${e.category})" title="${esc(e.title)} · ${esc(e.venue)}${times ? " · " + times : ""}">${times ? `<b>${times}</b> ` : ""}${esc(e.title)}</a>`; }).join("")}${evs.length > shown ? `<span class="morel">+${evs.length - shown} more</span>` : ""}</span>`
               : `<span class="dots">${cats.map(k => `<i style="background:var(--c-${k})"></i>`).join("")}</span>`) +
         (evs.length ? `<span class="cnt">${evs.length}</span><span class="heat" style="width:${Math.round(100 * evs.length / max)}%"></span>` : "");
-      if (key < t) c.style.opacity = .45;
+      const [ra, rb] = S.when === "custom" && S.mode === "browse" ? range() : [null, null];
+      if (key < t || (ra && (key < ra || key > rb))) c.style.opacity = .45;
       c.onclick = ev => { const a = ev.target.closest("a.ev"); if (a) { ev.stopPropagation(); openSheet(S.events.find(e => e.id === a.dataset.id)); return; } S.calSel = key; renderCal(list); };
       grid.appendChild(c);
     }
@@ -564,8 +565,9 @@
     $$("#whenChips button").forEach(b => b.classList.toggle("on", b.dataset.when === S.when && S.mode === "browse"));
     $("#customRange").hidden = S.when !== "custom";
   }
-  $$("#whenChips button").forEach(b => b.onclick = () => { if (b.dataset.when === "custom" && !S.from) { S.from = todayKey(); S.to = addDays(S.from, 30); $("#fromDate").value = S.from; $("#toDate").value = S.to; } setWhen(b.dataset.when); });
-  $("#fromDate").onchange = e => { S.from = e.target.value; render(); };
+  $$("#whenChips button").forEach(b => b.onclick = () => { if (b.dataset.when === "custom" && !S.from) { S.from = todayKey(); S.to = addDays(S.from, 30); $("#fromDate").value = S.from; $("#toDate").value = S.to; } if (b.dataset.when === "custom") jumpCal(); else { S.calMonth = null; S.calSel = null; } setWhen(b.dataset.when); });
+  const jumpCal = () => { if (S.from) { S.calMonth = S.from.slice(0, 7); S.calSel = S.from; } };
+  $("#fromDate").onchange = e => { S.from = e.target.value; if (S.to && S.to < S.from) { S.to = S.from; $("#toDate").value = S.to; } jumpCal(); render(); };
   $("#toDate").onchange = e => { S.to = e.target.value; render(); };
   let qTimer; $("#q").oninput = e => { clearTimeout(qTimer); qTimer = setTimeout(() => { S.q = e.target.value.trim(); S.shown = 60; if (S.q && S.when !== "all" && S.when !== "custom") { S._whenBefore ||= S.when; S.when = "all"; syncWhen(); } else if (!S.q && S._whenBefore) { S.when = S._whenBefore; S._whenBefore = null; syncWhen(); } render(); }, 180); };
   $("#freeOnly").onchange = e => { S.freeOnly = e.target.checked; persist(); render(); };
