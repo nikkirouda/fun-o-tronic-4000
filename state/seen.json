@@ -49,6 +49,11 @@
 "on_sale": null,
 "ticket": true
 },
+"alchemy-492d35f5fa4c": {
+"first_seen": "2026-11-07T21:03-05:00",
+"on_sale": null,
+"ticket": false
+},
 "alchemy-497299014014": {
 "first_seen": "2026-11-07T09:17-05:00",
 "on_sale": null,
@@ -78,6 +83,11 @@
 "first_seen": "2026-11-07T09:17-05:00",
 "on_sale": null,
 "ticket": true
+},
+"alchemy-8979a320a4cd": {
+"first_seen": "2026-11-07T21:03-05:00",
+"on_sale": null,
+"ticket": false
 },
 "alchemy-97eff8114b0d": {
 "first_seen": "2026-11-07T09:17-05:00",
@@ -129,6 +139,11 @@
 "on_sale": null,
 "ticket": true
 },
+"alchemy-cd565dfa8154": {
+"first_seen": "2026-11-07T21:03-05:00",
+"on_sale": null,
+"ticket": true
+},
 "alchemy-d2ec4c794b31": {
 "first_seen": "2026-11-07T09:17-05:00",
 "on_sale": null,
@@ -151,6 +166,11 @@
 },
 "alchemy-e3a5b4663dfb": {
 "first_seen": "2026-11-07T09:17-05:00",
+"on_sale": null,
+"ticket": true
+},
+"alchemy-e700dc988e8b": {
+"first_seen": "2026-11-07T21:03-05:00",
 "on_sale": null,
 "ticket": true
 },
@@ -6122,7 +6142,7 @@
 "ch-shubertnh-3bc9ee3f0c59": {
 "first_seen": "2026-11-07T12:16-05:00",
 "on_sale": null,
-"ticket": false
+"ticket": true
 },
 "ch-shubertnh-3c67685fbc82": {
 "first_seen": "2026-11-07T12:16-05:00",
@@ -13464,6 +13484,11 @@
 "on_sale": null,
 "ticket": true
 },
+"stadium-b66803380a1b": {
+"first_seen": "2026-11-07T21:03-05:00",
+"on_sale": null,
+"ticket": true
+},
 "stadium-cc31c54edf0d": {
 "first_seen": "2026-11-07T09:17-05:00",
 "on_sale": null,
@@ -15583,6 +15608,11 @@
 "first_seen": "2026-11-07T09:17-05:00",
 "on_sale": null,
 "ticket": true
+},
+"tribe-pvdcity-87e9d381ebb8": {
+"first_seen": "2026-11-07T21:03-05:00",
+"on_sale": null,
+"ticket": false
 },
 "tribe-pvdcity-8b12ae3c591e": {
 "first_seen": "2026-11-07T09:17-05:00",
