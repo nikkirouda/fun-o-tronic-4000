@@ -257,6 +257,7 @@ main { padding: 0 16px 24px; max-width: 1400px; margin: 0 auto; }
 .datenight.lit { background: var(--accent3); border-color: var(--accent3); color: #fff; }
 .mood { display: inline-flex; align-items: center; gap: 4px; font-size: 13px; }
 .mood input { width: 90px; accent-color: var(--accent); }
+.mood-l { font-size: 11px; color: var(--ink2); white-space: nowrap; }
 .card .soon { font-size: 10px; font-weight: 700; color: var(--accent2); margin-top: 3px; text-transform: uppercase; letter-spacing: .3px; }
 .card.ended { opacity: .5; }
 .card.ended .soon { color: var(--ink2); }
@@ -328,3 +329,6 @@ main { padding: 0 16px 24px; max-width: 1400px; margin: 0 auto; }
 }
 
 .chips.cats button.empty { opacity: .45; }
+
+.kv input[type=range] { width: 100%; accent-color: var(--accent); }
+.kv .mood-row { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--ink2); }

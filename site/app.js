@@ -653,6 +653,7 @@
         <div><b>Follow</b> venues, artists or words — matches get a ✦ badge, rank higher, and appear under ✦.<br>
           <input type="text" id="followIn" placeholder="e.g. trinity, odeum, dave matthews, jazz" value="${esc(S.follows.join(", "))}"><button class="btn" id="followSave" style="margin-top:6px">Save follows</button></div>
         <div><b>Hidden.</b> ${S.hidden.size} event${S.hidden.size === 1 ? "" : "s"}${hv.length ? `, venues: ${esc(hv.join(", "))}` : ""}. <button class="linkish" id="unhide">Unhide everything</button></div>
+        <div><b>Mood.</b> Quiet night ↔ big night. Tilts <i>Best for you</i>, Surprise me and the calendar's picks; the list itself stays as sorted.<div class="mood-row">🕯 Quiet <input type="range" id="moodSheet" min="0" max="100" value="${S.mood}"> Big 🎆</div></div>
         <div><label class="tog"><input type="checkbox" id="groupTog" ${S.group ? "checked" : ""}> Group a production's performances into one card</label></div>
         <div><b>Calendar feed.</b> Everything in one subscribable calendar. In Google Calendar: <i>Other calendars → + → From URL</i>, paste:<br><input type="url" readonly value="${esc(feed)}" onclick="this.select()"></div>
         <div><b>Install.</b> On your phone: browser menu → <i>Add to Home screen</i>. It opens like an app.</div>
@@ -664,6 +665,8 @@
     $("#followSave").onclick = () => { S.follows = $("#followIn").value.split(",").map(s => s.trim()).filter(Boolean); S.followIds = new Set(S.events.filter(isFollowed).map(e => e.id)); persist(); closeSheet(); render(); toast(`Following ${S.follows.length} thing${S.follows.length === 1 ? "" : "s"}`); };
     $("#unhide").onclick = () => { S.hidden.clear(); S.hiddenVenues.clear(); persist(); buildVenueSel(); closeSheet(); render(); toast("Everything unhidden"); };
     $("#groupTog").onchange = e => { S.group = e.target.checked; persist(); render(); };
+    $("#moodSheet").oninput = e => { S.mood = Number(e.target.value); $("#mood").value = S.mood; persist(); };
+    $("#moodSheet").onchange = () => { if (S.sort === "you" || S.view !== "list") render(); };
     $("#copyTaste").onclick = async () => { await navigator.clipboard.writeText(tasteSummary()); toast("Copied — paste it to Jeeves"); };
     $("#resetTaste").onclick = () => { S.taste = { cat: {}, venue: {}, tag: {}, source: {}, n: 0 }; persist(); toast("Taste reset"); };
     $("#clearAll").onclick = () => { localStorage.clear(); location.reload(); };
