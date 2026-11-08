@@ -17,18 +17,6 @@ LOCATION:RISD — Joan T. Boghossian Gallery\, Providence Public Library\,
 URL:https://involved.risd.edu/event/12886737
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Youth Climate Conference
-DTSTART;TZID="UTC-05:00":20261107T091500
-DTEND;TZID="UTC-05:00":20261107T151500
-UID:tribe-rwpzoo-a8e3bffcd3be@funotronic
-DESCRIPTION:Join us and Rhode Island Environmental Education Association o
- n Saturday\, November 7\, 2026 from 9:15 am–3:15 pm for an exciting all-
- day event for youth ages 14–18 at the Zoo.\nFREE\nhttps://www.rieea.org/
- programs/youth-leadership/
-LOCATION:Roger Williams Park Zoo\, 1000 Elmwood Avenue Providence 02907
-URL:https://www.rwpzoo.org/event/youth-climate-conference/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Rhode Island Comic Con 2026
 DTSTART;TZID="UTC-05:00":20261107T100000
 DTEND;TZID="UTC-05:00":20261108T100000
