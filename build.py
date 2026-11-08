@@ -81,6 +81,29 @@ def norm_title(t: str) -> str:
     return _norm_rx.sub(" ", t).strip()
 
 
+RELIGIOUS_RX = re.compile(
+    r"\b(mass\b|worship|prayer|praying|sermon|liturgy|liturgical|vespers|evensong|compline|rosary|adoration|"
+    r"bible|scripture|gospel study|torah|talmud|shabbat|shabbos|minyan|havdalah|jumu'?ah|iqra|quran|qur'an|"
+    r"eucharist|communion service|baptism|confirmation class|catechism|devotional|devotions|fellowship group|"
+    r"chaplain|chaplaincy|religious life|interfaith service|church service|sunday service|sabbath|"
+    r"meditation and prayer|dharma talk|satsang|puja|kirtan|advent service|lessons and carols|christmas eve service|"
+    r"midnight mass|easter service|good friday|holy week|lenten|ash wednesday|yom kippur service|high holidays)\b", re.I)
+RELIGIOUS_GROUPS = re.compile(r"chaplain|religious life|campus ministry|hillel services|catholic center|newman", re.I)
+CONCERT_RX = re.compile(r"\b(concert|recital|orchestra|choir performs|chorus|symphony|quartet|organ recital|jazz|handel|bach|"
+                        r"messiah|nutcracker|tree lighting|carol sing|caroling|holiday market|christmas market|"
+                        r"santa|elf|grinch|holiday lights|illuminated|parade|festival|tour|exhibit)\b", re.I)
+
+
+def is_religious(e: dict) -> bool:
+    title = e.get("title", "")
+    blob = f"{title} {' '.join(e.get('tags', []))} {(e.get('extra') or {}).get('group', '')} {(e.get('extra') or {}).get('sponsor', '')}"
+    if RELIGIOUS_GROUPS.search(f"{(e.get('extra') or {}).get('group', '')} {(e.get('extra') or {}).get('sponsor', '')}"):
+        return True
+    if RELIGIOUS_RX.search(blob):
+        return not CONCERT_RX.search(title)  # "Messiah" / "Lessons and Carols concert" stay; services go
+    return False
+
+
 def dedupe(events: list[dict]) -> list[dict]:
     """Same show, same start (±90 min), same venue (or same normalized title) → keep the richest."""
     by_key: dict[tuple, dict] = {}
@@ -217,6 +240,11 @@ def main() -> int:
             continue
         if (en or st) >= lo and st <= hi:
             kept.append(e)
+    # Captain's word 2026-11-08: nothing religious — services, worship, prayer, scripture study, chaplaincy —
+    # ever. Concerts and secular holiday fun that merely happen in a church are not religious.
+    before = len(kept)
+    kept = [e for e in kept if not is_religious(e)]
+    log.info("dropped %d religious listings", before - len(kept))
     events = dedupe(kept)
     import math
     def miles(lat, lon):

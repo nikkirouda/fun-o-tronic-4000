@@ -42,17 +42,6 @@ URL:https://www.amicamutualpavilion.com/events/detail/rhode-island-comic-c
  on-4
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Workshop: Zen Buddhist Practice with Prof. Bret Davis
-DTSTART;TZID="UTC-05:00":20261107T110000
-DTEND;TZID="UTC-05:00":20261107T163000
-UID:brown-events-1e9519bc363d@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/contemplative/event/342572-work
- shop-zen-buddhist-practice-with-prof-bret
-LOCATION:Weiner Center (Hillel)\, Winnick Chapel\, Brown University
-URL:https://events.brown.edu/contemplative/event/342572-workshop-zen-buddh
- ist-practice-with-prof-bret
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[T] Brown University Men’s Soccer vs Yale- Senior Day
 DTSTART;TZID="UTC-05:00":20261107T130000
 DTEND;TZID="UTC-05:00":20261107T150000
@@ -86,35 +75,6 @@ DESCRIPTION:Come learn to make a broom using traditional broom making tech
 LOCATION:Rochambeau Library – Community Room\, 708 Hope Street Providenc
  e 02906
 URL:https://clpvd.org/event/broom-making-at-rochambeau/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Brown Men's Soccer vs Yale - Senior Day
-DTSTART;TZID="UTC-05:00":20261107T130000
-UID:college-sports-5c66c693ccee@funotronic
-DESCRIPTION:T 1-1\nhttps://admin.brownbears.com/calendar.aspx?game_id=2085
- 3&amp\;sport_id=15
-LOCATION:Stevenson-Pincince Field\, Providence
-URL:https://admin.brownbears.com/calendar.aspx?game_id=20853&amp;sport_id=
- 15
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Bryant Football vs University at Albany
-DTSTART;TZID="UTC-05:00":20261107T130000
-UID:college-sports-d7229d330849@funotronic
-DESCRIPTION:W 31-7\nhttps://bryantbulldogs.com/calendar.aspx?game_id=12259
- &amp\;sport_id=5
-LOCATION:Beirne Stadium\, Smithfield
-URL:https://bryantbulldogs.com/calendar.aspx?game_id=12259&amp;sport_id=5
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Providence College Women's Basketball vs Massachusetts - Fall Fest
-  | Poster & Schedule Magnet Giveaway
-DTSTART;TZID="UTC-05:00":20261107T130000
-UID:college-sports-faab14aa59c8@funotronic
-DESCRIPTION:L 50-60\nhttps://admin.friars.com/calendar.aspx?game_id=12726&
- amp\;sport_id=11
-LOCATION:Alumni Hall\, Providence
-URL:https://admin.friars.com/calendar.aspx?game_id=12726&amp;sport_id=11
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tufting Workshop
@@ -441,17 +401,6 @@ LOCATION:The VETS\, 1 Avenue of the Arts
 URL:https://www.ppacri.org/events/detail/lucy-darling-youre-welcome
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:PIG: Saturday Night Show - 11/7
-DTSTART;TZID="UTC-05:00":20261107T193000
-UID:pig-2c20d89d7dbd@funotronic
-DESCRIPTION:Improv Comedy Night featuring class showcases\, P.I.G House te
- ams\, and indie teams. Show Line Up: 7:30pm: Level 2 Showcase\, Level 4 Sh
- owcase\, Real Mature\, The Hubbub 9:30pm: Business Donut\, Traffic Strike
- \nhttps://improvpig.com/products/saturday-night-show-11-7
-LOCATION:Providence Improv Guild\, 95 Empire St
-URL:https://improvpig.com/products/saturday-night-show-11-7
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:The Great Gatsby
 DTSTART;TZID="UTC-05:00":20261107T193000
 UID:carbonhouse-cefd1cfef4f4@funotronic
@@ -686,27 +635,6 @@ URL:https://www.providenceri.gov/event/roger-williams-park-urban-naturalis
  t-hikes-with-the-museum-of-natural-history/2026-11-08/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Workshop: ‘Daoist Sleep Alchemy’ with Dr. Simon Cox
-DTSTART;TZID="UTC-05:00":20261108T100000
-DTEND;TZID="UTC-05:00":20261108T160000
-UID:brown-events-34e39e36e907@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/live/events/342650-workshop-dao
- ist-sleep-alchemy-with-dr-simon-cox
-LOCATION:Pembroke Hall\, 305\, Brown University
-URL:https://events.brown.edu/live/events/342650-workshop-daoist-sleep-alch
- emy-with-dr-simon-cox
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Sunday Morning Mass
-DTSTART;TZID="UTC-05:00":20261108T103000
-UID:brown-events-48991bfc9df3@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338761
- -sunday-morning-mass
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338761-sunday-
- morning-mass
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:A Christmas Carol
 DTSTART;TZID="UTC-05:00":20261108T120000
 UID:pm-trinity-f8007a5332b9@funotronic
@@ -860,16 +788,6 @@ LOCATION:AS220 Black Box\, 95 Empire Street
 URL:https://as220.org/calendar/providence-noisefest-pzzes
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-05:00":20261108T180000
-UID:brown-events-a744a365fb4a@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338647
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338647-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Jim Shepard reading from THE QUEEN OF BAD INFLUENCES\, in conversa
  tion with Gary Zebrun
 DTSTART;TZID="UTC-05:00":20261108T180000
@@ -1001,16 +919,6 @@ DESCRIPTION:‘Never Exhale’ is the sound of a band that hasn’t stoppe
  ntbrite.com/e/ditz-tickets-1997584323485
 LOCATION:Machines with Magnets\, 400 Main St\, Pawtucket
 URL:https://machineswithmagnets.com/performance
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Sunday Evening Mass
-DTSTART;TZID="UTC-05:00":20261108T203000
-UID:brown-events-b13fc8ce245e@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 338776-sunday-evening-mass
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338776-sunday-
- evening-mass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Art at Watson Presents — Diagnósticos: technology\, information
@@ -1202,18 +1110,6 @@ DESCRIPTION:https://events.brown.edu/watson/event/342104-we-go-together-se
 LOCATION:McKinney Conference Room\, #353\, Brown University
 URL:https://events.brown.edu/watson/event/342104-we-go-together-security-c
  ollaboration-across-services
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261109T120500
-DTEND;TZID="UTC-05:00":20261109T123000
-UID:brown-events-0da1c5d2fa32@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 337012-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/337012-daily-m
- ass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ajay Skaria\, “Neighborism and Democracy: Some Epistemic Questio
@@ -2235,18 +2131,6 @@ LOCATION:Avon Cinema\, 260 Thayer St
 URL:https://www.avoncinema.com/now-playing.php
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Adoration & Confession
-DTSTART;TZID="UTC-05:00":20261110T183000
-DTEND;TZID="UTC-05:00":20261110T193000
-UID:brown-events-000835f912fc@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 336974-adoration-confession
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/336974-adorati
- on-confession
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Kanakapilas: Ukulele Jam
 DTSTART;TZID="UTC-05:00":20261110T183000
 DTEND;TZID="UTC-05:00":20261110T193000
@@ -2335,15 +2219,6 @@ DESCRIPTION:Trinity Rep's 50th Anniversary Production Adapted from the ori
  instances/a0FQr00000NIyQHMA1
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261110T193000
-UID:brown-events-54a735a85a74@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/live/events/336919-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/live/events/336919-daily-mass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Journey
@@ -3014,16 +2889,6 @@ URL:https://events.brown.edu/live/events/343141-an-icerm-public-event-a-di
  scussion-of-ai-and
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Brown/RISD Buddhist Club - November meeting
-DTSTART;TZID="UTC-05:00":20261111T180000
-UID:brown-events-79dca2c7a696@funotronic
-DESCRIPTION:https://events.brown.edu/general/event/343172-brownrisd-buddhi
- st-club-november-meeting
-LOCATION:Page-Robinson Hall\, 409\, Brown University
-URL:https://events.brown.edu/general/event/343172-brownrisd-buddhist-club-
- november-meeting
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Global Health 3.0: Where Do We Go From Here? A Talk With Dr. Joia 
  Mukherjee
 DTSTART;TZID="UTC-05:00":20261111T180000
@@ -3033,16 +2898,6 @@ DESCRIPTION:https://events.brown.edu/general/event/342570-global-health-30
 LOCATION:The Warren Alpert Medical School\, 160\, Brown University
 URL:https://events.brown.edu/general/event/342570-global-health-30-where-d
  o-we-go-from-here-a-talk
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-05:00":20261111T180000
-UID:brown-events-a2f9603d36b1@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340371
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340371-gratitu
- de-group
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SEAS@Brown: Along the River Road–A documentary screening with Li
@@ -3068,18 +2923,6 @@ DESCRIPTION:From two⁠-⁠time Palme d’Or winner Cristian Mungiu\, a No
  www.avoncinema.com/now-playing.php
 LOCATION:Avon Cinema\, 260 Thayer St
 URL:https://www.avoncinema.com/now-playing.php
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Adoration & Confession
-DTSTART;TZID="UTC-05:00":20261111T183000
-DTEND;TZID="UTC-05:00":20261111T193000
-UID:brown-events-8ca216e213ec@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 336975-adoration-confession
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/336975-adorati
- on-confession
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Grad Artists' Talks: Nature\, Ecologies\, Sustainability
@@ -3273,15 +3116,6 @@ DESCRIPTION:Trinity Rep's 50th Anniversary Production Adapted from the ori
  instances/a0FQr00000NIyWjMAL
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261111T193000
-UID:brown-events-83a8b1828e36@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/live/events/336920-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/live/events/336920-daily-mass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Art at Watson Presents — Diagnósticos: technology\, information
@@ -4042,18 +3876,6 @@ LOCATION:Avon Cinema\, 260 Thayer St
 URL:https://www.avoncinema.com/now-playing.php
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Adoration & Confession
-DTSTART;TZID="UTC-05:00":20261112T183000
-DTEND;TZID="UTC-05:00":20261112T193000
-UID:brown-events-1e67aeb86bab@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 336976-adoration-confession
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/336976-adorati
- on-confession
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:From Academia to Industry: Fireside Chat with Dr. Aarit Ahuja
 DTSTART;TZID="UTC-05:00":20261112T183000
 UID:brown-events-fb7d5cf5c105@funotronic
@@ -4226,15 +4048,6 @@ DESCRIPTION:Due to a scheduling conflict this performance has been cancele
 LOCATION:The Hanover Theatre — Main Stage\, 2 Southbridge St Worcester 0
  1608
 URL:https://thehanovertheatre.org/event/the-rush-tribute-project/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261112T193000
-UID:brown-events-4ecb019c77c2@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/live/events/336921-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/live/events/336921-daily-mass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Dark Star Orchestra
@@ -4500,18 +4313,6 @@ DESCRIPTION:https://gorhody.com/calendar.aspx?game_id=11960&amp\;sport_id=
  17
 LOCATION:Keaney Gymnasium\, Kingston
 URL:https://gorhody.com/calendar.aspx?game_id=11960&amp;sport_id=17
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261113T120500
-DTEND;TZID="UTC-05:00":20261113T123000
-UID:brown-events-276a31b2ce0c@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 337013-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/337013-daily-m
- ass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Beyond Woman\, Life\, Freedom: Feminist Networks and Solidarities 
@@ -5848,16 +5649,6 @@ LOCATION:The Hanover Theatre — The McDonough Room\, 2 Southbridge St\, W
 URL:https://thehanovertheatre.org/event/cookies-tea26/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Sunday Morning Mass
-DTSTART;TZID="UTC-05:00":20261115T103000
-UID:brown-events-3e55d0b60700@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338762
- -sunday-morning-mass
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338762-sunday-
- morning-mass
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Brown University Fencing vs Northeast Fencing Conference
 DTSTART;TZID="UTC-05:00":20261115T110000
 DTEND;TZID="UTC-05:00":20261115T153000
@@ -6052,16 +5843,6 @@ LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-05:00":20261115T180000
-UID:brown-events-53debd4ca056@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338648
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338648-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Lil Mo Mozzarella
 DTSTART;TZID="UTC-05:00":20261115T180000
 DTEND;TZID="UTC-05:00":20261115T193000
@@ -6140,16 +5921,6 @@ DESCRIPTION:Lil Mo is a nationally touring stand-up comedian with a blue-c
  /lil-mo-mozzarella-2026
 LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/lil-mo-mozzarella-2026
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Sunday Evening Mass
-DTSTART;TZID="UTC-05:00":20261115T203000
-UID:brown-events-ca1a03350eaa@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 338777-sunday-evening-mass
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338777-sunday-
- evening-mass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Talent For Murder
@@ -6374,18 +6145,6 @@ DESCRIPTION:Free\nhttps://events.brown.edu/live/events/342478-health-caree
 LOCATION:Andrews House\, 211\, Brown University
 URL:https://events.brown.edu/live/events/342478-health-careers-advising-am
  a-with-a-dentist
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261116T120500
-DTEND;TZID="UTC-05:00":20261116T123000
-UID:brown-events-d7d0264069f9@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 337014-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/337014-daily-m
- ass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:TECH 911!
@@ -7382,18 +7141,6 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Adoration & Confession
-DTSTART;TZID="UTC-05:00":20261117T183000
-DTEND;TZID="UTC-05:00":20261117T193000
-UID:brown-events-c3839030aadb@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 336977-adoration-confession
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/336977-adorati
- on-confession
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Conversations Book Club
 DTSTART;TZID="UTC-05:00":20261117T183000
 DTEND;TZID="UTC-05:00":20261117T193000
@@ -7529,15 +7276,6 @@ DESCRIPTION:Join us for Family Night at The Sound of Music! Wednesday\, No
  =WANGTHEATRE
 LOCATION:Boch Center\, 270 Tremont St\, Boston\, MA
 URL:https://www.bochcenter.org/events/detail/tsom
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261117T193000
-UID:brown-events-c0254391a770@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/live/events/336922-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/live/events/336922-daily-mass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sci-Fi / Fantasy Book Club: The Chimes
@@ -8111,16 +7849,6 @@ LOCATION:Knight Memorial Library – Adult Area\, 275 Elmwood Avenue Provi
 URL:https://clpvd.org/event/knitting-circle-2-3/2026-11-18/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-05:00":20261118T180000
-UID:brown-events-6ec974dfd8c8@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340372
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340372-gratitu
- de-group
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:MD/PhD Student & Faculty Panel
 DTSTART;TZID="UTC-05:00":20261118T180000
 UID:brown-events-084e558f0d6f@funotronic
@@ -8166,18 +7894,6 @@ DESCRIPTION:Time to take an art break! This month – THE MAIL Ages 13 –
 LOCATION:Rochambeau Library – Teen Space\, 708 Hope Street Providence 02
  906
 URL:https://clpvd.org/event/time-to-take-an-art-break-5/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Adoration & Confession
-DTSTART;TZID="UTC-05:00":20261118T183000
-DTEND;TZID="UTC-05:00":20261118T193000
-UID:brown-events-8273fb931404@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 336978-adoration-confession
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/336978-adorati
- on-confession
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Cardigan Connection
@@ -8300,15 +8016,6 @@ URL:https://www.longlivebeerworks.com/pop-ups/2022/trivia-zaeg7-xwm66-rs3b
  d-t2mn5-2zygs-p56zf-ak9xs-ypb7x-ckf6b-bayhd-zsrxy-jfjzc-2p9xb-m5s83-mk6hd-
  mstne-m2lca-ngtfs-gx7gj-9y3h8-4jyx2-655e4-wpkfy-9j2bp-bc2r4-942gd-cj2zd-pe
  xje
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261118T193000
-UID:brown-events-494c8d6ca25d@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/live/events/336923-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/live/events/336923-daily-mass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:East Greenwich High School Jazz Ensemble
@@ -9015,18 +8722,6 @@ LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.tdgarden.com/events/detail/the-tradition
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Adoration & Confession
-DTSTART;TZID="UTC-05:00":20261119T183000
-DTEND;TZID="UTC-05:00":20261119T193000
-UID:brown-events-f69b55a093ed@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 336979-adoration-confession
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/336979-adorati
- on-confession
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Concert Under the Stars at the Museum of Natural History and Plane
  tarium
 DTSTART;TZID="UTC-05:00":20261119T183000
@@ -9175,15 +8870,6 @@ DESCRIPTION:Trinity Rep's 50th Anniversary Production Adapted from the ori
  instances/a0FQr00000NOZtpMAH
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261119T193000
-UID:brown-events-a0609f1864ac@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/live/events/336924-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/live/events/336924-daily-mass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MCT3000 Presents: NICSGIVING
@@ -9488,18 +9174,6 @@ DESCRIPTION:https://events.brown.edu/earth-environmental-planetary/event/3
 LOCATION:Lincoln Field Building\, 120\, Brown University
 URL:https://events.brown.edu/earth-environmental-planetary/event/338823-gm
  p-lunch-bunch-emily-snell
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261120T120500
-DTEND;TZID="UTC-05:00":20261120T123000
-UID:brown-events-822fbb64ea1c@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 337015-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/337015-daily-m
- ass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rachel Barton Pine // Masterclass
@@ -10797,16 +10471,6 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-05:00":20261122T180000
-UID:brown-events-b94af55a8b69@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338649
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338649-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Erinrose Mager reading from HOT FRUIT\, with Darcie Dennigan and E
  mily Pittinos
 DTSTART;TZID="UTC-05:00":20261122T180000
@@ -10989,18 +10653,6 @@ DESCRIPTION:Free\nhttps://events.brown.edu/applied-math/event/338611-combi
 LOCATION:170 Hope Street\, 108\, Brown University
 URL:https://events.brown.edu/applied-math/event/338611-combinatorics-semin
  ar-presents-alex-black-bowdoin
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261123T120500
-DTEND;TZID="UTC-05:00":20261123T123000
-UID:brown-events-6d4ecefa3141@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 337016-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/337016-daily-m
- ass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:TECH 911!
@@ -11577,18 +11229,6 @@ LOCATION:Fox Point Library – Main Area\, 90 Ives Street Providence 02906
 URL:https://clpvd.org/event/the-fox-point-cozy-mystery-book-club/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Adoration & Confession
-DTSTART;TZID="UTC-05:00":20261124T183000
-DTEND;TZID="UTC-05:00":20261124T193000
-UID:brown-events-7e5f1dcba9d5@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 336980-adoration-confession
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/336980-adorati
- on-confession
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Kanakapilas: Ukulele Jam
 DTSTART;TZID="UTC-05:00":20261124T183000
 DTEND;TZID="UTC-05:00":20261124T193000
@@ -11689,15 +11329,6 @@ DESCRIPTION:Rocco Rose and Stroke The Clown are at it again! presenting: A
  M ASYLUM!! loo\nhttps://alchemyri.net/providence-downtown-alchemy-events
 LOCATION:Alchemy\, 71 Richmond St
 URL:https://alchemyri.net/providence-downtown-alchemy-events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261124T193000
-UID:brown-events-ad16d6ee13a7@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/live/events/336925-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/live/events/336925-daily-mass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Art at Watson Presents — Diagnósticos: technology\, information
@@ -12085,28 +11716,6 @@ LOCATION:Knight Memorial Library – Adult Area\, 275 Elmwood Avenue Provi
 URL:https://clpvd.org/event/knitting-circle-2-3/2026-11-25/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-05:00":20261125T180000
-UID:brown-events-d375cd0c373f@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340373
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340373-gratitu
- de-group
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Adoration & Confession
-DTSTART;TZID="UTC-05:00":20261125T183000
-DTEND;TZID="UTC-05:00":20261125T193000
-UID:brown-events-38e2b0f57599@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 336981-adoration-confession
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/336981-adorati
- on-confession
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:'Twas The Night Before... by Cirque Du Soleil
 DTSTART;TZID="UTC-05:00":20261125T190000
 UID:carbonhouse-01bab462865e@funotronic
@@ -12174,15 +11783,6 @@ DESCRIPTION:Trinity Rep's 50th Anniversary Production Adapted from the ori
  instances/a0FQr00000NOjunMAD
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261125T193000
-UID:brown-events-8cdb02fa351a@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/live/events/336926-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/live/events/336926-daily-mass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:FUNKSGIVING w/ The Autocrats\, Slurp
@@ -12334,18 +11934,6 @@ DESCRIPTION:Have a kit you haven’t had the chance to build? Need some co
 LOCATION:Knight Memorial Library – Conference Room\, 275 Elmwood Avenue 
  Providence 02907
 URL:https://clpvd.org/event/hobby-nights-at-knight/2026-11-26/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Adoration & Confession
-DTSTART;TZID="UTC-05:00":20261126T183000
-DTEND;TZID="UTC-05:00":20261126T193000
-UID:brown-events-724205f88f43@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 336982-adoration-confession
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/336982-adorati
- on-confession
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Art at Watson Presents — Diagnósticos: technology\, information
@@ -13142,16 +12730,6 @@ LOCATION:Museum of Natural History and Planetarium\, 1000 Elmwood Ave\, Pr
 URL:https://www.providenceri.gov/event/mnh-steam-2026/2026-11-29/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Sunday Morning Mass
-DTSTART;TZID="UTC-05:00":20261129T103000
-UID:brown-events-3cd36fc3a376@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338764
- -sunday-morning-mass
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338764-sunday-
- morning-mass
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:'Twas The Night Before... by Cirque Du Soleil
 DTSTART;TZID="UTC-05:00":20261129T120000
 UID:carbonhouse-cab02ccdbb6f@funotronic
@@ -13298,16 +12876,6 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-05:00":20261129T180000
-UID:brown-events-51b571f43ec3@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338650
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338650-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:'Twas The Night Before... by Cirque Du Soleil
 DTSTART;TZID="UTC-05:00":20261129T183000
 UID:carbonhouse-9b6dc30aa885@funotronic
@@ -13339,16 +12907,6 @@ DESCRIPTION:Get tickets\nhttps://as220.org/calendar/tranquill-victorias-la
 LOCATION:AS220 Main Stage\, 115 Empire Street
 URL:https://as220.org/calendar/tranquill-victorias-last-bite-polymorph-the
  -eggs
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Sunday Evening Mass
-DTSTART;TZID="UTC-05:00":20261129T203000
-UID:brown-events-3e38623db9f3@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 338779-sunday-evening-mass
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338779-sunday-
- evening-mass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Art at Watson Presents — Diagnósticos: technology\, information
@@ -13454,18 +13012,6 @@ DESCRIPTION:Free\nhttps://events.brown.edu/applied-math/event/338614-combi
 LOCATION:Kassar House\, 105\, Brown University
 URL:https://events.brown.edu/applied-math/event/338614-combinatorics-semin
  ar-presents-swee-hong-chan
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261130T120500
-DTEND;TZID="UTC-05:00":20261130T123000
-UID:brown-events-7362f6d9164d@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 337018-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/337018-daily-m
- ass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:TECH 911!
@@ -13927,18 +13473,6 @@ LOCATION:Fox Point Library – Main Area\, 90 Ives Street Providence 02906
 URL:https://clpvd.org/event/the-high-tone-jug-band-ensemble-3/2026-12-01/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Adoration & Confession
-DTSTART;TZID="UTC-05:00":20261201T183000
-DTEND;TZID="UTC-05:00":20261201T193000
-UID:brown-events-f1a414831dac@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 336983-adoration-confession
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/336983-adorati
- on-confession
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Brown University Men’s Squash vs MIT
 DTSTART;TZID="UTC-05:00":20261201T183000
 DTEND;TZID="UTC-05:00":20261201T213000
@@ -14027,15 +13561,6 @@ DESCRIPTION:Trinity Rep's 50th Anniversary Production Adapted from the ori
  instances/a0FQr00000NOkvhMAD
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261201T193000
-UID:brown-events-b37cb73df285@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/live/events/336928-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/live/events/336928-daily-mass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Boston Bruins vs Colorado Avalanche
@@ -14419,28 +13944,6 @@ LOCATION:Knight Memorial Library – Adult Area\, 275 Elmwood Avenue Provi
 URL:https://clpvd.org/event/knitting-circle-2-3/2026-12-02/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-05:00":20261202T180000
-UID:brown-events-6cf526207f55@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340374
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340374-gratitu
- de-group
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Adoration & Confession
-DTSTART;TZID="UTC-05:00":20261202T183000
-DTEND;TZID="UTC-05:00":20261202T193000
-UID:brown-events-b901b29b8e40@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 336984-adoration-confession
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/336984-adorati
- on-confession
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:'Twas The Night Before... by Cirque Du Soleil
 DTSTART;TZID="UTC-05:00":20261202T190000
 UID:carbonhouse-a87f0127914b@funotronic
@@ -14534,15 +14037,6 @@ DESCRIPTION:Boston Celtics host the Charlotte Hornets at TD Garden.\nresal
  e from $48\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nba.com/celtics/tickets
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261202T193000
-UID:brown-events-ef36d4dc7868@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/live/events/336929-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/live/events/336929-daily-mass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Jazz Combos Concert
@@ -14841,18 +14335,6 @@ LOCATION:RISD — Gelman Gallery\, Providence
 URL:https://involved.risd.edu/event/12603180
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Adoration & Confession
-DTSTART;TZID="UTC-05:00":20261203T183000
-DTEND;TZID="UTC-05:00":20261203T193000
-UID:brown-events-8200c654f248@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 336985-adoration-confession
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/336985-adorati
- on-confession
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Janeane Garofalo
 DTSTART;TZID="UTC-05:00":20261203T190000
 DTEND;TZID="UTC-05:00":20261203T203000
@@ -14896,15 +14378,6 @@ DESCRIPTION:Trinity Rep's 50th Anniversary Production Adapted from the ori
  instances/a0FQr00000NOl29MAD
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261203T193000
-UID:brown-events-46a9f31c621b@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/live/events/336930-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/live/events/336930-daily-mass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:It's A Wonderful Life: A Live Radio Play
@@ -15076,30 +14549,6 @@ DESCRIPTION:Free\nhttps://events.brown.edu/music/event/343363-midday-music
  -concert
 LOCATION:Sayles Hall\, Providence
 URL:https://events.brown.edu/music/event/343363-midday-music-concert
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Public Humanities Talk | Ashanti Alston
-DTSTART;TZID="UTC-05:00":20261204T120000
-DTEND;TZID="UTC-05:00":20261204T130000
-UID:brown-events-20c03adf2259@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/cssj/event/338734-public-humani
- ties-talk-ashanti-alston
-LOCATION:Ruth J. Simmons Center for the Study of Slavery & Justice\, 94 Wa
- terman St.\, Providence\, RI 02906\, Seminar Room\, Brown University
-URL:https://events.brown.edu/cssj/event/338734-public-humanities-talk-asha
- nti-alston
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261204T120500
-DTEND;TZID="UTC-05:00":20261204T123000
-UID:brown-events-bb37effed0d1@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 337019-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/337019-daily-m
- ass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Joint Seminar on South Asian Politics: Akshay Govind Dixit — The
@@ -15935,16 +15384,6 @@ URL:https://www.providenceri.gov/event/roger-williams-park-urban-naturalis
  t-hikes-with-the-museum-of-natural-history/2026-12-06/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Sunday Morning Mass
-DTSTART;TZID="UTC-05:00":20261206T103000
-UID:brown-events-c3a5b0b0bdf5@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338765
- -sunday-morning-mass
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338765-sunday-
- morning-mass
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:'Twas The Night Before... by Cirque Du Soleil
 DTSTART;TZID="UTC-05:00":20261206T120000
 UID:carbonhouse-d2c51ccaef35@funotronic
@@ -16173,16 +15612,6 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-05:00":20261206T180000
-UID:brown-events-d4c1aa1027eb@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338651
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338651-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Car Girlfriend + Better Living. + Good June + Chance Harbor
 DTSTART;TZID="UTC-05:00":20261206T190000
 DTEND;TZID="UTC-05:00":20261206T233000
@@ -16225,16 +15654,6 @@ DESCRIPTION:Tommy Pope is a comedian\, writer and actor originally from Ph
  .99\nhttps://www.ricomedyconnection.com/events/tommy-pope-2026
 LOCATION:Comedy Connection\, 39 Warren Ave
 URL:https://www.ricomedyconnection.com/events/tommy-pope-2026
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Sunday Evening Mass
-DTSTART;TZID="UTC-05:00":20261206T203000
-UID:brown-events-2458ab36d3fe@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 338780-sunday-evening-mass
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338780-sunday-
- evening-mass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Art at Watson Presents — Diagnósticos: technology\, information
@@ -16296,18 +15715,6 @@ DESCRIPTION:Free\nhttps://events.brown.edu/ise/event/342629-ise-special-se
 LOCATION:Barus and Holley\, 190\, Brown University
 URL:https://events.brown.edu/ise/event/342629-ise-special-seminar-by-dr-gu
  osheng-li-sr-materials
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261207T120500
-DTEND;TZID="UTC-05:00":20261207T123000
-UID:brown-events-a14d48ca8a62@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 337020-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/337020-daily-m
- ass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Drawing Wild at the Museum of Natural History
@@ -16571,18 +15978,6 @@ LOCATION:Chace Athletic Center\, Smithfield
 URL:https://bryantbulldogs.com/calendar.aspx?game_id=12480&amp;sport_id=16
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Adoration & Confession
-DTSTART;TZID="UTC-05:00":20261208T183000
-DTEND;TZID="UTC-05:00":20261208T193000
-UID:brown-events-ed67098a9279@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 336986-adoration-confession
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/336986-adorati
- on-confession
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Providence College Men's Basketball vs Fairfield - Commemorative C
  up Giveaway
 DTSTART;TZID="UTC-05:00":20261208T190000
@@ -16612,15 +16007,6 @@ DESCRIPTION:Trinity Rep's 50th Anniversary Production Adapted from the ori
  instances/a0FQr00000NR5SzMAL
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261208T193000
-UID:brown-events-7d14107f13eb@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/live/events/336931-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/live/events/336931-daily-mass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Art at Watson Presents — Diagnósticos: technology\, information
@@ -16826,28 +16212,6 @@ URL:https://events.brown.edu/athletics/event/335831-brown-university-mens-
  basketball-vs-wheaton
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-05:00":20261209T180000
-UID:brown-events-0b5648f1233f@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340375
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340375-gratitu
- de-group
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Adoration & Confession
-DTSTART;TZID="UTC-05:00":20261209T183000
-DTEND;TZID="UTC-05:00":20261209T193000
-UID:brown-events-ee29e7ba176b@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 336987-adoration-confession
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/336987-adorati
- on-confession
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Ghanaian Drumming and Dancing Concert
 DTSTART;TZID="UTC-05:00":20261209T190000
 UID:brown-events-7878968f49cb@funotronic
@@ -16925,15 +16289,6 @@ DESCRIPTION:December 9th 2026\, 7:30 pm Run Time: 90min followed by a post
 LOCATION:The Hanover Theatre — BrickBox (JMAC)\, 20B Franklin St Worcest
  er 01608
 URL:https://thehanovertheatre.org/event/biw-stephanie-j-block/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261209T193000
-UID:brown-events-3d343f938b00@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/live/events/336932-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/live/events/336932-daily-mass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Divas of Drag - Deck the Halls
@@ -17110,18 +16465,6 @@ URL:https://events.brown.edu/earth-environmental-planetary/event/337100-de
  eps-colloquium-with-gaia-stucky-de-quay
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Adoration & Confession
-DTSTART;TZID="UTC-05:00":20261210T183000
-DTEND;TZID="UTC-05:00":20261210T193000
-UID:brown-events-8dd346554d87@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 336988-adoration-confession
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/336988-adorati
- on-confession
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Skip The Small Talk (Ticketed Event)
 DTSTART;TZID="UTC-05:00":20261210T183000
 DTEND;TZID="UTC-05:00":20261210T203000
@@ -17185,15 +16528,6 @@ DESCRIPTION:Trinity Rep's 50th Anniversary Production Adapted from the ori
  instances/a0FQr00000NR5hVMAT
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261210T193000
-UID:brown-events-6a8270a51870@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/live/events/336933-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/live/events/336933-daily-mass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Divas of Drag - Deck the Halls
@@ -17330,18 +16664,6 @@ DESCRIPTION:https://events.brown.edu/copsy/event/339796-clinical-psych-con
 LOCATION:Metcalf Research Building\, 104\, Brown University
 URL:https://events.brown.edu/copsy/event/339796-clinical-psych-conversatio
  ns
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261211T120500
-DTEND;TZID="UTC-05:00":20261211T123000
-UID:brown-events-d0768cc493c5@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 337021-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/337021-daily-m
- ass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LCC: Cancer Biology Seminar - Dr. Marty LaFleur
@@ -17966,16 +17288,6 @@ URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
  books-with-dayanita-singh
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Sunday Morning Mass
-DTSTART;TZID="UTC-05:00":20261213T103000
-UID:brown-events-64fa1b87d2c0@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338766
- -sunday-morning-mass
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338766-sunday-
- morning-mass
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:A Christmas Carol
 DTSTART;TZID="UTC-05:00":20261213T120000
 UID:pm-trinity-98d72caed616@funotronic
@@ -18104,16 +17416,6 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-05:00":20261213T180000
-UID:brown-events-80098f89d36f@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338652
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338652-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Kiss 108 Jingle Ball
 DTSTART;TZID="UTC-05:00":20261213T180000
 UID:ch-tdgarden-ec6cd439d591@funotronic
@@ -18177,16 +17479,6 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Sunday Evening Mass
-DTSTART;TZID="UTC-05:00":20261213T203000
-UID:brown-events-160fe0a09af2@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 338781-sunday-evening-mass
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338781-sunday-
- evening-mass
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Art at Watson Presents — Diagnósticos: technology\, information
   and self
 DTSTART;VALUE=DATE:20261214
@@ -18234,18 +17526,6 @@ DESCRIPTION:Free\nhttps://events.brown.edu/john-carter-brown-library/event
 LOCATION:94 George Street\, Bromsen Room\, Brown University
 URL:https://events.brown.edu/john-carter-brown-library/event/326712-1776-a
  cross-the-americas-a-hemispheric-history
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261214T120500
-DTEND;TZID="UTC-05:00":20261214T123000
-UID:brown-events-47453351cbd1@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 337022-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/337022-daily-m
- ass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:1776 Across the Americas: A Hemispheric History from the Collectio
@@ -18393,18 +17673,6 @@ URL:https://events.brown.edu/john-carter-brown-library/event/326904-1776-a
  cross-the-americas-a-hemispheric-history
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Adoration & Confession
-DTSTART;TZID="UTC-05:00":20261215T183000
-DTEND;TZID="UTC-05:00":20261215T193000
-UID:brown-events-04af7124a8bc@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 336989-adoration-confession
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/336989-adorati
- on-confession
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Blue Man Group – A New Holiday Surprise
 DTSTART;TZID="UTC-05:00":20261215T190000
 DTEND;TZID="UTC-05:00":20261223T190000
@@ -18446,15 +17714,6 @@ DESCRIPTION:Trinity Rep's 50th Anniversary Production Adapted from the ori
  instances/a0FQr00000NRCe9MAH
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261215T193000
-UID:brown-events-dc3634d53324@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/live/events/336934-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/live/events/336934-daily-mass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Divas of Drag - Deck the Halls
@@ -18590,28 +17849,6 @@ URL:https://www.longlivebeerworks.com/pop-ups/44tpesx4d6h6y7e-zw4f4-66fyb-
  ceeys-pn9j9-tfxww-45w5g-7tmhg
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-05:00":20261216T180000
-UID:brown-events-4336a9349cc4@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340376
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340376-gratitu
- de-group
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Adoration & Confession
-DTSTART;TZID="UTC-05:00":20261216T183000
-DTEND;TZID="UTC-05:00":20261216T193000
-UID:brown-events-8143ed01f8f1@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 336990-adoration-confession
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/336990-adorati
- on-confession
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Boston Celtics vs Washington Wizards
 DTSTART;TZID="UTC-05:00":20261216T190000
 UID:pro-celtics-0f1d81453c26@funotronic
@@ -18664,15 +17901,6 @@ DESCRIPTION:Celebrate the holiday season with the redemption story of Eben
  /shows-tickets
 LOCATION:Stadium Theatre\, 28 Monument Sq
 URL:https://www.stadiumtheatre.com/events/christmas-carol
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261216T193000
-UID:brown-events-5a40480c3553@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/live/events/336935-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/live/events/336935-daily-mass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Squirrel Nut Zippers
@@ -18813,18 +18041,6 @@ URL:https://www.longlivebeerworks.com/pop-ups/2024/3/7/south-county-bbq-po
  p-up-gtyjn-w9tka-e76jk-w4rpj-x4fez
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Adoration & Confession
-DTSTART;TZID="UTC-05:00":20261217T183000
-DTEND;TZID="UTC-05:00":20261217T193000
-UID:brown-events-ca966c83d676@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 336991-adoration-confession
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/336991-adorati
- on-confession
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Smoking Hot Jazz!!
 DTSTART;TZID="UTC-05:00":20261217T183000
 DTEND;TZID="UTC-05:00":20261217T203000
@@ -18915,15 +18131,6 @@ LOCATION:Dowling Theater\, 2 Southbridge St Worcester 01608
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261217T193000
-UID:brown-events-27d35c71e817@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/live/events/336936-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/live/events/336936-daily-mass
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Divas of Drag - Deck the Halls
 DTSTART;TZID="UTC-05:00":20261217T193000
 UID:stadium-d244619602d2@funotronic
@@ -19011,18 +18218,6 @@ DESCRIPTION:This event is not open to the public. All students must be att
  ending with a school.\n$10\nhttps://www.stadiumtheatre.com/shows-tickets
 LOCATION:Stadium Theatre\, 28 Monument Sq
 URL:https://www.stadiumtheatre.com/events/christmas-carol-stp
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daily Mass
-DTSTART;TZID="UTC-05:00":20261218T120500
-DTEND;TZID="UTC-05:00":20261218T123000
-UID:brown-events-285d1666f701@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/chaplains-religious-life/event/
- 337023-daily-mass
-LOCATION:51 Prospect Street\, Providence Rhode Island\, Chapel\, Brown Uni
- versity
-URL:https://events.brown.edu/chaplains-religious-life/event/337023-daily-m
- ass
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Pal Monte Pop-Up
@@ -19948,16 +19143,6 @@ URL:https://www.amicamutualpavilion.com/events/detail/disney-on-ice-presen
  ts-magic-in-the-stars
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-05:00":20261223T180000
-UID:brown-events-d5a6020c2248@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340377
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340377-gratitu
- de-group
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:The Nutcracker
 DTSTART;TZID="UTC-05:00":20261223T183000
 UID:carbonhouse-85059e04f070@funotronic
@@ -20314,16 +19499,6 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-05:00":20261227T180000
-UID:brown-events-36b21c89193b@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338654
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338654-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20261228T090000
 DTEND;TZID="UTC-05:00":20261228T170000
@@ -20485,16 +19660,6 @@ DESCRIPTION:Trinity Rep's 50th Anniversary Production Adapted from the ori
  instances/a0FQr00000NRECvMAP
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-05:00":20261230T180000
-UID:brown-events-7a2549adacb0@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340378
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340378-gratitu
- de-group
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Providence College Men's Basketball vs St. John's
@@ -20748,16 +19913,6 @@ LOCATION:Gillette Stadium\, 1 Patriot Pl\, Foxborough\, MA
 URL:https://www.patriots.com/tickets/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-05:00":20270103T180000
-UID:brown-events-c34fa7238f99@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338655
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338655-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20270104T090000
 DTEND;TZID="UTC-05:00":20270104T170000
@@ -20871,16 +20026,6 @@ DESCRIPTION:Wednesdays 9-10 am Wee-One Wednesdays is our weekly toddler pr
 LOCATION:Roger Williams Park Botanical Center\, 1 Floral Ave Providence 02
  905
 URL:https://www.providenceri.gov/event/wee-one-wednesdays-2-2/2027-01-06/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-05:00":20270106T180000
-UID:brown-events-a305d96ea631@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340379
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340379-gratitu
- de-group
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:JEFF DUNHAM: Inappropriate Contact
@@ -21200,16 +20345,6 @@ URL:https://www.amicamutualpavilion.com/events/detail/providence-bruins-vs
  -hartford-wolfpack-0110
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-05:00":20270110T180000
-UID:brown-events-175f1acf08df@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338656
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338656-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Boston Celtics vs Houston Rockets
 DTSTART;TZID="UTC-05:00":20270111T193000
 UID:pro-celtics-8e02ae8e78f9@funotronic
@@ -21269,16 +20404,6 @@ DESCRIPTION:Wednesdays 9-10 am Wee-One Wednesdays is our weekly toddler pr
 LOCATION:Roger Williams Park Botanical Center\, 1 Floral Ave Providence 02
  905
 URL:https://www.providenceri.gov/event/wee-one-wednesdays-2-2/2027-01-13/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-05:00":20270113T180000
-UID:brown-events-499d4b70eb08@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340380
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340380-gratitu
- de-group
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Boston Celtics vs New York Knicks
@@ -21784,16 +20909,6 @@ URL:https://www.amicamutualpavilion.com/events/detail/providence-bruins-vs
  -hartford-0117
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-05:00":20270117T180000
-UID:brown-events-e63ef379d69d@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338657
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338657-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Brian Bates
 DTSTART;TZID="UTC-05:00":20270117T190000
 DTEND;TZID="UTC-05:00":20270117T203000
@@ -21913,16 +21028,6 @@ DESCRIPTION:Wednesdays 9-10 am Wee-One Wednesdays is our weekly toddler pr
 LOCATION:Roger Williams Park Botanical Center\, 1 Floral Ave Providence 02
  905
 URL:https://www.providenceri.gov/event/wee-one-wednesdays-2-2/2027-01-20/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-05:00":20270120T180000
-UID:brown-events-b6bd57cf2fd0@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340381
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340381-gratitu
- de-group
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Providence College Men's Basketball vs Connecticut
@@ -22431,16 +21536,6 @@ LOCATION:Amica Mutual Pavilion\, 1 La Salle Square
 URL:https://www.providencebruins.com/schedule
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-05:00":20270124T180000
-UID:brown-events-03c0634d02a0@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338658
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338658-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Dustin Nickerson
 DTSTART;TZID="UTC-05:00":20270124T190000
 DTEND;TZID="UTC-05:00":20270124T203000
@@ -22559,16 +21654,6 @@ DESCRIPTION:Wednesdays 9-10 am Wee-One Wednesdays is our weekly toddler pr
 LOCATION:Roger Williams Park Botanical Center\, 1 Floral Ave Providence 02
  905
 URL:https://www.providenceri.gov/event/wee-one-wednesdays-2-2/2027-01-27/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-05:00":20270127T180000
-UID:brown-events-535bca092349@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340382
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340382-gratitu
- de-group
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:URI Women's Basketball vs VCU
@@ -23152,16 +22237,6 @@ LOCATION:Amica Mutual Pavilion\, 1 La Salle Square
 URL:https://www.providencebruins.com/schedule
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-05:00":20270131T180000
-UID:brown-events-029b6938a222@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338659
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338659-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Cyrano
 DTSTART;TZID="UTC-05:00":20270131T180000
 UID:pm-trinity-4753b0ca53d6@funotronic
@@ -23282,16 +22357,6 @@ DESCRIPTION:“It is good for one to be reminded of the depths of idiocy t
  sites.com/ticket/#/instances/a0Fcw00000oLSpJEAW
 LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-05:00":20270203T180000
-UID:brown-events-193861a302a9@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340383
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340383-gratitu
- de-group
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Michael Rowland
@@ -23747,16 +22812,6 @@ LOCATION:East Providence High School\, 1 Avenue of the Arts
 URL:https://www.riphil.org/events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-05:00":20270207T180000
-UID:brown-events-40f0e04f15af@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338660
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338660-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Anthony Rodia
 DTSTART;TZID="UTC-05:00":20270207T190000
 DTEND;TZID="UTC-05:00":20270207T203000
@@ -23922,16 +22977,6 @@ DESCRIPTION:Free\nhttps://events.brown.edu/live/events/338160-equitable-cl
 LOCATION:TBD\, Providence
 URL:https://events.brown.edu/live/events/338160-equitable-climate-futures-
  aligning-research-community
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-05:00":20270210T180000
-UID:brown-events-f7ed99e7584d@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340384
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340384-gratitu
- de-group
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:URI Women's Basketball vs Richmond
@@ -24397,16 +23442,6 @@ URL:https://events.brown.edu/athletics/event/341950-brown-university-women
  s-squash-vs-dartmouth
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-05:00":20270214T180000
-UID:brown-events-33227cd83ba4@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338661
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338661-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
 DTSTART;TZID="UTC-05:00":20270215T090000
 DTEND;TZID="UTC-05:00":20270215T170000
@@ -24529,16 +23564,6 @@ DESCRIPTION:https://events.brown.edu/athletics/event/337470-brown-universi
 LOCATION:Princeton\, N.J.\, Providence
 URL:https://events.brown.edu/athletics/event/337470-brown-university-women
  s-swimming-diving-vs-ivy
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-05:00":20270217T180000
-UID:brown-events-83dd559d2d56@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340385
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340385-gratitu
- de-group
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Nonfiction@Brown • Cody Rose Clevidence
@@ -24997,16 +24022,6 @@ DESCRIPTION:AHL hockey: the P-Bruins host the Laval Rocket at the Amica Mu
  tual Pavilion.\nhttps://am.ticketmaster.com/providence/
 LOCATION:Amica Mutual Pavilion\, 1 La Salle Square
 URL:https://www.providencebruins.com/schedule
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-05:00":20270221T180000
-UID:brown-events-e2385340477a@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338662
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338662-christi
- an-worship-service
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cyrano
@@ -25670,16 +24685,6 @@ LOCATION:Amica Mutual Pavilion\, 1 La Salle Square
 URL:https://www.providencebruins.com/schedule
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-05:00":20270228T180000
-UID:brown-events-af50d8f974bf@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338663
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338663-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Mother Russia
 DTSTART;TZID="UTC-05:00":20270228T180000
 UID:pm-trinity-a60bedfb5485@funotronic
@@ -25837,16 +24842,6 @@ DESCRIPTION:https://events.brown.edu/medieval/event/335529-ri-medieval-cir
 LOCATION:Andrews House\, 110\, Brown University
 URL:https://events.brown.edu/medieval/event/335529-ri-medieval-circle-lect
  ure-mohsen-goudarzi-harvard-un
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-05:00":20270303T180000
-UID:brown-events-b98e7863e3ee@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340387
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340387-gratitu
- de-group
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cyrano
@@ -26258,16 +25253,6 @@ LOCATION:Amica Mutual Pavilion\, 1 La Salle Square
 URL:https://www.providencebruins.com/schedule
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-05:00":20270307T180000
-UID:brown-events-681cabe0ba40@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338664
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338664-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Cyrano
 DTSTART;TZID="UTC-05:00":20270307T180000
 UID:pm-trinity-d5b4ede4582f@funotronic
@@ -26376,16 +25361,6 @@ DESCRIPTION:By Lauren Yee Directed by Tatyana-Marie Carlo It’s 1992 in t
  0FQr00000NYwCPMA1
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-05:00":20270310T180000
-UID:brown-events-2dfb589e3f24@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340388
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340388-gratitu
- de-group
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Grad Artists' Talks: History\, Archives\, and Absences
@@ -26816,16 +25791,6 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-04:00":20270314T180000
-UID:brown-events-a61860d28559@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338665
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338665-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Mother Russia
 DTSTART;TZID="UTC-04:00":20270314T180000
 UID:pm-trinity-0344c30653c7@funotronic
@@ -26976,16 +25941,6 @@ DESCRIPTION:By Jason O’Connell and Brenda Withers Adapted from Cyrano de
  .com/ticket/#/instances/a0FQr00000NYBqDMAX
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-04:00":20270317T180000
-UID:brown-events-dda364b05fa3@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340389
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340389-gratitu
- de-group
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Def Leppard and Goo Goo Dolls
@@ -27315,16 +26270,6 @@ LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-04:00":20270321T180000
-UID:brown-events-310dcf8bc787@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338666
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338666-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Mother Russia
 DTSTART;TZID="UTC-04:00":20270321T180000
 UID:pm-trinity-2123cd4621ea@funotronic
@@ -27366,16 +26311,6 @@ DESCRIPTION:https://events.brown.edu/ccmb/event/342816-computational-biolo
 LOCATION:164 Angell Street\, 302\, Brown University
 URL:https://events.brown.edu/ccmb/event/342816-computational-biology-semin
  ar-parul-johri-nc
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-04:00":20270324T180000
-UID:brown-events-cc4dac5571dc@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340390
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340390-gratitu
- de-group
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rosencrantz & Guildenstern Are Dead
@@ -27680,16 +26615,6 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-04:00":20270328T180000
-UID:brown-events-e4a93b2fc6be@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338667
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338667-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:National Theatre Live: The Importance of Being Earnest
 DTSTART;TZID="UTC-04:00":20270329T190000
 UID:pm-gamm-f9f31d1bee71@funotronic
@@ -27778,16 +26703,6 @@ DESCRIPTION:“Look on every exit as being an entrance somewhere else…
  sites.com/ticket/#/instances/a0Fcw00000oLUJFEA4
 LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-04:00":20270331T180000
-UID:brown-events-b6508b9d79e8@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340391
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340391-gratitu
- de-group
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:THT Rep presents Fat Ham
@@ -28110,16 +27025,6 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-04:00":20270404T180000
-UID:brown-events-45e04d965c04@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338668
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338668-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Boston Red Sox vs Houston Astros
 DTSTART;VALUE=DATE:20270405
 UID:pro-redsox-2431fec39c94@funotronic
@@ -28238,16 +27143,6 @@ DESCRIPTION:https://events.brown.edu/ccmb/event/336007-computational-biolo
 LOCATION:164 Angell Street\, 302\, Brown University
 URL:https://events.brown.edu/ccmb/event/336007-computational-biology-semin
  ar-jazlyn-mooney-usc
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-04:00":20270407T180000
-UID:brown-events-a52115a56f1e@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340392
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340392-gratitu
- de-group
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:John Ricco (University of Toronto)
@@ -28639,16 +27534,6 @@ LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nba.com/celtics/tickets
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-04:00":20270411T180000
-UID:brown-events-d8fb0b0a9949@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338669
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338669-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Niall Horan
 DTSTART;TZID="UTC-04:00":20270412T193000
 UID:ch-tdgarden-f6bbfbdafd5f@funotronic
@@ -28693,16 +27578,6 @@ DESCRIPTION:https://events.brown.edu/ccmb/event/342818-computational-biolo
 LOCATION:164 Angell Street\, 302\, Brown University
 URL:https://events.brown.edu/ccmb/event/342818-computational-biology-semin
  ar-rori-rohlfs-uo
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-04:00":20270414T180000
-UID:brown-events-d09417b786b2@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340393
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340393-gratitu
- de-group
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:August Wilson's Ma Rainey's Black Bottom
@@ -28973,16 +27848,6 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-04:00":20270418T180000
-UID:brown-events-58668db2efd8@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338670
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338670-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Boston Red Sox vs Cleveland Guardians
 DTSTART;VALUE=DATE:20270419
 UID:pro-redsox-a147ad9d6326@funotronic
@@ -29071,16 +27936,6 @@ DESCRIPTION:Worcester Red Sox host the Lehigh Valley IronPigs at Polar Par
  k.\nhttps://www.milb.com/worcester/tickets
 LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
 URL:https://www.milb.com/worcester/tickets
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-04:00":20270421T180000
-UID:brown-events-71d001bebf77@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340394
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340394-gratitu
- de-group
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Nonfiction@Brown • Jeff Sharlett
@@ -29363,16 +28218,6 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-04:00":20270425T180000
-UID:brown-events-5ddab8050327@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338671
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338671-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Bryant Baseball vs Merrimack College
 DTSTART;TZID="UTC-04:00":20270427T150000
 UID:college-sports-8f6b2d41347b@funotronic
@@ -29393,16 +28238,6 @@ DESCRIPTION:Wednesdays 9-10 am Wee-One Wednesdays is our weekly toddler pr
 LOCATION:Roger Williams Park Botanical Center\, 1 Floral Ave Providence 02
  905
 URL:https://www.providenceri.gov/event/wee-one-wednesdays-2-2/2027-04-28/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-04:00":20270428T180000
-UID:brown-events-d74626adea20@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340395
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340395-gratitu
- de-group
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:August Wilson's Ma Rainey's Black Bottom
@@ -29720,16 +28555,6 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-04:00":20270502T180000
-UID:brown-events-83e792f91001@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338672
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338672-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Sonia Flew
 DTSTART;TZID="UTC-04:00":20270502T190000
 UID:pm-gamm-857b660ac576@funotronic
@@ -29843,16 +28668,6 @@ DESCRIPTION:By August Wilson Director to be announced. Blues legend Ma Rai
  et/#/instances/a0FQr00000NZ4RhMAL
 LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-04:00":20270505T180000
-UID:brown-events-9d4546f2908b@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340396
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340396-gratitu
- de-group
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sonia Flew
@@ -30114,16 +28929,6 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-04:00":20270509T180000
-UID:brown-events-5ff55588fd98@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338673
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338673-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Blood Drive with RI Blood Center at Student Health & Wellness
 DTSTART;TZID="UTC-04:00":20270511T090000
 DTEND;TZID="UTC-04:00":20270511T170000
@@ -30164,16 +28969,6 @@ DESCRIPTION:Worcester Red Sox host the Buffalo Bisons at Polar Park.\nhttp
  s://www.milb.com/worcester/tickets
 LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
 URL:https://www.milb.com/worcester/tickets
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-04:00":20270512T180000
-UID:brown-events-d9d510681d5e@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340397
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340397-gratitu
- de-group
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sonia Flew
@@ -30423,16 +29218,6 @@ LOCATION:Scituate High School\, 1 Avenue of the Arts
 URL:https://www.riphil.org/events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christian Worship Service
-DTSTART;TZID="UTC-04:00":20270516T180000
-UID:brown-events-13369355355c@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/338674
- -christian-worship-service
-LOCATION:Manning Chapel\, Providence
-URL:https://events.brown.edu/chaplains-religious-life/event/338674-christi
- an-worship-service
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Royal Ballet: Swan Lake
 DTSTART;VALUE=DATE:20270519
 UID:jpt-e2edb332e7c2@funotronic
@@ -30468,16 +29253,6 @@ DESCRIPTION:“And I said\, I do not forgive you\, I will never forgive yo
  0oLgQrEAK
 LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Gratitude Group
-DTSTART;TZID="UTC-04:00":20270519T180000
-UID:brown-events-00ac4336e84a@funotronic
-DESCRIPTION:https://events.brown.edu/chaplains-religious-life/event/340398
- -gratitude-group
-LOCATION:Page-Robinson Hall (previously JWW)\, 411\, Brown University
-URL:https://events.brown.edu/chaplains-religious-life/event/340398-gratitu
- de-group
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Royal Ballet: Swan Lake
