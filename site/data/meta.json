@@ -1,7 +1,12 @@
 {
- "generated": "2026-11-07T18:51-05:00",
- "count": 2814,
+ "generated": "2026-11-07T19:03-05:00",
+ "count": 2696,
  "sources": {
+  "pig": {
+   "ok": true,
+   "count": 6,
+   "last_ok": "2026-11-07T19:03-05:00"
+  },
   "alchemy": {
    "ok": true,
    "count": 34,
@@ -87,11 +92,6 @@
    "count": 30,
    "last_ok": "2026-11-07T18:51-05:00"
   },
-  "pig": {
-   "ok": true,
-   "count": 7,
-   "last_ok": "2026-11-07T18:51-05:00"
-  },
   "pro_sports": {
    "ok": true,
    "count": 246,
@@ -134,12 +134,12 @@
   }
  },
  "categories": {
-  "sports": 557,
-  "talk": 521,
+  "sports": 554,
   "theater": 432,
+  "talk": 407,
   "music": 368,
   "community": 309,
-  "comedy": 162,
+  "comedy": 161,
   "film": 159,
   "art": 106,
   "food": 71,
@@ -151,13 +151,13 @@
   "family": 2
  },
  "cities": {
-  "Providence": 1916,
+  "Providence": 1799,
   "Boston, MA": 226,
   "Warwick": 122,
   "East Providence": 119,
   "Worcester, MA": 112,
   "Newport": 96,
-  "Smithfield": 51,
+  "Smithfield": 50,
   "Fall River": 42,
   "Woonsocket": 37,
   "New Haven, CT": 36,
