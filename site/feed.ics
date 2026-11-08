@@ -79,20 +79,6 @@ URL:https://www.longlivebeerworks.com/pop-ups/2023/6/3/teddis-food-truck-p
  7ws-a8fg5-enejb-pm79g-fcjfb-j4pl2-c2567
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Teen Zine Roc
-DTSTART;TZID="UTC-05:00":20261107T140000
-DTEND;TZID="UTC-05:00":20261107T153000
-UID:tribe-clpvd-c2fe96865df3@funotronic
-DESCRIPTION:Collage\, journaling\, comics\, book-making\, and design colli
- de Join librarian Jeremy to experiment with book forms and source material
- s\, and explore all kinds of analog media For ages 13-18\, in the Teen Are
- a Email jferris@clpvd.org for more…\nhttps://clpvd.org/event/teen-zine-r
- oc-4/
-LOCATION:Rochambeau Library – Teen Space\, 708 Hope Street Providence 02
- 906
-URL:https://clpvd.org/event/teen-zine-roc-4/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[W] Brown University Women’s Basketball vs Bucknell
 DTSTART;TZID="UTC-05:00":20261107T150000
 DTEND;TZID="UTC-05:00":20261107T170000
@@ -231,17 +217,6 @@ DESCRIPTION:Newport Live presents world-renowned South African jazz saxoph
 LOCATION:Newport Classical Recital Hall\, 42 Dearborn Street
 URL:https://www.newportlive.org/concerts/african-jazz-legends-mccoy-mrubat
  a-with-aaron-rimbui
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Lucy Darling: You're Welcome
-DTSTART;TZID="UTC-05:00":20261107T193000
-UID:carbonhouse-94a0e7ef8e06@funotronic
-DESCRIPTION:THIS EVENT TAKES PLACE AT THE VETS LOCATED AT 1 AVENUE OF THE 
- ARTS\, PROVIDENCE RI.Award-winning performer Carisa Hendrix stars as charm
- ing socialite and cocktail enthusiast Lucy Darling as she continues her vi
- vacious vagabond voyages with…\nhttps://thevets.evenue.net/events/LUCY
-LOCATION:The VETS\, 1 Avenue of the Arts
-URL:https://www.ppacri.org/events/detail/lucy-darling-youre-welcome
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30th Annual Comics Come Home
@@ -481,12 +456,12 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Great Gatsby
 DTSTART;TZID="UTC-05:00":20261108T130000
-UID:carbonhouse-746edb626eab@funotronic
+UID:carbonhouse-670e9302ccf7@funotronic
 DESCRIPTION:THE PARTY’S ROARING IN PROVIDENCE! THE GREAT GATSBY is a “
  Broadway extravaganza that explodes with life and energy” (Entertainment
   Weekly). Based on the classic American novel by F.\nhttps://ppac.evenue.n
  et/event/P26/GATS07
-LOCATION:The VETS\, Providence
+LOCATION:Providence Performing Arts Center\, 220 Weybosset St
 URL:https://www.ppacri.org/events/detail/the-great-gatsby
 END:VEVENT
 BEGIN:VEVENT
@@ -627,12 +602,12 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Great Gatsby
 DTSTART;TZID="UTC-05:00":20261108T183000
-UID:carbonhouse-cbbee903f492@funotronic
+UID:carbonhouse-b752ae64c77d@funotronic
 DESCRIPTION:THE PARTY’S ROARING IN PROVIDENCE! THE GREAT GATSBY is a “
  Broadway extravaganza that explodes with life and energy” (Entertainment
   Weekly). Based on the classic American novel by F.\nhttps://ppac.evenue.n
  et/event/P26/GATS08
-LOCATION:The VETS\, Providence
+LOCATION:Providence Performing Arts Center\, 220 Weybosset St
 URL:https://www.ppacri.org/events/detail/the-great-gatsby
 END:VEVENT
 BEGIN:VEVENT
@@ -3842,11 +3817,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Dark Star Orchestra
 DTSTART;TZID="UTC-05:00":20261112T193000
-UID:carbonhouse-e2f34bfc4b18@funotronic
+UID:carbonhouse-99cccc10a57a@funotronic
 DESCRIPTION:Performing to critical acclaim for nearly 30 years and over 33
  00 shows\, DARK STAR ORCHESTRA continues the Grateful Dead live concert ex
  perience.\nhttps://ppac.evenue.net/events/DARK
-LOCATION:The VETS\, Providence
+LOCATION:Providence Performing Arts Center\, 220 Weybosset St
 URL:https://www.ppacri.org/events/detail/dark-star-orchestra-dark01
 END:VEVENT
 BEGIN:VEVENT
@@ -4451,12 +4426,12 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bert Kreischer: Permission to Party
 DTSTART;TZID="UTC-05:00":20261113T190000
-UID:carbonhouse-8210b4778a56@funotronic
+UID:carbonhouse-b165be2abebe@funotronic
 DESCRIPTION:THIS EVENT TAKES PLACE AT THE VETS LOCATED AT 1 AVENUE OF THE 
  ARTS\, PROVIDENCE RI.Bert Kreischer's career has evolved from Rolling Ston
  e's infamous "Number One Partier in the Nation" to one of the top-grossing
   stand-up comedians in the…\nhttps://thevets.evenue.net/events/BK26
-LOCATION:The VETS\, 1 Avenue of the Arts
+LOCATION:Providence Performing Arts Center\, 220 Weybosset St
 URL:https://www.ppacri.org/events/detail/bert-kreischer-permission-to-part
  y
 END:VEVENT
@@ -5211,14 +5186,15 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Andrea Gibson's Love Letter From The Afterlife
 DTSTART;TZID="UTC-05:00":20261114T193000
-UID:ch-vets-4320e1384a02@funotronic
-DESCRIPTION:From the team that brought you Come See Me in the Good Light\,
-  join us for Andrea Gibson’s Love Letter from the Afterlife— a multime
- dia event bringing together film\, live poetry\, music\, orchestral accomp
- animent\, and intimate storytelling in…\nhttps://thevets.evenue.net/prom
- otions
-LOCATION:The VETS\, 1 Avenue of the Arts
-URL:https://www.thevetsri.com/events/detail/andrea-gibson-26
+UID:carbonhouse-67395556807c@funotronic
+DESCRIPTION:THIS EVENT TAKES PLACE AT THE VETS LOCATED AT 1 AVENUE OF THE 
+ ARTS\, PROVIDENCE RI.From the team that brought you Come See Me in the Goo
+ d Light\, join us for ANDREA GIBSON'S LOVE LETTER FROM THE AFTERLIFE— a 
+ multimedia event bringing…\nhttps://thevets.evenue.net/events/GIBS
+LOCATION:Providence Performing Arts Center\, 220 Weybosset St
+URL:https://www.ppacri.org/events/detail/from-the-team-that-brought-you-co
+ me-see-me-in-the-good-light-andrea-gibsons-love-letter-from-the-afterlife-
+ with-megan-falley-the-goosebump-orchestra-and-extremely-special-guests
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Newport Live Presents: Laura Cantrell at The Breakers Stables and 
@@ -15313,7 +15289,7 @@ SUMMARY:New England Patriots vs Buffalo Bills
 DTSTART;TZID="UTC-05:00":20261206T162500
 UID:pro-patriots-1f42667a2cd2@funotronic
 DESCRIPTION:New England Patriots host the Buffalo Bills at Gillette Stadiu
- m.\nresale from $344\nhttps://www.patriots.com/tickets/
+ m.\nresale from $331\nhttps://www.patriots.com/tickets/
 LOCATION:Gillette Stadium\, 1 Patriot Pl\, Foxborough\, MA
 URL:https://www.patriots.com/tickets/
 END:VEVENT
@@ -20118,6 +20094,14 @@ URL:https://www.amicamutualpavilion.com/events/detail/providence-college-v
  s-xavier-2
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Shen Yun
+DTSTART;TZID="UTC-05:00":20270109T133000
+UID:carbonhouse-9d88a7d28105@funotronic
+DESCRIPTION:https://ppac.evenue.net/event/P26/SHEN05
+LOCATION:Providence Performing Arts Center\, 220 Weybosset St
+URL:https://www.ppacri.org/events/detail/shen-yun-shen05-3
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Bryant Women's Basketball vs University of Massachusetts Lowell
 DTSTART;TZID="UTC-05:00":20270109T140000
 UID:college-sports-51ce899bf289@funotronic
@@ -20205,6 +20189,14 @@ DESCRIPTION:https://admin.friars.com/calendar.aspx?game_id=12870&amp\;spor
  t_id=11
 LOCATION:Alumni Hall\, Providence
 URL:https://admin.friars.com/calendar.aspx?game_id=12870&amp;sport_id=11
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Shen Yun
+DTSTART;TZID="UTC-05:00":20270110T133000
+UID:carbonhouse-5ac4de76ce83@funotronic
+DESCRIPTION:https://ppac.evenue.net/event/P26/SHEN07
+LOCATION:Providence Performing Arts Center\, 220 Weybosset St
+URL:https://www.ppacri.org/events/detail/shen-yun-shen05-3
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bluey's Big Play
