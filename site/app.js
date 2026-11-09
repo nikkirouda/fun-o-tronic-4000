@@ -121,7 +121,7 @@
   function liveCounts() {
     const saved = S.cats; S.cats = new Set();
     const counts = {};
-    try { for (const e of S.events) if (matches(e, S.view === "cal")) counts[e.category] = (counts[e.category] || 0) + 1; }
+    try { for (const e of S.events) if (matches(e, S.view === "cal" && S.when === "all")) counts[e.category] = (counts[e.category] || 0) + 1; }
     finally { S.cats = saved; }
     return counts;
   }
@@ -319,12 +319,12 @@
     $("#btnNew").classList.toggle("lit", S.mode === "new");
     $("#btnDate").classList.toggle("lit", !!S.dateNight);
     const sc = $("#starCount"); sc.textContent = S.stars.size; sc.hidden = !S.stars.size;
-    const list = sorted(S.events.filter(e => matches(e, S.view === "cal")));
+    const list = sorted(S.events.filter(e => matches(e, S.view === "cal" && S.when === "all")));
     updateCatCounts();
     if (S.view === "list") { $("#listView").hidden = false; renderList(list); }
     else if (S.view === "cal") { $("#calView").hidden = false; renderCal(list); }
     else { $("#mapView").hidden = false; renderMap(list); }
-    const label = S.mode === "stars" ? "saved" : S.mode === "new" ? "new or followed" : S.mode === "shortlist" ? "on the shortlist" : S.view === "cal" ? "upcoming" : ({ tonight: "today", tomorrow: "tomorrow", weekend: "this weekend", week: "in the next 7 days", month: "in the next 30 days", all: "upcoming", custom: "in your dates" })[S.when];
+    const label = S.mode === "stars" ? "saved" : S.mode === "new" ? "new or followed" : S.mode === "shortlist" ? "on the shortlist" : S.view === "cal" && S.when === "all" ? "upcoming" : ({ tonight: "today", tomorrow: "tomorrow", weekend: "this weekend", week: "in the next 7 days", month: "in the next 30 days", all: "upcoming", custom: "in your dates" })[S.when];
     $("#count").textContent = `${list.length} ${label}${S.dateNight ? " · date night" : ""}`;
   }
 
@@ -501,8 +501,9 @@
         (wide ? `<span class="evs">${top.map(g => { const e = g[0]; const times = e.all_day ? "" : g.slice(0, 3).map(timeStr).join(" & ") + (g.length > 3 ? " +" : ""); return `<a class="ev${S.going.has(e.id) ? " go" : (goingHere.length ? " dim" : "")}" data-id="${e.id}" style="--cc:var(--c-${e.category})" title="${esc(e.title)} · ${esc(e.venue)}${times ? " · " + times : ""}">${S.going.has(e.id) ? "✓ " : ""}${times ? `<b>${times}</b> ` : ""}${esc(e.title)}</a>`; }).join("")}${evs.length > shown ? `<span class="morel">+${evs.length - shown} more</span>` : ""}</span>`
               : `<span class="dots">${cats.map(k => `<i style="background:var(--c-${k})"></i>`).join("")}</span>`) +
         (evs.length ? `<span class="cnt">${evs.length}</span><span class="heat" style="width:${Math.round(100 * evs.length / max)}%"></span>` : "");
-      const [ra, rb] = S.when === "custom" && S.mode === "browse" ? range() : [null, null];
-      if (key < t || (ra && (key < ra || key > rb))) c.style.opacity = .45;
+      const [ra, rb] = S.when !== "all" && S.mode === "browse" ? range() : [null, null];
+      if (ra && key >= ra && key <= rb) c.classList.add("inwin");
+      if (key < t || (ra && (key < ra || key > rb))) c.style.opacity = .4;
       c.onclick = ev => { const a = ev.target.closest("a.ev"); if (a) { ev.stopPropagation(); openSheet(S.events.find(e => e.id === a.dataset.id)); return; } S.calSel = key; renderCal(list); if (evs.length) openDaySheet(key, evs); };
       grid.appendChild(c);
     }
@@ -696,7 +697,7 @@
     $("#fromDate").value = a;
     $("#toDate").value = b === "9999-12-31" ? "" : b;
   }
-  $$("#whenChips button").forEach(b => b.onclick = () => { S.calMonth = null; S.calSel = null; setWhen(b.dataset.when); });
+  $$("#whenChips button").forEach(b => b.onclick = () => { S.calSel = null; if (b.dataset.when === "all") S.calMonth = null; else { S.when = b.dataset.when; const [a] = range(); S.calMonth = a.slice(0, 7); } setWhen(b.dataset.when); });
   const jumpCal = () => { if (S.from) { S.calMonth = S.from.slice(0, 7); S.calSel = S.from; } };
   function customFromPickers(changed) {
     let from = $("#fromDate").value, to = $("#toDate").value;

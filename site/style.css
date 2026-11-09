@@ -373,3 +373,6 @@ main { padding: 0 16px 24px; max-width: 1400px; margin: 0 auto; }
 .flag.nfl { background: #7c2d12; color: #fed7aa; }
 .cal-cell .nfldot { font-style: normal; font-size: 10px; margin-left: 3px; opacity: .9; }
 .sheet .nfl-line { background: color-mix(in srgb, #7c2d12 35%, var(--panel)); border-radius: 8px; padding: 6px 8px; color: var(--ink); }
+
+.cal-cell.inwin { box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--accent) 70%, transparent); }
+.cal-cell.inwin.has-going { box-shadow: inset 0 0 0 2px var(--ok); }
