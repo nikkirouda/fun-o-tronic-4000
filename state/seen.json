@@ -1994,6 +1994,11 @@
 "on_sale": null,
 "ticket": false
 },
+"brown-events-4f2696872e1d": {
+"first_seen": "2026-11-09T11:04-05:00",
+"on_sale": null,
+"ticket": false
+},
 "brown-events-4f40b6319c7b": {
 "first_seen": "2026-11-07T09:17-05:00",
 "on_sale": null,
@@ -6379,6 +6384,11 @@
 "on_sale": null,
 "ticket": true
 },
+"ch-shubertnh-dff55195b483": {
+"first_seen": "2026-11-09T11:04-05:00",
+"on_sale": null,
+"ticket": false
+},
 "ch-shubertnh-e833ae7485f7": {
 "first_seen": "2026-11-07T12:16-05:00",
 "on_sale": null,
@@ -6523,6 +6533,11 @@
 "first_seen": "2026-11-07T12:16-05:00",
 "on_sale": null,
 "ticket": true
+},
+"ch-tdgarden-3e14ed27951f": {
+"first_seen": "2026-11-09T11:04-05:00",
+"on_sale": null,
+"ticket": false
 },
 "ch-tdgarden-44ab9544cbc8": {
 "first_seen": "2026-11-07T12:16-05:00",
@@ -6838,6 +6853,11 @@
 "first_seen": "2026-11-07T12:16-05:00",
 "on_sale": null,
 "ticket": true
+},
+"ch-tdgarden-f5c1d70a4b57": {
+"first_seen": "2026-11-09T11:04-05:00",
+"on_sale": null,
+"ticket": false
 },
 "ch-tdgarden-f623837f5175": {
 "first_seen": "2026-11-07T12:16-05:00",
@@ -9378,6 +9398,11 @@
 "first_seen": "2026-11-07T09:17-05:00",
 "on_sale": null,
 "ticket": true
+},
+"odeum-0be8da15f546": {
+"first_seen": "2026-11-09T11:04-05:00",
+"on_sale": null,
+"ticket": false
 },
 "odeum-172494cec6bc": {
 "first_seen": "2026-11-07T09:17-05:00",

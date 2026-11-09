@@ -6504,12 +6504,12 @@ SUMMARY:China Chat — Decentralizing Default Risk: The Politics of Subnat
 DTSTART;TZID="UTC-05:00":20261118T120000
 DTEND;TZID="UTC-05:00":20261118T130000
 UID:brown-events-9824d34256d9@funotronic
-DESCRIPTION:https://events.brown.edu/watson/event/342671-china-chat-decent
- ralizing-default-risk-the
+DESCRIPTION:https://events.brown.edu/live/events/342671-china-chat-decentr
+ alizing-default-risk-the
 LOCATION:Stephen Robert ’62 Hall\, 280 Brook Street\, Leung Conference R
  oom (110)\, Brown University
-URL:https://events.brown.edu/watson/event/342671-china-chat-decentralizing
- -default-risk-the
+URL:https://events.brown.edu/live/events/342671-china-chat-decentralizing-
+ default-risk-the
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CLACS Coloquio - Politicians Fight Back: How Corruption Conviction
@@ -7328,15 +7328,16 @@ LOCATION:Rochambeau Library – Cafe\, 708 Hope Street Providence 02906
 URL:https://clpvd.org/event/adult-coloring-circle/2026-11-19/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Annenberg Education Workshop Seminar Series: Quentin Jenkins
+SUMMARY:It’s the Wild West: Organizational Context and Teacher Sensemaki
+ ng in the Age of AI
 DTSTART;TZID="UTC-05:00":20261119T130000
 DTEND;TZID="UTC-05:00":20261119T140000
-UID:brown-events-b529aeaf427b@funotronic
-DESCRIPTION:https://events.brown.edu/annenberg-institute/event/338207-anne
- nberg-education-workshop-seminar-series
+UID:brown-events-4f2696872e1d@funotronic
+DESCRIPTION:Free\nhttps://events.brown.edu/annenberg-institute/event/33820
+ 7-its-the-wild-west-organizational-context-and-teacher-
 LOCATION:164 Angell Street\, 202\, Brown University
-URL:https://events.brown.edu/annenberg-institute/event/338207-annenberg-ed
- ucation-workshop-seminar-series
+URL:https://events.brown.edu/annenberg-institute/event/338207-its-the-wild
+ -west-organizational-context-and-teacher-
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Measuring Health Outcomes in Climate Research: An ECF workshop for
@@ -9026,8 +9027,8 @@ DTEND;TZID="UTC-05:00":20261121T200000
 UID:ch-boch-183dce8a87dc@funotronic
 DESCRIPTION:Comedian ALI SIDDIQ announces the extension of his internation
  al standup tour Ali Siddiq: Custom Fit with over 30 additional markets in 
- September through January 2027.\n https://www.ticketmaster.com/venue/8763?
- attractionId=1902666
+ September through January 2027.\nhttps://www.ticketmaster.com/venue/8763?a
+ ttractionId=1902666
 LOCATION:Boch Center\, 270 Tremont St\, Boston\, MA
 URL:https://www.bochcenter.org/events/detail/alisiddiq
 END:VEVENT
@@ -13085,7 +13086,7 @@ SUMMARY:Boston Celtics vs Charlotte Hornets
 DTSTART;TZID="UTC-05:00":20261202T193000
 UID:pro-celtics-1d7f8e05a349@funotronic
 DESCRIPTION:Boston Celtics host the Charlotte Hornets at TD Garden.\nresal
- e from $48\nhttps://www.nba.com/celtics/tickets
+ e from $49\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nba.com/celtics/tickets
 END:VEVENT
@@ -13947,8 +13948,8 @@ DTEND;TZID="UTC-05:00":20261205T200000
 UID:ch-boch-5ee1e7060536@funotronic
 DESCRIPTION:BRETT ELDREDGE has announced a 12-date tour where you wil\; fi
  nd Mr. Christmas himself performing original songs from his albums Merry C
- hristmas (Welcome to the Family) \, Glow\, and Mr.\n https://www.ticketmas
- ter.com/venue/8248?attractionId=1540614&brand=WANGTHEATRE
+ hristmas (Welcome to the Family) \, Glow\, and Mr.\nhttps://www.ticketmast
+ er.com/venue/8248?attractionId=1540614&brand=WANGTHEATRE
 LOCATION:Boch Center\, 270 Tremont St\, Boston\, MA
 URL:https://www.bochcenter.org/events/detail/bretteldredge
 END:VEVENT
@@ -15284,12 +15285,12 @@ SUMMARY:China Chat — From Civic Tech to Evidence-Based Urban Governance:
 DTSTART;TZID="UTC-05:00":20261209T120000
 DTEND;TZID="UTC-05:00":20261209T130000
 UID:brown-events-b6e2e6e4bee4@funotronic
-DESCRIPTION:https://events.brown.edu/watson/event/342953-china-chat-from-c
- ivic-tech-to-evidence-based
+DESCRIPTION:https://events.brown.edu/live/events/342953-china-chat-from-ci
+ vic-tech-to-evidence-based
 LOCATION:Stephen Robert ’62 Hall\, 280 Brook Street\, Leung Conference R
  oom (110)\, Brown University
-URL:https://events.brown.edu/watson/event/342953-china-chat-from-civic-tec
- h-to-evidence-based
+URL:https://events.brown.edu/live/events/342953-china-chat-from-civic-tech
+ -to-evidence-based
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Nancy G. Zimmerman Center for Computational Brain Science Seminar:
@@ -20402,6 +20403,18 @@ URL:https://events.brown.edu/library/event/341465-a-pictorial-dragon-the-a
  rt-of-fernando-birri
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The Dunkin' Women's Beanpot Championship
+DTSTART;TZID="UTC-05:00":20270119T163000
+UID:ch-tdgarden-f5c1d70a4b57@funotronic
+DESCRIPTION:4:30 p.m. –Third-place Game 7:30 p.m. – Championship Game 
+ The Dunkin' Women's Beanpot will make its highly anticipated return to TD 
+ Garden for its fourth year on January 19\, 2027\, building on the success 
+ of the last three years held at TD…\nhttps://www.tdgarden.com/events/det
+ ail/womens-beanpot
+LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
+URL:https://www.tdgarden.com/events/detail/womens-beanpot
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:The English Understand Wool
 DTSTART;TZID="UTC-05:00":20270119T190000
 UID:pm-gamm-2e88824b93a5@funotronic
@@ -21686,6 +21699,17 @@ DESCRIPTION:https://events.brown.edu/general/event/340357-sustainableed-vi
 LOCATION:Zoom\, Providence
 URL:https://events.brown.edu/general/event/340357-sustainableed-virtual-se
  minar-patricia-fabian
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Dunkin’ Men's Beanpot Semifinals
+DTSTART;TZID="UTC-05:00":20270201T190000
+UID:ch-tdgarden-3e14ed27951f@funotronic
+DESCRIPTION:February 1 matchups are to be determined. The Dunkin’ Men’
+ s Beanpot Championship is back for its 74th year! On February 1 & 8\, the 
+ battle for college hockey bragging rights continues\, right here at TD Gar
+ den.\nhttps://www.tdgarden.com/events/detail/beanpot-semifinals
+LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
+URL:https://www.tdgarden.com/events/detail/beanpot-semifinals
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -25144,6 +25168,15 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Micky Dolenz
+DTSTART;TZID="UTC-04:00":20270314T190000
+UID:odeum-0be8da15f546@funotronic
+DESCRIPTION:60 YEARS OF THE MONKEES\nhttps://www.greenwichodeum.com/events
+ /micky-dolenz
+LOCATION:Greenwich Odeum\, 59 Main St
+URL:https://www.greenwichodeum.com/events/micky-dolenz
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Rosencrantz & Guildenstern Are Dead
 DTSTART;TZID="UTC-04:00":20270314T190000
 UID:pm-gamm-2db19f73e9e2@funotronic
@@ -25426,8 +25459,8 @@ DTSTART;TZID="UTC-04:00":20270319T193000
 UID:ch-boch-109cec6a86ce@funotronic
 DESCRIPTION:Foil Arms and Hog are Ireland's top comedy trio. Having amasse
  d over 1 Billion online views the Irish internet sensations are back on th
- e road with their biggest ever world tour.\n https://www.ticketmaster.com/
- event/010065379C81E5E1
+ e road with their biggest ever world tour.\nhttps://www.ticketmaster.com/e
+ vent/010065379C81E5E1
 LOCATION:Boch Center\, 270 Tremont St\, Boston\, MA
 URL:https://www.bochcenter.org/events/detail/foh2027
 END:VEVENT
@@ -28028,13 +28061,14 @@ LOCATION:The Hanover Theatre — Main Stage\, 2 Southbridge St Worcester 0
 URL:https://thehanovertheatre.org/event/burn-the-floor26/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Deconstructing The Music - LIVE!
+SUMMARY:Deconstructing The Dark Side of the Moon
 DTSTART;TZID="UTC-04:00":20270506T190000
-UID:ch-shubertnh-ab5e217e39a8@funotronic
-DESCRIPTION:Scott Freiman \, host of the Public Television series Deconstr
- ucting the Beatles\, returns for another live Deconstructing the Music at 
- the Shubert Theatre.\nhttps://www.shubert.com/events/detail/deconstructing
- -the-music-may-2028
+UID:ch-shubertnh-dff55195b483@funotronic
+DESCRIPTION:In Deconstructing The Music LIVE: Pink Floyd’s The Dark Side
+  of the Moon \, Scott Freiman\, host of the Public Television series Decon
+ structing the Beatles\, celebrates Pink Floyd’s groundbreaking 1973 albu
+ m with his first non-Beatles…\nhttps://www.shubert.com/events/detail/dec
+ onstructing-the-music-may-2028
 LOCATION:Shubert Theatre\, 247 College St\, New Haven\, CT
 URL:https://www.shubert.com/events/detail/deconstructing-the-music-may-202
  8
