@@ -153,6 +153,19 @@ LOCATION:Steinert Center\, 101\, Brown University
 URL:https://events.brown.edu/music/event/342830-ed-osborn-music-now-talk
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Miguel Ortiz — Hate\, Fear and Intergroup Conflict: Experimental
+  Evidence from Nigeria
+DTSTART;TZID="UTC-05:00":20261109T120000
+DTEND;TZID="UTC-05:00":20261109T130000
+UID:brown-events-b0cdebf13a0f@funotronic
+DESCRIPTION:https://events.brown.edu/watson/event/343489-miguel-ortiz-hate
+ -fear-and-intergroup-conflict
+LOCATION:Watson School of International and Public Affairs\, 111 Thayer St
+ reet\, Birkelund Board Room (140)\, Brown University
+URL:https://events.brown.edu/watson/event/343489-miguel-ortiz-hate-fear-an
+ d-intergroup-conflict
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Statistics Seminar Series: David Benkeser\, Ph.D.
 DTSTART;TZID="UTC-05:00":20261109T120000
 DTEND;TZID="UTC-05:00":20261109T130000
@@ -400,6 +413,16 @@ DESCRIPTION:Stop by on Mondays to learn a new beginner painting technique
 LOCATION:Smith Hill Library – Adult Area\, 31 Candace Street Providence 
  02908
 URL:https://clpvd.org/event/monday-painting-2/2026-11-09/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Navigating Spring Course Registration for Economics Students
+DTSTART;TZID="UTC-05:00":20261109T160000
+UID:brown-events-54f17758f489@funotronic
+DESCRIPTION:https://events.brown.edu/general/event/343385-navigating-sprin
+ g-course-registration-for
+LOCATION:Friedman Hall\, 202\, Brown University
+URL:https://events.brown.edu/general/event/343385-navigating-spring-course
+ -registration-for
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The History Of Concrete
@@ -1612,6 +1635,19 @@ URL:https://events.brown.edu/general/event/341696-shape-browns-ai-future-g
  aitl-faculty-session
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🚀 Lunch with Rose Hall x OpenAI: Building a Startup with AI as 
+ Your Cofounder
+DTSTART;TZID="UTC-05:00":20261111T120000
+DTEND;TZID="UTC-05:00":20261111T140000
+UID:brown-events-65482d5151a4@funotronic
+DESCRIPTION:Free\nhttps://events.brown.edu/nelson-entrepreneurship/event/3
+ 43501-128640-lunch-with-rose-hall-x-openai-building-a
+LOCATION:Nelson Center for Entrepreneurship\, 1 Euclid Ave\, Liz Lange Lec
+ ture Hall\, Brown University
+URL:https://events.brown.edu/nelson-entrepreneurship/event/343501-128640-l
+ unch-with-rose-hall-x-openai-building-a
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Bloomberg Terminal Training
 DTSTART;TZID="UTC-05:00":20261111T130000
 DTEND;TZID="UTC-05:00":20261111T140000
@@ -1849,6 +1885,18 @@ LOCATION:Smith Hill Library – Children’s Area\, 31 Candace Street Prov
 URL:https://clpvd.org/event/create-your-state/2026-11-11/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Disability Studies • Lara Choksey\, “The Line of Error: Practi
+ ces of Asylum Between Writing and Performance”
+DTSTART;TZID="UTC-05:00":20261111T160000
+UID:brown-events-69407e7a81fc@funotronic
+DESCRIPTION:https://events.brown.edu/live/events/343466-lecture-with-lara-
+ choksey-the-line-of-error
+LOCATION:Congut Institute\, The White Family Salon\, Room 110\, Brown Univ
+ ersity
+URL:https://events.brown.edu/live/events/343466-lecture-with-lara-choksey-
+ the-line-of-error
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Nanu Burmese Fusion Pop-up
 DTSTART;TZID="UTC-05:00":20261111T160000
 DTEND;TZID="UTC-05:00":20261111T200000
@@ -1955,6 +2003,16 @@ LOCATION:121 South Main Street\, 11th Floor Lecture Hall\, Brown Universit
  y
 URL:https://events.brown.edu/live/events/343141-an-icerm-public-event-a-di
  scussion-of-ai-and
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Fireside Chat with Professor Ari Gabinet
+DTSTART;TZID="UTC-05:00":20261111T180000
+UID:brown-events-1097b1904ecf@funotronic
+DESCRIPTION:https://events.brown.edu/general/event/343500-fireside-chat-wi
+ th-professor-ari-gabinet
+LOCATION:Smith-Buonanno Hall\, 201\, Brown University
+URL:https://events.brown.edu/general/event/343500-fireside-chat-with-profe
+ ssor-ari-gabinet
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Global Health 3.0: Where Do We Go From Here? A Talk With Dr. Joia 
@@ -2617,6 +2675,17 @@ LOCATION:Smith Hill Library – Children’s Area\, 31 Candace Street Prov
 URL:https://clpvd.org/event/comedy-club-2/2026-11-12/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Data & Donuts - Deplorable Data: How Data is Misused in Government
+  with Dr. Thomas Sgouros
+DTSTART;TZID="UTC-05:00":20261112T160000
+UID:brown-events-c8b35404091a@funotronic
+DESCRIPTION:https://events.brown.edu/general/event/343384-data-donuts-depl
+ orable-data-how-data-is
+LOCATION:Data Science Institute\, 302\, Brown University
+URL:https://events.brown.edu/general/event/343384-data-donuts-deplorable-d
+ ata-how-data-is
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:DEEPS Colloquium with Seyed Mostafa Mousavi
 DTSTART;TZID="UTC-05:00":20261112T160000
 UID:brown-events-11c55e5dea88@funotronic
@@ -2817,6 +2886,17 @@ DESCRIPTION:All are welcome to explore the exhibition Cloth of the Earth:
  //involved.risd.edu/event/12952612
 LOCATION:RISD Museum\, Providence
 URL:https://involved.risd.edu/event/12952612
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grad Student Panel: Applying for Grad School
+DTSTART;TZID="UTC-05:00":20261112T173000
+DTEND;TZID="UTC-05:00":20261112T193000
+UID:brown-events-25ec5fa53812@funotronic
+DESCRIPTION:Free\nhttps://events.brown.edu/lgbtq/event/343472-grad-student
+ -panel-applying-for-grad-school
+LOCATION:Graduate Student Lounge\, Providence
+URL:https://events.brown.edu/lgbtq/event/343472-grad-student-panel-applyin
+ g-for-grad-school
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Information Session - UG/MPH and AM in Biostatistics
@@ -3031,18 +3111,6 @@ URL:https://events.brown.edu/general/event/343220-film-screening-shanghai-
  triad
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Graduate Industrial Design Biennial
-DTSTART;TZID="UTC-05:00":20261112T190000
-DTEND;TZID="UTC-05:00":20261112T210000
-UID:risd-engage-83cd1b9216c5@funotronic
-DESCRIPTION:Please join us for the opening of the Graduate Industrial Desi
- gn Biennial exhibition at Sol Koffler Gallery on Thursday\, November 12th 
- from 7-9 pm . Exhibition on view November 13-December 6.\nhttps://involved
- .risd.edu/event/12602474
-LOCATION:RISD — Sol Koffler Gallery\, Providence
-URL:https://involved.risd.edu/event/12602474
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Katie Bennett reading from SHE WAS WILD GRASS\, with AO Gerber and
   Julia Brennan
 DTSTART;TZID="UTC-05:00":20261112T190000
@@ -3081,6 +3149,18 @@ DESCRIPTION:welcome to Alchemy's ten year anniversary celebration! this ev
  town-alchemy-events
 LOCATION:Alchemy\, 71 Richmond St
 URL:https://alchemyri.net/providence-downtown-alchemy-events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Under the Sea: Industrial Design Graduate Biennial
+DTSTART;TZID="UTC-05:00":20261112T190000
+DTEND;TZID="UTC-05:00":20261112T210000
+UID:risd-engage-559c32451b40@funotronic
+DESCRIPTION:Please join us for the opening of Under the Sea: Industrial De
+ sign Graduate Biennial exhibition at Sol Koffler Gallery on Thursday\, Nov
+ ember 12th from 7-9 pm . Exhibition on view November 13-December 6.\nhttps
+ ://involved.risd.edu/event/12602474
+LOCATION:RISD — Sol Koffler Gallery\, Providence
+URL:https://involved.risd.edu/event/12602474
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:“Ghost in the Shell” (1995): Rigorously Curated Sad Robot (Sen
@@ -3223,6 +3303,18 @@ LOCATION:RISD — Library Reading Room 213\, Providence
 URL:https://involved.risd.edu/event/12944159
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Humanistic Inquiry in Education Workshop: What Does it Mean to Car
+ e?: Meaning and Motivation in Care Work Across Education and Healthcare
+DTSTART;TZID="UTC-05:00":20261113T093000
+DTEND;TZID="UTC-05:00":20261113T110000
+UID:brown-events-7cbc12412f5d@funotronic
+DESCRIPTION:Free\nhttps://events.brown.edu/education/event/343470-humanist
+ ic-inquiry-in-education-workshop-what-does
+LOCATION:164 Angell Street\, 202\, Brown University
+URL:https://events.brown.edu/education/event/343470-humanistic-inquiry-in-
+ education-workshop-what-does
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:1776 Across the Americas: A Hemispheric History from the Collectio
  ns of the John Carter Brown Library
 DTSTART;TZID="UTC-05:00":20261113T100000
@@ -3297,6 +3389,17 @@ DESCRIPTION:Join us for Storytime every Wednesday and Friday at 11:00 a.m.
 LOCATION:Books on the Square\, 471 Angell St
 URL:https://www.booksq.com/event/2026-11-13/storytime-every-wednesday-and-
  friday
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Targeted Gene Expression & Protein Multiomic Profiling with nCount
+ er
+DTSTART;TZID="UTC-05:00":20261113T110000
+UID:brown-events-07dd3be67e4c@funotronic
+DESCRIPTION:https://events.brown.edu/general/event/343389-targeted-gene-ex
+ pression-protein-multiomic
+LOCATION:70 Ship Street\, 107\, Brown University
+URL:https://events.brown.edu/general/event/343389-targeted-gene-expression
+ -protein-multiomic
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Clinical Psych Conversations
@@ -3397,6 +3500,16 @@ DESCRIPTION:Do you have your own creative project in mind? We have makersp
 LOCATION:Rochambeau Library – Studio\, 708 Hope Street Providence 02906
 URL:https://clpvd.org/event/makerspace-open-studio-for-adults-11/2026-11-1
  3/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pins of the Past
+DTSTART;TZID="UTC-05:00":20261113T130000
+DTEND;TZID="UTC-05:00":20261113T143000
+UID:brown-events-1a733697e154@funotronic
+DESCRIPTION:Free\nhttps://events.brown.edu/lgbtq/event/343479-pins-of-the-
+ past
+LOCATION:Stonewall House\, Providence
+URL:https://events.brown.edu/lgbtq/event/343479-pins-of-the-past
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:~Virtual~ Lunch Bunch Story
@@ -4070,6 +4183,19 @@ URL:https://www.riconvention.com/events/detail/18th-annual-providence-fall
  -home-show
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Breakfast with the Friends of Rochambeau
+DTSTART;TZID="UTC-05:00":20261114T100000
+DTEND;TZID="UTC-05:00":20261114T113000
+UID:tribe-clpvd-c3335a45355f@funotronic
+DESCRIPTION:Have you ever thought about why the Friends of Rochambeau exis
+ t? Stop by and chat with current board members and learn how the Friends r
+ aise funds for library programming\, museum passes\, and provide other spe
+ cial community resources.\nhttps://clpvd.org/event/breakfast-with-the-frie
+ nds-of-rochambeau/
+LOCATION:Rochambeau Library – Cafe\, 708 Hope Street Providence 02906
+URL:https://clpvd.org/event/breakfast-with-the-friends-of-rochambeau/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Introduction to GIS with QGIS
 DTSTART;TZID="UTC-05:00":20261114T100000
 DTEND;TZID="UTC-05:00":20261114T170000
@@ -4185,6 +4311,16 @@ DESCRIPTION:https://events.brown.edu/athletics/event/301824-brown-universi
 LOCATION:Richard Gouse Field at Brown Stadium\, Providence
 URL:https://events.brown.edu/athletics/event/301824-brown-university-footb
  all-vs-columbia
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Expressivi-TEA
+DTSTART;TZID="UTC-05:00":20261114T130000
+DTEND;TZID="UTC-05:00":20261114T150000
+UID:brown-events-afe35b0ce1ab@funotronic
+DESCRIPTION:Free\nhttps://events.brown.edu/lgbtq/event/343481-expressivi-t
+ ea
+LOCATION:Stonewall House\, Providence
+URL:https://events.brown.edu/lgbtq/event/343481-expressivi-tea
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Planetarium Show at the Museum of Natural History
@@ -4426,7 +4562,7 @@ SUMMARY:Boston Bruins vs Minnesota Wild
 DTSTART;TZID="UTC-05:00":20261114T190000
 UID:pro-bruins-40e5d6170b8d@funotronic
 DESCRIPTION:Boston Bruins host the Minnesota Wild at TD Garden.\nresale fr
- om $56\nhttps://www.nhl.com/bruins/tickets
+ om $57\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
@@ -5424,6 +5560,27 @@ URL:https://www.rihs.org/event/205th-annual-meeting-of-the-rhode-island-hi
  storical-society/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Brown APSA Seminar Series: Sean Monaghan\, MD
+DTSTART;TZID="UTC-05:00":20261116T173000
+UID:brown-events-f9014bb26e7d@funotronic
+DESCRIPTION:https://events.brown.edu/general/event/343388-brown-apsa-semin
+ ar-series-sean-monaghan-md
+LOCATION:The Warren Alpert Medical School of Brown University\, 270\, Brow
+ n University
+URL:https://events.brown.edu/general/event/343388-brown-apsa-seminar-serie
+ s-sean-monaghan-md
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:IAPA Undergraduate Faculty-Student Mixer
+DTSTART;TZID="UTC-05:00":20261116T173000
+UID:brown-events-f997d82aab72@funotronic
+DESCRIPTION:https://events.brown.edu/general/event/343392-iapa-undergradua
+ te-faculty-student-mixer
+LOCATION:111 Thayer Street\, South Common Room\, Brown University
+URL:https://events.brown.edu/general/event/343392-iapa-undergraduate-facul
+ ty-student-mixer
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Library Card Design Art Gallery
 DTSTART;TZID="UTC-05:00":20261116T173000
 DTEND;TZID="UTC-05:00":20261116T193000
@@ -5456,7 +5613,7 @@ SUMMARY:Boston Celtics vs Orlando Magic
 DTSTART;TZID="UTC-05:00":20261116T190000
 UID:pro-celtics-fe41f74bbf88@funotronic
 DESCRIPTION:Boston Celtics host the Orlando Magic at TD Garden.\nresale fr
- om $50\nhttps://www.nba.com/celtics/tickets
+ om $53\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nba.com/celtics/tickets
 END:VEVENT
@@ -5484,6 +5641,17 @@ DESCRIPTION:1930s New York\, at the height of the Depression. Joe Bonapart
  nema.com/special-events.php
 LOCATION:Avon Cinema\, 260 Thayer St
 URL:https://www.avoncinema.com/special-events.php
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TICKETS OUT NOW] “A Providence for All”: A Conversation with 
+ Mayor-Elect David Morales
+DTSTART;TZID="UTC-05:00":20261116T193000
+UID:brown-events-d165643f136a@funotronic
+DESCRIPTION:https://events.brown.edu/general/event/343494-tickets-out-now-
+ a-providence-for-all-a
+LOCATION:Salomon Center\, DECI Auditorium\, Brown University
+URL:https://events.brown.edu/general/event/343494-tickets-out-now-a-provid
+ ence-for-all-a
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The John Allmark Jazz Orchestra
@@ -6217,6 +6385,16 @@ LOCATION:Riffraff Bookstore + Bar\, 60 Valley St
 URL:https://riffraffpvd.com/events/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ESEK Market - supporting small businesses
+DTSTART;TZID="UTC-05:00":20261117T190000
+UID:brown-events-de50ad06826e@funotronic
+DESCRIPTION:https://events.brown.edu/general/event/343393-esek-market-supp
+ orting-small-businesses
+LOCATION:Brown RISD Hillel\, Lobby\, Brown University
+URL:https://events.brown.edu/general/event/343393-esek-market-supporting-s
+ mall-businesses
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Masood Boomgaard
 DTSTART;TZID="UTC-05:00":20261117T190000
 DTEND;TZID="UTC-05:00":20261117T203000
@@ -6491,10 +6669,10 @@ SUMMARY:Book Launch & Conversation | Across Continents: Writing Goans\, Ma
  king Worlds
 DTSTART;TZID="UTC-05:00":20261118T120000
 DTEND;TZID="UTC-05:00":20261118T133000
-UID:brown-events-2a53d972bf69@funotronic
+UID:brown-events-b1c462663025@funotronic
 DESCRIPTION:https://events.brown.edu/portuguese-brazilian/event/337025-boo
  k-launch-conversation-across-continents
-LOCATION:Brown University\, Providence
+LOCATION:159 George St\, 102\, Brown University
 URL:https://events.brown.edu/portuguese-brazilian/event/337025-book-launch
  -conversation-across-continents
 END:VEVENT
@@ -7333,11 +7511,11 @@ SUMMARY:It’s the Wild West: Organizational Context and Teacher Sensemaki
 DTSTART;TZID="UTC-05:00":20261119T130000
 DTEND;TZID="UTC-05:00":20261119T140000
 UID:brown-events-4f2696872e1d@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/annenberg-institute/event/33820
- 7-its-the-wild-west-organizational-context-and-teacher-
-LOCATION:164 Angell Street\, 202\, Brown University
-URL:https://events.brown.edu/annenberg-institute/event/338207-its-the-wild
+DESCRIPTION:Free\nhttps://events.brown.edu/live/events/338207-its-the-wild
  -west-organizational-context-and-teacher-
+LOCATION:164 Angell Street\, 202\, Brown University
+URL:https://events.brown.edu/live/events/338207-its-the-wild-west-organiza
+ tional-context-and-teacher-
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Measuring Health Outcomes in Climate Research: An ECF workshop for
@@ -7586,6 +7764,18 @@ URL:https://www.rihs.org/event/americas-first-adventure-to-china-a-book-ex
  hibit-talk-with-dr-john-r-haddad/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Blair Kelley\, “The Humanities and Higher Education: A Conjunctu
+ re”
+DTSTART;TZID="UTC-05:00":20261119T173000
+DTEND;TZID="UTC-05:00":20261119T190000
+UID:brown-events-ad5779836811@funotronic
+DESCRIPTION:https://events.brown.edu/live/events/341936-public-lecture-wit
+ h-blair-kelley-president-and
+LOCATION:Andrews House\, Providence
+URL:https://events.brown.edu/live/events/341936-public-lecture-with-blair-
+ kelley-president-and
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Henry James on/and the Take • Nicholas Dames (Columbia Universit
  y)
 DTSTART;TZID="UTC-05:00":20261119T173000
@@ -7622,17 +7812,6 @@ DESCRIPTION:Test your general (and not so general) knowledge chops in the
 LOCATION:Providence Athenaeum\, 251 Benefit St
 URL:https://providenceathenaeum.org/calendar/the-athenaeum-pub-quiz-novemb
  er/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:The Humanities and Higher Education: A Conjuncture
-DTSTART;TZID="UTC-05:00":20261119T173000
-DTEND;TZID="UTC-05:00":20261119T190000
-UID:brown-events-83e7a0e56705@funotronic
-DESCRIPTION:https://events.brown.edu/live/events/341936-public-lecture-wit
- h-blair-kelley-president-and
-LOCATION:Andrews House\, Providence
-URL:https://events.brown.edu/live/events/341936-public-lecture-with-blair-
- kelley-president-and
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Apparel Design Department Triennial
@@ -8086,6 +8265,18 @@ URL:https://www.providenceri.gov/event/greenhouse-impressionism-with-jenea
  ne-lunn/2026-11-20/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Pandemic Center Webinar on Pandemic Preparedness & Response: A con
+ versation with Sir Jeremy Farrar
+DTSTART;TZID="UTC-05:00":20261120T100000
+DTEND;TZID="UTC-05:00":20261120T110000
+UID:brown-events-8bc6104ab009@funotronic
+DESCRIPTION:Free\nhttps://events.brown.edu/public-health/event/343474-pand
+ emic-center-webinar-on-pandemic-preparedness-resp
+LOCATION:Virtual\, Providence
+URL:https://events.brown.edu/public-health/event/343474-pandemic-center-we
+ binar-on-pandemic-preparedness-resp
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Student Performance: Dr. Seuss’ How the Grinch Stole Christmas! 
  The Musical
 DTSTART;TZID="UTC-05:00":20261120T103000
@@ -8245,6 +8436,17 @@ DESCRIPTION:Feeling nostalgic? Come make some art with Perler Beads! Perle
  .\nhttps://clpvd.org/event/perler-beads/2026-11-20/
 LOCATION:South Providence Library\, 441 Prairie Avenue Providence 02905
 URL:https://clpvd.org/event/perler-beads/2026-11-20/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chemistry Undergraduate Open House
+DTSTART;TZID="UTC-05:00":20261120T150000
+DTEND;TZID="UTC-05:00":20261120T160000
+UID:brown-events-8f46943aec0d@funotronic
+DESCRIPTION:https://events.brown.edu/chemistry/event/343502-chemistry-unde
+ rgraduate-open-house
+LOCATION:MacMillan Hall\, 115\, Brown University
+URL:https://events.brown.edu/chemistry/event/343502-chemistry-undergraduat
+ e-open-house
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kids Coloring Club!
@@ -8865,15 +9067,6 @@ URL:https://events.brown.edu/athletics/event/341972-brown-university-women
  s-squash-vs-wesleyan
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bryant Football vs University of Rhode Island
-DTSTART;TZID="UTC-05:00":20261121T130000
-UID:college-sports-f440b7fabff4@funotronic
-DESCRIPTION:https://bryantbulldogs.com/calendar.aspx?game_id=12261&amp\;sp
- ort_id=5
-LOCATION:Beirne Stadium\, Smithfield
-URL:https://bryantbulldogs.com/calendar.aspx?game_id=12261&amp;sport_id=5
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Tufting Workshop
 DTSTART;TZID="UTC-05:00":20261121T130000
 DTEND;TZID="UTC-05:00":20261121T170000
@@ -8898,6 +9091,15 @@ DESCRIPTION:Could it be fate or a second chance? This compelling story of
 LOCATION:Knight Memorial Library\, 275 Elmwood Avenue Providence 02907
 URL:https://clpvd.org/event/african-american-fiction-book-club-where-the-w
  ildflowers-grow/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bryant Football vs University of Rhode Island
+DTSTART;TZID="UTC-05:00":20261121T132000
+UID:college-sports-03c19b2c746f@funotronic
+DESCRIPTION:https://bryantbulldogs.com/calendar.aspx?game_id=12261&amp\;sp
+ ort_id=5
+LOCATION:Beirne Stadium\, Smithfield
+URL:https://bryantbulldogs.com/calendar.aspx?game_id=12261&amp;sport_id=5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Providence College Women's Basketball vs South Carolina - White Ou
@@ -9086,7 +9288,7 @@ SUMMARY:Boston Bruins vs Washington Capitals
 DTSTART;TZID="UTC-05:00":20261121T190000
 UID:pro-bruins-e063e74933af@funotronic
 DESCRIPTION:Boston Bruins host the Washington Capitals at TD Garden.\nresa
- le from $56\nhttps://www.nhl.com/bruins/tickets
+ le from $73\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
@@ -10726,7 +10928,7 @@ SUMMARY:Boston Bruins vs Winnipeg Jets
 DTSTART;TZID="UTC-05:00":20261125T190000
 UID:pro-bruins-9fd700444035@funotronic
 DESCRIPTION:Boston Bruins host the Winnipeg Jets at TD Garden.\nresale fro
- m $50\nhttps://www.nhl.com/bruins/tickets
+ m $85\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
@@ -11047,7 +11249,7 @@ SUMMARY:Boston Bruins vs Toronto Maple Leafs
 DTSTART;TZID="UTC-05:00":20261127T130000
 UID:pro-bruins-3efe1c919fe9@funotronic
 DESCRIPTION:Boston Bruins host the Toronto Maple Leafs at TD Garden.\nresa
- le from $56\nhttps://www.nhl.com/bruins/tickets
+ le from $155\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
@@ -12450,6 +12652,18 @@ LOCATION:Chace Athletic Center\, Smithfield
 URL:https://bryantbulldogs.com/calendar.aspx?game_id=12648&amp;sport_id=7
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Health Careers Advising | HCA Application Kick Off
+DTSTART;TZID="UTC-05:00":20261201T180000
+DTEND;TZID="UTC-05:00":20261201T190000
+UID:brown-events-42d0e32402e4@funotronic
+DESCRIPTION:https://events.brown.edu/live/events/343482-health-careers-adv
+ ising-hca-application-kick-off
+LOCATION:Stephen Robert ’62 Campus Center\, Petteruti Lounge\, Brown Uni
+ versity
+URL:https://events.brown.edu/live/events/343482-health-careers-advising-hc
+ a-application-kick-off
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:John Hay Undergraduate Fellowship Information Session
 DTSTART;TZID="UTC-05:00":20261201T180000
 DTEND;TZID="UTC-05:00":20261201T185000
@@ -12608,7 +12822,7 @@ SUMMARY:Boston Bruins vs Colorado Avalanche
 DTSTART;TZID="UTC-05:00":20261201T200000
 UID:pro-bruins-a9ed12c0a493@funotronic
 DESCRIPTION:Boston Bruins host the Colorado Avalanche at TD Garden.\nresal
- e from $56\nhttps://www.nhl.com/bruins/tickets
+ e from $139\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
@@ -12777,6 +12991,20 @@ DESCRIPTION:https://events.brown.edu/earth-environmental-planetary/event/3
 LOCATION:Lincoln Field Building\, 120\, Brown University
 URL:https://events.brown.edu/earth-environmental-planetary/event/338816-pl
  anetary-lunch-bunch-seamus-anderson
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Liberty at Lunchtime: North Carolina Museum of History
+DTSTART;TZID="UTC-05:00":20261202T123000
+DTEND;TZID="UTC-05:00":20261202T130000
+UID:tribe-rihs-edcd1a7306d8@funotronic
+DESCRIPTION:Join the Rhode Island Historical Society on Wednesday\, Decemb
+ er 2 at 12:30pm for the twelfth and final installment of Liberty at Luncht
+ ime\, a monthly virtual series highlighting partners in the other 13 origi
+ nal colonies.\nhttps://www.rihs.org/event/liberty-at-lunchtime-north-carol
+ ina-museum-of-history/
+LOCATION:Zoom\, Providence
+URL:https://www.rihs.org/event/liberty-at-lunchtime-north-carolina-museum-
+ of-history/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MahJong
@@ -13274,6 +13502,18 @@ URL:https://events.brown.edu/john-carter-brown-library/event/326901-1776-a
  cross-the-americas-a-hemispheric-history
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The Endurance of the Mare: Transnational Feminisms Initiative Book
+  Launch
+DTSTART;TZID="UTC-05:00":20261203T140000
+DTEND;TZID="UTC-05:00":20261203T153000
+UID:brown-events-4b7367c69ffa@funotronic
+DESCRIPTION:Free\nhttps://events.brown.edu/pembroke/event/343496-the-endur
+ ance-of-the-mare-transnational-feminisms
+LOCATION:online\, Providence
+URL:https://events.brown.edu/pembroke/event/343496-the-endurance-of-the-ma
+ re-transnational-feminisms
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Afterschool Activities – Board Games
 DTSTART;TZID="UTC-05:00":20261203T150000
 DTEND;TZID="UTC-05:00":20261203T170000
@@ -13677,17 +13917,6 @@ URL:https://events.brown.edu/pembroke/event/335031-queering-the-algorithm-
  surveillance-resistance-and
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Chemistry Colloquium • Timothy M. Swager • MIT
-DTSTART;TZID="UTC-05:00":20261204T150000
-DTEND;TZID="UTC-05:00":20261204T160000
-UID:brown-events-292824bd9ed1@funotronic
-DESCRIPTION:https://events.brown.edu/chemistry/event/336291-chemistry-coll
- oquium-timothy-m-swager-mit
-LOCATION:MacMillan Hall\, 115\, Brown University
-URL:https://events.brown.edu/chemistry/event/336291-chemistry-colloquium-t
- imothy-m-swager-mit
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Physics Colloquium featuring Domenico Di Sante\, University of Bol
  ogna
 DTSTART;TZID="UTC-05:00":20261204T150000
@@ -13722,19 +13951,6 @@ DESCRIPTION:Join us every other Friday for a FREE after-school movie! Rate
 LOCATION:Washington Park Library – Children’s Area\, 1316 Broad Street
   Providence 02905
 URL:https://clpvd.org/event/after-school-movie-9/2026-12-04/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Crochet Workshop
-DTSTART;TZID="UTC-05:00":20261204T153000
-DTEND;TZID="UTC-05:00":20261204T170000
-UID:tribe-clpvd-584fdd385ecd@funotronic
-DESCRIPTION:Every Friday 3:30 – 5:00 Come learn and level up your croche
- t skills each week! From amigurumi to tapestry crochet\, this workshop is 
- a great opportunity for any kid interested in crochet!\nhttps://clpvd.org/
- event/crochet-workshop/2026-12-04/
-LOCATION:Wanskuck Library – Children’s Area 1\, 233 Veazie Street Prov
- idence 02904
-URL:https://clpvd.org/event/crochet-workshop/2026-12-04/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Science\, Stakes\, and Feelings of a Warming Planet with Kate 
@@ -14748,7 +14964,7 @@ SUMMARY:New England Patriots vs Buffalo Bills
 DTSTART;TZID="UTC-05:00":20261206T162500
 UID:pro-patriots-1f42667a2cd2@funotronic
 DESCRIPTION:New England Patriots host the Buffalo Bills at Gillette Stadiu
- m.\nresale from $344\nhttps://www.patriots.com/tickets/
+ m.\nresale from $343\nhttps://www.patriots.com/tickets/
 LOCATION:Gillette Stadium\, 1 Patriot Pl\, Foxborough\, MA
 URL:https://www.patriots.com/tickets/
 END:VEVENT
@@ -15141,6 +15357,18 @@ DESCRIPTION:https://bryantbulldogs.com/calendar.aspx?game_id=12480&amp\;sp
  ort_id=16
 LOCATION:Chace Athletic Center\, Smithfield
 URL:https://bryantbulldogs.com/calendar.aspx?game_id=12480&amp;sport_id=16
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Health Careers Advising | HCA Personal Statement Workshop
+DTSTART;TZID="UTC-05:00":20261208T183000
+DTEND;TZID="UTC-05:00":20261208T193000
+UID:brown-events-25b67965ea50@funotronic
+DESCRIPTION:https://events.brown.edu/live/events/343483-health-careers-adv
+ ising-hca-personal-statement
+LOCATION:Stephen Robert ’62 Campus Center\, Petteruti Lounge\, Brown Uni
+ versity
+URL:https://events.brown.edu/live/events/343483-health-careers-advising-hc
+ a-personal-statement
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Providence College Men's Basketball vs Fairfield - Commemorative C
@@ -15838,6 +16066,18 @@ URL:https://events.brown.edu/library/event/341438-a-pictorial-dragon-the-a
  rt-of-fernando-birri
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Humanistic Inquiry in Education Workshop: Cultivating Playful Affe
+ cts: Poetry Programming\, Play\, and Precarity in Chicago Schools
+DTSTART;TZID="UTC-05:00":20261211T093000
+DTEND;TZID="UTC-05:00":20261211T110000
+UID:brown-events-49a52d49f62d@funotronic
+DESCRIPTION:Free\nhttps://events.brown.edu/education/event/343471-humanist
+ ic-inquiry-in-education-workshop
+LOCATION:164 Angell Street\, 275\, Brown University
+URL:https://events.brown.edu/education/event/343471-humanistic-inquiry-in-
+ education-workshop
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:1776 Across the Americas: A Hemispheric History from the Collectio
  ns of the John Carter Brown Library
 DTSTART;TZID="UTC-05:00":20261211T100000
@@ -15890,6 +16130,17 @@ DESCRIPTION:https://events.brown.edu/legorreta/event/342773-lcc-cancer-bio
 LOCATION:70 Ship Street\, 107\, Brown University
 URL:https://events.brown.edu/legorreta/event/342773-lcc-cancer-biology-sem
  inar-dr-marty-lafleur
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chemistry Colloquium • Timothy M. Swager • MIT
+DTSTART;TZID="UTC-05:00":20261211T150000
+DTEND;TZID="UTC-05:00":20261211T160000
+UID:brown-events-b04ed7e293f6@funotronic
+DESCRIPTION:https://events.brown.edu/chemistry/event/336291-chemistry-coll
+ oquium-timothy-m-swager-mit
+LOCATION:MacMillan Hall\, 115\, Brown University
+URL:https://events.brown.edu/chemistry/event/336291-chemistry-colloquium-t
+ imothy-m-swager-mit
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Friday\, December 11 – Holiday Basin Lighting
@@ -16964,14 +17215,14 @@ URL:https://events.brown.edu/bai/event/338354-exhibition-on-view-building-
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:2026 Versaci Endowed Lectureship Featuring L. Scott Levin\, MD\, F
- ACS\, FAOA
+ ACS\, FAOA (Please RSVP)
 DTSTART;TZID="UTC-05:00":20261216T070000
-UID:brown-events-210d3e83d9c3@funotronic
+UID:brown-events-2062b9c8d032@funotronic
 DESCRIPTION:https://events.brown.edu/general/event/342823-2026-versaci-end
- owed-lectureship-featuring-l-scott
+ owed-lectureship-featuring-l-scott-le
 LOCATION:The Warren Alpert Medical School\, LH160\, Brown University
 URL:https://events.brown.edu/general/event/342823-2026-versaci-endowed-lec
- tureship-featuring-l-scott
+ tureship-featuring-l-scott-le
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Christmas Carol (Student Matinee)
@@ -18523,7 +18774,7 @@ SUMMARY:Boston Celtics vs Miami Heat
 DTSTART;TZID="UTC-05:00":20261225T143000
 UID:pro-celtics-40d517be025b@funotronic
 DESCRIPTION:Boston Celtics host the Miami Heat at TD Garden.\nresale from 
- $173\nhttps://www.nba.com/celtics/tickets
+ $168\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nba.com/celtics/tickets
 END:VEVENT
@@ -22037,6 +22288,17 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Christopher Titus
+DTSTART;TZID="UTC-05:00":20270205T200000
+UID:odeum-4d881dbdcf11@funotronic
+DESCRIPTION:Christopher Titus is a prolific stand-up comedian\, writer\, a
+ ctor\, and producer. As a creator\, he has sold shows to NBC\, ABC\, FOX a
+ nd Comedy Central.\nhttps://www.greenwichodeum.com/events/christopher-titu
+ s
+LOCATION:Greenwich Odeum\, 59 Main St
+URL:https://www.greenwichodeum.com/events/christopher-titus
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Gabe Dixon
 DTSTART;TZID="UTC-05:00":20270205T200000
 DTEND;TZID="UTC-05:00":20270205T220000
@@ -22270,6 +22532,18 @@ LOCATION:John Hay Library\, Harriette Hemmasi Exhibition Gallery\, Brown U
  niversity
 URL:https://events.brown.edu/library/event/341479-a-pictorial-dragon-the-a
  rt-of-fernando-birri
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Dunkin’ Men's Beanpot: Third-Place Game & Finals
+DTSTART;TZID="UTC-05:00":20270208T163000
+DTEND;TZID="UTC-05:00":20270208T193000
+UID:ch-tdgarden-abc028a67139@funotronic
+DESCRIPTION:Third-Place Game: Third-Place Game: 4:30PM Championship Game: 
+ Championship Game: 7:30PM The Dunkin’ Men’s Beanpot Championship is ba
+ ck for its 74th year!\nhttps://www.tdgarden.com/events/detail/beanpot-fina
+ ls
+LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
+URL:https://www.tdgarden.com/events/detail/beanpot-finals
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Pictorial Dragon: The Art of Fernando Birri Exhibit
@@ -26108,7 +26382,7 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Deconstructing The Music Live!
+SUMMARY:Deconstructing The Music LIVE!
 DTSTART;TZID="UTC-04:00":20270401T190000
 UID:ch-shubertnh-3bc9ee3f0c59@funotronic
 DESCRIPTION:Join Scott Freiman as he explores the true history of the ‘P
@@ -26116,7 +26390,7 @@ DESCRIPTION:Join Scott Freiman as he explores the true history of the ‘P
  manager of Grand Funk had to do with it. Learn how the rumor was spread\, 
  and why F.\nhttps://my.shubert.com/12359/12360
 LOCATION:Shubert Theatre\, 247 College St\, New Haven\, CT
-URL:https://www.shubert.com/events/detail/deconstructing-the-music-april
+URL:https://www.shubert.com/events/detail/deconstructing-another-clue
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rosencrantz & Guildenstern Are Dead
@@ -28068,10 +28342,10 @@ DESCRIPTION:In Deconstructing The Music LIVE: Pink Floyd’s The Dark Side
   of the Moon \, Scott Freiman\, host of the Public Television series Decon
  structing the Beatles\, celebrates Pink Floyd’s groundbreaking 1973 albu
  m with his first non-Beatles…\nhttps://www.shubert.com/events/detail/dec
- onstructing-the-music-may-2028
+ onstructing-dark-side-of-the-moon
 LOCATION:Shubert Theatre\, 247 College St\, New Haven\, CT
-URL:https://www.shubert.com/events/detail/deconstructing-the-music-may-202
- 8
+URL:https://www.shubert.com/events/detail/deconstructing-dark-side-of-the-
+ moon
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sonia Flew
