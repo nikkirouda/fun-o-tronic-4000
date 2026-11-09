@@ -168,10 +168,11 @@ SUMMARY:We Go Together: Security Collaboration Across Services\, Agencies
  \, and Nations
 DTSTART;TZID="UTC-05:00":20261109T120000
 DTEND;TZID="UTC-05:00":20261109T130000
-UID:brown-events-133b1de508d0@funotronic
+UID:brown-events-5eeeb034cd8b@funotronic
 DESCRIPTION:https://events.brown.edu/watson/event/342104-we-go-together-se
  curity-collaboration-across-services
-LOCATION:McKinney Conference Room\, #353\, Brown University
+LOCATION:Watson School of International and Public Affairs\, 111 Thayer St
+ reet\, McKinney Conference Room (353)\, Brown University
 URL:https://events.brown.edu/watson/event/342104-we-go-together-security-c
  ollaboration-across-services
 END:VEVENT
@@ -1827,10 +1828,11 @@ SUMMARY:Adam Berinsky — Why We Accept Misinformation and How to Fight It
  : Thinking About Interventions
 DTSTART;TZID="UTC-05:00":20261111T160000
 DTEND;TZID="UTC-05:00":20261111T173000
-UID:brown-events-3f28f7371d4a@funotronic
+UID:brown-events-9db9876e1209@funotronic
 DESCRIPTION:https://events.brown.edu/live/events/322680-politics-and-polic
  ies-research-seminar-with-adam
-LOCATION:Joukowsky Forum\, 155\, Brown University
+LOCATION:Watson School of International and Public Affairs\, 111 Thayer St
+ reet\, 155\, Brown University
 URL:https://events.brown.edu/live/events/322680-politics-and-policies-rese
  arch-seminar-with-adam
 END:VEVENT
@@ -1921,11 +1923,11 @@ SUMMARY:Dean’s Fireside Chat — Reflections of the founding director of
   the Africa CDC and US Ambassador
 DTSTART;TZID="UTC-05:00":20261111T173000
 DTEND;TZID="UTC-05:00":20261111T183000
-UID:brown-events-ab05ba2575aa@funotronic
+UID:brown-events-9d66baef1792@funotronic
 DESCRIPTION:https://events.brown.edu/live/events/340679-deans-fireside-cha
  t-reflections-of-the-founding
-LOCATION:True North Classroom\, Stephen Robert ’62 Hall\, 280 Brook Stre
- et Hall\, 101\, Brown University
+LOCATION:Stephen Robert ’62 Hall\, 280 Brook Street\, 101\, Brown Univer
+ sity
 URL:https://events.brown.edu/live/events/340679-deans-fireside-chat-reflec
  tions-of-the-founding
 END:VEVENT
@@ -6515,11 +6517,11 @@ SUMMARY:CLACS Coloquio - Politicians Fight Back: How Corruption Conviction
 DTSTART;TZID="UTC-05:00":20261118T120000
 DTEND;TZID="UTC-05:00":20261118T133000
 UID:brown-events-e65d9c054a43@funotronic
-DESCRIPTION:https://events.brown.edu/clacs/event/343076-clacs-coloquio-pol
+DESCRIPTION:https://events.brown.edu/live/events/343076-clacs-coloquio-pol
  iticians-fight-back-how
 LOCATION:Watson School of International and Public Affairs\, 111 Thayer St
  reet\, Kim Koo Library\, Brown University
-URL:https://events.brown.edu/clacs/event/343076-clacs-coloquio-politicians
+URL:https://events.brown.edu/live/events/343076-clacs-coloquio-politicians
  -fight-back-how
 END:VEVENT
 BEGIN:VEVENT
@@ -9698,6 +9700,16 @@ DESCRIPTION:Come chill in the library with some self-guided origami! We’
  -origami/2026-11-23/
 LOCATION:South Providence Library\, 441 Prairie Avenue Providence 02905
 URL:https://clpvd.org/event/self-guided-origami/2026-11-23/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Brown 2026 Reads at the JCB: Karin Wulf
+DTSTART;TZID="UTC-05:00":20261123T150000
+UID:brown-events-e3124981c7b0@funotronic
+DESCRIPTION:https://events.brown.edu/john-carter-brown-library/event/34344
+ 7-brown-2026-reads-at-the-jcb-karin-wulf
+LOCATION:John Carter Brown Library\, Conference Room\, Brown University
+URL:https://events.brown.edu/john-carter-brown-library/event/343447-brown-
+ 2026-reads-at-the-jcb-karin-wulf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Enjoy a $5 Shift Beer!
@@ -15637,6 +15649,21 @@ DESCRIPTION:https://events.brown.edu/earth-environmental-planetary/event/3
 LOCATION:MacMillan Hall\, 115\, Brown University
 URL:https://events.brown.edu/earth-environmental-planetary/event/337100-de
  eps-colloquium-with-gaia-stucky-de-quay
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Call to Arms: The Making of an Exhibit at the Museum of the Army w
+ ith Paul Morando
+DTSTART;TZID="UTC-05:00":20261210T180000
+DTEND;TZID="UTC-05:00":20261210T190000
+UID:tribe-rihs-4a22adfa22c2@funotronic
+DESCRIPTION:Join the Rhode Island Historical Society on Thursday\, Decembe
+ r 10th at 6pm for “Call to Arms: The Making of an Exhibit\,” a present
+ ation by Paul Morando\, Director at the National Museum of the United Stat
+ es Army in Virginia.\nhttps://www.rihs.org/event/call-to-arms-the-making-o
+ f-an-exhibit-at-the-museum-of-the-army-with-paul-morando/
+LOCATION:Varnum Armory\, 6 Main St East Greenwich 02818
+URL:https://www.rihs.org/event/call-to-arms-the-making-of-an-exhibit-at-th
+ e-museum-of-the-army-with-paul-morando/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Skip The Small Talk (Ticketed Event)
@@ -25361,6 +25388,18 @@ LOCATION:Gateway Center at Roger Williams Park\, 1197 Broad Street Provide
 URL:https://www.providenceri.gov/event/taichi-beginner-level/2027-03-19/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Mojo Brookzz: Outta Pocket Comedy Tour
+DTSTART;TZID="UTC-04:00":20270319T190000
+UID:ch-vets-eaf190a45a08@funotronic
+DESCRIPTION:Dyon “Mojo” Brooks is an actor\, writer\, producer\, and n
+ ationally acclaimed stand-up comedian whose debut one-hour special hit num
+ ber one on the Netflix charts after only one day of release\, a feat only 
+ less than five comics have achieved…\nhttps://thevets.evenue.net/promoti
+ ons
+LOCATION:The VETS\, 1 Avenue of the Arts
+URL:https://www.thevetsri.com/events/detail/lrlr-mojo-brookzz-27
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Rosencrantz & Guildenstern Are Dead
 DTSTART;TZID="UTC-04:00":20270319T190000
 UID:pm-gamm-4ccece67f864@funotronic
@@ -25695,11 +25734,11 @@ LOCATION:Conaty Park\, Smithfield
 URL:https://bryantbulldogs.com/calendar.aspx?game_id=12700&amp;sport_id=1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre RailRiders
+SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre Highlanders
 DTSTART;TZID="UTC-04:00":20270326T160500
-UID:pro-woosox-0f46ed462a0a@funotronic
-DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre RailRiders at
-  Polar Park.\nhttps://www.milb.com/worcester/tickets
+UID:pro-woosox-95b190bc3e4a@funotronic
+DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre Highlanders a
+ t Polar Park.\nhttps://www.milb.com/worcester/tickets
 LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
 URL:https://www.milb.com/worcester/tickets
 END:VEVENT
@@ -25789,11 +25828,11 @@ LOCATION:The Gamm Theatre\, 1245 Jefferson Blvd
 URL:https://www.gammtheatre.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre RailRiders
+SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre Highlanders
 DTSTART;TZID="UTC-04:00":20270327T160500
-UID:pro-woosox-293916476890@funotronic
-DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre RailRiders at
-  Polar Park.\nhttps://www.milb.com/worcester/tickets
+UID:pro-woosox-bfd4d91cb458@funotronic
+DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre Highlanders a
+ t Polar Park.\nhttps://www.milb.com/worcester/tickets
 LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
 URL:https://www.milb.com/worcester/tickets
 END:VEVENT
@@ -25866,11 +25905,11 @@ LOCATION:Conaty Park\, Smithfield
 URL:https://bryantbulldogs.com/calendar.aspx?game_id=12702&amp;sport_id=1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre RailRiders
+SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre Highlanders
 DTSTART;TZID="UTC-04:00":20270328T130500
-UID:pro-woosox-5ee685311a98@funotronic
-DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre RailRiders at
-  Polar Park.\nhttps://www.milb.com/worcester/tickets
+UID:pro-woosox-42da691ca31c@funotronic
+DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre Highlanders a
+ t Polar Park.\nhttps://www.milb.com/worcester/tickets
 LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
 URL:https://www.milb.com/worcester/tickets
 END:VEVENT
@@ -28776,11 +28815,11 @@ LOCATION:Fenway Park\, 4 Jersey St\, Boston\, MA
 URL:https://www.mlb.com/redsox/tickets
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre RailRiders
+SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre Highlanders
 DTSTART;TZID="UTC-04:00":20270525T180500
-UID:pro-woosox-c785ce58a7ee@funotronic
-DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre RailRiders at
-  Polar Park.\nhttps://www.milb.com/worcester/tickets
+UID:pro-woosox-9e45da449129@funotronic
+DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre Highlanders a
+ t Polar Park.\nhttps://www.milb.com/worcester/tickets
 LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
 URL:https://www.milb.com/worcester/tickets
 END:VEVENT
@@ -28819,11 +28858,11 @@ LOCATION:Roger Williams Park Botanical Center\, 1 Floral Ave Providence 02
 URL:https://www.providenceri.gov/event/wee-one-wednesdays-2-2/2027-05-26/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre RailRiders
+SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre Highlanders
 DTSTART;TZID="UTC-04:00":20270526T110500
-UID:pro-woosox-895c2563620a@funotronic
-DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre RailRiders at
-  Polar Park.\nhttps://www.milb.com/worcester/tickets
+UID:pro-woosox-31cb498e5143@funotronic
+DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre Highlanders a
+ t Polar Park.\nhttps://www.milb.com/worcester/tickets
 LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
 URL:https://www.milb.com/worcester/tickets
 END:VEVENT
@@ -28840,11 +28879,11 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre RailRiders
+SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre Highlanders
 DTSTART;TZID="UTC-04:00":20270527T180500
-UID:pro-woosox-a7c506dad790@funotronic
-DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre RailRiders at
-  Polar Park.\nhttps://www.milb.com/worcester/tickets
+UID:pro-woosox-97ecee721403@funotronic
+DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre Highlanders a
+ t Polar Park.\nhttps://www.milb.com/worcester/tickets
 LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
 URL:https://www.milb.com/worcester/tickets
 END:VEVENT
@@ -28861,11 +28900,11 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre RailRiders
+SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre Highlanders
 DTSTART;TZID="UTC-04:00":20270528T180500
-UID:pro-woosox-6a6e01c2a342@funotronic
-DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre RailRiders at
-  Polar Park.\nhttps://www.milb.com/worcester/tickets
+UID:pro-woosox-6f9018e4c4d5@funotronic
+DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre Highlanders a
+ t Polar Park.\nhttps://www.milb.com/worcester/tickets
 LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
 URL:https://www.milb.com/worcester/tickets
 END:VEVENT
@@ -28922,11 +28961,11 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre RailRiders
+SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre Highlanders
 DTSTART;TZID="UTC-04:00":20270529T160500
-UID:pro-woosox-44862a230e74@funotronic
-DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre RailRiders at
-  Polar Park.\nhttps://www.milb.com/worcester/tickets
+UID:pro-woosox-29ef56218526@funotronic
+DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre Highlanders a
+ t Polar Park.\nhttps://www.milb.com/worcester/tickets
 LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
 URL:https://www.milb.com/worcester/tickets
 END:VEVENT
@@ -28966,11 +29005,11 @@ LOCATION:Dowling Theater\, Providence
 URL:https://www.trinityrep.com/shows/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre RailRiders
+SUMMARY:Worcester Red Sox vs Scranton/Wilkes-Barre Highlanders
 DTSTART;TZID="UTC-04:00":20270530T130500
-UID:pro-woosox-89fa9e6f82c7@funotronic
-DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre RailRiders at
-  Polar Park.\nhttps://www.milb.com/worcester/tickets
+UID:pro-woosox-d4f91023ed29@funotronic
+DESCRIPTION:Worcester Red Sox host the Scranton/Wilkes-Barre Highlanders a
+ t Polar Park.\nhttps://www.milb.com/worcester/tickets
 LOCATION:Polar Park\, 100 Madison St\, Worcester\, MA
 URL:https://www.milb.com/worcester/tickets
 END:VEVENT
