@@ -208,6 +208,13 @@ def make_id(source: str, title: str, start: str | None, venue: str = "") -> str:
     return f"{slugify(source)}-{h[:12]}"
 
 
+def web_url(u: Any) -> str:
+    """Keep only http(s) links from scraped pages; anything else (javascript:, data:) is dropped.
+    Security review 2026-11-09."""
+    u = str(u or "").strip()
+    return u if u.lower().startswith(("https://", "http://")) else ""
+
+
 def make_event(*, source: str, title: str, start: Any, url: str,
                end: Any = None, venue: str = "", address: str = "", city: str = "",
                lat: float | None = None, lon: float | None = None,
@@ -263,9 +270,9 @@ def make_event(*, source: str, title: str, start: Any, url: str,
         "tags": sorted({clean(t).lower() for t in tags if clean(t)})[:12],
         "summary": summary[:400],
         "description": description[:2000],
-        "image": image or "",
-        "url": url or "",
-        "ticket_url": ticket_url or "",
+        "image": web_url(image),
+        "url": web_url(url),
+        "ticket_url": web_url(ticket_url),
         "price_text": clean(price_text)[:80],
         "price_min": price_min,
         "price_max": price_max,

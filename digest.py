@@ -12,6 +12,7 @@ plain-text body; --html writes an HTML version. Sending is done by whoever runs 
 from __future__ import annotations
 
 import argparse
+import html as _html
 import json
 import sys
 from collections import defaultdict
@@ -21,6 +22,12 @@ from zoneinfo import ZoneInfo
 
 TZ = ZoneInfo("America/New_York")
 SITE_URL = "https://nikkirouda.github.io/fun-o-tronic-4000/"
+
+
+def safe_url(u) -> str:
+    """Only plain web links reach the email (security review 2026-11-09)."""
+    u = str(u or "").strip()
+    return _html.escape(u, quote=True) if u.lower().startswith(("https://", "http://")) else ""
 DATA = Path(__file__).parent / "site" / "data"
 CAT_LABEL = {"theater": "Theater", "music": "Music", "classical": "Classical", "dance": "Dance", "comedy": "Comedy", "film": "Film",
              "talk": "Talks", "sports": "Sports", "festival": "Festivals", "market": "Markets", "art": "Art", "family": "Family",
@@ -176,18 +183,18 @@ def tickets_lines(d: dict) -> list[str]:
 
 def tickets_html(d: dict) -> str:
     def esc(s):
-        return str(s or "").replace("&", "&amp;").replace("<", "&lt;")
+        return _html.escape(str(s or ""), quote=True)
     rows = []
     for c in d.get("watch_changes", []):
-        rows.append(f"<li><b style='color:#e53170'>Changed:</b> <a href='{esc(c.get('url'))}'>{esc(c['title'])}</a> is now <b>{esc(c['status'])}</b> (was {esc(c.get('prev') or '?')}) — <i>{esc(c.get('evidence', '')[:140])}</i></li>")
+        rows.append(f"<li><b style='color:#e53170'>Changed:</b> <a href='{safe_url(c.get('url'))}'>{esc(c['title'])}</a> is now <b>{esc(c['status'])}</b> (was {esc(c.get('prev') or '?')}) — <i>{esc(c.get('evidence', '')[:140])}</i></li>")
     for e in d.get("on_sale", []):
-        rows.append(f"<li>🎟 <b>Now on sale:</b> <a href='{esc(e.get('ticket_url') or e.get('url'))}'>{esc(e['title'])}</a> — {esc(fmt_when(e))}, {esc(e['venue'])}</li>")
+        rows.append(f"<li>🎟 <b>Now on sale:</b> <a href='{safe_url(e.get('ticket_url') or e.get('url'))}'>{esc(e['title'])}</a> — {esc(fmt_when(e))}, {esc(e['venue'])}</li>")
     for e in d.get("upcoming_onsale", []):
-        rows.append(f"<li>🕗 <b>Goes on sale {esc(datetime.fromisoformat(e['on_sale']).strftime('%a %b %-d, %-I:%M %p').replace(':00', ''))}:</b> <a href='{esc(e.get('url') or e.get('ticket_url'))}'>{esc(e['title'])}</a> ({esc(fmt_when(e))}, {esc(e['venue'])})</li>")
+        rows.append(f"<li>🕗 <b>Goes on sale {esc(datetime.fromisoformat(e['on_sale']).strftime('%a %b %-d, %-I:%M %p').replace(':00', ''))}:</b> <a href='{safe_url(e.get('url') or e.get('ticket_url'))}'>{esc(e['title'])}</a> ({esc(fmt_when(e))}, {esc(e['venue'])})</li>")
     for e in d.get("presales", []):
-        rows.append(f"<li>🔑 <b>Presale mentioned:</b> <a href='{esc(e.get('url'))}'>{esc(e['title'])}</a> — {esc(fmt_when(e))}, {esc(e['venue'])}</li>")
+        rows.append(f"<li>🔑 <b>Presale mentioned:</b> <a href='{safe_url(e.get('url'))}'>{esc(e['title'])}</a> — {esc(fmt_when(e))}, {esc(e['venue'])}</li>")
     for w in [w for w in d.get("watch", []) if w.get("hot")]:
-        rows.append(f"<li>👀 <b>Watching</b> <a href='{esc(w['url'])}'>{esc(w['title'])}</a>: <b>{esc(w['status'])}</b>{' — <i>' + esc(w['evidence'][:110]) + '</i>' if w.get('evidence') else ''}</li>")
+        rows.append(f"<li>👀 <b>Watching</b> <a href='{safe_url(w['url'])}'>{esc(w['title'])}</a>: <b>{esc(w['status'])}</b>{' — <i>' + esc(w['evidence'][:110]) + '</i>' if w.get('evidence') else ''}</li>")
     if not rows:
         return ""
     return "<h3 style='margin-top:14px'>Tickets — on sale, presales, the watch list</h3><ul style='padding-left:18px'>" + "".join(rows) + "</ul>"
@@ -229,7 +236,7 @@ def as_text(d: dict) -> str:
 
 def as_html(d: dict) -> str:
     def esc(s):
-        return str(s or "").replace("&", "&amp;").replace("<", "&lt;")
+        return _html.escape(str(s or ""), quote=True)
     h = [f"<h2 style='font-family:Georgia,serif;margin:0 0 4px'>Fun-o-tronic 4000 — {esc(d['title'])}</h2>",
          f"<p style='color:#666;margin:0 0 16px'>{d['total']} things on · <a href='{SITE_URL}'>open the full list</a></p>"]
     h.append(tickets_html(d))
@@ -237,21 +244,21 @@ def as_html(d: dict) -> str:
         h.append("<h3>If you only do a few</h3><ul style='padding-left:18px'>")
         for e in d["picks"]:
             link = e.get("ticket_url") or e.get("url") or SITE_URL
-            h.append(f"<li style='margin-bottom:10px'><b>{esc(fmt_when(e))}</b> — <a href='{esc(link)}'>{esc(e['title'])}</a><br>"
+            h.append(f"<li style='margin-bottom:10px'><b>{esc(fmt_when(e))}</b> — <a href='{safe_url(link)}'>{esc(e['title'])}</a><br>"
                      f"<span style='color:#444'>{esc(e['venue'])}{', ' + esc(e['city']) if e.get('city') else ''}{' · ' + esc(price(e)) if price(e) else ''}</span>"
                      f"{'<br><span style=color:#666>' + esc(blurb(e)) + '</span>' if blurb(e) else ''}</li>")
         h.append("</ul>")
     if d["new"] or d["on_sale"]:
         h.append("<h3>Newly listed / on sale</h3><ul style='padding-left:18px'>")
         for e in d["new"]:
-            h.append(f"<li>✦ <a href='{esc(e.get('url') or e.get('ticket_url'))}'>{esc(e['title'])}</a> — {esc(fmt_when(e))}, {esc(e['venue'])}</li>")
+            h.append(f"<li>✦ <a href='{safe_url(e.get('url') or e.get('ticket_url'))}'>{esc(e['title'])}</a> — {esc(fmt_when(e))}, {esc(e['venue'])}</li>")
         h.append("</ul>")
     h.append("<h3>By category</h3>")
     for cat in sorted(d["by_cat"], key=lambda c: -WEIGHT.get(c, 1)):
         evs = d["by_cat"][cat]
         h.append(f"<p style='margin:10px 0 2px'><b>{esc(CAT_LABEL.get(cat, cat))}</b> <span style='color:#888'>({len(evs)})</span></p><ul style='margin:0;padding-left:18px;color:#333'>")
         for e in evs[:8]:
-            h.append(f"<li>{esc(fmt_when(e))} · <a href='{esc(e.get('url') or e.get('ticket_url') or SITE_URL)}' style='color:#222'>{esc(e['title'])}</a> — {esc(e['venue'])}{' · ' + esc(price(e)) if price(e) else ''}</li>")
+            h.append(f"<li>{esc(fmt_when(e))} · <a href='{safe_url(e.get('url') or e.get('ticket_url') or SITE_URL)}' style='color:#222'>{esc(e['title'])}</a> — {esc(e['venue'])}{' · ' + esc(price(e)) if price(e) else ''}</li>")
         if len(evs) > 8:
             h.append(f"<li style='color:#888'>…and {len(evs) - 8} more on the site</li>")
         h.append("</ul>")
