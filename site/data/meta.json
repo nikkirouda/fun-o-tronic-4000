@@ -1,174 +1,174 @@
 {
- "generated": "2026-11-09T15:34-05:00",
- "count": 2663,
+ "generated": "2026-11-12T13:02-05:00",
+ "count": 2613,
  "sources": {
   "alchemy": {
    "ok": true,
-   "count": 40,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "count": 38,
+   "last_ok": "2026-11-12T13:02-05:00"
   },
   "avon": {
    "ok": true,
-   "count": 9,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "count": 17,
+   "last_ok": "2026-11-12T13:02-05:00"
   },
   "brown_events": {
    "ok": true,
-   "count": 798,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "count": 738,
+   "last_ok": "2026-11-12T13:02-05:00"
   },
   "carbonhouse": {
    "ok": true,
    "count": 48,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "last_ok": "2026-11-12T13:02-05:00"
   },
   "carbonhouse_rss": {
    "ok": true,
    "count": 174,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "last_ok": "2026-11-12T13:02-05:00"
   },
   "college_sports": {
    "ok": true,
-   "count": 250,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "count": 238,
+   "last_ok": "2026-11-12T13:02-05:00"
   },
   "comedy_connection": {
    "ok": true,
-   "count": 117,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "count": 120,
+   "last_ok": "2026-11-12T13:02-05:00"
   },
   "ics_feeds": {
    "ok": true,
-   "count": 25,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "count": 23,
+   "last_ok": "2026-11-12T13:02-05:00"
   },
   "indie_bookstores": {
    "ok": true,
    "count": 13,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "last_ok": "2026-11-12T13:02-05:00"
   },
   "jane_pickens": {
    "ok": true,
-   "count": 81,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "count": 80,
+   "last_ok": "2026-11-12T13:02-05:00"
   },
   "machines": {
    "ok": true,
-   "count": 2,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "count": 4,
+   "last_ok": "2026-11-12T13:02-05:00"
   },
   "narrows": {
    "ok": true,
-   "count": 41,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "count": 43,
+   "last_ok": "2026-11-12T13:02-05:00"
   },
   "newport_classical": {
    "ok": true,
    "count": 58,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "last_ok": "2026-11-12T13:02-05:00"
   },
   "nfl_windows": {
    "ok": true,
    "count": 0,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "last_ok": "2026-11-12T13:02-05:00"
   },
   "odeum": {
    "ok": true,
    "count": 35,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "last_ok": "2026-11-12T13:02-05:00"
   },
   "onsale_watch": {
    "ok": true,
    "count": 0,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "last_ok": "2026-11-12T13:02-05:00"
   },
   "patronmanager": {
    "ok": true,
-   "count": 333,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "count": 337,
+   "last_ok": "2026-11-12T13:02-05:00"
   },
   "pbruins": {
    "ok": true,
    "count": 30,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "last_ok": "2026-11-12T13:02-05:00"
   },
   "pig": {
    "ok": true,
    "count": 6,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "last_ok": "2026-11-12T13:02-05:00"
   },
   "pro_sports": {
    "ok": true,
    "count": 244,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "last_ok": "2026-11-12T13:02-05:00"
   },
   "rhp_venues": {
    "ok": true,
-   "count": 47,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "count": 53,
+   "last_ok": "2026-11-12T13:02-05:00"
   },
   "riphil": {
    "ok": true,
    "count": 16,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "last_ok": "2026-11-12T13:02-05:00"
   },
   "risd_engage": {
    "ok": true,
-   "count": 45,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "count": 43,
+   "last_ok": "2026-11-12T13:02-05:00"
   },
   "squarespace": {
    "ok": true,
    "count": 111,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "last_ok": "2026-11-12T13:02-05:00"
   },
   "stadium": {
    "ok": true,
-   "count": 36,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "count": 37,
+   "last_ok": "2026-11-12T13:02-05:00"
   },
   "ticketmaster": {
    "ok": true,
    "count": 0,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "last_ok": "2026-11-12T13:02-05:00"
   },
   "tribe_sites": {
    "ok": true,
-   "count": 498,
-   "last_ok": "2026-11-09T15:34-05:00"
+   "count": 497,
+   "last_ok": "2026-11-12T13:02-05:00"
   }
  },
  "categories": {
-  "sports": 520,
-  "talk": 428,
-  "theater": 424,
-  "community": 315,
-  "music": 294,
-  "art": 165,
-  "film": 164,
-  "comedy": 160,
-  "food": 69,
-  "classical": 68,
+  "sports": 514,
+  "theater": 427,
+  "talk": 379,
+  "community": 320,
+  "music": 288,
+  "film": 167,
+  "comedy": 164,
+  "art": 156,
+  "classical": 71,
+  "food": 66,
+  "dance": 22,
   "other": 21,
-  "dance": 20,
-  "festival": 11,
+  "festival": 14,
   "market": 2,
   "family": 2
  },
  "cities": {
-  "Providence": 1766,
-  "Boston, MA": 227,
-  "Warwick": 119,
-  "East Providence": 117,
-  "Worcester, MA": 112,
-  "Newport": 105,
-  "Smithfield": 47,
-  "Fall River": 41,
+  "Providence": 1702,
+  "Boston, MA": 226,
+  "Warwick": 125,
+  "East Providence": 120,
+  "Worcester, MA": 113,
+  "Newport": 103,
+  "Smithfield": 48,
+  "Fall River": 43,
   "Woonsocket": 37,
   "East Greenwich": 36,
   "New Haven, CT": 35,
   "Kingston": 15,
-  "Foxborough, MA": 4,
-  "Pawtucket": 2
+  "Pawtucket": 6,
+  "Foxborough, MA": 4
  }
 }
