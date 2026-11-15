@@ -16,6 +16,11 @@ FEEDS = [
      "url_base": "https://events.jwu.edu", "name": "Events@JWU", "public_only": True},
     {"key": "rihs_ics", "url": "https://www.rihs.org/events/list/?ical=1", "venue": "", "city": "Providence", "category": "talk",
      "url_base": "https://www.rihs.org/events/", "name": "RI Historical Society"},
+    # The old Columbus Theatre, reopened 2025 under its first name; its own site publishes this feed
+    # ("Subscribe to Calendar" on uptownpvd.com/events). Main theater and the Upstairs room, one address.
+    {"key": "uptown", "url": "https://www.uptownpvd.com/api/events/calendar.ics",
+     "venue": "Uptown Theater", "city": "Providence", "address": "270 Broadway", "lat": 41.8205, "lon": -71.4228,
+     "category": None, "url_base": "https://www.uptownpvd.com/events", "name": "Uptown Theater"},
 ]
 
 
@@ -36,6 +41,11 @@ def fetch() -> list[dict]:
                 e["lat"], e["lon"] = f["lat"], f["lon"]
             e["source_name"] = f["name"]
             e["source_url"] = f.get("url_base", "")
+            if f["key"] == "uptown":
+                if "movie monday" in (e.get("description") or "").lower():
+                    e["category"] = "film"
+                elif e.get("category") == "classical":  # the guesser misreads stage shows here
+                    e["category"] = "theater"
             if f["key"] == "waterfire":
                 e["is_free"] = True
                 e["kids"] = False
