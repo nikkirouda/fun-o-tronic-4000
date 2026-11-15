@@ -20,7 +20,7 @@
   };
   const HILL_VENUE_RX = /brown|risd|athenaeum|avon|lindemann|granoff|sayles|salomon|alumnae|john carter|list art|stuart theatre|leeds|pembroke|wriston|books on the square|hope street|thayer|wickenden|riffraff|fox point|cable car|first unitarian|providence public library|east side|wayland|pizzitola|meehan|stevenson|hillel|churchill house|manning chapel/i;
   const OUTDOOR_RX = /field|stadium|park\b|waterfire|bold point|fort adams|wharf|green\b|common\b|plaza|farm|market|beach|trail|hike|parade|fireworks|polo|race|5k|marathon/i;
-  const PREMIER_RX = /trinity|ppac|gamm|vets|philharmonic|firstworks|amica|strand|odeum|stadium theatre|comedy connection|avon|athenaeum|risd museum|newport classical|wilbury|columbus/i;
+  const PREMIER_RX = /trinity|ppac|gamm|vets|philharmonic|firstworks|amica|strand|odeum|stadium theatre|comedy connection|avon|athenaeum|risd museum|newport classical|wilbury|columbus|uptown theater/i;
   const BIG_RX = /amica|strand|vets|ppac|stadium|pavilion|bold point|comic con|festival|arena|garden/i;
   const RANK_W = { theater: 5, classical: 5, comedy: 4.5, music: 4, film: 3.5, dance: 4, festival: 4, talk: 2.5, art: 2.5, sports: 2, food: 2, market: 1.5, community: 0.5, family: 0.5, other: 0.5 };
   // the mood dial tilts these: quiet (0) favours the first set, big (100) the second

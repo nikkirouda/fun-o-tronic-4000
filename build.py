@@ -119,16 +119,93 @@ def dedupe(events: list[dict]) -> list[dict]:
         if prev is None:
             by_key[key] = e
             continue
-        # merge: prefer the one with ticket/price info, keep the other's gaps filled
-        rich = e if score(e) > score(prev) else prev
-        other = prev if rich is e else e
-        for k, v in other.items():
-            if rich.get(k) in (None, "", [], {}, False) and v not in (None, "", [], {}):
-                rich[k] = v
-        rich.setdefault("also_from", [])
-        rich["also_from"] = sorted(set(rich["also_from"] + [other["source"]]))
-        by_key[key] = rich
-    return list(by_key.values())
+        by_key[key] = merge_pair(prev, e)
+    return dedupe_same_room(list(by_key.values()))
+
+
+def merge_pair(a: dict, b: dict) -> dict:
+    """Keep the richer listing (ticket/price info first) and fill its gaps from the other."""
+    rich = b if score(b) > score(a) else a
+    other = a if rich is b else b
+    for k, v in other.items():
+        if rich.get(k) in (None, "", [], {}, False) and v not in (None, "", [], {}):
+            rich[k] = v
+    sources = set(rich.get("also_from") or []) | set(other.get("also_from") or []) | {other["source"]}
+    sources.discard(rich["source"])
+    rich["also_from"] = sorted(sources)
+    return rich
+
+
+_WORD_STOP = {"vs", "v", "at", "and", "of", "for", "night", "game", "basketball", "hockey", "football", "soccer",
+              "lacrosse", "volleyball", "mens", "womens", "men", "women", "s"}
+
+
+_WORD_ALIAS = {"uconn": "connecticut"}
+_WOMEN_RX = re.compile(r"\bwomen", re.I)
+_MEN_RX = re.compile(r"\bmen\b|\bmen[’']s\b|\bmens\b", re.I)
+
+
+def title_words(t: str) -> set[str]:
+    words = norm_title(t).replace("women s", " ").replace("men s", " ").split()
+    return {_WORD_ALIAS.get(w, w) for w in words if w not in _WORD_STOP and len(w) > 1}
+
+
+def gender(t: str) -> str:
+    return "w" if _WOMEN_RX.search(t) else "m" if _MEN_RX.search(t) else ""
+
+
+def same_event(a: dict, b: dict, gap_s: float) -> bool:
+    """Two listings from different sources of one game or show (see dedupe_same_room)."""
+    if b["source"] in {a["source"], *(a.get("also_from") or [])}:
+        return False  # a venue never lists the same show twice on purpose: Gamm Studio / Studio Jr, men's / women's squash
+    ga, gb = gender(a["title"]), gender(b["title"])
+    if ga and gb and ga != gb:
+        return False
+    game = " vs" in a["title"].lower() and " vs" in b["title"].lower()
+    if gap_s > 30 * 60 and not (game and a["start"][:10] == b["start"][:10]):
+        return False  # two sources sometimes disagree on a tip-off time; a home game is one a day
+    wa, wb = title_words(a["title"]), title_words(b["title"])
+    small = min(wa, wb, key=len)
+    shared = len(wa & wb)
+    return bool(small) and shared >= 2 and shared / len(small) >= 0.6
+
+
+def dedupe_same_room(events: list[dict]) -> list[dict]:
+    """Second pass: the same game or show listed by two sources under different titles
+    ("Providence College vs Colorado" / "Providence College Men's Basketball vs Colorado - Federal Hill
+    in Friartown"). Same venue, different sources, starts within 30 minutes (a "vs" game: same day), and
+    most of the shorter title's words appear in the longer one → one listing."""
+    groups: dict[str, list[tuple[datetime, dict]]] = {}
+    out: list[dict] = []
+    for e in events:
+        v = _norm_rx.sub(" ", (e.get("venue") or "").lower()).strip()
+        try:
+            st = datetime.fromisoformat(e["start"])
+        except Exception:  # noqa: BLE001
+            out.append(e)
+            continue
+        if not v or e.get("all_day"):
+            out.append(e)
+            continue
+        groups.setdefault(v, []).append((st, e))
+    for items in groups.values():
+        items.sort(key=lambda x: x[0])
+        kept: list[tuple[datetime, dict]] = []
+        for st, e in items:
+            merged = False
+            for i in range(len(kept) - 1, -1, -1):
+                kst, k = kept[i]
+                gap = (st - kst).total_seconds()
+                if gap > 18 * 3600:
+                    break
+                if same_event(k, e, gap):
+                    kept[i] = (kst, merge_pair(k, e))
+                    merged = True
+                    break
+            if not merged:
+                kept.append((st, e))
+        out.extend(e for _, e in kept)
+    return out
 
 
 def score(e: dict) -> int:
