@@ -116,19 +116,6 @@ LOCATION:Mt. Pleasant Library – Children’s Area 1\, 315 Academy Avenue
 URL:https://clpvd.org/event/baby-lapsit-storytime-6-2/2026-11-18/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CANCELLED – Whimsical Wednesdays with teacher t.
-DTSTART;TZID="UTC-05:00":20261118T103000
-DTEND;TZID="UTC-05:00":20261118T110000
-UID:tribe-clpvd-18bd443f6357@funotronic
-DESCRIPTION:Come on up to the children’s library for some morning music!
-  This program features ukulele\, singing\, and dancing with Program Specia
- list\, teacher t.\nhttps://clpvd.org/event/whimsical-wednesdays-with-teach
- er-t-3-2/
-LOCATION:Rochambeau Library – Children’s Area 1\, 708 Hope Street Prov
- idence 02906
-URL:https://clpvd.org/event/whimsical-wednesdays-with-teacher-t-3-2/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Storytime every Wednesday and Friday
 DTSTART;TZID="UTC-05:00":20261118T110000
 DTEND;TZID="UTC-05:00":20261118T113000
@@ -476,18 +463,6 @@ LOCATION:Smith Hill Library – Children’s Area\, 31 Candace Street Prov
  idence 02908
 URL:https://clpvd.org/event/art-unveiling-we-live-together-uniting-the-smi
  th-hill-community/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CANCELED: Book Talk: Black Jamaican Women and Self-Making in Times
-  of HIV/AIDS
-DTSTART;TZID="UTC-05:00":20261118T160000
-DTEND;TZID="UTC-05:00":20261118T180000
-UID:brown-events-201132502c1e@funotronic
-DESCRIPTION:Free\nhttps://events.brown.edu/pembroke/event/340441-canceled-
- book-talk-black-jamaican-women-and-self-maki
-LOCATION:Pembroke\, 202\, Brown University
-URL:https://events.brown.edu/pembroke/event/340441-canceled-book-talk-blac
- k-jamaican-women-and-self-maki
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CNTR Speaker Series: Angel Hsing-Chi Hwang
@@ -16833,7 +16808,7 @@ SUMMARY:New England Patriots vs Miami Dolphins
 DTSTART;TZID="UTC-05:00":20270110T000000
 UID:pro-patriots-87fca24fadbf@funotronic
 DESCRIPTION:New England Patriots host the Miami Dolphins at Gillette Stadi
- um.\nresale from $83\nhttps://www.patriots.com/tickets/
+ um.\nresale from $71\nhttps://www.patriots.com/tickets/
 LOCATION:Gillette Stadium\, 1 Patriot Pl\, Foxborough\, MA
 URL:https://www.patriots.com/tickets/
 END:VEVENT
