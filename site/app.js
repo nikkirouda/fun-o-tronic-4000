@@ -386,6 +386,7 @@
     { key: "ticketsOnly", off: false, says: () => "without a ticket link" },
     { key: "maxPrice", off: null, says: () => `over $${S.maxPrice}` },
     { key: "cats", off: new Set(), says: () => "in other categories", on: v => v.size > 0 },
+    { key: "hideBusy", off: false, says: () => "on days or at times your calendar says you can't go", saveAs: "hideBusy" },
   ];
   function hiddenNote(shown) {
     if (S.mode !== "browse") return null;
@@ -403,7 +404,7 @@
     d.innerHTML = "<b>Hidden by your filters:</b> " + hits.map((h, i) =>
       `<span>${h.n} more ${esc(h.says)} <button class="linkish" data-i="${i}">show them</button></span>`).join(" · ");
     $$("button", d).forEach(b => b.onclick = () => {
-      const h = hits[+b.dataset.i]; S[h.f.key] = h.f.off; S.shown = 60; syncControls(); persist(); render();
+      const h = hits[+b.dataset.i]; S[h.f.key] = h.f.off; if (h.f.saveAs) save(h.f.saveAs, h.f.off); S.shown = 60; syncControls(); persist(); render();
     });
     return d;
   }
