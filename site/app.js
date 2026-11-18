@@ -377,12 +377,44 @@
   }
   const trim = n => (Math.round(n * 100) / 100).toString().replace(/\.00$/, "");
 
+  // What the narrowing filters are hiding (Captain's word 2026-11-18: a filter must never quietly hide a show).
+  // Each filter is lifted alone; any that would add events gets a one-tap "show them" at the foot of the list.
+  const NARROWERS = [
+    { key: "area", off: "", says: () => `outside ${$("#areaSel").selectedOptions[0]?.textContent || "your area"}` },
+    { key: "venue", off: "", says: () => "at other venues" },
+    { key: "freeOnly", off: false, says: () => "that aren't free" },
+    { key: "ticketsOnly", off: false, says: () => "without a ticket link" },
+    { key: "maxPrice", off: null, says: () => `over $${S.maxPrice}` },
+    { key: "cats", off: new Set(), says: () => "in other categories", on: v => v.size > 0 },
+  ];
+  function hiddenNote(shown) {
+    if (S.mode !== "browse") return null;
+    const base = new Set(shown.map(e => e.id)), hits = [];
+    for (const f of NARROWERS) {
+      const v = S[f.key];
+      if (f.on ? !f.on(v) : (v === f.off || v === "" || v == null || v === false)) continue;
+      S[f.key] = f.off;
+      let n = 0;
+      try { for (const e of S.events) if (!base.has(e.id) && matches(e)) n++; } finally { S[f.key] = v; }
+      if (n) hits.push({ f, n, says: f.says() });
+    }
+    if (!hits.length) return null;
+    const d = document.createElement("div"); d.className = "hidden-note";
+    d.innerHTML = "<b>Hidden by your filters:</b> " + hits.map((h, i) =>
+      `<span>${h.n} more ${esc(h.says)} <button class="linkish" data-i="${i}">show them</button></span>`).join(" · ");
+    $$("button", d).forEach(b => b.onclick = () => {
+      const h = hits[+b.dataset.i]; S[h.f.key] = h.f.off; S.shown = 60; syncControls(); persist(); render();
+    });
+    return d;
+  }
+
   function renderList(list) {
     const root = $("#listView"); root.innerHTML = "";
     if (S.mode === "stars") { renderMyEvents(root, list); return; }
     if (!list.length) {
       root.innerHTML = `<div class="empty"><h3>${S.mode === "stars" ? "Nothing saved yet" : S.mode === "new" ? "Nothing new, nothing followed" : "Nothing here"}</h3><p>${S.mode === "stars" ? "Tap ☆ on anything that looks like fun." : S.mode === "new" ? "Follow a venue, artist or word under ⋯ and it will show up here." : "Try a wider date range, fewer categories, or clear the search."}</p>${S.mode === "browse" ? `<button class="more" id="widen">Show the next 30 days instead</button>` : ""}</div>`;
       const w = $("#widen"); if (w) w.onclick = () => setWhen("month");
+      const hn = hiddenNote(list); if (hn) root.appendChild(hn);
       return;
     }
     if (S.mode === "new") root.appendChild(ticketsBlock());
@@ -410,6 +442,7 @@
       const b = document.createElement("button"); b.className = "more"; b.textContent = `Show ${Math.min(60, items.length - S.shown)} more of ${items.length}`;
       b.onclick = () => { S.shown += 60; renderList(list); }; root.appendChild(b);
     }
+    const hn = hiddenNote(list); if (hn) root.appendChild(hn);
   }
 
   function ticketsBlock() {
