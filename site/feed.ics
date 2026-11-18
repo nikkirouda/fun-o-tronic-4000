@@ -10331,6 +10331,18 @@ URL:https://events.brown.edu/religious-studies/event/343868-religious-stud
  ies-colloquium-celia-stern
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Considering the Fifth Year? An MPA Info Session for Brown Undergra
+ duates
+DTSTART;TZID="UTC-05:00":20261207T120000
+DTEND;TZID="UTC-05:00":20261207T130000
+UID:brown-events-d261aec7ef7c@funotronic
+DESCRIPTION:https://events.brown.edu/masters-public-affairs/event/344010-c
+ onsidering-the-fifth-year-an-mpa-info-session-for
+LOCATION:111 Thayer Street\, Kim Koo Library\, Room 328\, Brown University
+URL:https://events.brown.edu/masters-public-affairs/event/344010-consideri
+ ng-the-fifth-year-an-mpa-info-session-for
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Statistics Seminar Series: Matthew McCall\, Ph.D.
 DTSTART;TZID="UTC-05:00":20261207T120000
 DTEND;TZID="UTC-05:00":20261207T130000
