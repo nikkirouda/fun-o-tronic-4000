@@ -94,6 +94,15 @@ CONCERT_RX = re.compile(r"\b(concert|recital|orchestra|choir performs|chorus|sym
                         r"santa|elf|grinch|holiday lights|illuminated|parade|festival|tour|exhibit)\b", re.I)
 
 
+CANCELED_RX = re.compile(r"^\W*cancell?ed\b|[(\[]\s*cancell?ed\s*[)\]]|[-–—:|]\s*cancell?ed\W*$", re.I)
+
+
+def is_canceled(e: dict) -> bool:
+    """Venues mark a called-off event in its title ("CANCELED: Book Talk…", "CANCELLED – Storytime",
+    "Concert (Cancelled)"); those never reach the app or the digest (Captain's word 2026-11-18)."""
+    return bool(CANCELED_RX.search(e.get("title", "")))
+
+
 def is_religious(e: dict) -> bool:
     title = e.get("title", "")
     blob = f"{title} {' '.join(e.get('tags', []))} {(e.get('extra') or {}).get('group', '')} {(e.get('extra') or {}).get('sponsor', '')}"
@@ -321,6 +330,7 @@ def main() -> int:
     # ever. Concerts and secular holiday fun that merely happen in a church are not religious.
     before = len(kept)
     kept = [e for e in kept if not is_religious(e)]
+    kept = [e for e in kept if not is_canceled(e)]
     log.info("dropped %d religious listings", before - len(kept))
     events = dedupe(kept)
     import math
