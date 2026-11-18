@@ -18,6 +18,9 @@
     south: ["westerly", "wakefield", "south kingstown", "narragansett", "kingston", "peace dale", "matunuck", "charlestown", "north kingstown", "east greenwich", "west greenwich", "exeter", "richmond", "hopkinton", "block island", "new shoreham", "west kingston"],
     north: ["woonsocket", "cumberland", "lincoln", "north smithfield", "burrillville", "glocester", "scituate", "foster", "smithfield", "pawtucket", "central falls"],
   };
+  // Brown listings that are not on the Hill: online, undecided, downtown (Dyer St = the School of Professional Studies,
+  // Westminster St churches), or out of state.
+  const OFF_HILL_RX = /zoom|virtual|online|webinar|\btbd\b|^\s*n\/a\b|dyer st|westminster|all saints|cambridge|kendall|boston|newport|bristol/i;
   const HILL_VENUE_RX = /brown|risd|athenaeum|avon|lindemann|granoff|sayles|salomon|alumnae|john carter|list art|stuart theatre|leeds|pembroke|wriston|books on the square|hope street|thayer|wickenden|riffraff|fox point|cable car|first unitarian|providence public library|east side|wayland|pizzitola|meehan|stevenson|hillel|churchill house|manning chapel/i;
   const OUTDOOR_RX = /field|stadium|park\b|waterfire|bold point|fort adams|wharf|green\b|common\b|plaza|farm|market|beach|trail|hike|parade|fireworks|polo|race|5k|marathon/i;
   const PREMIER_RX = /trinity|ppac|gamm|vets|philharmonic|firstworks|amica|strand|odeum|stadium theatre|comedy connection|avon|athenaeum|risd museum|newport classical|wilbury|columbus|uptown theater/i;
@@ -262,7 +265,8 @@
   function inArea(e) {
     if (!S.area) return true;
     const city = (e.city || "").toLowerCase();
-    if (S.area === "hill") return city.includes("providence") && HILL_VENUE_RX.test(`${e.venue} ${e.address}`);
+    if (S.area === "hill") return city.includes("providence") && (HILL_VENUE_RX.test(`${e.venue} ${e.address}`) ||
+      (e.source === "brown_events" && !OFF_HILL_RX.test(`${e.venue} ${e.address}`)));  // Brown's calendar is campus unless it says otherwise (Captain's word 2026-11-18)
     if (S.area === "pvd") return city === "providence" || city === "";
     return AREAS[S.area].some(c => city === c || city.startsWith(c));
   }
