@@ -5,7 +5,9 @@ never published: the public site must not carry anything derived from his calend
 
     python tools/mine.py calendar.json --out /some/private/place/fun-o-tronic-mine.json [--report]
 
-calendar.json: a list of {summary, start, end, allDay, location, status} (ISO times with offsets).
+calendar.json: a list of {summary, start, end, allDay, location, status, transparency} (ISO times with
+offsets). An entry he marked "Free" in Google Calendar (transparency "transparent", e.g. a houseguest's visit)
+never blocks a day or an hour (Captain's word 2026-11-18).
 Output: {"generated", "going": [event ids], "busy": [{"start","end","title","allDay"}], "matches": [...]}.
 """
 from __future__ import annotations
@@ -90,7 +92,7 @@ def main() -> int:
     going, matches = match(cal, events)
     busy = []
     for c in cal:
-        if c.get("status") == "cancelled":
+        if c.get("status") == "cancelled" or c.get("transparency") == "transparent":
             continue
         busy.append({"start": c["start"], "end": c.get("end") or c["start"], "title": c.get("summary", ""), "allDay": bool(c.get("allDay"))})
     payload = {"generated": datetime.now(TZ).isoformat(timespec="minutes"), "going": going, "busy": busy, "matches": matches}
