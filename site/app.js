@@ -271,7 +271,9 @@
     if (S.hidden.has(e.id) || S.hiddenVenues.has(e.venue_id)) return false;
     if (S.mode === "stars") return (S.stars.has(e.id) || S.going.has(e.id)) && e._t > Date.now() - 6 * 36e5;  // saved things stay visible even on busy days
     if (S.seenRuns.has(runKey(e)) && !S.going.has(e.id)) return false;
-    if (soonLabel(e) === "ended") return false;  // today's finished events drop off (Captain's word 2026-11-18); My events keeps them
+    // today: anything begun, ended, or starting within 45 minutes drops off (Captain's word 2026-11-18) —
+    // too late to get there. All-day listings stay; My events keeps everything.
+    if (e._day === todayKey() && !e.all_day && e._t - Date.now() < 45 * 6e4) return false;
     if (cantAttend(e)) return false;
     if (S.mode === "new" && !(S.newIds.has(e.id) || S.followIds.has(e.id))) return false;
     if (!ignoreWhen && S.mode === "browse") { const [a, b] = range(); if (e._day < a || e._day > b) return false; }
