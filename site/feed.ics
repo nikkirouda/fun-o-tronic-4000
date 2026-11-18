@@ -5224,7 +5224,7 @@ SUMMARY:Boston Bruins vs Winnipeg Jets
 DTSTART;TZID="UTC-05:00":20261125T190000
 UID:pro-bruins-9fd700444035@funotronic
 DESCRIPTION:Boston Bruins host the Winnipeg Jets at TD Garden.\nresale fro
- m $82\nhttps://www.nhl.com/bruins/tickets
+ m $81\nhttps://www.nhl.com/bruins/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nhl.com/bruins/tickets
 END:VEVENT
@@ -10127,7 +10127,7 @@ SUMMARY:New England Patriots vs Buffalo Bills
 DTSTART;TZID="UTC-05:00":20261206T162500
 UID:pro-patriots-1f42667a2cd2@funotronic
 DESCRIPTION:New England Patriots host the Buffalo Bills at Gillette Stadiu
- m.\nresale from $180\nhttps://www.patriots.com/tickets/
+ m.\nresale from $150\nhttps://www.patriots.com/tickets/
 LOCATION:Gillette Stadium\, 1 Patriot Pl\, Foxborough\, MA
 URL:https://www.patriots.com/tickets/
 END:VEVENT
@@ -13190,7 +13190,7 @@ SUMMARY:Boston Celtics vs Washington Wizards
 DTSTART;TZID="UTC-05:00":20261214T193000
 UID:pro-celtics-2b4da21ac416@funotronic
 DESCRIPTION:Boston Celtics host the Washington Wizards at TD Garden.\nresa
- le from $57\nhttps://www.nba.com/celtics/tickets
+ le from $60\nhttps://www.nba.com/celtics/tickets
 LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA
 URL:https://www.nba.com/celtics/tickets
 END:VEVENT
